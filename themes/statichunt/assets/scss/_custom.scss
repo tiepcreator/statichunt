@@ -1,0 +1,27 @@
+.gradient-text {
+  background: #059669;
+  background: -webkit-linear-gradient(to right, #059669 0%, #64B3F4 100%);
+  background: -moz-linear-gradient(to right, #059669 0%, #64B3F4 100%);
+  background: linear-gradient(to right, #059669 0%, #64B3F4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header .main-menu>ul>li>a {
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 20px;
+}
+
+.theme-card .theme-body h2 {
+  font-size: 20px;
+}
+
+.theme-card .theme-body h2 a {
+  color: $black;
+}
+
+.terms{
+  justify-content: space-around;
+}

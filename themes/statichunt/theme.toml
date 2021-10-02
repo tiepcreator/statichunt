@@ -1,0 +1,8 @@
+name = "Static Hunt"
+license = "MIT"
+description = "A list of Themes and Starters for Jamstack Sites."
+min_version = "0.71.1"
+
+[author]
+  name = "Static Hunt"
+  homepage = "https://www.jamstackthemes.dev"
