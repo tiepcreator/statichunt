@@ -104,7 +104,7 @@ $layout-padding: 15px;
       }
       @include media-breakpoint-up(lg) {
         width: 360px;
-        padding: $layout-padding * 4;
+        padding: $layout-padding * 2;
       }
       .container {
         display: flex;
