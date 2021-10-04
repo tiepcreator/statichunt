@@ -48,6 +48,7 @@ $spacers: map-merge((0: 0,
 
 @import 'bootstrap/bootstrap-reboot';
 @import 'bootstrap/bootstrap-grid';
+@import 'mixins';
 @import 'layout';
 @import 'header';
 @import 'footer';

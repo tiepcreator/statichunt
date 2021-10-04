@@ -41,7 +41,7 @@
     <div class="container">
       <div class="theme theme-detail" data-name="{{ .Title }}">
         <div class="row justify-content-center">
-          <div class="col-12 col-xl-4">
+          <div class="col-lg-4 order-2 order-lg-1">
 
             <div class="intro">
               <div class="intro-heading">
@@ -107,16 +107,34 @@
             </div>
 
           </div>
-          <div class="col-12 col-xl-8">
-            <div class="theme-detail-image">
+          <div class="col-lg-8 order-1 order-lg-2">
+
+            <!-- iframe -->
+            <div class="bws-block d-none d-md-block">
+              <div class="bws-header">
+                <div class="bws-actions">
+                  {{ with .Params.demo }}
+                  <a target="blank" href="{{.| safeURL}}?ref=statichunt.com">Full Preview</a>
+                  {{ end }}
+                </div>
+              </div>
+              <div class="bws-content">
+                <iframe sandbox="allow-same-origin allow-scripts allow-popups allow-forms" loading="lazy"
+                  src="{{ .Params.demo }}/" title="Andromeda"></iframe>
+              </div>
+            </div>
+
+            <!-- image -->
+            <div class="theme-detail-image d-block d-md-none">
               {{ if $repo }}
-              {{ $staticPath := (printf "%s/%s%s" "static/capture" $repo.theme_key ".png") }}
-              {{ $filePath := (printf "%s/%s%s" "capture" $repo.theme_key ".png") }}
+              {{ $staticPath := (printf "%s/%s%s" "static/themes/thumbnails" $repo.theme_key ".jpg") }}
+              {{ $filePath := (printf "%s/%s%s" "themes/thumbnails" $repo.theme_key ".jpg") }}
               {{ if (fileExists $staticPath) }}
               <img src="{{ $filePath | relURL }}" alt="{{ .Title }} screenshot" />
               {{ end }}
               {{ end }}
             </div>
+
           </div>
         </div>
         <div class="row mt-3 mt-md-3 mt-lg-6">
