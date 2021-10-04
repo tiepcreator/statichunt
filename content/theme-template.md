@@ -4,7 +4,6 @@ github: https://github.com/username/repo
 demo: https://theme.demo.com/
 author: Author
 date: 2021-04-29T00:00:00.000Z
-
 ssg:
   - Brunch
   - Docusaurus
@@ -27,7 +26,6 @@ ssg:
   - Statiq
   - Unibit
   - VuePress
-
 cms:
   - Airtable
   - Contentful
@@ -45,7 +43,6 @@ cms:
   - Stackbit
   - Storyblok
   - Wordpress
-
 css:
   - Bootstrap
   - Bulma
@@ -54,7 +51,6 @@ css:
   - Styled Components
   - Stylus
   - Tailwind
-
 archetype:
   - Blog
   - Portfolio
@@ -65,7 +61,6 @@ archetype:
   - Ecommerce
   - Documentation
   - Personal
-
 services:
   - Algolia
   - Formspree
@@ -73,9 +68,11 @@ services:
   - Mailchimp
   - Shopify
   - Snipcart
-
-description: A simple blog site created with NextJs
+description: Theme Description goes here...
 stale: false
+disabled: false
+disabled_reason: null
+draft: true # make it false to publish
 ---
 
 ## Features
