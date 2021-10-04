@@ -1,6 +1,6 @@
 ---
 title: Jamstack Hackathon Starter
-github: https://github.com/sw-yx/jamstack-hackathon-starter
+github: https://github.com/Ekwuno/jamstack-hackathon-starter
 demo: https://jamstack-hackathon-starter.netlify.app/
 author: swyx
 ssg:
@@ -12,4 +12,6 @@ description: >-
   Make Authenticated, Serverless, Dynamic Clientside JAMstack apps with Gatsby +
   Netlify Dev (Functions + Identity)
 stale: true
+disabled: false
+disabled_reason:
 ---

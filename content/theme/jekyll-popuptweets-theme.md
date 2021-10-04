@@ -1,6 +1,6 @@
 ---
 title: Popup Tweets
-github: https://github.com/junlulocky/PopupTweets
+github: https://github.com/jekyller/PopupTweets
 demo: https://jekyller.github.io/PopupTweets/
 author: Jun Lu
 ssg:
@@ -12,4 +12,6 @@ description: >-
   Popup tweets plugin for your personal website (Linkedin, facebook message box
   liked features)
 stale: true
+disabled: false
+disabled_reason: 
 ---

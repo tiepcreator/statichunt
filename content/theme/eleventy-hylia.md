@@ -1,6 +1,6 @@
 ---
 title: Eleventy Hylia
-github: https://github.com/andybelldesign/hylia
+github: https://github.com/andy-piccalilli/hylia
 demo: https://hylia.website/
 author: Andy Bell
 ssg:
@@ -14,6 +14,8 @@ description: >-
   Hylia is a lightweight Eleventy starter kit to help you to create your own
   blog or personal website.
 stale: true
+disabled: false
+disabled_reason: 
 ---
 
 # A simple starter kit for Eleventy

@@ -1,6 +1,6 @@
 ---
 title: Academic
-github: https://github.com/gcushen/hugo-academic
+github: https://github.com/wowchemy/wowchemy-hugo-themes
 demo: https://academic-demo.netlify.app/
 author: gcushen
 ssg:
@@ -12,6 +12,8 @@ description: >-
   📝 The website builder for Hugo. Build and deploy a beautiful website in
   minutes!
 stale: false
+disabled: false
+disabled_reason: 
 ---
 
 The website builder for Hugo. Build and deploy a beautiful website in minutes!

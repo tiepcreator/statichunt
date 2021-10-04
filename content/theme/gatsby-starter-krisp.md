@@ -1,6 +1,6 @@
 ---
 title: Gatsby Starter Krisp
-github: https://github.com/mohanmonu777/gatsby-starter-krisp
+github: https://github.com/algokun/gatsby-starter-krisp
 demo: https://gatsby-starter-krisp.netlify.app/
 author: MOhan
 ssg:
@@ -10,4 +10,6 @@ cms:
 date: 2019-07-18T17:06:13.000Z
 description: A minimal, clean and responsive starter built with gatsby
 stale: true
+disabled: false
+disabled_reason: 
 ---

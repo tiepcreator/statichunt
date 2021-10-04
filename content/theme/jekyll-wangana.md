@@ -1,6 +1,6 @@
 ---
 title: Wangana
-github: https://github.com/nadjetey/wangana
+github: https://github.com/thesowah/wangana
 demo: https://thesowah.github.io/wangana/
 author: Nii Adjetey Sowah
 ssg:
@@ -12,4 +12,6 @@ description: >-
   Wangana is a responsive Jekyll theme, perfect for powering your GitHub hosted
   blog.
 stale: true
+disabled: false
+disabled_reason: 
 ---

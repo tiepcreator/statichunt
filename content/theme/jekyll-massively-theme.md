@@ -1,6 +1,6 @@
 ---
 title: Jekyll Massively
-github: https://github.com/iwiedenm/jekyll-theme-massively-src
+github: https://github.com/jekyllup/jekyll-theme-massively
 demo: https://iwiedenm.github.io/jekyll-theme-massively/
 author: Somiibo
 ssg:
@@ -10,4 +10,6 @@ cms:
 date: 2017-11-13T02:43:40.000Z
 description: 'Preview '
 stale: true
+disabled: false
+disabled_reason: 
 ---

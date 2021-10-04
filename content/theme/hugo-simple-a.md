@@ -1,6 +1,6 @@
 ---
 title: Simple-A
-github: https://github.com/AlexFinn/simple-a
+github: https://github.com/alxschwarz/simple-a
 demo: https://simple-a.alxschwarz.com/
 author: AlexFinn
 ssg:
@@ -10,4 +10,6 @@ cms:
 date: 2014-06-19T09:30:36.000Z
 description: Minimalistic Hugo theme
 stale: true
+disabled: false
+disabled_reason: 
 ---

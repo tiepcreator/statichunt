@@ -1,6 +1,6 @@
 ---
 title: Blogger
-github: https://github.com/aslammultidots/blogger
+github: https://github.com/aslammultani/blogger
 demo: https://gatsby-blogger.netlify.app/
 author: Aslam Multani
 ssg:
@@ -10,4 +10,6 @@ cms:
 date: 2019-02-25T05:18:26.000Z
 description: A Gatsby demo for blogging
 stale: true
+disabled: false
+disabled_reason: 
 ---

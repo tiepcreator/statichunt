@@ -1,6 +1,6 @@
 ---
 title: Hero
-github: https://github.com/JugglerX/hugo-hero-theme
+github: https://github.com/zerostaticthemes/hugo-hero-theme
 demo: https://hugo-hero.netlify.com/
 author: Robert Austin
 ssg:
@@ -10,4 +10,6 @@ cms:
 date: 2019-11-05T00:00:00.000Z
 description: 'Hero is a modern fullwidth business theme for Hugo. '
 stale: false
+disabled: false
+disabled_reason: 
 ---

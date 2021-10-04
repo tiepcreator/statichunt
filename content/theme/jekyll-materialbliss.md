@@ -1,6 +1,6 @@
 ---
 title: Material Bliss
-github: https://github.com/InsidiousMind/material-bliss-jekyll-theme
+github: https://github.com/insipx/material-bliss-jekyll-theme
 demo: https://code.liquidthink.net
 author: Andrew Plaza
 ssg:
@@ -12,4 +12,6 @@ description: >-
   A Material Theme for Jekyll created with React, Redux, and React-Router
   transpiled with Webpack
 stale: true
+disabled: false
+disabled_reason: 
 ---

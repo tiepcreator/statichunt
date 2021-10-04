@@ -1,6 +1,6 @@
 ---
 title: Infinity
-github: https://github.com/themefisher/infinity-hugo/
+github: https://github.com/gethugothemes/infinity-hugo
 demo: https://demo.gethugothemes.com/infinity/
 author: Themefisher
 ssg:
@@ -15,7 +15,7 @@ date: 2018-07-04T11:01:47.000Z
 description: Infinity Coming Soon Template Hugo Version by themefisher
 stale: false
 disabled: false
-disabled_reason: null
+disabled_reason: 
 ---
 
 ## Features

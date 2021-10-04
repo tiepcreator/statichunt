@@ -1,6 +1,6 @@
 ---
 title: Gatsby Careers Page
-github: https://github.com/BoyWithSilverWings/gatsby-careers-page
+github: https://github.com/agneym/gatsby-careers-page
 demo: https://hardcore-darwin-d7328f.netlify.app/
 author: Agney Menon
 ssg:
@@ -10,4 +10,6 @@ cms:
 date: 2018-12-29T17:56:56.000Z
 description: Job Listing Page
 stale: true
+disabled: false
+disabled_reason: 
 ---
