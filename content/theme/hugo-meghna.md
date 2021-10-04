@@ -18,6 +18,7 @@ description: Meghna Hugo Template
 stale: false
 disabled: false
 disabled_reason: null
+weight: 9
 ---
 
 ## Features

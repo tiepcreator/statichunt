@@ -16,6 +16,7 @@ description: Dot - Hugo Documentation Theme
 stale: false
 disabled: false
 disabled_reason: null
+weight: 5
 ---
 
 ## Features

@@ -1,26 +1,86 @@
 ---
-title: Minimal Blog | NextJS
-github: https://github.com/jaymehta20/nextjs-blog-page
-demo: https://nextjs-blog-page.vercel.app/
-author: Jay Mehta
+title: Theme Name
+github: https://github.com/username/repo
+demo: https://theme.demo.com/
+author: Author
 date: 2021-04-29T00:00:00.000Z
+
 ssg:
-  - NextJS
+  - Brunch
+  - Docusaurus
+  - Eleventy
+  - Gatsby
+  - Gridsome
+  - Hexo
+  - Hugo
+  - Jekyll
+  - Jigsaw
+  - Metalsmith
+  - Middleman
+  - Mkdocs
+  - Next
+  - Nuxt
+  - Pelican
+  - Platframe
+  - Sapper
+  - Scully
+  - Statiq
+  - Unibit
+  - VuePress
+
 cms:
+  - Airtable
   - Contentful
+  - Cosmic
+  - Datocms
+  - Directus
+  - Firebase
+  - Ghost
+  - Graphcms
+  - Kontent
+  - Netlifycms
+  - No Cms
+  - Prismic
+  - Sanity
+  - Stackbit
+  - Storyblok
+  - Wordpress
+
 css:
   - Bootstrap
+  - Bulma
+  - Postcss
+  - Scss
+  - Styled Components
+  - Stylus
+  - Tailwind
+
 archetype:
   - Blog
+  - Portfolio
+  - Business
+  - Multi Purpose
+  - Single Page
+  - Multi Page
+  - Ecommerce
+  - Documentation
+  - Personal
+
+services:
+  - Algolia
+  - Formspree
+  - Formstack
+  - Mailchimp
+  - Shopify
+  - Snipcart
+
 description: A simple blog site created with NextJs
 stale: false
 ---
 
 ## Features
-## Dark Mode 🌚
-## Light Mode 🌞
-## Grid Layout 🚀
-## Full Responsive (Works on Galaxy fold too 😅)
-
-
-
+* Dark Mode
+* Seo Friendly
+* Theme Switcher
+* Fast
+* Responsive

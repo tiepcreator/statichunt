@@ -16,6 +16,7 @@ description: Academia Hugo is a resume template for Hugo theme.
 stale: false
 disabled: false
 disabled_reason: null
+weight: 4
 ---
 
 ## Features

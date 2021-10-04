@@ -25,16 +25,16 @@
   .intro-title {
     display: inline-block;
     font-weight: 800;
-    font-size: 60px;
+    font-size: 50px;
     margin: 0;
     @include media-breakpoint-up(sm) {
-      font-size: 28px;
+      font-size: 26px;
     }
     @include media-breakpoint-up(md) {
-      font-size: 36px;
+      font-size: 32px;
     }
     @include media-breakpoint-up(xl) {
-      font-size: 46px;
+      font-size: 40px;
     }
   }
   .intro-description {
