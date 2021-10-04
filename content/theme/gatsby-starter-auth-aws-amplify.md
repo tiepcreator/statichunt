@@ -11,5 +11,5 @@ date: 2019-08-06T01:31:05.000Z
 description: A full-featured AWS Amplify Auth starter made with GatsbyJS
 stale: false
 disabled: false
-disabled_reason: 
+disabled_reason: null
 ---

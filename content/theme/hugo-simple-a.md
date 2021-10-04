@@ -11,5 +11,5 @@ date: 2014-06-19T09:30:36.000Z
 description: Minimalistic Hugo theme
 stale: true
 disabled: false
-disabled_reason: 
+disabled_reason: null
 ---

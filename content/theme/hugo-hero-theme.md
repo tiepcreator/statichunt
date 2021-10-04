@@ -11,5 +11,5 @@ date: 2019-11-05T00:00:00.000Z
 description: 'Hero is a modern fullwidth business theme for Hugo. '
 stale: false
 disabled: false
-disabled_reason: 
+disabled_reason: null
 ---

@@ -11,5 +11,5 @@ date: 2018-12-25T17:01:37.000Z
 description: 'A Gatsby Blog Starter with Styled Components '
 stale: false
 disabled: false
-disabled_reason:
+disabled_reason: null
 ---

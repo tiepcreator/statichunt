@@ -15,7 +15,7 @@ description: >-
   blog or personal website.
 stale: true
 disabled: false
-disabled_reason: 
+disabled_reason: null
 ---
 
 # A simple starter kit for Eleventy

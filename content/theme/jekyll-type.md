@@ -11,5 +11,5 @@ date: 2017-09-25T11:27:16.000Z
 description: 🎉  Minimal and Clean Free Jekyll Theme
 stale: true
 disabled: false
-disabled_reason: 
+disabled_reason: null
 ---

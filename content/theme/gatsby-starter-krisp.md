@@ -11,5 +11,5 @@ date: 2019-07-18T17:06:13.000Z
 description: A minimal, clean and responsive starter built with gatsby
 stale: true
 disabled: false
-disabled_reason: 
+disabled_reason: null
 ---

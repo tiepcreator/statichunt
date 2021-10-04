@@ -11,7 +11,7 @@ date: 2017-04-11T01:24:05.000Z
 description: 'Ananke: A theme for Hugo Sites'
 stale: false
 disabled: false
-disabled_reason: 
+disabled_reason: null
 ---
 
 Ananke, A theme for Hugo, a framework for building websites.

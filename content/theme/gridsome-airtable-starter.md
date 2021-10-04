@@ -11,7 +11,7 @@ cms:
 description: 'A Gridsome starter leveraging Airtable with a minimalist design. '
 stale: false
 disabled: false
-disabled_reason: 
+disabled_reason: null
 ---
 
 [![Netlify Status](https://api.netlify.app/api/v1/badges/66526f3f-455e-4ee4-b05e-3cf37c607921/deploy-status)](https://app.netlify.app/sites/gridsomeairtable/deploys)
