@@ -39,23 +39,21 @@ const generateThumbnail = async (frontmatter, overwrite = false) => {
 	const hiresImage = path.join(config.hiresImagesFolder, `${themeKey}.png`)
 	const imageName = path.parse(hiresImage).name
 	const outputImage = path.join(config.thumbnailImagesFolder, `${imageName}.jpg`)
-	const outputImage2x = path.join(config.thumbnailImagesFolder2x, `${imageName}-2x.jpg`)
 
 	if (!hiresImage) {
 		return false;
 	}
-	if (!overwrite && fs.existsSync(outputImage) && fs.existsSync(outputImage2x)) {
+	if (!overwrite && fs.existsSync(outputImage)) {
 		return false;
 	}
 	fs.ensureDirSync(config.thumbnailImagesFolder);
-	fs.ensureDirSync(config.thumbnailImagesFolder2x);
 
 	try {
 		spinner.text = `${imageName} => processing thumbnail`
 		await sharp(hiresImage)
 			.resize({
-				width: 280,
-				height: 210,
+				width: 300,
+				height: 225,
 				fit: 'cover',
 				position: 'top',
 			})
@@ -64,18 +62,6 @@ const generateThumbnail = async (frontmatter, overwrite = false) => {
 			})
 			.toFile(outputImage)
 
-		spinner.text = `${imageName} => processing thumbnail@2x`
-		await sharp(hiresImage)
-			.resize({
-				width: 560,
-				height: 420,
-				fit: 'cover',
-				position: 'top',
-			})
-			.jpeg({
-				quality: 85,
-			})
-			.toFile(outputImage2x)
 	} catch {
 		spinner.text = `${imageName} => processing failed`
 		return false;

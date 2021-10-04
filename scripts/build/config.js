@@ -10,21 +10,19 @@ const themesMarkdownFolder = path.join(process.cwd(), '/content/theme')
 const themesMarkdownFiles = fs.readdirSync(themesMarkdownFolder).map(relFilename => path.resolve(themesMarkdownFolder, relFilename))
 const themesJsonFile = path.join(process.cwd(), '/data/themes.json');
 const themesJsonData = fs.existsSync(themesJsonFile) ? JSON.parse(fs.readFileSync(themesJsonFile)) : {};
-const hiresImagesFolder = path.join(process.cwd(), '/static/capture');
-const thumbnailImagesFolder = path.join(process.cwd(), '/static/images/theme/thumbnail')
-const thumbnailImagesFolder2x = path.join(process.cwd(), '/static/images/theme/thumbnail/2x')
+const hiresImagesFolder = path.join(process.cwd(), '/static/themes/sreenshots');
+const thumbnailImagesFolder = path.join(process.cwd(), '/static/themes/thumbnails')
 const staleBeforeDate = subYears(new Date(), 1);
 
 module.exports = {
-    errorJsonFile,
-    themesJsonFile,
-    themesMarkdownFolder,
-    themesMarkdownFiles,
-    themesJsonData,
-    statichuntJsonFile,
-    statichuntJsonData,
-    hiresImagesFolder,
-    thumbnailImagesFolder,
-    thumbnailImagesFolder2x,
-    staleBeforeDate
+  errorJsonFile,
+  themesJsonFile,
+  themesMarkdownFolder,
+  themesMarkdownFiles,
+  themesJsonData,
+  statichuntJsonFile,
+  statichuntJsonData,
+  hiresImagesFolder,
+  thumbnailImagesFolder,
+  staleBeforeDate
 }
