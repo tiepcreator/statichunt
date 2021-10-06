@@ -9,7 +9,7 @@ const ora = require('ora');
 const spinner = ora('Loading')
 
 const captureScreenshot = async (frontmatter, overwrite = false) => {
-	const themeKey = getThemeKey(frontmatter.github)
+	const themeKey = getThemeKey(frontmatter.github, frontmatter.product)
 	const themeImage = `${themeKey}.png`
 
 	if (!overwrite && fs.existsSync(path.join(config.hiresImagesFolder, themeImage))) {
@@ -18,14 +18,14 @@ const captureScreenshot = async (frontmatter, overwrite = false) => {
 
 	try {
 		const page = await new Pageres({
-				delay: 2,
-				filename: themeKey
-			})
-			.src(frontmatter.demo, ['1280x960'], {
-				crop: true
-			})
-			.dest(config.hiresImagesFolder)
-			.run();
+			delay: 2,
+			filename: themeKey
+		})
+		.src(frontmatter.demo, ['1280x960'], {
+			crop: true
+		})
+		.dest(config.hiresImagesFolder)
+		.run();
 		spinner.text = `${frontmatter.demo} => capturing`
 		return page
 	} catch {
@@ -35,7 +35,7 @@ const captureScreenshot = async (frontmatter, overwrite = false) => {
 };
 
 const generateThumbnail = async (frontmatter, overwrite = false) => {
-	const themeKey = getThemeKey(frontmatter.github)
+	const themeKey = getThemeKey(frontmatter.github, frontmatter.product)
 	const hiresImage = path.join(config.hiresImagesFolder, `${themeKey}.png`)
 	const imageName = path.parse(hiresImage).name
 	const outputImage = path.join(config.thumbnailImagesFolder, `${imageName}.jpg`)

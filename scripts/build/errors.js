@@ -2,5 +2,5 @@
 let errorLog = []
 
 module.exports = {
-    errorLog
+  errorLog
 }
