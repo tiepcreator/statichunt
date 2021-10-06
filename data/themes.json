@@ -252,6 +252,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/act-labs-gatsby-starter-act-blog-2x.jpg"
     }
   },
+  "adisaktijrs-hexo-theme-minima": {
+    "theme_key": "adisaktijrs-hexo-theme-minima",
+    "file": "hexo-theme-minima.md",
+    "name": "hexo-theme-minima",
+    "title": "Minima",
+    "github_username": "adisaktijrs",
+    "repo": "adisaktijrs/hexo-theme-minima",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/adisaktijrs/hexo-theme-minima",
+    "demo_url": "https://adisaktijrs.github.io/minima/",
+    "stars": 82,
+    "forks": 22,
+    "open_issues": 4,
+    "last_commit": "2021-03-21T04:55:21Z",
+    "created_at": "2020-10-10T06:00:05Z",
+    "description": "An undoubtedly simple and lightweight dark/light theme for Hexo.js",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/adisaktijrs-hexo-theme-minima.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/adisaktijrs-hexo-theme-minima.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/adisaktijrs-hexo-theme-minima-2x.jpg"
+    }
+  },
   "adityatelange-hugo-papermod": {
     "theme_key": "adityatelange-hugo-papermod",
     "file": "hugo-papermod.md",
@@ -802,6 +825,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/alxshelepenok-gatsby-starter-lumen.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/alxshelepenok-gatsby-starter-lumen.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/alxshelepenok-gatsby-starter-lumen-2x.jpg"
+    }
+  },
+  "alynxzhou-hexo-theme-aria": {
+    "theme_key": "alynxzhou-hexo-theme-aria",
+    "file": "hexo-theme-aria.md",
+    "name": "hexo-theme-aria",
+    "title": "Aria",
+    "github_username": "AlynxZhou",
+    "repo": "AlynxZhou/hexo-theme-aria",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/AlynxZhou/hexo-theme-aria",
+    "demo_url": "https://aria.ismyonly.one/",
+    "stars": 146,
+    "forks": 48,
+    "open_issues": 1,
+    "last_commit": "2019-10-20T09:49:18Z",
+    "created_at": "2018-03-15T03:06:27Z",
+    "description": "A Hexo theme inspired by Kalafina's song ARIA.",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/alynxzhou-hexo-theme-aria.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/alynxzhou-hexo-theme-aria.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/alynxzhou-hexo-theme-aria-2x.jpg"
     }
   },
   "amandeepmittal-gatsby-bulma-quickstart": {
@@ -2345,6 +2391,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/blakenoll-gatsby-starter-styled-components-2x.jpg"
     }
   },
+  "blleng-hexo-theme-lx": {
+    "theme_key": "blleng-hexo-theme-lx",
+    "file": "hexo-theme-lx.md",
+    "name": "hexo-theme-lx",
+    "title": "Lx",
+    "github_username": "blleng",
+    "repo": "blleng/hexo-theme-lx",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/blleng/hexo-theme-lx",
+    "demo_url": "https://lx.blleng.cn/",
+    "stars": 167,
+    "forks": 19,
+    "open_issues": 2,
+    "last_commit": "2021-08-17T13:16:05Z",
+    "created_at": "2019-11-02T09:48:38Z",
+    "description": "👉 A simple & clear & elegant Hexo theme. 🔭🔭Lx——一款简洁、美观的Hexo博客主题。",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/blleng-hexo-theme-lx.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/blleng-hexo-theme-lx.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/blleng-hexo-theme-lx-2x.jpg"
+    }
+  },
   "bluepeter-gatsby-material-ui-business-starter": {
     "theme_key": "bluepeter-gatsby-material-ui-business-starter",
     "file": "gatsby-material-ui-business-starter.md",
@@ -2665,6 +2734,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/calpa-gatsby-starter-calpa-blog.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/calpa-gatsby-starter-calpa-blog.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/calpa-gatsby-starter-calpa-blog-2x.jpg"
+    }
+  },
+  "chaooo-hexo-theme-bluelake": {
+    "theme_key": "chaooo-hexo-theme-bluelake",
+    "file": "hexo-theme-BlueLake.md",
+    "name": "hexo-theme-BlueLake",
+    "title": "BlueLake",
+    "github_username": "chaooo",
+    "repo": "chaooo/hexo-theme-BlueLake",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/chaooo/hexo-theme-BlueLake",
+    "demo_url": "https://chaoo.oschina.io/",
+    "stars": 319,
+    "forks": 126,
+    "open_issues": 22,
+    "last_commit": "2021-02-24T04:23:11Z",
+    "created_at": "2016-11-02T13:05:25Z",
+    "description": "A simple theme for Hexo with great performance on different devices .",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/chaooo-hexo-theme-bluelake.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/chaooo-hexo-theme-bluelake.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/chaooo-hexo-theme-bluelake-2x.jpg"
     }
   },
   "chec-commercejs-chopchop-demo": {
@@ -4208,6 +4300,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/deepidea-web-presentation-2x.jpg"
     }
   },
+  "denjones-hexo-theme-chan": {
+    "theme_key": "denjones-hexo-theme-chan",
+    "file": "hexo-theme-chan.md",
+    "name": "hexo-theme-chan",
+    "title": "Chan",
+    "github_username": "denjones",
+    "repo": "denjones/hexo-theme-chan",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/denjones/hexo-theme-chan",
+    "demo_url": "https://blog.sprabbit.com/hexo-theme-chan/",
+    "stars": 147,
+    "forks": 60,
+    "open_issues": 6,
+    "last_commit": "2016-10-09T13:08:13Z",
+    "created_at": "2016-02-20T03:07:57Z",
+    "description": "A super simple and elegant theme for hexo",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/denjones-hexo-theme-chan.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/denjones-hexo-theme-chan.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/denjones-hexo-theme-chan-2x.jpg"
+    }
+  },
   "denningk-gatsby-starter-typescript-jest": {
     "theme_key": "denningk-gatsby-starter-typescript-jest",
     "file": "gatsby-starter-typescript-jest.md",
@@ -4229,6 +4344,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/denningk-gatsby-starter-typescript-jest.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/denningk-gatsby-starter-typescript-jest.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/denningk-gatsby-starter-typescript-jest-2x.jpg"
+    }
+  },
+  "dfcommunity-hexo-web-nary": {
+    "theme_key": "dfcommunity-hexo-web-nary",
+    "file": "hexo-webnary-template.md",
+    "name": "Hexo-Web-Nary",
+    "title": "Web-Nary",
+    "github_username": "DFCommunity",
+    "repo": "DFCommunity/Hexo-Web-Nary",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/DFCommunity/Hexo-Web-Nary",
+    "demo_url": "https://webnary.netlify.app",
+    "stars": 2,
+    "forks": 1,
+    "open_issues": 0,
+    "last_commit": "2020-12-09T10:50:31Z",
+    "created_at": "2020-07-30T06:35:24Z",
+    "description": "A Hexo Flat Modular Template for Blogging and Static Website Generation | Netlify Ready | Twitter Auto-Publish | In-build Forms ",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/dfcommunity-hexo-web-nary.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/dfcommunity-hexo-web-nary.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/dfcommunity-hexo-web-nary-2x.jpg"
     }
   },
   "dgraph-io-hugo-dgraph-theme": {
@@ -5402,6 +5540,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/fullit-fullit.github.io.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/fullit-fullit.github.io.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/fullit-fullit.github.io-2x.jpg"
+    }
+  },
+  "gallenhu-hexo-theme-daily": {
+    "theme_key": "gallenhu-hexo-theme-daily",
+    "file": "hexo-theme-Daily.md",
+    "name": "hexo-theme-Daily",
+    "title": "Daily",
+    "github_username": "GallenHu",
+    "repo": "GallenHu/hexo-theme-Daily",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/GallenHu/hexo-theme-Daily",
+    "demo_url": "https://hinpc.github.io/Daily/",
+    "stars": 246,
+    "forks": 42,
+    "open_issues": 0,
+    "last_commit": "2021-03-21T10:55:08Z",
+    "created_at": "2016-07-26T06:13:14Z",
+    "description": "A simple theme for Hexo",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/gallenhu-hexo-theme-daily.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/gallenhu-hexo-theme-daily.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/gallenhu-hexo-theme-daily-2x.jpg"
     }
   },
   "ganevru-gatsby-starter-blog-grommet": {
@@ -6646,6 +6807,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/hemangsk-safarnama-2x.jpg"
     }
   },
+  "henryhuang-hexo-theme-aloha": {
+    "theme_key": "henryhuang-hexo-theme-aloha",
+    "file": "hexo-theme-aloha.md",
+    "name": "hexo-theme-aloha",
+    "title": "Aloha",
+    "github_username": "henryhuang",
+    "repo": "henryhuang/hexo-theme-aloha",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/henryhuang/hexo-theme-aloha",
+    "demo_url": "https://huangyijie.com/",
+    "stars": 67,
+    "forks": 26,
+    "open_issues": 4,
+    "last_commit": "2019-10-06T12:43:46Z",
+    "created_at": "2016-08-27T16:11:12Z",
+    "description": "A hexo theme, use semantic ui.",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/henryhuang-hexo-theme-aloha.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/henryhuang-hexo-theme-aloha.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/henryhuang-hexo-theme-aloha-2x.jpg"
+    }
+  },
   "henrythemes-jekyll-book-theme": {
     "theme_key": "henrythemes-jekyll-book-theme",
     "file": "jekyll-drjekyll-classics-book.md",
@@ -6943,6 +7127,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/humrochagf-colordrop.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/humrochagf-colordrop.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/humrochagf-colordrop-2x.jpg"
+    }
+  },
+  "huweihuang-hexo-theme-huweihuang": {
+    "theme_key": "huweihuang-hexo-theme-huweihuang",
+    "file": "hexo-theme-huweihuang.md",
+    "name": "hexo-theme-huweihuang",
+    "title": "HuWeihuang",
+    "github_username": "huweihuang",
+    "repo": "huweihuang/hexo-theme-huweihuang",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/huweihuang/hexo-theme-huweihuang",
+    "demo_url": "https://www.huweihuang.com/",
+    "stars": 275,
+    "forks": 110,
+    "open_issues": 29,
+    "last_commit": "2021-03-18T11:55:45Z",
+    "created_at": "2017-10-22T03:07:50Z",
+    "description": " Ported theme of Hux Blog by YuHsuan, Modified by Hu Weihuang",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/huweihuang-hexo-theme-huweihuang.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/huweihuang-hexo-theme-huweihuang.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/huweihuang-hexo-theme-huweihuang-2x.jpg"
     }
   },
   "hydecorp-hydejack": {
@@ -8624,6 +8831,98 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/kitian616-jekyll-text-theme-2x.jpg"
     }
   },
+  "klugjo-hexo-theme-alpha-dust": {
+    "theme_key": "klugjo-hexo-theme-alpha-dust",
+    "file": "hexo-theme-alpha-dust.md",
+    "name": "hexo-theme-alpha-dust",
+    "title": "Alpha Dust",
+    "github_username": "klugjo",
+    "repo": "klugjo/hexo-theme-alpha-dust",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/klugjo/hexo-theme-alpha-dust",
+    "demo_url": "https://www.codeblocq.com/assets/projects/hexo-theme-alpha-dust/",
+    "stars": 280,
+    "forks": 94,
+    "open_issues": 3,
+    "last_commit": "2020-08-21T20:30:11Z",
+    "created_at": "2016-06-21T01:22:11Z",
+    "description": "🌠 Original Futuristic Hexo Theme",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/klugjo-hexo-theme-alpha-dust.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/klugjo-hexo-theme-alpha-dust.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/klugjo-hexo-theme-alpha-dust-2x.jpg"
+    }
+  },
+  "klugjo-hexo-theme-anodyne": {
+    "theme_key": "klugjo-hexo-theme-anodyne",
+    "file": "hexo-theme-anodyne.md",
+    "name": "hexo-theme-anodyne",
+    "title": "Anodyne",
+    "github_username": "klugjo",
+    "repo": "klugjo/hexo-theme-anodyne",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/klugjo/hexo-theme-anodyne",
+    "demo_url": "https://www.codeblocq.com/assets/projects/hexo-theme-anodyne/",
+    "stars": 143,
+    "forks": 36,
+    "open_issues": 2,
+    "last_commit": "2019-07-06T05:14:22Z",
+    "created_at": "2017-01-27T03:59:03Z",
+    "description": "🌋 Original Bright Theme for Hexo",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/klugjo-hexo-theme-anodyne.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/klugjo-hexo-theme-anodyne.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/klugjo-hexo-theme-anodyne-2x.jpg"
+    }
+  },
+  "klugjo-hexo-theme-clean-blog": {
+    "theme_key": "klugjo-hexo-theme-clean-blog",
+    "file": "hexo-theme-clean-blog.md",
+    "name": "hexo-theme-clean-blog",
+    "title": "Hexo Clean Blog",
+    "github_username": "klugjo",
+    "repo": "klugjo/hexo-theme-clean-blog",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/klugjo/hexo-theme-clean-blog",
+    "demo_url": "https://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/",
+    "stars": 375,
+    "forks": 129,
+    "open_issues": 6,
+    "last_commit": "2021-02-08T07:01:15Z",
+    "created_at": "2016-03-11T05:53:04Z",
+    "description": "Hexo implementation of Clean Blog http://blackrockdigital.github.io/startbootstrap-clean-blog/index.html",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/klugjo-hexo-theme-clean-blog.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/klugjo-hexo-theme-clean-blog.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/klugjo-hexo-theme-clean-blog-2x.jpg"
+    }
+  },
+  "klugjo-hexo-theme-phantom": {
+    "theme_key": "klugjo-hexo-theme-phantom",
+    "file": "hexo-theme-phantom.md",
+    "name": "hexo-theme-phantom",
+    "title": "Phantom",
+    "github_username": "klugjo",
+    "repo": "klugjo/hexo-theme-phantom",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/klugjo/hexo-theme-phantom",
+    "demo_url": "https://www.codeblocq.com/assets/projects/hexo-theme-phantom/",
+    "stars": 223,
+    "forks": 62,
+    "open_issues": 6,
+    "last_commit": "2018-11-27T10:26:19Z",
+    "created_at": "2016-03-30T06:14:41Z",
+    "description": "Hexo implementation of Phantom (http://html5up.net/phantom)",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/klugjo-hexo-theme-phantom.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/klugjo-hexo-theme-phantom.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/klugjo-hexo-theme-phantom-2x.jpg"
+    }
+  },
   "knaman2609-clean": {
     "theme_key": "knaman2609-clean",
     "file": "jekyll-clean.md",
@@ -9427,6 +9726,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/lukewhitehouse-gatsby-starter-blog-with-lunr.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/lukewhitehouse-gatsby-starter-blog-with-lunr.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/lukewhitehouse-gatsby-starter-blog-with-lunr-2x.jpg"
+    }
+  },
+  "lunaceee-hexo-material-netlify": {
+    "theme_key": "lunaceee-hexo-material-netlify",
+    "file": "hexo-material-netlify.md",
+    "name": "hexo-material-netlify",
+    "title": "Hexo Material Netlify",
+    "github_username": "lunaceee",
+    "repo": "lunaceee/hexo-material-netlify",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/lunaceee/hexo-material-netlify",
+    "demo_url": "https://hexo-material-cms.netlify.app/",
+    "stars": 12,
+    "forks": 13,
+    "open_issues": 3,
+    "last_commit": "2019-02-27T04:18:38Z",
+    "created_at": "2018-07-14T20:02:15Z",
+    "description": "Hexo + Netlify CMS starter based on material design",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/lunaceee-hexo-material-netlify.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/lunaceee-hexo-material-netlify.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/lunaceee-hexo-material-netlify-2x.jpg"
     }
   },
   "lundgren2-gatsby-starter-github-api": {
@@ -13362,6 +13684,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/sharu725-thunder-2x.jpg"
     }
   },
+  "sharvaridesai-hexo-theme-edinburgh": {
+    "theme_key": "sharvaridesai-hexo-theme-edinburgh",
+    "file": "hexo-theme-edinburgh.md",
+    "name": "hexo-theme-edinburgh",
+    "title": "Edinburgh",
+    "github_username": "sharvaridesai",
+    "repo": "sharvaridesai/hexo-theme-edinburgh",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/sharvaridesai/hexo-theme-edinburgh",
+    "demo_url": "https://sharvaridesai.github.io/hexo-theme-edinburgh-demo/",
+    "stars": 298,
+    "forks": 67,
+    "open_issues": 15,
+    "last_commit": "2017-08-03T01:16:41Z",
+    "created_at": "2017-02-04T15:40:03Z",
+    "description": "Beautiful minimal portfolio theme for Hexo.",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/sharvaridesai-hexo-theme-edinburgh.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/sharvaridesai-hexo-theme-edinburgh.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/sharvaridesai-hexo-theme-edinburgh-2x.jpg"
+    }
+  },
   "shawnteoh-matjek": {
     "theme_key": "shawnteoh-matjek",
     "file": "jekyll-matjek-theme.md",
@@ -13383,6 +13728,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/shawnteoh-matjek.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/shawnteoh-matjek.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/shawnteoh-matjek-2x.jpg"
+    }
+  },
+  "shenliyang-hexo-theme-snippet": {
+    "theme_key": "shenliyang-hexo-theme-snippet",
+    "file": "hexo-theme-snippet.md",
+    "name": "hexo-theme-snippet",
+    "title": "Snippet",
+    "github_username": "shenliyang",
+    "repo": "shenliyang/hexo-theme-snippet",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/shenliyang/hexo-theme-snippet",
+    "demo_url": "https://www.91h5.cc/",
+    "stars": 1022,
+    "forks": 209,
+    "open_issues": 7,
+    "last_commit": "2021-08-15T09:32:27Z",
+    "created_at": "2017-07-10T09:26:39Z",
+    "description": "Snippet 简洁而不简单，也许是一款你寻找已久的hexo主题",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/shenliyang-hexo-theme-snippet.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/shenliyang-hexo-theme-snippet.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/shenliyang-hexo-theme-snippet-2x.jpg"
     }
   },
   "shobhitchittora-gatsby-starter-fashion-portfolio": {
@@ -17201,6 +17569,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/y7kim-agency-jekyll-theme.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/y7kim-agency-jekyll-theme.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/y7kim-agency-jekyll-theme-2x.jpg"
+    }
+  },
+  "yelog-hexo-theme-3-hexo": {
+    "theme_key": "yelog-hexo-theme-3-hexo",
+    "file": "hexo-theme-3-hexo.md",
+    "name": "hexo-theme-3-hexo",
+    "title": "3-Hexo",
+    "github_username": "yelog",
+    "repo": "yelog/hexo-theme-3-hexo",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/yelog/hexo-theme-3-hexo",
+    "demo_url": "https://yelog.org/",
+    "stars": 462,
+    "forks": 169,
+    "open_issues": 13,
+    "last_commit": "2021-09-27T01:32:04Z",
+    "created_at": "2017-02-05T09:26:14Z",
+    "description": "hexo主题：三段式设计、极简、方便  Hexo theme: three-stage design",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/yelog-hexo-theme-3-hexo.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/yelog-hexo-theme-3-hexo.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/yelog-hexo-theme-3-hexo-2x.jpg"
     }
   },
   "ygoex-yetty": {

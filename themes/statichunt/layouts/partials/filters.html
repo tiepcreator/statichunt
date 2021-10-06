@@ -6,13 +6,14 @@
       <h3>Static Site Generator </h3>
       {{ partial "toggle-icon.html" . }}
     </div>
+    
     <ul class="filter-list">
       {{ range .context.Site.Taxonomies.ssg }}
       {{ $count := 0 }}
       {{ if $countAll }}
       {{ $count = .Count }}
       {{ else }}
-      {{ range .Pages }}
+      {{ range .Pages.Reverse }}
       {{ if not .Params.stale }}
       {{ if not .Params.disabled }}
       {{ $count = add $count 1 }}
