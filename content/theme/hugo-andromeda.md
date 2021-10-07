@@ -3,16 +3,22 @@ title: Andromeda Light
 github: https://github.com/gethugothemes/andromeda-light
 demo: https://demo.gethugothemes.com/andromeda-light/
 author: Gethugothemes
+author_link: "https://gethugothemes.com/"
 ssg:
   - Hugo
 css:
   - Bootstrap
 archetype:
   - Business
+services:
+  - Formspree
+hosting:
+  - Netlify
+  - Vercel
 date: 2021-08-29T16:13:50.000Z
 description: >-
   Andromeda-light is a clean and modern Hugo SAAS Software theme. It perfectly
-  fits any kind of SAAS Software. It is fully responsive, Superfast and powered
+  fits any kind of SAAS Software. It is fully responsive, Superfast, and powered
   by Bootstrap.
 stale: false
 disabled: false

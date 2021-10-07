@@ -1,4 +1,8 @@
 <div class="label">
   <span class="label-key">Author</span>
+  {{ if .link }}
+  <a href="{{ .link | safeURL }}">{{ .author }}</a>
+  {{ else }}
   <span class="label-value">{{ .author }}</span>
+  {{ end }}
 </div>

@@ -15,7 +15,7 @@
       <div class="col-lg-2">
         <h3>Themes</h3>
         {{ range site.Taxonomies.ssg }}
-          <a href="{{.Page.Title | urlize | lower }}-themes">{{.Page.Title}} Themes</a>
+          <a href="{{.Page.Title | relURL | urlize | lower }}-themes">{{.Page.Title}} Themes</a>
         {{ end }}
       </div>
 

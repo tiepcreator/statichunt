@@ -25,6 +25,7 @@ pygmentsUseClasses = true
   css = "css"
   archetype = "archetype"
   services = "services"
+  hosting = "hosting"
 
 [outputFormats]
   [outputFormats.demo]

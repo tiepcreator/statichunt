@@ -41,7 +41,35 @@
     <div class="container">
       <div class="theme theme-detail" data-name="{{ .Title }}">
         <div class="row justify-content-center">
-          <div class="col-lg-4 order-2 order-lg-1">
+          <div class="col-lg-8">
+            <!-- iframe -->
+            <div class="bws-block d-none d-md-block">
+              <div class="bws-header">
+                <div class="bws-actions">
+                  {{ with .Params.demo }}
+                  <a target="blank" href="{{.| safeURL}}?ref=statichunt.com">Full Preview</a>
+                  {{ end }}
+                </div>
+              </div>
+              <div class="bws-content">
+                <iframe sandbox="allow-same-origin allow-scripts allow-popups allow-forms" loading="lazy"
+                  src="{{ .Params.demo }}/" title="Andromeda"></iframe>
+              </div>
+            </div>
+
+            <!-- image -->
+            <div class="theme-detail-image d-block d-md-none">
+              {{ if $repo }}
+              {{ $staticPath := (printf "%s/%s%s" "static/themes/thumbnails" $repo.theme_key ".jpg") }}
+              {{ $filePath := (printf "%s/%s%s" "themes/thumbnails" $repo.theme_key ".jpg") }}
+              {{ if (fileExists $staticPath) }}
+              <img src="{{ $filePath | relURL }}" alt="{{ .Title }} screenshot" />
+              {{ end }}
+              {{ end }}
+            </div>
+
+          </div>
+          <div class="col-lg-4">
 
             <div class="intro">
               <div class="intro-heading">
@@ -93,44 +121,46 @@
               {{ end }}
               {{ end }}
               {{ end }}
+
+              {{ if .Params.services }}
+              {{- range .Params.services }}
+              {{- with $.Site.GetPage "taxonomyTerm" (printf "services/%s" (urlize .)) }}
+              {{ if eq .Page.Title "No services" }}
+              {{ else }}
+              {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+              {{ end }}
+              {{ end }}
+              {{ end }}
+              {{ end }}
             </div>
 
-            {{ partial "labels/label-author.html" (dict "author" .Params.author) }}
+            <!-- hosting -->
+            {{ if .Params.hosting }}
+            <div class="label">
+              <span class="label-key">Host This Site with:</span>
+              {{- range .Params.hosting }}
+              {{- with $.Site.GetPage "taxonomyTerm" (printf "hosting/%s" (urlize .)) }}
+              {{ if eq .Page.Title "No hosting" }}
+              {{ else }}
+              {{ partial "icons/icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+              {{ end }}
+              {{ end }}
+              {{ end }}
+              {{ end }}
+            </div>
+            <!-- /hosting -->
+
+            {{ partial "labels/label-author.html" (dict "author" .Params.author "link" .Params.author_link) }}
             {{ if $repo }}{{ partial "labels/label-stars.html" (dict "stars" $repo.stars) }}{{ end }}
+            {{ if $repo }}{{ partial "labels/label-forks.html" (dict "forks" $repo.forks) }}{{ end }}
             {{ if $repo }}{{ partial "labels/label-last-commit.html" (dict "last_commit" $repo.last_commit) }}{{ end }}
 
             <div class="action-buttons action-buttons-detail">
               <a class="action-button action-button-github" data-action="github" data-context="detail"
                 data-name="{{ .Title }}" href="{{ .Params.github }}" target="_blank" rel="nofollow noopener">Github</a>
-            </div>
 
-          </div>
-          <div class="col-lg-8 order-1 order-lg-2">
-
-            <!-- iframe -->
-            <div class="bws-block d-none d-md-block">
-              <div class="bws-header">
-                <div class="bws-actions">
-                  {{ with .Params.demo }}
-                  <a target="blank" href="{{.| safeURL}}?ref=statichunt.com">Full Preview</a>
-                  {{ end }}
-                </div>
-              </div>
-              <div class="bws-content">
-                <iframe sandbox="allow-same-origin allow-scripts allow-popups allow-forms" loading="lazy"
-                  src="{{ .Params.demo }}/" title="Andromeda"></iframe>
-              </div>
-            </div>
-
-            <!-- image -->
-            <div class="theme-detail-image d-block d-md-none">
-              {{ if $repo }}
-              {{ $staticPath := (printf "%s/%s%s" "static/themes/thumbnails" $repo.theme_key ".jpg") }}
-              {{ $filePath := (printf "%s/%s%s" "themes/thumbnails" $repo.theme_key ".jpg") }}
-              {{ if (fileExists $staticPath) }}
-              <img src="{{ $filePath | relURL }}" alt="{{ .Title }} screenshot" />
-              {{ end }}
-              {{ end }}
+              <a class="action-button action-button-github" data-action="github" data-context="detail"
+              data-name="{{ .Title }}" href="{{ .Params.github }}" target="_blank" rel="nofollow noopener">Live Demo</a>
             </div>
 
           </div>
