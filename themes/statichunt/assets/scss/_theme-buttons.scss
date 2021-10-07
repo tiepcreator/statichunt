@@ -8,23 +8,24 @@
 
     }
   }
-  .action-button {
-    @extend .button;
-    padding: 5px 8px;
-    text-align: center;
-    flex: 1 0 auto;
-    font-size: 14px;
-    &.action-button-fill {
-      background-color: $primary;
-      color: white;
-    }
-    &.action-button-link {
-      border: none;
-      text-decoration: underline;
-    }
-    &:last-of-type {
-      margin-right: 0;
-    }
+}
+
+.action-button {
+  @extend .button;
+  padding: 5px 8px;
+  text-align: center;
+  flex: 1 0 auto;
+  font-size: 14px;
+  &.action-button-fill {
+    background-color: $primary;
+    color: white;
+  }
+  &.action-button-link {
+    border: none;
+    text-decoration: underline;
+  }
+  &:last-of-type {
+    margin-right: 0;
   }
 }
 .action-buttons-detail {
@@ -56,4 +57,14 @@
       text-decoration: underline;
     }
   }
+}
+
+.action-button-full{
+  width: 100%;
+  display: block;
+}
+
+.action-button-large{
+  padding: 10px 40px;
+  font-size: 18px;
 }

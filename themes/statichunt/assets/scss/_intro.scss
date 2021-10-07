@@ -50,24 +50,6 @@
       font-weight: 400;
     }
   }
-  .intro-backlink {
-    display: none;
-    margin-top: 6px;
-    padding: 4px 10px;
-    border: 1px solid $grey;
-    border-radius: 3px;
-    @include media-breakpoint-up(md) {
-      margin-left: auto;
-      display: block;
-    }
-    a {
-      color: $primary;
-      padding: 8px;
-      &:first-of-type {
-        padding-left: 0;
-      }
-    }
-  }
   .intro-bar {
     display: flex;
     align-items: center;
@@ -87,15 +69,24 @@
       border-color: #647f96;
       margin: 0;
     }
-    strong {
-
-    }
   }
   .count {
-    color: lighten($steel, 20%);
+    color: $light;
     font-weight: 400;
   }
   .page-number {
     font-weight: 400;
+  }
+}
+
+.intro-taxonomy{
+  padding: 20px;
+  min-height: 100%;
+  border-radius: .25rem;
+  *{
+    color: $white;
+  }
+  .intro-breadcrumbs a{
+    color: $light;
   }
 }
