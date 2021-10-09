@@ -15,10 +15,6 @@ $layout-padding: 15px;
         padding-left: $layout-padding * 2;
         padding-right: $layout-padding * 2;
       }
-      @include media-breakpoint-up(lg) {
-        padding-left: $layout-padding * 4;
-        padding-right: $layout-padding * 4;
-      }
       .container {
         max-width: none !important;
       }
@@ -33,9 +29,6 @@ $layout-padding: 15px;
         @include media-breakpoint-up(md) {
           padding: $layout-padding * 2;
         }
-        @include media-breakpoint-up(lg) {
-          padding: $layout-padding * 4;
-        }
       }
       .sidebar {
         flex-basis: 110px;
@@ -46,7 +39,12 @@ $layout-padding: 15px;
           flex-basis: 240px;
         }
         @include media-breakpoint-up(lg) {
-          flex-basis: 360px;
+          flex-basis: 260px;
+        }
+        @include media-breakpoint-up(xl) {
+        }
+        @include desktop-xxl {
+        flex-basis: 360px;
         }
       }
     }

@@ -18,7 +18,6 @@
   }
   .filter-title {
     display: flex;
-    flex-wrap: wrap;
     margin-bottom: 10px;
     @include media-breakpoint-up(md) {
       display: flex;
