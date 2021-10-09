@@ -104,7 +104,7 @@
     }
     .toggle-more {
       padding: 10px 20px;
-      background-color: rgba($color: $white, $alpha: .3);
+      // background-color: rgba($color: $white, $alpha: .3);
       border-radius: 5px;
       cursor: pointer;
       margin: 5px 0;
@@ -135,7 +135,6 @@
       font-size: 13px;
       line-height: 18px;
       padding: 10px 20px;
-      background-color: rgba($color: $white, $alpha: .3);
       border-radius: 5px;
       cursor: pointer;
       &:last-of-type {

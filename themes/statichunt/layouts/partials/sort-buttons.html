@@ -1,21 +1,61 @@
-<!-- <div class="sort-buttons">
+<!-- archtype -->
+<div class="sort-buttons">
   <span class="sort-by">Filter By:</span>
   <div id="filter-group-archetype" class="filter filter-group-archetype" data-filter-group="archetype">
     <ul class="filter-list">
       {{ range $i, $e:= site.Taxonomies.archetype }}
+      {{ if gt (len $e) 1}}
       <li id="filter-{{ .Page.Title | urlize }}" class="filter-item" data-toggle=".{{ .Page.Title | urlize }}">
         <span class="filter-name">{{ .Page.Title }}</span>
-        <span class="filter-count" id="filter-count-{{ .Page.Title | urlize}}">{{ len $e }}</span>
+        <!-- <span class="filter-count" id="filter-count-{{ .Page.Title | urlize}}">{{ len $e }}</span> -->
       </li>
+      {{ end }}
       {{ end }}
     </ul>
   </div>
-</div> -->
 
-<div class="sort sort-buttons">
-  <span class="sort-by">Sort By:</span>
-  <button class="button mixitup-control-active" data-sort="default">All Themes</button>
-  <button class="button" data-sort="stars:desc">Stars</button>
-  <button class="button" data-sort="forks:desc">Forks</button>
-  <button class="button" data-sort="last-commit:desc">Last Commit</button>
+  <!-- sort -->
+  <div class="sort">
+      <p class="sort-description">Sort by: </p>
+      <p class="sort-button">Default</p>
+      <ul class="sort-menu sort-select">
+        <li class="button mixitup-control-active" data-sort="default" onclick="document.querySelector('.sort-button').innerHTML = 'Default'">Default</li>
+        <li class="button" data-sort="stars:desc" onclick="document.querySelector('.sort-button').innerHTML = 'Stars'">Stars</li>
+        <li class="button" data-sort="forks:desc" onclick="document.querySelector('.sort-button').innerHTML = 'Forks'">Forks</li>
+        <li class="button" data-sort="last-commit:desc" onclick="document.querySelector('.sort-button').innerHTML = 'Commit'">Commit</li>
+      </ul>
+  </div>
 </div>
+
+
+<script>
+  var dButton = document.querySelector('.sort-button');
+  var dMenu = document.querySelector(".sort-menu");
+  var dItem = document.querySelector(".sort-menu > li");
+
+  dButton.addEventListener("click", function () {
+    var docClick = function (ev) {
+      if (!(ev.target).classList.contains('sort-button')) {
+        closeDropdown();
+      }
+    }
+
+    var closeDropdown = function () {
+      dMenu.classList.remove("show-menu");
+      document.removeEventListener('click', docClick);
+    }
+
+    if (dMenu.classList.contains("show-menu")) {
+      closeDropdown();
+    } else {
+      document.addEventListener('click', docClick)
+      dMenu.classList.add("show-menu");
+    }
+
+    dItem.addEventListener("click", function () {
+      closeDropdown();
+    });
+
+  });
+
+</script>

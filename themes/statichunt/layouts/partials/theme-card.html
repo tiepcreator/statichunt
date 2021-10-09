@@ -30,13 +30,13 @@
       {{ partial "github-metrics.html" (dict "forks" .repo.forks "stars" .repo.stars )}}
       {{ end }}
 
-      <div class="theme-description">
+      <!-- <div class="theme-description">
         {{ if .theme.Params.description }}
         <p class="description">{{ .theme.Params.description | truncate 70 }}</p>
         {{ else }}
         <p class="description">{{ .theme.Summary | truncate 70 }}</p>
         {{ end }}
-      </div>
+      </div> -->
 
       <div class="action-buttons action-buttons-card">
         <a class="action-button action-button-github" data-action="github" data-context="card"
