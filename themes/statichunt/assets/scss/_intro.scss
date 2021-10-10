@@ -1,5 +1,41 @@
 .intro {
-  padding: 20px 0 70px;
+  transition: all 0.5s ease;
+  &-banner{
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
+    height: 200px;
+    &.dissmiss{
+      clip-path: polygon(100% 0, 100% 0, 100% 0, 100% 0);
+      height: 10px;
+    }
+  }
+  &-wrapper{
+    position: relative;
+  }
+  &-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background: $white;
+    border-radius: .25rem;
+    border: 1px solid $grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 9;
+    &::before{
+      position: absolute;
+      content: "✕";
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    &.active::before{
+      content: "\2193";
+    }
+  }
   .intro-heading {
     margin-bottom: 10px;
   }
@@ -26,7 +62,8 @@
     display: inline-block;
     font-weight: 800;
     font-size: 50px;
-    margin: 0;
+    margin-bottom: 20px;
+    margin-top: 10px;
     @include media-breakpoint-up(sm) {
       font-size: 26px;
     }
@@ -83,10 +120,5 @@
   padding: 20px;
   min-height: 100%;
   border-radius: .25rem;
-  *{
-    color: $white;
-  }
-  .intro-breadcrumbs a{
-    color: $light;
-  }
+  box-shadow: 4px 4px 20px 6px rgba(0,0,0,.1);
 }

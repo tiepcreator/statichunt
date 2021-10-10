@@ -33,15 +33,10 @@ Themes
     <div class="container">
       <div class="row mb-5">
         <div class="col-lg-8">
-          <div class="intro intro-taxonomy" style="background-color:{{.Params.color}}99;">
+          <div class="intro intro-taxonomy">
             <div class="intro-breadcrumbs">{{ partial "breadcrumbs.html" . }}</div>
             <div class="intro-icon"><img src="{{ .Params.icon | relURL }}" alt="{{.Title}} Logo" /></div>
-            <h1 class="intro-title">{{ .Title }} Themes
-              <span class="page-number">{{ if gt $paginator.PageNumber 1 }} - Page
-                {{ $paginator.PageNumber }}{{ end }}</span>
-              {{ if eq $paginator.PageNumber 1 }}<span class="count">(<span
-                  class="count-number">{{ $themeCount }}</span>)</span>{{ end }}
-            </h1>
+            <h1 class="intro-title">{{ .Title }} Themes</h1>
             <div class="intro-description">
               <p>Browse our list of {{ .Title }} themes, starters and templates.</p>
             </div>
@@ -53,7 +48,7 @@ Themes
           {{ if .enable }}
           <div class="promotion">
             <h2 class="mb-2">{{.title | markdownify}}</h2>
-            <strong class="d-block mb-4">{{.content | markdownify}}</strong>
+            <p class="d-block mb-4">{{.content | markdownify}}</p>
             <a href="{{.button_link | absURL }}" class="action-button action-button-fill action-button-full action-button-large">{{.button_label}}</a>
           </div>
           {{ end }}
@@ -79,4 +74,5 @@ Themes
     </div>
   </div>
 </div>
+
 {{ end }}

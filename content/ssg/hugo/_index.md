@@ -5,7 +5,6 @@ official_url: https://www.gohugo.io
 vitalstats_url: https://www.staticgen.com/hugo
 taxonomy: ssg
 url: /hugo-themes
-color: "#ff00b9"
 promotion:
   enable: true
   title: "Convert More Traffic, Easier, With Unbounce"
