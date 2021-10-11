@@ -10,8 +10,8 @@
 {{ $repoName := printf "%s" (substr (replace .Params.github "/" "-") 19 | urlize) }}
 {{ $repo := index .Site.Data.themes $repoName }}
 {{ if $repo }}
-{{ $staticPath := (printf "%s/%s%s" "static/capture" $repo.theme_key ".png") }}
-{{ $filePath := (printf "%s/%s%s" "capture" $repo.theme_key ".png") }}
+{{ $staticPath := (printf "%s/%s%s" "static/themes/thumbnails" $repo.theme_key ".png") }}
+{{ $filePath := (printf "%s/%s%s" "themes/thumbnails" $repo.theme_key ".png") }}
 {{ if (fileExists $staticPath) }}
 <meta property="og:image" content="{{ $filePath | absURL }}">
 {{ end }}

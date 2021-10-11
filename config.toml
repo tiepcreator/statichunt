@@ -2,7 +2,7 @@ baseURL = "https://statichunt.com/"
 languageCode = "en-us"
 title = "Static Hunt"
 theme = "statichunt"
-paginate = 18
+paginate = 20
 summaryLength = 10
 # enableGitInfo = false
 
@@ -26,6 +26,7 @@ pygmentsUseClasses = true
   archetype = "archetype"
   services = "services"
   hosting = "hosting"
+  interaction = "interaction"
 
 [outputFormats]
   [outputFormats.demo]
@@ -51,10 +52,10 @@ pygmentsUseClasses = true
 
 [[menu.main]]
 	name = "Resources"
-	url = "/theme/"
+	url = "/resources/"
     weight = 2
 
   [[menu.main]]
 	name = "About"
-	url = "/resources/"
+	url = "/about/"
     weight = 3
