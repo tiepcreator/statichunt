@@ -22,7 +22,7 @@
   color: $black;
 }
 
-.terms{
+.terms {
   justify-content: space-around;
 }
 
@@ -122,14 +122,14 @@
   }
 }
 
-.promotion{
+.promotion {
   padding: 20px;
   text-align: center;
   border: 5px solid $primary;
   border-radius: .25rem;
 }
 
-.taxonomy-content{
+.taxonomy-content {
   background-color: $grey;
   padding: 20px;
   margin-top: 50px;
@@ -138,11 +138,13 @@
 
 
 
-.sort-buttons{
+.sort-buttons {
+
   // filter-list
-  .filter-list{
+  .filter-list {
     padding-left: 0;
-    .filter-item{
+
+    .filter-item {
       display: inline-block;
       list-style-type: none;
       padding: 5px 10px;
@@ -151,7 +153,8 @@
       font-size: 80%;
       margin-bottom: 5px;
       cursor: pointer;
-      &.mixitup-control-active{
+
+      &.mixitup-control-active {
         background-color: $primary;
         color: $white;
       }
@@ -164,14 +167,13 @@
 // dropdown sort
 .sort {
   min-width: 135px;
-  border: 1px solid $primary;
-  border-radius: .25rem;
   font-size: 80%;
   position: relative;
   cursor: pointer;
   display: flex;
   flex-wrap: nowrap;
   max-height: 30px;
+
   &-description {
     margin-bottom: 0;
     padding: 5px;
@@ -179,11 +181,14 @@
   }
 
   &-button {
-    padding: 5px 20px 5px 0;
+    border: 1px solid $primary;
+    border-radius: .25rem;
+    padding: 5px 20px 5px 10px;
     position: relative;
     margin-bottom: 0;
     flex-basis: 55%;
     font-weight: bold;
+
     &::after {
       content: "▾";
       position: absolute;
@@ -191,30 +196,46 @@
       top: 5px;
     }
   }
+
   &-menu {
     display: none;
     overflow: show;
     position: absolute;
     right: 0;
     top: calc(100% + 5px);
-    width: 100%;
+    width: 60%;
     background-color: $light;
     z-index: 99999;
     padding: 10px;
     border-radius: .25rem;
+
     li {
       list-style-type: none;
       border: 0;
       padding: 5px;
       margin: 0;
       color: $carbon;
-      &.mixitup-control-active{
+
+      &.mixitup-control-active {
         background-color: transparent;
         color: $primary;
       }
     }
   }
+
   .show-menu {
     display: block;
+  }
+}
+
+
+
+// column
+#grids-homepage {
+  @media (min-width: 1240px) and (max-width: 1439px) {
+    .col-xl-3 {
+      flex: 0 0 33.33%;
+      max-width: 33.33%;
+    }
   }
 }

@@ -12,7 +12,9 @@
       }
 
       .toggle-icon {
-        transform: rotate(270deg);
+        img{
+          transform: rotate(270deg);
+        }
       }
     }
 
@@ -85,15 +87,14 @@
     }
 
     .toggle-icon {
-      margin-left: auto;
       cursor: pointer;
-      display: none;
-
-      @include media-breakpoint-up(md) {
-        display: flex;
-      }
-
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      align-items: center;
       img {
+        margin-left: auto;
+        margin-right: 15px;
         width: 14px;
       }
 
@@ -274,9 +275,9 @@
   }
 
   // Box focus
-  &:focus+label:before {
-    // box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
-  }
+  // &:focus+label:before {
+  //   box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+  // }
 
   // Box checked
   &:checked+label:before {

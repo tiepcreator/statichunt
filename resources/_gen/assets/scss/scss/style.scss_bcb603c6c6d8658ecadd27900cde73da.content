@@ -4237,7 +4237,7 @@ html {
     display: none; }
   .filters .filter.closed .filter-title {
     margin: 0; }
-  .filters .filter.closed .toggle-icon {
+  .filters .filter.closed .toggle-icon img {
     transform: rotate(270deg); }
   .filters .filter:first-of-type {
     padding-top: 0; }
@@ -4285,13 +4285,14 @@ html {
     .filters .filter-title .toggle-info:hover {
       opacity: 0.6; }
   .filters .filter-title .toggle-icon {
-    margin-left: auto;
     cursor: pointer;
-    display: none; }
-    @media (min-width: 768px) {
-      .filters .filter-title .toggle-icon {
-        display: flex; } }
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center; }
     .filters .filter-title .toggle-icon img {
+      margin-left: auto;
+      margin-right: 15px;
       width: 14px; }
     .filters .filter-title .toggle-icon svg {
       width: 14px;
@@ -5499,8 +5500,6 @@ ul.pagination {
 
 .sort {
   min-width: 135px;
-  border: 1px solid #0d9975;
-  border-radius: .25rem;
   font-size: 80%;
   position: relative;
   cursor: pointer;
@@ -5512,7 +5511,9 @@ ul.pagination {
     padding: 5px;
     color: #585858; }
   .sort-button {
-    padding: 5px 20px 5px 0;
+    border: 1px solid #0d9975;
+    border-radius: .25rem;
+    padding: 5px 20px 5px 10px;
     position: relative;
     margin-bottom: 0;
     flex-basis: 55%;
@@ -5528,7 +5529,7 @@ ul.pagination {
     position: absolute;
     right: 0;
     top: calc(100% + 5px);
-    width: 100%;
+    width: 60%;
     background-color: #f8f9fa;
     z-index: 99999;
     padding: 10px;
@@ -5544,6 +5545,11 @@ ul.pagination {
         color: #0d9975; }
   .sort .show-menu {
     display: block; }
+
+@media (min-width: 1240px) and (max-width: 1439px) {
+  #grids-homepage .col-xl-3 {
+    flex: 0 0 33.33%;
+    max-width: 33.33%; } }
 
 .align-baseline {
   vertical-align: baseline !important; }

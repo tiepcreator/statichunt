@@ -52,7 +52,7 @@ const groups = {
     "blog", 
     "portfolio", 
     "business", 
-    "multi-purpose", 
+    "saas", 
     "single-page", 
     "ecommerce", 
     "documentation", 

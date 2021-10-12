@@ -8,6 +8,14 @@
     </div>
     
     <ul class="filter-list">
+      <li id="filter-all" class="filter-item filter-item-link {{if eq $permalink `/resources/`}}mixitup-control-active{{end}}" data-toggle=".all">
+        <a href="{{`resources/` | relURL}}">
+          <img width="18" height="18" class="filter-icon" alt="All"
+            src="{{`images/icons/all.svg` | absURL}}" />
+          <span class="filter-name">All Resources</span>
+          <span class="filter-count" id="filter-count-all">{{ len .context.Site.Taxonomies.interaction }}</span>
+        </a>
+      </li>
       {{ range .context.Site.Taxonomies.interaction }}
       {{ $count := 0 }}
       {{ if $countAll }}

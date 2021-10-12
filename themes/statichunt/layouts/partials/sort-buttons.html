@@ -16,14 +16,18 @@
 
   <!-- sort -->
   <div class="sort">
-      <p class="sort-description">Sort by: </p>
-      <p class="sort-button">Default</p>
-      <ul class="sort-menu sort-select">
-        <li class="button mixitup-control-active" data-sort="default" onclick="document.querySelector('.sort-button').innerHTML = 'Default'">Default</li>
-        <li class="button" data-sort="stars:desc" onclick="document.querySelector('.sort-button').innerHTML = 'Stars'">Stars</li>
-        <li class="button" data-sort="forks:desc" onclick="document.querySelector('.sort-button').innerHTML = 'Forks'">Forks</li>
-        <li class="button" data-sort="last-commit:desc" onclick="document.querySelector('.sort-button').innerHTML = 'Commit'">Commit</li>
-      </ul>
+    <p class="sort-description">Sort by: </p>
+    <p class="sort-button">Default</p>
+    <ul class="sort-menu sort-select">
+      <li class="button mixitup-control-active" data-sort="default"
+        onclick="document.querySelector('.sort-button').innerHTML = 'Default'">Default</li>
+      <li class="button" data-sort="stars:desc" onclick="document.querySelector('.sort-button').innerHTML = 'Stars'">
+        Stars</li>
+      <li class="button" data-sort="forks:desc" onclick="document.querySelector('.sort-button').innerHTML = 'Forks'">
+        Forks</li>
+      <li class="button" data-sort="last-commit:desc"
+        onclick="document.querySelector('.sort-button').innerHTML = 'Commit'">Commit</li>
+    </ul>
   </div>
 </div>
 
@@ -57,5 +61,4 @@
     });
 
   });
-
 </script>
