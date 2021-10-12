@@ -4337,6 +4337,16 @@ html {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer; }
+    .filters .filter-list .filter-item-link {
+      padding: 0; }
+      .filters .filter-list .filter-item-link a {
+        padding: 10px 20px;
+        display: flex;
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-start;
+        text-decoration: none; }
     .filters .filter-list .filter-item:last-of-type {
       margin-bottom: 0; }
     .filters .filter-list .filter-item:hover {
@@ -4368,10 +4378,9 @@ html {
       .filters .filter-list .filter-item .filter-link:hover {
         text-decoration: underline; }
     .filters .filter-list .filter-item .filter-count {
-      color: #666; }
-      @media (min-width: 768px) {
-        .filters .filter-list .filter-item .filter-count {
-          margin: 0 0 0 auto; } }
+      color: #666;
+      margin: 0 0 0 auto; }
+
 .styled-checkbox {
   position: absolute;
   opacity: 0; }

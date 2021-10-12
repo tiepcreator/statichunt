@@ -12,26 +12,7 @@
 <div class="wrapper">
   <div class="sidebar">
     <div class="container">
-      <div class="filters">
-        {{ $countAll := 0 }}
-        <div id="filter-group-interaction" class="filter filter-group-interaction" data-filter-group="interaction">
-          <div class="filter-title">
-            <h3>Interaction</h3>
-          </div>
-          <ul class="filter-list">
-            {{ range $i, $e:= site.Taxonomies.interaction }}
-            <li id="filter-{{ .Page.Title | urlize }}" class="filter-item" data-toggle=".{{ .Page.Title | urlize }}">
-              <a href="{{`interaction/` | relURL}}{{ . | urlize | lower }}" class="filter-item" >
-                <img width="18" height="18" class="filter-icon" alt="{{ .Page.Title }}"
-                  src="{{ .Page.Params.icon | relURL }}" />
-                <span class="filter-name">{{ .Page.Title }}</span>
-                <span class="filter-count" id="filter-count-{{ .Page.Title | urlize}}">{{ len $e }}</span>
-              </a>
-            </li>
-            {{ end }}
-          </ul>
-        </div>
-      </div>
+      {{ partial "filters-resources.html" (dict "context" . "countAll" true "Link" .RelPermalink) }}
       {{ partial "statichunt.html" . }}
     </div>
   </div>
@@ -39,8 +20,8 @@
     <div class="container-fluid">
       <div class="intro-wrapper">
         <div class="intro">
-          <h1>Resources</h1>
-          <p>Resources are a great way to share your knowledge and experience with others</p>
+          <h1>{{.Title}}</h1>
+          <p>{{.Content}}</p>
         </div>
       </div>
 
