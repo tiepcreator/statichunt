@@ -12,31 +12,26 @@
         <a href="{{ `/index.xml` | relURL }}">Themes RSS</a>
       </div>
 
-      <div class="col-lg-2">
+      <div class="col-lg-4">
         <h3>Themes</h3>
-        {{ range site.Taxonomies.ssg }}
+        <div style="columns: 2;">
+          {{ range site.Taxonomies.ssg }}
           <a href="{{.Page.Title | relURL | urlize | lower }}-themes">{{.Page.Title}} Themes</a>
-        {{ end }}
+          {{ end }}
+        </div>
       </div>
 
       <div class="col-lg-2">
         <h3>Resources</h3>
-        {{ range site.Taxonomies.cms }}
-          <a href="{{.Page.Permalink }}">{{.Page.Title}} Themes</a>
+        {{ range site.Taxonomies.interaction }}
+        <a href="{{.Page.Permalink }}">{{.Page.Title}}</a>
         {{ end }}
       </div>
 
       <div class="col-lg-2">
         <h3>Hosting</h3>
-        {{ range .Site.Menus.hosting }}
-          <a href="{{.URL}}">{{.Name}}</a>
-        {{ end }}
-      </div>
-
-      <div class="col-lg-2">
-        <h3>Blog</h3>
-        {{ range .Site.Menus.blog }}
-          <a href="{{.URL}}">{{.Name}}</a>
+        {{ range site.Taxonomies.hosting }}
+        <a href="{{.Page.Permalink }}">{{.Page.Title}}</a>
         {{ end }}
       </div>
     </div>

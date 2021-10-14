@@ -6,6 +6,7 @@ $steel: #585858;
 $carbon: #2a2a2a;
 $lime-green: #10b981;
 $soft-pink: #ec4899;
+$border-color: #dedede;
 
 $font-family-base: 'Inter',
 Helvetica,
@@ -69,6 +70,7 @@ $spacers: map-merge((0: 0,
 @import 'label';
 @import 'pricing';
 @import 'custom';
+@import 'social-share';
 @import 'bootstrap/utilities';
 
 html {

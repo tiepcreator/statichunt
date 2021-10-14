@@ -71,7 +71,7 @@
           </div>
           <div class="col-lg-4">
 
-            <div class="intro">
+            <div class="intro widget">
               <div class="intro-heading">
                 <h1 class="intro-title">{{ .Title }} </h1>
               </div>
@@ -80,11 +80,17 @@
               </div>
             </div>
 
-            <div class="theme-detail-tags">
+            <div class="widget">
+              <h3 class="h4">Author Details:</h3>
+              {{ partial "author-details.html" . }}
+            </div>
+
+            <div class="theme-detail-tags widget">
+              <h3 class="h4">Product Categories:</h3>
               {{ if .Params.ssg }}
               {{- range .Params.ssg }}
               {{- with $.Site.GetPage "taxonomyTerm" (printf "ssg/%s" (urlize .)) }}
-              {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+              {{ partial "icons/icon-link-widget.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
               {{ end }}
               {{ end }}
               {{ end }}
@@ -94,7 +100,7 @@
               {{- with $.Site.GetPage "taxonomyTerm" (printf "cms/%s" (urlize .)) }}
               {{ if eq .Page.Title "No CMS" }}
               {{ else }}
-              {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+              {{ partial "icons/icon-link-widget.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
               {{ end }}
               {{ end }}
               {{ end }}
@@ -105,7 +111,7 @@
               {{- with $.Site.GetPage "taxonomyTerm" (printf "css/%s" (urlize .)) }}
               {{ if eq .Page.Title "No css" }}
               {{ else }}
-              {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+              {{ partial "icons/icon-link-widget.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
               {{ end }}
               {{ end }}
               {{ end }}
@@ -116,7 +122,7 @@
               {{- with $.Site.GetPage "taxonomyTerm" (printf "archetype/%s" (urlize .)) }}
               {{ if eq .Page.Title "No archetype" }}
               {{ else }}
-              {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+              {{ partial "icons/icon-link-widget.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
               {{ end }}
               {{ end }}
               {{ end }}
@@ -127,7 +133,7 @@
               {{- with $.Site.GetPage "taxonomyTerm" (printf "services/%s" (urlize .)) }}
               {{ if eq .Page.Title "No services" }}
               {{ else }}
-              {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+              {{ partial "icons/icon-link-widget.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
               {{ end }}
               {{ end }}
               {{ end }}
@@ -162,6 +168,8 @@
               <a class="action-button action-button-github" data-action="github" data-context="detail"
               data-name="{{ .Title }}" href="{{ .Params.github }}" target="_blank" rel="nofollow noopener">Live Demo</a>
             </div>
+
+            {{ partial "social-share.html" . }}
 
           </div>
         </div>

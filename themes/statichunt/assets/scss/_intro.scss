@@ -61,17 +61,13 @@
   .intro-title {
     display: inline-block;
     font-weight: 800;
-    font-size: 50px;
-    margin-bottom: 20px;
-    margin-top: 10px;
+    font-size: 40px;
+    margin-bottom: 0;
     @include media-breakpoint-up(sm) {
       font-size: 26px;
     }
     @include media-breakpoint-up(md) {
       font-size: 32px;
-    }
-    @include media-breakpoint-up(xl) {
-      font-size: 40px;
     }
   }
   .intro-description {
@@ -80,7 +76,6 @@
     }
     @include media-breakpoint-up(lg) {
       font-size: 20px;
-      width: 85%;
     }
     p {
       font-size: 16px;

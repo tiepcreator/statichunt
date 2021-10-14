@@ -1,5 +1,8 @@
 .footer {
-  background: #fff;
+  background: #1a202c;
+  h3{
+    color: $white;
+  }
   .footer-column {
     margin-bottom: 30px;
     @include media-breakpoint-up(sm) {
@@ -24,10 +27,11 @@
   a {
     display: block;
     margin-bottom: 8px;
-    color: $primary;
+    color: $grey;
     text-decoration: none;
     &:hover {
       text-decoration: underline;
+      color: $white;
     }
   }
   h3 {

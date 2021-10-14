@@ -25,38 +25,40 @@ Themes ({{ $themeCount }}){{ end }}
   </div>
   <div class="main">
     <div class="container-fluid">
-			<div class="intro-wrapper">
-				<button class="intro-close"></button>
-				<div class="intro intro-banner">
-					<div class="intro-heading">
-						<h1 class="intro-title">Jamstack <span class="txt-rotate gradient-text" data-period="2000"
-								data-rotate='[ "Themes", "Resources", "Tutorials" ]'></span> Library</h1>
-					</div>
-					<div class="intro-description d-none d-md-block">
-						<p>
-							<span class="count-number d-none">({{ $themeCount }})</span>
-							A curated directory of Jamstack themes and resources to build your next project. Let's make it happen, be a
-							Jamstack Warrior.
-						</p>
-					</div>
-					<div class="intro-description d-md-none">
-						<p>A list of themes and starters for <a href="https://www.jamstack.wtf" target="_blank"
-								rel="noopener">Jamstack</a> sites.
-						</p>
-					</div>
-				</div>
+      <div class="intro-wrapper">
+        <!-- <button class="intro-close"></button> -->
 
-        <script>
-          //custom collapse
+        <div class="intro intro-banner">
+          <div class="intro-heading">
+            <h1 class="intro-title">Jamstack <span class="txt-rotate gradient-text" data-period="2000"
+                data-rotate='[ "Themes", "Resources", "Tutorials" ]'></span> Library</h1>
+          </div>
+          <div class="intro-description d-none d-md-block">
+            <p>
+              <span class="count-number d-none">({{ $themeCount }})</span>
+              A curated directory of Jamstack themes and resources to build your next project. Let's make it happen, be
+              a
+              Jamstack Warrior.
+            </p>
+          </div>
+          <div class="intro-description d-md-none">
+            <p>A list of themes and starters for <a href="https://www.jamstack.wtf" target="_blank"
+                rel="noopener">Jamstack</a> sites.
+            </p>
+          </div>
+        </div>
+
+        <!-- custom collapse -->
+        <!-- <script>
           var wrapper = document.querySelector('.intro');
           var btn = document.querySelector('.intro-close');
           btn.onclick = function () {
             wrapper.classList.toggle('dissmiss');
             this.classList.toggle('active');
           }
-        </script>
-  
-			</div>
+        </script> -->
+
+      </div>
 
       {{ partial "sort-buttons.html" . }}
       <div id="grids-homepage" class="row mt-3">
