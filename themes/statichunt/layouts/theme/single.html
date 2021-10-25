@@ -68,23 +68,43 @@
               {{ end }}
             </div>
 
+            <!-- content -->
+            <div class="content">
+              {{ .Content }}
+            </div>
+
           </div>
           <div class="col-lg-4">
 
+            <!-- theme info -->
             <div class="intro widget">
               <div class="intro-heading">
                 <h1 class="intro-title">{{ .Title }} </h1>
               </div>
               <div class="intro-description">
                 <p>{{ .Params.description }}</p>
+                {{ if $repo }}{{ partial "labels/label-stars.html" (dict "stars" $repo.stars) }}{{ end }}
+                {{ if $repo }}{{ partial "labels/label-forks.html" (dict "forks" $repo.forks) }}{{ end }}
+                {{ if $repo }}{{ partial "labels/label-last-commit.html" (dict "last_commit" $repo.last_commit) }}{{ end }}
+
+                <div class="action-buttons action-buttons-detail mb-0">
+                  <a class="action-button action-button-github" data-action="github" data-context="detail"
+                    data-name="{{ .Title }}" href="{{with .Params.github }}{{. | safeURL}}{{else}}{{.Params.Product | safeURL}}{{end}}" target="_blank" rel="nofollow noopener">{{if .Params.github}}Github{{else}}Website{{end}}</a>
+    
+                  <a class="action-button action-button-github" data-action="github" data-context="detail"
+                    data-name="{{ .Title }}" href="{{ .Params.github }}" target="_blank" rel="nofollow noopener">Live
+                    Demo</a>
+                </div>
               </div>
             </div>
 
+            <!-- author info -->
             <div class="widget">
               <h3 class="h4">Author Details:</h3>
               {{ partial "author-details.html" . }}
             </div>
 
+            <!-- categories -->
             <div class="theme-detail-tags widget">
               <h3 class="h4">Product Categories:</h3>
               {{ if .Params.ssg }}
@@ -141,43 +161,23 @@
             </div>
 
             <!-- hosting -->
-            {{ if .Params.hosting }}
-            <div class="label">
-              <span class="label-key">Host This Site with:</span>
+            <div class="widget theme-detail-tags">
+              <h3 class="h4">Host This Theme With:</h3>
+              {{ if .Params.hosting }}
               {{- range .Params.hosting }}
               {{- with $.Site.GetPage "taxonomyTerm" (printf "hosting/%s" (urlize .)) }}
-              {{ if eq .Page.Title "No hosting" }}
-              {{ else }}
-              {{ partial "icons/icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+              {{ partial "icons/icon-link-widget.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
               {{ end }}
               {{ end }}
               {{ end }}
             </div>
-            {{ end }}
-            <!-- /hosting -->
 
-            {{ partial "labels/label-author.html" (dict "author" .Params.author "link" .Params.author_link) }}
-            {{ if $repo }}{{ partial "labels/label-stars.html" (dict "stars" $repo.stars) }}{{ end }}
-            {{ if $repo }}{{ partial "labels/label-forks.html" (dict "forks" $repo.forks) }}{{ end }}
-            {{ if $repo }}{{ partial "labels/label-last-commit.html" (dict "last_commit" $repo.last_commit) }}{{ end }}
-
-            <div class="action-buttons action-buttons-detail">
-              <a class="action-button action-button-github" data-action="github" data-context="detail"
-                data-name="{{ .Title }}" href="{{ .Params.github }}" target="_blank" rel="nofollow noopener">Github</a>
-
-              <a class="action-button action-button-github" data-action="github" data-context="detail"
-              data-name="{{ .Title }}" href="{{ .Params.github }}" target="_blank" rel="nofollow noopener">Live Demo</a>
+            <!-- share -->
+            <div class="widget">
+              <h3 class="h4">Share This Theme:</h3>
+              {{ partial "social-share.html" . }}
             </div>
 
-            {{ partial "social-share.html" . }}
-
-          </div>
-        </div>
-        <div class="row mt-3 mt-md-3 mt-lg-6">
-          <div class="col-12 col-lg-8">
-            <div class="content">
-              {{ .Content }}
-            </div>
           </div>
         </div>
       </div>
