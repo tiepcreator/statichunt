@@ -8,7 +8,7 @@
 
     <div class="theme-body">
       <h2><a href="{{ .Permalink }}" class="theme-title">{{ .Params.title }}</a></h2>
-      <p class="theme-description">{{with .Params.Description }}{{ . | markdownify}}{{else}}{{.Summary}}{{end}}</p>
+      <!-- <p class="theme-description">{{with .Params.Description }}{{ . | markdownify}}{{else}}{{.Summary}}{{end}}</p> -->
       <div class="action-buttons action-buttons-card">
         {{ if .Params.author_link }}
         <a class="action-button action-button-demo" data-action="demo" data-context="card"  target="_blank" data-name="{{.Params.author}}" href="{{.Params.author_link | safeURL}}?ref=statichunt.com">Website</a>{{ end }}

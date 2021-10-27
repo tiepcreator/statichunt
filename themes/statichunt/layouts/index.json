@@ -2,6 +2,12 @@
   {
     "title": "{{ .Params.title }}",
     "github": "{{ .Params.github }}",
-    "image": {{ if $repo.images.screenshot }}"{{ $repo.images.screenshot }}"{{ else }}null{{ end }}
+    "demo": "{{ .Params.demo }}",
+    "stale": "{{ .Params.stale }}",
+    "star": "{{ $repo.stars }}",
+    "fork": "{{ $repo.forks }}",
+    "last_commit": "{{ $repo.last_commit }}",
+    "description": "{{ $repo.description }}",
+    "author": "https://github.com/{{ $repo.github_username }}",
   }{{ end }}
 ]
