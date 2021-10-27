@@ -7,7 +7,7 @@
     "star": "{{ $repo.stars }}",
     "fork": "{{ $repo.forks }}",
     "last_commit": "{{ $repo.last_commit }}",
-    "description": "{{ $repo.description }}",
+    "description": "{{ replace $repo.description `"` `\"` }}",
     "author": "https://github.com/{{ $repo.github_username }}",
   }{{ end }}
 ]
