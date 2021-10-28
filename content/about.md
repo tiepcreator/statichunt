@@ -28,11 +28,26 @@ My deepest thanks to the following people for graciously giving me feedback and 
 
 {{< gratitude "https://twitter.com/somratpro/" >}}
 ![somrat](../images/gratitude/somrat.jpg)
-#### Somrat
+#### Somrat Sorkar
 @somratpro
 {{</ gratitude >}}
 
 
+{{< gratitude "https://twitter.com/somratpro/" >}}
+![somrat](../images/gratitude/somrat.jpg)
+#### Somrat Sorkar
+@somratpro
+{{</ gratitude >}}
+
+
+{{< gratitude "https://twitter.com/somratpro/" >}}
+![somrat](../images/gratitude/somrat.jpg)
+#### Somrat Sorkar
+@somratpro
+{{</ gratitude >}}
+
+<br>
+<br>
 
 #### About me
 Hey, I’m Brian Lovin. I’m a Staff Product Designer at GitHub.

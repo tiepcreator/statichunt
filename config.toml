@@ -41,6 +41,9 @@ pygmentsUseClasses = true
   section = ["HTML","RSS"]
   page = ["HTML", "demo"]
 
+[markup.goldmark.renderer]
+unsafe= true
+
 [frontmatter]
   lastmod = [":git", "lastmod", ":fileModTime", ":default"]
 

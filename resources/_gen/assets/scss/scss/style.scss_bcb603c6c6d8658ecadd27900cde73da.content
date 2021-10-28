@@ -5572,12 +5572,23 @@ ul.pagination {
 
 .gratitude {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  text-decoration: none !important;
+  padding: 10px;
+  border-radius: .25rem; }
+  .gratitude:hover {
+    background-color: #f8f9fa; }
   .gratitude * {
     margin: 0 !important; }
+  .gratitude h3, .gratitude h4, .gratitude h5 {
+    margin-right: 15px !important;
+    color: #2a2a2a; }
   .gratitude img {
     border-radius: 50%;
-    margin-right: 20px !important; }
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    margin-right: 15px !important; }
 
 /*! Social sharing buttons from Sharingbuttons.io */
 .resp-sharing-button__link,

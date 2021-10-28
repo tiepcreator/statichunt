@@ -42,7 +42,7 @@
           </div>
           <div class="col-lg-4">
 
-            <div class="intro">
+            <div class="intro widget">
               <div class="intro-heading">
                 <h1 class="intro-title">{{ .Title }} </h1>
               </div>
@@ -81,14 +81,16 @@
                 {{ end }}
               </div>
 
+              <div class="action-buttons action-buttons-detail mb-0">
+                {{ if .Params.author}}
+                <a class="action-button action-button-github" data-action="github" data-context="detail"
+                  data-name="{{ .Title }}" href="{{ .Params.author_link | safeURL }}?ref=statichunt.com" target="_blank"
+                  rel="nofollow noopener">Website</a>
+                {{ end }}
+              </div>
+
             </div>
 
-            <div class="action-buttons action-buttons-detail">
-              {{ if .Params.author}}
-              <a class="action-button action-button-github" data-action="github" data-context="detail"
-                data-name="{{ .Title }}" href="{{ .Params.author_link | safeURL }}?ref=statichunt.com" target="_blank" rel="nofollow noopener">Website</a>
-              {{ end }}
-            </div>
 
           </div>
         </div>
