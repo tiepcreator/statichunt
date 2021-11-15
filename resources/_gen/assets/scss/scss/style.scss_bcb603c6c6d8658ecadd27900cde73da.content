@@ -4704,6 +4704,45 @@ html {
   background-repeat: no-repeat;
   background-size: cover; }
 
+.list-inline {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 0;
+  padding-left: 0; }
+  .list-inline-item {
+    display: inline-block;
+    padding-right: .5em; }
+    .list-inline-item:not(:last-child) {
+      margin-right: .5em; }
+
+.svg-icon {
+  width: 1.3rem;
+  height: 1.3rem;
+  margin: 0;
+  display: inline-block;
+  background-color: #0d9975;
+  vertical-align: bottom; }
+  .svg-icon-home {
+    mask: url(../images/icons/home.svg) no-repeat center/contain;
+    -webkit-mask: url(../images/icons/home.svg) no-repeat center/contain; }
+  .svg-icon-twitter {
+    mask: url(../images/icons/twitter.svg) no-repeat center/contain;
+    -webkit-mask: url(../images/icons/twitter.svg) no-repeat center/contain; }
+  .svg-icon-github {
+    mask: url(../images/icons/github.svg) no-repeat center/contain;
+    -webkit-mask: url(../images/icons/github-line.svg) no-repeat center/contain; }
+  .svg-icon-license {
+    mask: url(../images/icons/license.svg) no-repeat center/contain;
+    -webkit-mask: url(../images/icons/license.svg) no-repeat center/contain; }
+  .svg-icon-code {
+    mask: url(../images/icons/code.svg) no-repeat center/contain;
+    -webkit-mask: url(../images/icons/code.svg) no-repeat center/contain; }
+
+.meta-list li {
+  color: #585858; }
+  .meta-list li a {
+    color: inherit; }
+
 .action-buttons {
   display: flex;
   justify-content: flex-start;

@@ -36,11 +36,50 @@ Themes
           <div class="intro intro-taxonomy">
             <div class="intro-breadcrumbs">{{ partial "breadcrumbs.html" . }}</div>
             <div class="intro-icon"><img src="{{ .Params.icon | relURL }}" alt="{{.Title}} Logo" /></div>
-            <h1 class="intro-title">{{ .Title }} Themes</h1>
-            <div class="intro-description">
+            <h1 class="intro-title mb-3">{{ .Title }} Themes</h1>
+            <div class="intro-description mb-3">
+              {{ if .Params.short_description }}
+              <p>{{ .Params.short_description | markdownify }}</p>
+              {{ else }}
               <p>Browse our list of {{ .Title }} themes, starters and templates.</p>
+              {{ end }}
             </div>
-            <strong>Official Website</strong> <a href="{{ .Params.official_url }}">{{  .Params.official_url }}</a>
+            <ul class="list-inline meta-list">
+              {{ with .Params.official_url }}
+              <li class="list-inline-item" title="Official Website">
+                <span class="svg-icon svg-icon-home"></span>
+                <a target="_blank" rel="noopener noreferrer" href="{{ . | safeURL }}">{{ . }}</a>
+              </li>
+              {{ end }}
+              {{ with .Params.github_path }}
+              <li class="list-inline-item" title="GitHub Repository">
+                <span class="svg-icon svg-icon-github"></span>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/{{ . | safeURL }}">{{ . }}</a>
+              </li>
+              {{ end }}
+              {{ with .Params.twitter_username }}
+              <li class="list-inline-item" title="Twitter Profile">
+                <span class="svg-icon svg-icon-twitter"></span>
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/{{ . | safeURL }}">@{{ . }}</a>
+              </li>
+              {{ end }}
+              {{ if .Params.license }}
+              <li class="list-inline-item" title="License">
+                <span class="svg-icon svg-icon-license"></span>
+                {{ if .Params.github_path }}
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/{{ .Params.github_path | safeURL }}/blob/master/LICENSE">{{ .Params.license }}</a>
+                {{ else }}
+                {{ .Params.license }}
+                {{ end }}
+              </li>
+              {{ end }}
+              {{ with .Params.language }}
+              <li class="list-inline-item" title="Language">
+                <span class="svg-icon svg-icon-code"></span>
+                {{ . }}
+              </li>
+              {{ end }}
+            </ul>
           </div>
         </div>
         <div class="col-lg-4">

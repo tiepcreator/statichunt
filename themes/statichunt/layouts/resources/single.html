@@ -83,9 +83,7 @@
 
               <div class="action-buttons action-buttons-detail mb-0">
                 {{ if .Params.author}}
-                <a class="action-button action-button-github" data-action="github" data-context="detail"
-                  data-name="{{ .Title }}" href="{{ .Params.author_link | safeURL }}?ref=statichunt.com" target="_blank"
-                  rel="nofollow noopener">Website</a>
+                <a class="action-button action-button-github" data-action="github" data-context="detail" data-name="{{ .Title }}" href="{{ .Params.author_link | safeURL }}?ref=statichunt.com" target="_blank" rel="nofollow noopener">Website</a>
                 {{ end }}
               </div>
 
