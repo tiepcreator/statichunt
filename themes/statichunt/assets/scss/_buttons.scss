@@ -30,6 +30,28 @@
   @include media-breakpoint-up(sm) {
     margin-bottom: 15px;
     margin-top: 15px;
+    display: block;
+  }
+
+  // filter-list
+  .filter-list {
+    padding-left: 0;
+
+    .filter-item {
+      display: inline-block;
+      list-style-type: none;
+      padding: 5px 10px;
+      border-radius: .25rem;
+      border: 1px solid $primary;
+      font-size: 80%;
+      margin-bottom: 5px;
+      cursor: pointer;
+
+      &.mixitup-control-active {
+        background-color: $primary;
+        color: $white;
+      }
+    }
   }
   .sort-by {
     display: none;

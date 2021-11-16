@@ -137,33 +137,6 @@
 }
 
 
-
-.sort-buttons {
-
-  // filter-list
-  .filter-list {
-    padding-left: 0;
-
-    .filter-item {
-      display: inline-block;
-      list-style-type: none;
-      padding: 5px 10px;
-      border-radius: .25rem;
-      border: 1px solid $primary;
-      font-size: 80%;
-      margin-bottom: 5px;
-      cursor: pointer;
-
-      &.mixitup-control-active {
-        background-color: $primary;
-        color: $white;
-      }
-    }
-  }
-
-}
-
-
 // dropdown sort
 .sort {
   min-width: 135px;
@@ -188,6 +161,7 @@
     margin-bottom: 0;
     flex-basis: 55%;
     font-weight: bold;
+    max-width: 90px;
 
     &::after {
       content: "▾";

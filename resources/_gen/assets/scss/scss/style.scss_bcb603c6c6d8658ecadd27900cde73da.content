@@ -5068,7 +5068,22 @@ html {
   @media (min-width: 576px) {
     .sort-buttons {
       margin-bottom: 15px;
-      margin-top: 15px; } }
+      margin-top: 15px;
+      display: block; } }
+  .sort-buttons .filter-list {
+    padding-left: 0; }
+    .sort-buttons .filter-list .filter-item {
+      display: inline-block;
+      list-style-type: none;
+      padding: 5px 10px;
+      border-radius: .25rem;
+      border: 1px solid #0d9975;
+      font-size: 80%;
+      margin-bottom: 5px;
+      cursor: pointer; }
+      .sort-buttons .filter-list .filter-item.mixitup-control-active {
+        background-color: #0d9975;
+        color: #ffffff; }
   .sort-buttons .sort-by {
     display: none;
     margin-right: 5px;
@@ -5519,21 +5534,6 @@ ul.pagination {
   margin-top: 50px;
   border-radius: .25rem; }
 
-.sort-buttons .filter-list {
-  padding-left: 0; }
-  .sort-buttons .filter-list .filter-item {
-    display: inline-block;
-    list-style-type: none;
-    padding: 5px 10px;
-    border-radius: .25rem;
-    border: 1px solid #0d9975;
-    font-size: 80%;
-    margin-bottom: 5px;
-    cursor: pointer; }
-    .sort-buttons .filter-list .filter-item.mixitup-control-active {
-      background-color: #0d9975;
-      color: #ffffff; }
-
 .sort {
   min-width: 135px;
   font-size: 80%;
@@ -5553,7 +5553,8 @@ ul.pagination {
     position: relative;
     margin-bottom: 0;
     flex-basis: 55%;
-    font-weight: bold; }
+    font-weight: bold;
+    max-width: 90px; }
     .sort-button::after {
       content: "▾";
       position: absolute;
