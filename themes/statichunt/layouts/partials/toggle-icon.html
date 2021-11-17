@@ -1,6 +1,6 @@
 <div class="filter-title" role="button" aria-expanded="true" aria-label="toggle">
   <div class="toggle-icon">
-    <h3>{{ .Name }}</h3>
+    <h3><span class="d-none d-md-block">{{ .Name }}</span><span class="d-block d-md-none">{{ .NameSM }}</span></h3>
     <img width="15" height="15" alt="Expand / collapse filters" src="{{ `images/ui/chevron-down-solid.svg` | relURL }}" />
   </div>
 </div>

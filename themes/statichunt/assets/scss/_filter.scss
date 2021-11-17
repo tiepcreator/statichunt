@@ -169,6 +169,9 @@
       padding: 10px 20px;
       border-radius: 5px;
       cursor: pointer;
+      @include mobile {
+        padding: 5px;
+      }
 
       &-link {
         padding: 0;

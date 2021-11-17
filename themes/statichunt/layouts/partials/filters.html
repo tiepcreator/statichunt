@@ -2,7 +2,7 @@
 <div class="filters">
 
   <div id="filter-group-ssg" class="filter filter-group-ssg" data-filter-group="ssg">
-    {{ partial "toggle-icon.html" (dict "Name" "Static Site Generator") }}
+    {{ partial "toggle-icon.html" (dict "Name" "Static Site Generator" "NameSM" "SSG" ) }}
     
     <ul class="filter-list">
       {{ range .context.Site.Taxonomies.ssg }}
@@ -65,7 +65,7 @@
   </div>
 
   <div id="filter-group-cms" class="filter filter-group-cms" data-filter-group="cms">
-    {{ partial "toggle-icon.html" (dict "Name" "Jamstack CMS") }}
+    {{ partial "toggle-icon.html" (dict "Name" "Jamstack CMS" "NameSM" "CMS") }}
     <ul class="filter-list">
       {{ range .context.Site.Taxonomies.cms }}
       {{ $count := 0 }}
@@ -119,7 +119,7 @@
   </div>
 
   <div id="filter-group-css" class="filter filter-group-css" data-filter-group="css">
-    {{ partial "toggle-icon.html" (dict "Name" "CSS Framework") }}
+    {{ partial "toggle-icon.html" (dict "Name" "CSS Framework" "NameSM" "CSS") }}
 
     <ul class="filter-list">
       {{ range .context.Site.Taxonomies.css }}

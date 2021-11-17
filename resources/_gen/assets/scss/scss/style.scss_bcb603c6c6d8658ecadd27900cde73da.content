@@ -4341,6 +4341,9 @@ html {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer; }
+    @media (max-width: 575px) {
+      .filters .filter-list .filter-item {
+        padding: 5px; } }
     .filters .filter-list .filter-item-link {
       padding: 0; }
       .filters .filter-list .filter-item-link a {
@@ -4851,7 +4854,8 @@ html {
     display: inline-block;
     font-weight: 800;
     font-size: 40px;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    font-size: 22px; }
     @media (min-width: 576px) {
       .intro .intro-title {
         font-size: 26px; } }
@@ -5065,7 +5069,7 @@ html {
   margin-bottom: 10px;
   display: flex;
   justify-content: space-between; }
-  @media (min-width: 576px) {
+  @media (max-width: 767px) {
     .sort-buttons {
       margin-bottom: 15px;
       margin-top: 15px;
@@ -5539,7 +5543,7 @@ ul.pagination {
   font-size: 80%;
   position: relative;
   cursor: pointer;
-  display: flex;
+  display: inline-flex;
   flex-wrap: nowrap;
   max-height: 30px; }
   .sort-description {
