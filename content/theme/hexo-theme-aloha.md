@@ -10,4 +10,5 @@ cms:
 date: 2016-08-27T16:11:12.000Z
 description: A hexo theme, use semantic ui.
 stale: true
+draft: true
 ---

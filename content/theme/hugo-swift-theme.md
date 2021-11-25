@@ -10,4 +10,5 @@ cms:
 date: 2019-02-14T21:49:30.000Z
 description: A simple open source theme for publishing with hugo
 stale: false
+draft: true
 ---

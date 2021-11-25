@@ -10,4 +10,5 @@ cms:
 date: 2016-03-30T07:48:59.000Z
 description: A beautiful, fast, AMP-compliant Jekyll theme based on Tufte CSS.
 stale: true
+draft: true
 ---

@@ -13,4 +13,5 @@ css:
 date: 2019-01-02T07:24:27.000Z
 description: Just another Gatsby Tailwind with SASS starter
 stale: true
+draft: true
 ---

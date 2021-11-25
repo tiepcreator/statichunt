@@ -12,4 +12,5 @@ description: >-
   HMFAYSAL OMEGA is a minimalist, beautiful, responsive theme for Jekyll
   designed for writers who want their content to take front and center.
 stale: true
+draft: true
 ---

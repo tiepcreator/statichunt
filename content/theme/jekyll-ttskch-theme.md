@@ -10,4 +10,5 @@ cms:
 date: 2015-01-23T10:41:56.000Z
 description: A simple and customizable theme for Jekyll.
 stale: true
+draft: true
 ---

@@ -12,4 +12,5 @@ css:
 date: 2018-11-26T13:25:33.000Z
 description: 🚀 + ⚛️  A Quick Way to bootstrap your next Gatsby + Bulma site.
 stale: true
+draft: true
 ---

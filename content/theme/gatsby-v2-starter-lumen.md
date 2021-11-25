@@ -12,4 +12,5 @@ description: >-
   A minimal, lightweight and mobile-first starter for creating blazing-fast
   static blogs
 stale: true
+draft: true
 ---

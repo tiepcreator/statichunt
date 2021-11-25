@@ -15,6 +15,7 @@ archetype:
   - Portfolio
 description: Dark Poole is a permanent dark theme of the Poole theme by @mdo.
 stale: false
+draft: true
 ---
 
 # Minimal, responsive, and no frills theme

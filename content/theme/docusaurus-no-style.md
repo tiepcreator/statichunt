@@ -12,4 +12,5 @@ description: >-
   This theme is a trim down from @docusaurus/theme-classic of Docusaurus 2 to
   contain only opinionated minimum styles
 stale: true
+draft: true
 ---

@@ -10,4 +10,5 @@ cms:
 date: 2016-06-07T05:57:55.000Z
 description: A jekyll theme for humans
 stale: true
+draft: true
 ---

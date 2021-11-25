@@ -12,6 +12,7 @@ archetype:
   - Blog
 description: Sample blog website built using Kentico Kontent as a content repository.
 stale: false
+draft: true
 ---
 
 # Jekyll Kontent Blog

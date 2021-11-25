@@ -10,4 +10,5 @@ cms:
 date: 2018-12-15T06:31:19.000Z
 description: A vanilla Bootstrap theme for Hugo
 stale: false
+draft: true
 ---

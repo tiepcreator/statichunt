@@ -12,4 +12,5 @@ description: >-
   A Jekyll blog template made for simple, readable snippets of your brain
   drippings.
 stale: true
+draft: true
 ---

@@ -10,4 +10,5 @@ cms:
 date: 2016-01-05T20:39:17.000Z
 description: A Empty template blog
 stale: true
+draft: true
 ---

@@ -10,4 +10,5 @@ cms:
 date: 2019-02-27T19:17:17.000Z
 description: Gatsby-MDX with Netlify CMS. Support React components in your CMS editor!
 stale: true
+draft: true
 ---

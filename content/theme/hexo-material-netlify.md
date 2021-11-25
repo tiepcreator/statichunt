@@ -10,4 +10,5 @@ cms:
 date: 2018-07-14T20:02:15.000Z
 description: Hexo + Netlify CMS starter based on material design
 stale: true
+draft: true
 ---

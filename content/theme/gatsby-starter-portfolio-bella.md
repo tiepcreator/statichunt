@@ -12,4 +12,5 @@ description: >-
   A bright single-page portfolio starter for Gatsby powered by Prismic.io. The
   target audience are designers and photographers.
 stale: true
+draft: true
 ---

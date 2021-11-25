@@ -10,4 +10,5 @@ cms:
 date: 2018-09-21T19:19:22.000Z
 description: 'A Gatsby v2 starter based on Grommet v2 UI. Demo:'
 stale: true
+draft: true
 ---

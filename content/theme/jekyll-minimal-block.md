@@ -10,4 +10,5 @@ cms:
 date: 2015-01-02T19:29:31.000Z
 description: A minimalistic, responsive and friendly Jekyllrb theme.
 stale: true
+draft: true
 ---

@@ -13,6 +13,7 @@ description: >-
   version of your markdown notes and publish via Github pages. Made for Obsidian
   users!
 stale: false
+draft: true
 ---
 
 # Jekyll Digital Garden

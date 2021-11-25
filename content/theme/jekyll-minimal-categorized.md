@@ -15,6 +15,7 @@ description: >-
   This is a flexible Jekyll theme, designed for sites with content easily
   aggregated into categories.
 stale: false
+draft: true
 ---
 
 # Minimal Jekyll theme for aggregated content

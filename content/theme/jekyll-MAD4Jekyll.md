@@ -10,4 +10,5 @@ cms:
 date: 2015-11-28T23:40:15.000Z
 description: MAD4Jekyll theme for Jekyll
 stale: true
+draft: true
 ---

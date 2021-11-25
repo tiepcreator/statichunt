@@ -10,4 +10,5 @@ cms:
 date: 2019-05-27T08:33:21.000Z
 description: The default Gatsby starter TypeScript
 stale: false
+draft: true
 ---

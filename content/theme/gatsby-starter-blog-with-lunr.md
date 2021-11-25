@@ -12,4 +12,5 @@ description: >-
   Building upon Gatsby's blog starter with a Lunr.js powered Site Search.
   https://gatsby-starter-blog-with-lunr.netlify.app/
 stale: true
+draft: true
 ---

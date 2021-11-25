@@ -10,4 +10,5 @@ cms:
 date: 2018-10-03T14:38:07.000Z
 description: Opinionated Gatsby starter by Ueno.
 stale: false
+draft: true
 ---

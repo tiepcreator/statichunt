@@ -10,4 +10,5 @@ cms:
 date: 2016-02-21T14:29:19.000Z
 description: Jekyll's Minima theme extended version
 stale: true
+draft: true
 ---

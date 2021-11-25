@@ -12,4 +12,5 @@ description: >-
   A simple responsive two column Jekyll theme. Great for personal blog and basic
   portfolio website
 stale: true
+draft: true
 ---

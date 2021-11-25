@@ -12,4 +12,5 @@ description: jekyll theme
 stale: true
 disabled: false
 disabled_reason: null
+draft: true
 ---

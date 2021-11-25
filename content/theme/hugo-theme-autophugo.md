@@ -12,4 +12,5 @@ archetype:
   - Portfolio
 description: Image gallery/photoblog theme for Hugo.
 stale: false
+draft: true
 ---

@@ -10,4 +10,5 @@ cms:
 date: 2017-01-09T07:22:31.000Z
 description: 'Jekyll Theme Project Gaia. V2 Beta Released !! Check it out -> '
 stale: false
+draft: true
 ---

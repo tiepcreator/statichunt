@@ -10,4 +10,5 @@ cms:
 date: 2018-02-11T06:35:14.000Z
 description: i18n support and language switcher for Contentful starter repo
 stale: false
+draft: true
 ---

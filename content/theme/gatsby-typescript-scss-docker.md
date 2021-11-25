@@ -10,4 +10,5 @@ cms:
 date: 2018-12-16T20:28:09.000Z
 description: gatsby with typescript, scss typed modules, eslint, prettier & husky, docker
 stale: true
+draft: true
 ---

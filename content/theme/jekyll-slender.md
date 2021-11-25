@@ -10,4 +10,5 @@ cms:
 date: 2016-03-30T10:52:12.000Z
 description: Beautiful portfolio style template for jekyll
 stale: true
+draft: true
 ---

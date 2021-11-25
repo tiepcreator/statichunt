@@ -12,4 +12,5 @@ description: >-
   a Gatsby starter theme with Accessibility features, TypeScript, Jest, some
   basic UI elements, and a CircleCI pipeline
 stale: false
+draft: true
 ---

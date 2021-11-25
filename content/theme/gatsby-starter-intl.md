@@ -12,4 +12,5 @@ description: >-
   Gatsby v2 i18n starter which makes static pages for every locale and detect
   your browsers lang.
 stale: true
+draft: true
 ---

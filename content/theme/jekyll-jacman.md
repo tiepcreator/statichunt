@@ -10,4 +10,5 @@ cms:
 date: 2015-09-20T15:48:19.000Z
 description: A fresh looking and responsive theme for Jekyll
 stale: true
+draft: true
 ---

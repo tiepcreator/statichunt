@@ -10,4 +10,5 @@ cms:
 date: 2020-03-18T00:00:00.000Z
 description: Based on gatsby-starter-prismic with Internationalization (i18n) support
 stale: true
+draft: true
 ---

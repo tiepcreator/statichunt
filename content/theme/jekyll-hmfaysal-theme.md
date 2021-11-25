@@ -10,4 +10,5 @@ cms:
 date: 2013-12-13T19:21:10.000Z
 description: A Bold Theme for Jekyll. See demo at
 stale: true
+draft: true
 ---

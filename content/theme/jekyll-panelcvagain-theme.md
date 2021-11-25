@@ -10,4 +10,5 @@ cms:
 date: 2017-08-25T08:50:55.000Z
 description: 'Panel CV: style win8 for designer (or engineer)'
 stale: true
+draft: true
 ---

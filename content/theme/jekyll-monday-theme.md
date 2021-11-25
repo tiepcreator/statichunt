@@ -12,4 +12,5 @@ description: Monday is a minimal and 100% free blog template for Jekyll
 stale: true
 disabled: false
 disabled_reason: ''
+draft: true
 ---

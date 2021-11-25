@@ -8,4 +8,5 @@ ssg:
   - Jekyll
 description: Gray - Single column blog and portfolio Jekyll theme
 stale: false
+draft: true
 ---

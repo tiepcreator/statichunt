@@ -12,4 +12,5 @@ description: >-
   A minimal GatsbyJS blog starter with landingpage, estimated reading time,
   markdown sourcing and much more.
 stale: false
+draft: true
 ---

@@ -10,4 +10,5 @@ cms:
 date: 2018-09-04T20:48:42.000Z
 description: A starter repo for using Gatsby with Typescript and SASS.
 stale: false
+draft: true
 ---

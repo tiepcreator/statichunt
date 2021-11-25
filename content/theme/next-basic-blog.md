@@ -16,6 +16,7 @@ description: >-
   A JAMstack Theme of Basic Blog Site with dark/light theme toggle support built
   using Nextjs, Tailwindcss and Markdown.
 stale: true
+draft: true
 ---
 
 # A simple starter kit for Blog with Nextjs, Tailwindcss, Markdown Files

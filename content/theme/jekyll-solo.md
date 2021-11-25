@@ -12,4 +12,5 @@ description: >-
   :older_man: [UNMAINTAINED]: Solo is a Jekyll theme that supports single-page
   websites only, but supports them well.
 stale: true
+draft: true
 ---

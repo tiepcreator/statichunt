@@ -14,6 +14,7 @@ archetype:
   - Portfolio
 description: This is a port of the Dark Portfolio Template by W3C to 11ty!
 stale: true
+draft: true
 ---
 
 The original, pure CSS template was created by W3C, [you can check it out here!](https://www.w3schools.com/w3css/tryw3css_templates_dark_portfolio.htm)

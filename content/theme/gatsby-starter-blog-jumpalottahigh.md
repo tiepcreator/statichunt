@@ -12,4 +12,5 @@ description: >-
   Gatsby v2 blog starter with SEO, search, filter, reading progress, mobile menu
   fab
 stale: true
+draft: true
 ---

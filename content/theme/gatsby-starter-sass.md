@@ -10,4 +10,5 @@ cms:
 date: 2019-04-27T20:01:35.000Z
 description: A Gatsby starter with Sass and no assumptions!
 stale: false
+draft: true
 ---

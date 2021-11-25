@@ -10,4 +10,5 @@ cms:
 date: 2015-02-01T09:36:30.000Z
 description: jekyll minimal theme (for blog posts with archive and feed)
 stale: true
+draft: true
 ---

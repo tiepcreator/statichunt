@@ -10,4 +10,5 @@ cms:
 date: 2016-02-09T18:08:07.000Z
 description: A single accent, single column Jekyll Theme
 stale: true
+draft: true
 ---

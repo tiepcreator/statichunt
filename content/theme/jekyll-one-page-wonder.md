@@ -10,4 +10,5 @@ cms:
 date: 2015-04-22T13:12:24.000Z
 description: Jekyll port of One Page Wonder
 stale: true
+draft: true
 ---

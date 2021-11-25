@@ -10,4 +10,5 @@ cms:
 date: 2017-01-25T22:59:55.000Z
 description: A simple Jekyll blog theme
 stale: true
+draft: true
 ---

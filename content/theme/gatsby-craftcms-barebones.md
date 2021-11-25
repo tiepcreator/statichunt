@@ -10,4 +10,5 @@ cms:
 date: 2019-01-19T01:04:45.000Z
 description: Barebones starter for a Headless Craft CMS & Gatsby configuration.
 stale: true
+draft: true
 ---

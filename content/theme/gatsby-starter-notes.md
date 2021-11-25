@@ -10,4 +10,5 @@ cms:
 date: 2018-12-02T23:27:51.000Z
 description: Gatsby starter for creating notes organised by subject and topic
 stale: true
+draft: true
 ---

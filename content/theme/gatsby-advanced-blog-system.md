@@ -14,4 +14,5 @@ description: >-
   📰 This repository is a demo from the article about how to build our own blog
   using Gatsby.
 stale: false
+draft: true
 ---

@@ -13,4 +13,5 @@ description: >-
   Apollo Server (using Netlify Lambda functions). For developing we use Netlify
   Dev to bring all of this magic to our local machine.
 stale: true
+draft: true
 ---

@@ -10,4 +10,5 @@ cms:
 date: 2018-10-08T04:39:24.000Z
 description: A minimal hugo theme made with bootstrap
 stale: false
+draft: true
 ---

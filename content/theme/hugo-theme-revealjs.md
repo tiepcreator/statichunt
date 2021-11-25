@@ -10,4 +10,5 @@ cms:
 date: 2018-01-02T16:37:47.000Z
 description: Use Hugo to build a presentation, powered by RevealJS
 stale: true
+draft: true
 ---

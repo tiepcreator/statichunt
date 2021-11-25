@@ -10,4 +10,5 @@ cms:
 date: 2018-11-25T19:08:28.000Z
 description: Gatsby starter with MobX and TypeScript
 stale: true
+draft: true
 ---

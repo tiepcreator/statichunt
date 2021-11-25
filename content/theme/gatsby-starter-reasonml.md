@@ -10,4 +10,5 @@ cms:
 date: 2018-10-22T08:55:17.000Z
 description: Gatsby starter to create static sites using type-safe ReasonML
 stale: true
+draft: true
 ---

@@ -10,4 +10,5 @@ cms:
 date: 2016-04-13T21:13:26.000Z
 description: Moon is a minimal, one column jekyll theme.
 stale: true
+draft: true
 ---

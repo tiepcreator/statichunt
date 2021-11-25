@@ -12,4 +12,5 @@ description: >-
   Open Source version of the GitHub Pages theme, now for Jekyll. Demo at
   https://pietro.menna.net.br/jekyll-architect-theme/
 stale: false
+draft: true
 ---

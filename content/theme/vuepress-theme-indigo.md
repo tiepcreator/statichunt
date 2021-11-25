@@ -10,4 +10,5 @@ cms:
 date: 2018-04-14T08:21:05.000Z
 description: A blog theme for VuePress.
 stale: true
+draft: true
 ---

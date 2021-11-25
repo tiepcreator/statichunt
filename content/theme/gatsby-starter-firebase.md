@@ -10,4 +10,5 @@ cms:
 date: 2018-10-17T12:39:39.000Z
 description: Gatsby + Firebase = 👍
 stale: true
+draft: true
 ---

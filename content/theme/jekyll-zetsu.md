@@ -10,4 +10,5 @@ cms:
 date: 2015-08-08T05:58:15.000Z
 description: 💎 Zetsu - a free Jekyll theme
 stale: true
+draft: true
 ---

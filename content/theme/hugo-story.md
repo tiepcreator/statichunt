@@ -13,4 +13,5 @@ description: >-
   many extra features including presentations, math typesetting, music notation,
   and search.
 stale: true
+draft: true
 ---

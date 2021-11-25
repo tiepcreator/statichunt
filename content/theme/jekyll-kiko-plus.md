@@ -10,4 +10,5 @@ cms:
 date: 2016-08-08T10:33:16.000Z
 description: '[DEPRECATED!!!] Please redirect to the new and easier version, kiko-now==>'
 stale: true
+draft: true
 ---

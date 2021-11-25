@@ -10,4 +10,5 @@ cms:
 date: 2015-11-17T09:51:10.000Z
 description: Xizhi's personal website
 stale: true
+draft: true
 ---

@@ -10,4 +10,5 @@ cms:
 date: 2019-05-14T06:50:04.000Z
 description: Not todo Gatsby app for my talk
 stale: true
+draft: true
 ---

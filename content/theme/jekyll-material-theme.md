@@ -10,4 +10,5 @@ cms:
 date: 2017-11-27T21:19:23.000Z
 description: A Jekyll Theme based on Material Design using Materialize.
 stale: true
+draft: true
 ---

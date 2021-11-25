@@ -14,6 +14,7 @@ archetype:
   - Blog
 description: This is a simple little blog with support for writing math
 stale: false
+draft: true
 ---
 
 # A simple theme for blogging

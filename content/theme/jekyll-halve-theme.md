@@ -12,4 +12,5 @@ description: Stylish Two-Column Jekyll Theme
 stale: true
 disabled_reason: ''
 disabled: false
+draft: true
 ---

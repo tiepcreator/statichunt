@@ -10,4 +10,5 @@ cms:
 date: 2015-12-20T16:11:01.000Z
 description: 💎 Simple & Beautiful Jekyll theme
 stale: true
+draft: true
 ---

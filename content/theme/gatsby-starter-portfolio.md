@@ -10,4 +10,5 @@ cms:
 date: 2019-02-27T20:42:33.000Z
 description: Gatsby starter for creating a portfolio website
 stale: true
+draft: true
 ---

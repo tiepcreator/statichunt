@@ -10,4 +10,5 @@ cms:
 date: 2018-06-10T19:54:17.000Z
 description: 'Install a Cosmic-powered Gatsby app in seconds 🔥 '
 stale: true
+draft: true
 ---

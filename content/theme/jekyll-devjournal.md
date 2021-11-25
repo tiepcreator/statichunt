@@ -10,4 +10,5 @@ cms:
 date: 2016-05-13T08:22:12.000Z
 description: 'Jekyll theme for developers! :computer:'
 stale: true
+draft: true
 ---

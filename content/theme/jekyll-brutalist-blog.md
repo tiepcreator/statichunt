@@ -17,6 +17,7 @@ description: >-
   brutalist-blog is a no frills, fully-responsive, hyper-minimalistic dark/light
   theme
 stale: false
+draft: true
 ---
 
 # brutalist-blog

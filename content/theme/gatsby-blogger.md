@@ -12,4 +12,5 @@ description: A Gatsby demo for blogging
 stale: true
 disabled: false
 disabled_reason: null
+draft: true
 ---

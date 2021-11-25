@@ -10,4 +10,5 @@ cms:
 date: 2013-02-20T21:38:22.000Z
 description: Jekyll site template
 stale: true
+draft: true
 ---

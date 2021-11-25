@@ -10,4 +10,5 @@ cms:
 date: 2015-09-07T13:37:31.000Z
 description: A gentle theme for Jekyll utilising material design.
 stale: true
+draft: true
 ---

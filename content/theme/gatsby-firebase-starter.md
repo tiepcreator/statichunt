@@ -12,4 +12,5 @@ description: >-
   🔥 Starter Project / Boilerplate for Authentication and creating Dynamic pages
   from collections with Firebase and  Gatsby.js. 
 stale: true
+draft: true
 ---

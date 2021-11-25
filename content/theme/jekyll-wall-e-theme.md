@@ -12,4 +12,5 @@ description: >-
   A modern jekyll theme with grid frontpage, beautiful typography, mobile
   responsive, made with Semantic UI
 stale: true
+draft: true
 ---

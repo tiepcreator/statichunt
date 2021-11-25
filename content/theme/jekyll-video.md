@@ -10,4 +10,5 @@ cms:
 date: 2015-08-24T01:18:55.000Z
 description: Template for a video blog
 stale: true
+draft: true
 ---

@@ -10,4 +10,5 @@ cms:
 date: 2018-09-27T10:20:26.000Z
 description: gatsby V2 scientific machine learning blog Starter
 stale: true
+draft: true
 ---

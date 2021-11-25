@@ -10,4 +10,5 @@ cms:
 date: 2017-06-19T05:38:37.000Z
 description: 📜 Jekyll theme inspired by L'Ami du peuple
 stale: true
+draft: true
 ---

@@ -14,6 +14,7 @@ css:
 date: 2019-11-01T00:00:00.000Z
 description: 🥁 A really basic theme for Jekyll
 stale: false
+draft: true
 ---
 
 🥁 A really basic theme for Jekyll, using the official Jekyll theme implementation.

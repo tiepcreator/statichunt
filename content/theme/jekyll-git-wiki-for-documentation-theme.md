@@ -12,4 +12,5 @@ description: >-
   A revolutionary full-featured wiki for github pages and jekyll. You don't need
   to compile it!
 stale: false
+draft: true
 ---

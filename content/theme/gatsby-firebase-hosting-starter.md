@@ -10,4 +10,5 @@ cms:
 date: 2019-04-03T12:36:08.000Z
 description: Gatsby starter with Firebase hosting configuration
 stale: true
+draft: true
 ---

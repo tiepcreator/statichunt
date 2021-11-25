@@ -10,4 +10,5 @@ cms:
 date: 2015-04-19T10:27:41.000Z
 description: A simple Hugo theme for documentation
 stale: true
+draft: true
 ---

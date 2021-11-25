@@ -10,4 +10,5 @@ cms:
 date: 2013-05-06T09:51:15.000Z
 description: ':tomato: A Jekyll theme.'
 stale: true
+draft: true
 ---

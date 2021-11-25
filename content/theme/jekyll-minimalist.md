@@ -13,6 +13,7 @@ archetype:
   - Personal
 description: Minimalist is a Jekyll theme inspired by the Minimal theme.
 stale: false
+draft: true
 ---
 
 # A simplistic theme with Jekyll

@@ -12,6 +12,7 @@ services:
 date: 2020-04-19T00:00:00.000Z
 description: API-First CMS Primer with Directus' Open Source Headless CMS
 stale: true
+draft: true
 ---
 
 # API-First CMS Primer with Directus' Open Source Headless CMS

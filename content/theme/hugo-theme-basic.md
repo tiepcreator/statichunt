@@ -12,4 +12,5 @@ description: >-
   Basic site theme styled with minimal tachyons, syntax highlighting, and blog
   series configuration. 📦
 stale: true
+draft: true
 ---

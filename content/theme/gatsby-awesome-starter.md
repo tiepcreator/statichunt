@@ -12,4 +12,5 @@ description: >-
   👌 A starter for GatsbyJS with a preconfigured MDX, Storybook and ESLint
   environment
 stale: true
+draft: true
 ---

@@ -10,4 +10,5 @@ cms:
 date: 2015-12-31T23:50:44.000Z
 description: ':+1: Jekyll themes use Material Design Lite'
 stale: true
+draft: true
 ---

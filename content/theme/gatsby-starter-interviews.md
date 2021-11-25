@@ -10,4 +10,5 @@ cms:
 date: 2019-08-13T14:09:51.000Z
 description: A responsive Gatsby starter for structured Q&A Interviews
 stale: true
+draft: true
 ---

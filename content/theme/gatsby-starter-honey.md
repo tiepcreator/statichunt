@@ -10,4 +10,5 @@ cms:
 date: 2019-05-28T14:44:20.000Z
 description: A delicious baseline for Gatsby (v2).
 stale: false
+draft: true
 ---

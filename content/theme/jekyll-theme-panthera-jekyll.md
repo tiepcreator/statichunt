@@ -12,4 +12,5 @@ description: >-
   A quick and simple responsive developer portfolio theme for jekyll sites and
   GitHub Pages.
 stale: true
+draft: true
 ---

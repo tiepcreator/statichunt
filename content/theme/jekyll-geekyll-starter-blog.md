@@ -12,6 +12,7 @@ archetype:
   - Blog
 description: A minimal Jekyll theme for blogging inspired by Gatsby Starter Blog.
 stale: true
+draft: true
 ---
 
 ## Features

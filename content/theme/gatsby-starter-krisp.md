@@ -12,4 +12,5 @@ description: A minimal, clean and responsive starter built with gatsby
 stale: true
 disabled: false
 disabled_reason: null
+draft: true
 ---

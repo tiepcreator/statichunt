@@ -10,6 +10,7 @@ cms:
   - No CMS
 description: Content centric Hugo blogging theme styled with Tufte-css.
 stale: false
+draft: true
 ---
 
 # Tufte Hugo Theme

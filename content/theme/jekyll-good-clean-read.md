@@ -12,4 +12,5 @@ description: >-
   A Jekyll template for publishing clean, readable articles and single-page
   sites
 stale: true
+draft: true
 ---

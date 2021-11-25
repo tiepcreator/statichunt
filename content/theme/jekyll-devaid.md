@@ -10,4 +10,5 @@ cms:
 date: 2015-04-16T15:01:33.000Z
 description: DevAid theme for Jekyll
 stale: true
+draft: true
 ---

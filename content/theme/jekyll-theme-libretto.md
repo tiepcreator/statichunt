@@ -12,4 +12,5 @@ description: >-
   :scroll: Libretto is a Jekyll theme with classic styling and typographic
   details
 stale: true
+draft: true
 ---

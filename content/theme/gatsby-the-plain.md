@@ -10,4 +10,6 @@ cms:
 date: 2019-05-25T12:43:28.000Z
 description: A minimalist GatsbyJs starter for your personal blog.
 stale: false
+draft: true
+draft: true
 ---

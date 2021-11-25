@@ -10,4 +10,5 @@ cms:
 date: 2019-05-03T16:34:14.000Z
 description: A Gatsby localization website powered by Cosmic
 stale: true
+draft: true
 ---

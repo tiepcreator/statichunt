@@ -10,4 +10,5 @@ cms:
 date: 2016-05-15T14:47:40.000Z
 description: A Jekyll theme
 stale: true
+draft: true
 ---

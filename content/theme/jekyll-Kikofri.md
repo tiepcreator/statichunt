@@ -10,4 +10,5 @@ cms:
 date: 2016-08-21T18:10:19.000Z
 description: Kikofri, a Jekyll Theme, and a fork of Kiko.
 stale: true
+draft: true
 ---

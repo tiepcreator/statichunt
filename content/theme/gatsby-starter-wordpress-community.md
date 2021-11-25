@@ -10,4 +10,5 @@ cms:
 date: 2019-02-20T20:16:18.000Z
 description: Gatsby Starter to launch your blog from WordPress
 stale: true
+draft: true
 ---

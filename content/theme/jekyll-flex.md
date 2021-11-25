@@ -10,4 +10,5 @@ cms:
 date: 2013-12-09T19:01:22.000Z
 description: A responsive, flexible, Jekyll theme based on The Development's first design.
 stale: true
+draft: true
 ---

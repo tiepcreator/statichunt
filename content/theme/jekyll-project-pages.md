@@ -12,4 +12,5 @@ description: >-
   Fork this repo for a quick start. If 'Project Timeline' or 'License' appeared
   on your nav bar, Look Below!
 stale: true
+draft: true
 ---

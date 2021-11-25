@@ -10,4 +10,5 @@ cms:
 date: 2012-12-12T00:18:54.000Z
 description: Left is a clean, whitespace-happy layout for Jekyll.
 stale: true
+draft: true
 ---

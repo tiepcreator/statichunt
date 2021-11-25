@@ -12,4 +12,5 @@ description: A Jekyll theme for my personal website
 stale: false
 disabled: false
 disabled_reason: ''
+draft: true
 ---

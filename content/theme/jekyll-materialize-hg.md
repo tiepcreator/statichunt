@@ -10,4 +10,5 @@ cms:
 date: 2016-05-31T04:15:04.000Z
 description: a simple theme for Jekyll using Materializecss
 stale: true
+draft: true
 ---

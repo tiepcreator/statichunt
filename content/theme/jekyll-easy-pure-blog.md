@@ -10,4 +10,5 @@ cms:
 date: 2016-01-29T18:18:02.000Z
 description: 我的个人博客
 stale: true
+draft: true
 ---

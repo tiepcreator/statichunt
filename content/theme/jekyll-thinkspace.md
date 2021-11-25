@@ -12,4 +12,5 @@ description: >-
   Just another minimalist Jekyll theme which designed for technical writing
   blog.
 stale: false
+draft: true
 ---

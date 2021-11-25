@@ -10,4 +10,5 @@ cms:
 date: 2016-06-05T17:18:41.000Z
 description: A clean, minimal theme for Jekyll blogs
 stale: true
+draft: true
 ---

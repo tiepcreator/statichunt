@@ -10,4 +10,5 @@ cms:
 date: 2018-02-12T18:34:22.000Z
 description: A starter kit for TypeScript-based Gatsby projects with sensible defaults.
 stale: false
+draft: true
 ---

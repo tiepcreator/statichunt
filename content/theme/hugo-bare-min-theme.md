@@ -12,4 +12,5 @@ description: >-
   A bare minimum theme for Hugo (https://gohugo.io) to help develop and debug
   Hugo sites -- https://hugo-bare-min.netlify.com/,
 stale: true
+draft: true
 ---

@@ -10,4 +10,5 @@ cms:
 date: 2018-12-23T05:32:24.000Z
 description: A Gatsby Starter Tech Blog template
 stale: true
+draft: true
 ---

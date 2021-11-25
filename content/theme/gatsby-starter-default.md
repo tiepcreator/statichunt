@@ -10,4 +10,5 @@ cms:
 date: 2015-07-21T00:52:53.000Z
 description: The default Gatsby starter
 stale: false
+draft: true
 ---

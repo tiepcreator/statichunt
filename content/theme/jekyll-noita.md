@@ -12,4 +12,5 @@ description: Noita is a Jekyll theme built with Foundation
 stale: true
 disabled: false
 disabled_reason: null
+draft: true
 ---

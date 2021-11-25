@@ -12,4 +12,5 @@ description: >-
   Hacker-Blog is a minimalistic, responsive jekyll theme built for hackers.
   https://ashishchaudhary.in/hacker-blog
 stale: true
+draft: true
 ---

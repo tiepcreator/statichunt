@@ -12,4 +12,5 @@ description: A Gatsby starter with powerful built-in accessibility tools.
 stale: false
 disabled: false
 disabled_reason: null
+draft: true
 ---

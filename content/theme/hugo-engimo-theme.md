@@ -12,4 +12,5 @@ description: >-
   minimo-eng - Minimalist theme for Hugo tuned for engineering content, based on
   Minimo
 stale: true
+draft: true
 ---

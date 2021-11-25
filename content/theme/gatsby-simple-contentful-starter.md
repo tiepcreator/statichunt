@@ -10,4 +10,5 @@ cms:
 date: 2018-10-10T00:47:54.000Z
 description: 🎊 A simple Gatsby Starter that talks to Contentful.
 stale: true
+draft: true
 ---

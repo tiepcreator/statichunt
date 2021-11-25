@@ -10,4 +10,5 @@ cms:
 date: 2013-06-07T20:27:21.000Z
 description: A stylish theme for Jekyll blogs, based on the Solarized color palette
 stale: true
+draft: true
 ---

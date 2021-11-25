@@ -8,4 +8,5 @@ ssg:
   - Jekyll
 description: Ultra - Super fast Jekyll theme
 stale: false
+draft: true
 ---

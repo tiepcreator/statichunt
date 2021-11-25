@@ -12,4 +12,5 @@ description: Theme for streamer websites
 stale: true
 disabled: false
 disabled_reason: null
+draft: true
 ---

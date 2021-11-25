@@ -10,4 +10,5 @@ cms:
 date: 2015-11-26T15:45:00.000Z
 description: 💎 Clean Jekyll theme
 stale: true
+draft: true
 ---

@@ -10,4 +10,5 @@ cms:
 date: 2014-06-01T18:10:47.000Z
 description: Hugo theme based on purecss from Yahoo.
 stale: true
+draft: true
 ---

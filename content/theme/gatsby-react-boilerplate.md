@@ -10,4 +10,5 @@ cms:
 date: 2017-10-13T18:45:57.000Z
 description: Gatsbyjs boilerplate
 stale: true
+draft: true
 ---

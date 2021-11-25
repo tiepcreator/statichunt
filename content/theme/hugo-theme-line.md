@@ -12,6 +12,7 @@ ssg:
 cms:
   - No CMS
 stale: false
+draft: true
 ---
 
 # Lines hugo theme

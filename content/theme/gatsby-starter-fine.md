@@ -10,4 +10,5 @@ cms:
 date: 2019-04-18T17:56:10.000Z
 description: 'A fine blog starter for Gatsby '
 stale: true
+draft: true
 ---

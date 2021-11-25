@@ -12,4 +12,5 @@ description: >-
   :construction: work in progress - only my simple vision of casper theme
   adapted to jekyll
 stale: true
+draft: true
 ---

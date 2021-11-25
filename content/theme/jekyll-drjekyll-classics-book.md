@@ -12,4 +12,5 @@ description: >-
   jekyll starter theme for classic books (ex. Strange Case of Dr. Jekyll and Mr.
   Hyde by Robert Louis Stevenson)
 stale: true
+draft: true
 ---

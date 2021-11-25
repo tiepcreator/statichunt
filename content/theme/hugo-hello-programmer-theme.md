@@ -10,4 +10,5 @@ cms:
 date: 2016-11-20T14:49:37.000Z
 description: This is a hugo theme for a programmer. It's simple and simple.
 stale: true
+draft: true
 ---

@@ -10,4 +10,5 @@ cms:
 date: 2019-01-29T09:40:17.000Z
 description: Static API documentation with GatsbyJS
 stale: true
+draft: true
 ---

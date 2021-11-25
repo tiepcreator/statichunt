@@ -10,4 +10,5 @@ cms:
 date: 2016-02-21T18:15:37.000Z
 description: A minimalist, responsive portfolio theme for Jekyll with Bootstrap
 stale: true
+draft: true
 ---

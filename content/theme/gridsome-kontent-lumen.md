@@ -15,6 +15,7 @@ description: >-
   Lumen is a minimal, lightweight and mobile-first starter for creating blogs
   using Gridsome.
 stale: false
+draft: true
 ---
 
 # Gridsome Kontent Lumen

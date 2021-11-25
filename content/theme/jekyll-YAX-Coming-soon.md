@@ -11,4 +11,5 @@ cms:
 date: 2015-11-16T11:42:40.000Z
 description: Free HTML5 CSS3 Coming Soon Jekyll Template
 stale: true
+draft: true
 ---

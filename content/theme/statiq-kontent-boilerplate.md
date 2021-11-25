@@ -14,6 +14,7 @@ description: >-
   Boilerplate utilizing Statiq and Kentico Kontent to provide a starting point
   in the Jamstack world for .NET developers.
 stale: false
+draft: true
 ---
 
 # Statiq boilerplate for Kontent

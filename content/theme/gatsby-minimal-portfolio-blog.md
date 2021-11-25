@@ -12,4 +12,5 @@ description: >-
   GatsbyJS starter for a minimal portfolio website with blog. Suitable for
   developers.
 stale: true
+draft: true
 ---

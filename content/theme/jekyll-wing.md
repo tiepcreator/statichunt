@@ -10,4 +10,5 @@ cms:
 date: 2016-07-19T09:48:57.000Z
 description: Light and beautiful blog style template for jekyll
 stale: true
+draft: true
 ---

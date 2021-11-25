@@ -12,4 +12,5 @@ description: 'A Gatsby Blog Starter with Styled Components '
 stale: false
 disabled: false
 disabled_reason: null
+draft: true
 ---

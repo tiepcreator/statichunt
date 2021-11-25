@@ -10,4 +10,5 @@ cms:
 date: 2017-07-12T03:19:34.000Z
 description: A simple webcomic theme for Jekyll. Built using Bootstrap.
 stale: true
+draft: true
 ---

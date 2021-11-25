@@ -12,4 +12,5 @@ description: >-
   ACT: Gatsby starter for blog/documentation using MDX, Ant Design,
   gatsby-plugin-combine
 stale: true
+draft: true
 ---

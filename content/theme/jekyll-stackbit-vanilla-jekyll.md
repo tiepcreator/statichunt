@@ -12,4 +12,5 @@ css:
 date: 2019-05-23T00:00:00.000Z
 description: A basic skeleton starter for Jekyll.
 stale: false
+draft: true
 ---

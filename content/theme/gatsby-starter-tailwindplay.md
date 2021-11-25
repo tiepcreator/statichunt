@@ -10,4 +10,5 @@ cms:
 date: 2019-06-24T18:26:49.000Z
 description: GatsbyJS Tailwind Starter - TailwindPlay
 stale: true
+draft: true
 ---

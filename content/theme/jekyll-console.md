@@ -10,4 +10,5 @@ cms:
 date: 2017-01-25T06:26:30.000Z
 description: simple yet powerful theme that will make your website look stylish
 stale: true
+draft: true
 ---

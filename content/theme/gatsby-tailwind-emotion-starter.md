@@ -10,4 +10,5 @@ cms:
 date: 2018-10-05T10:34:13.000Z
 description: A Gatsby Starter with Tailwind CSS + Emotion Js
 stale: true
+draft: true
 ---

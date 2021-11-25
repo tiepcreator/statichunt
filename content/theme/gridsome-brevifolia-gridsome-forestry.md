@@ -10,4 +10,5 @@ cms:
 date: 2019-08-12T23:36:29.000Z
 description: A simple starter blog built with Gridsome & Forestry
 stale: true
+draft: true
 ---

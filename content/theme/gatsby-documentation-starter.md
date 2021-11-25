@@ -12,4 +12,5 @@ description: >-
   Automatically generate docs for React components using MDX, react-docgen, and
   GatsbyJS
 stale: true
+draft: true
 ---

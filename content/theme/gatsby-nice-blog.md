@@ -13,6 +13,7 @@ description: A nice starter gatsby blog post template with
 disabled: false
 stale: false
 disabled_reason: ''
+draft: true
 ---
 
 # Nice blog

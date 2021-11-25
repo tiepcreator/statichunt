@@ -10,4 +10,6 @@ cms:
 date: 2018-06-19T13:39:10.000Z
 description: Simple starter demo
 stale: true
+draft: true
+
 ---

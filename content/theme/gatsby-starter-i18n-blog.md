@@ -12,4 +12,5 @@ description: >-
   Gatsby starter for creating a i18n blog.
   https://jackbravo.github.io/gatsby-starter-i18n-blog/
 stale: true
+draft: true
 ---

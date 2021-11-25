@@ -10,4 +10,5 @@ cms:
   - No CMS
 description: A light site frame using Eleventy static site generator
 stale: true
+draft: true
 ---

@@ -10,4 +10,5 @@ cms:
 date: 2015-01-30T17:48:11.000Z
 description: jekyll starter theme w/ bootstrap (sass version)
 stale: false
+draft: true
 ---

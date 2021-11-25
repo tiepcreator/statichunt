@@ -10,4 +10,5 @@ cms:
 date: 2019-01-22T19:39:01.000Z
 description: A starter template for spinning up a Gatsby+ ButterCMS site
 stale: false
+draft: true
 ---

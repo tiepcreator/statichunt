@@ -10,4 +10,5 @@ cms:
 date: 2018-12-21T19:54:09.000Z
 description: a gatsby static site generator with netlify identity control...
 stale: true
+draft: true
 ---

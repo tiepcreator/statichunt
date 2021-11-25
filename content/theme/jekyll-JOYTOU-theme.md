@@ -12,4 +12,5 @@ description: JOYTOU is a BootStrap blog template developed by Joytou Wu.
 stale: true
 disabled: false
 disabled_reason: ''
+draft: true
 ---
