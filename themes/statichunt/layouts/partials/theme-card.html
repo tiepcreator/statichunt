@@ -17,7 +17,7 @@
       {{ $staticPath := (printf "%s/%s%s" "static/themes/thumbnails" .repo.theme_key ".jpg") }}
       {{ $filePath := (printf "%s/%s%s" "themes/thumbnails" .repo.theme_key ".jpg") }}
       {{ if (fileExists $staticPath) }}
-      <img width="300" height="225" loading="lazy" src="{{ $filePath | relURL }}" class="theme-screenshot" />
+      <img width="300" height="225" loading="lazy" src="{{ $filePath | relURL }}" class="theme-screenshot" alt="{{ .repo.theme_key }}" />
       {{ else }}
       <img src="{{ `images/default.png` | relURL }}" loading="lazy" alt="{{ .theme.Params.title }} screenshot" class="theme-screenshot" />
       {{ end }}
