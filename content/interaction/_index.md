@@ -1,3 +1,4 @@
 ---
 title: Interaction
+noindex: true
 ---

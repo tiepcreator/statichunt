@@ -1,5 +1,5 @@
 {{ define "title" }}{{ $themes := (where .Site.RegularPages "Type" "theme") }}{{ $themes := (where $themes ".Params.draft" "!=" true) }}{{ $themes := (where $themes ".Params.disabled" "!=" true) }}{{ $themeCount := len $themes}}All
-Themes ({{ $themeCount }}){{ end }}
+Themes {{ end }}
 
 {{ define "header_classes" }}{{ end }}
 {{ define "body_classes" }}page-all-themes has-sidebar{{ end }}
