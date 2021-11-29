@@ -66,8 +66,8 @@ Themes
               {{ if .Params.license }}
               <li class="list-inline-item" title="License">
                 <span class="svg-icon svg-icon-license"></span>
-                {{ if .Params.github_path }}
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/{{ .Params.github_path | safeURL }}/blob/master/LICENSE">{{ .Params.license }}</a>
+                {{ if .Params.license_url }}
+                <a target="_blank" rel="noopener noreferrer" href="{{ .Params.license_url | safeURL }}">{{ .Params.license }}</a>
                 {{ else }}
                 {{ .Params.license }}
                 {{ end }}
@@ -106,9 +106,11 @@ Themes
 
       {{ partial "pagination.html" . }}
 
+      {{ if .Content }}
       <div class="taxonomy-content bg-light">
         {{.Content}}
       </div>
+      {{ end }}
 
     </div>
   </div>

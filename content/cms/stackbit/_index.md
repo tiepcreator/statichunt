@@ -1,6 +1,6 @@
 ---
-title: "Statichunt"
-icon: images/icons/statichunt.svg
-official_url: https://www.statichunt.com
+title: "Stackbit"
+icon: images/icons/stackbit.svg
+official_url: https://www.stackbit.com
 taxonomy: cms
 ---

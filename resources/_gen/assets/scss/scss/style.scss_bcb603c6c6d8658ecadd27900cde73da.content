@@ -4890,7 +4890,7 @@ html {
       border-color: #647f96;
       margin: 0; }
   .intro .count {
-    color: #f8f9fa;
+    color: #2a2a2a;
     font-weight: 400; }
   .intro .page-number {
     font-weight: 400; }
@@ -5452,7 +5452,10 @@ ul.pagination {
   color: #000; }
 
 .terms {
-  justify-content: space-around; }
+  justify-content: center; }
+
+.title-link {
+  color: #2a2a2a; }
 
 .bws-block {
   border-radius: 8px;
