@@ -140,16 +140,26 @@
   border-radius: .25rem;
 }
 
+.filter-group-archetype {
+  width: calc(100% - 145px);
+  @include tablet {
+    width: 100%;
+  }
+}
 
 // dropdown sort
 .sort {
-  min-width: 135px;
+  width: 145px;
   font-size: 80%;
   position: relative;
   cursor: pointer;
   display: inline-flex;
+  justify-content: end;
   flex-wrap: nowrap;
   max-height: 30px;
+  @include tablet {
+    justify-content: flex-start;
+  }
 
   &-description {
     margin-bottom: 0;
@@ -177,7 +187,7 @@
 
   &-menu {
     display: none;
-    overflow: show;
+    overflow: auto;
     position: absolute;
     right: 0;
     top: calc(100% + 5px);
@@ -186,6 +196,7 @@
     z-index: 99999;
     padding: 10px;
     border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 
     li {
       list-style-type: none;
@@ -210,10 +221,24 @@
 
 // column
 #grids-homepage {
-  @media (min-width: 1240px) and (max-width: 1439px) {
+  @media screen and (min-width:1240px) and (max-width:1520px) {
     .col-xl-3 {
       flex: 0 0 33.33%;
       max-width: 33.33%;
+    }
+  }
+  @media screen and (min-width:992px) and (max-width:1140px) {
+    .col-xl-3 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+}
+#grids-taxonomy {
+  @media screen and (min-width:767px) and (max-width:991px) {
+    .col-xl-3 {
+      flex: 0 0 50%;
+      max-width: 50%;
     }
   }
 }
@@ -224,7 +249,7 @@
   border-radius: .5rem;
   margin-bottom: 30px;
   background-color: $white;
-  box-shadow: 0 0.5rem 1rem rgba($color: $black, $alpha: .15) !important;
+  box-shadow: 0 0.2rem 0.6rem rgba($color: $black, $alpha: .1) !important;
   &-icon{
     display: inline-block;
     border: 1px solid $border-color;

@@ -170,7 +170,7 @@
       border-radius: 5px;
       cursor: pointer;
       @include mobile {
-        padding: 5px;
+        padding: 10px;
       }
 
       &-link {
@@ -194,6 +194,11 @@
       &:hover {
         background-color: rgba($color: $white, $alpha: .8);
       }
+      @include tablet {
+        &:hover {
+          background-color: transparent;
+        }
+      }
 
       &.mixitup-control-active {
         background-color: rgba($color: $white, $alpha: 1);
@@ -207,16 +212,11 @@
       }
 
       .filter-name {
-        display: none;
         color: $carbon;
 
         a {
           color: black;
           text-decoration: none;
-        }
-
-        @include media-breakpoint-up(md) {
-          display: block;
         }
       }
 

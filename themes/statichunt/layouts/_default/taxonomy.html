@@ -48,25 +48,25 @@ Themes
             </div>
             <ul class="list-inline meta-list">
               {{ with .Params.official_url }}
-              <li class="list-inline-item" title="Official Website">
+              <li class="list-inline-item mt-1" title="Official Website">
                 <span class="svg-icon svg-icon-home"></span>
                 <a target="_blank" rel="noopener noreferrer" href="{{ . | safeURL }}">{{ . }}</a>
               </li>
               {{ end }}
               {{ with .Params.github_path }}
-              <li class="list-inline-item" title="GitHub Repository">
+              <li class="list-inline-item mt-1" title="GitHub Repository">
                 <span class="svg-icon svg-icon-github"></span>
                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/{{ . | safeURL }}">{{ . }}</a>
               </li>
               {{ end }}
               {{ with .Params.twitter_username }}
-              <li class="list-inline-item" title="Twitter Profile">
+              <li class="list-inline-item mt-1" title="Twitter Profile">
                 <span class="svg-icon svg-icon-twitter"></span>
                 <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/{{ . | safeURL }}">@{{ . }}</a>
               </li>
               {{ end }}
               {{ if .Params.license }}
-              <li class="list-inline-item" title="License">
+              <li class="list-inline-item mt-1" title="License">
                 <span class="svg-icon svg-icon-license"></span>
                 {{ if .Params.license_url }}
                 <a target="_blank" rel="noopener noreferrer" href="{{ .Params.license_url | safeURL }}">{{ .Params.license }}</a>
@@ -76,7 +76,7 @@ Themes
               </li>
               {{ end }}
               {{ with .Params.language }}
-              <li class="list-inline-item" title="Language">
+              <li class="list-inline-item mt-1" title="Language">
                 <span class="svg-icon svg-icon-code"></span>
                 {{ . }}
               </li>
@@ -84,7 +84,7 @@ Themes
             </ul>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 mt-4 mt-lg-0">
           {{ with .Params.promotion }}
           {{ if .enable }}
           <div class="promotion">

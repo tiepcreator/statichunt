@@ -1,11 +1,11 @@
 <div class="widget-author">
   {{ if .Params.author_link }}
-  <a href="{{ .Params.author_link | safeURL }}">{{ .Params.author }}</a>
+  <a href="{{ .Params.author_link | safeURL }}" target="_blank" rel="nofollow noopener">{{ .Params.author }}</a>
   {{ else }}
   <span class="label-value">{{ .Params.author }}</span>
   {{ end }}
 
   {{ range .Params.author_details }}
-  <a href="{{.link | safeURL}}">{{.name}}</a>
+  <a href="{{.link | safeURL}}" target="_blank" rel="nofollow noopener">{{.name}}</a>
   {{ end }}
 </div>

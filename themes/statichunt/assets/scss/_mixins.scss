@@ -28,9 +28,13 @@
     @content;
   }
 }
-
 @mixin desktop-xxl{
   @media(min-width:1400px){
+    @content;
+  }
+}
+@mixin desktop-exl{
+  @media(min-width:1600px){
     @content;
   }
 }

@@ -3,6 +3,10 @@
   &-banner{
     clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
     height: 200px;
+    @include tablet {
+      height: auto;
+      padding: 50px 0;
+    }
     &.dissmiss{
       clip-path: polygon(100% 0, 100% 0, 100% 0, 100% 0);
       height: 10px;

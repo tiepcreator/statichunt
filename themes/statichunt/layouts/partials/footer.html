@@ -1,6 +1,6 @@
 <div class="footer">
   <div class="container-fluid">
-    <div class="row justify-content-around">
+    <div class="row justify-content-lg-around">
 
       <div class="col-lg-2 col-md-4 col-sm-3 mb-5 mb-lg-0">
         <h3>Static Hunt</h3>
@@ -21,14 +21,14 @@
         </div>
       </div>
 
-      <div class="col-lg-2 col-md-3 col-6 mb-5 mb-lg-0">
+      <div class="col-lg-2 col-md-4 col-sm-3 col-6 mb-5 mb-lg-0">
         <h3>Resources</h3>
         {{ range site.Taxonomies.interaction }}
         <a href="{{.Page.Permalink }}">{{.Page.Title}}</a>
         {{ end }}
       </div>
 
-      <div class="col-lg-2 col-md-3 col-6 mb-5 mb-lg-0">
+      <div class="col-lg-2 col-md-4 col-sm-3 col-6 mb-5 mb-lg-0">
         <h3>Hosting</h3>
         {{ range site.Taxonomies.hosting }}
         <a href="{{.Page.Permalink }}">{{.Page.Title}}</a>

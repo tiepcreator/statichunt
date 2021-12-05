@@ -159,17 +159,17 @@
               {{ end }}
             </div>
 
+            {{ if .Params.hosting }}
             <!-- hosting -->
             <div class="widget theme-detail-tags">
               <h3 class="h4">Host This Theme With:</h3>
-              {{ if .Params.hosting }}
               {{- range .Params.hosting }}
               {{- with $.Site.GetPage "taxonomyTerm" (printf "hosting/%s" (urlize .)) }}
               {{ partial "icons/icon-link-widget.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
               {{ end }}
               {{ end }}
-              {{ end }}
             </div>
+            {{ end }}
 
             <!-- share -->
             <div class="widget">
