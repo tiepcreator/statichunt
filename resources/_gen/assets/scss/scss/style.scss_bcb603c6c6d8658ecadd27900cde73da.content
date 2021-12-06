@@ -5707,6 +5707,31 @@ ul.pagination {
     object-fit: cover;
     margin-right: 15px !important; }
 
+/* Scrollbar / ScrollTrack */
+body::-webkit-scrollbar {
+  width: 5px; }
+
+body::-webkit-scrollbar-track {
+  background: #f1f1f1; }
+
+body::-webkit-scrollbar-thumb {
+  background: #bbb; }
+
+.sidebar::-webkit-scrollbar {
+  width: 2px; }
+
+.sidebar::-webkit-scrollbar-track {
+  background: transparent; }
+
+.sidebar::-webkit-scrollbar-thumb {
+  background: transparent; }
+
+.sidebar:hover::-webkit-scrollbar-track {
+  background: #f1f1f1; }
+
+.sidebar:hover::-webkit-scrollbar-thumb {
+  background: #bbb; }
+
 /*! Social sharing buttons from Sharingbuttons.io */
 .resp-sharing-button__link,
 .resp-sharing-button__icon {
