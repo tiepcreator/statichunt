@@ -3,6 +3,7 @@ title: Persian Hugo
 github: https://github.com/gethugothemes/persian-hugo
 demo: https://demo.gethugothemes.com/persian/
 author: Gethugothemes
+thumbnail: "themes/thumbnails/gethugothemes-persian-hugo.jpg"
 ssg:
   - Hugo
 cms:

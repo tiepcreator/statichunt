@@ -3,6 +3,7 @@ title: Gridsome Tailwind CSS Shopify Starter
 github: https://github.com/bitcoinvsalts/gridsome-shopify-starter
 demo: https://gridsome-shopify.netlify.app/
 author: Gridsomify
+thumbnail: "themes/thumbnails/gridsome-shopify.jpg"
 ssg:
   - Gridsome
 cms:

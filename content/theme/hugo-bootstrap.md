@@ -3,6 +3,7 @@ title: Hugo Bootstrap Theme
 github: https://github.com/razonyang/hugo-theme-bootstrap
 demo: https://hbs.razonyang.com/en/
 author: razonyang
+thumbnail: "themes/thumbnails/razonyang-hugo-theme-bootstrap.jpg"
 date: 2021-07-26T00:00:00.000Z
 ssg:
   - Hugo

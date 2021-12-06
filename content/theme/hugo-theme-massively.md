@@ -3,6 +3,7 @@ title: Hugo Massively
 github: https://github.com/curtistimson/hugo-theme-massively
 demo: https://hugo-theme-massively.netlify.com/
 author: Curtis Timson
+thumbnail: "themes/thumbnails/curtistimson-hugo-theme-massively.jpg"
 ssg:
   - Hugo
 cms:

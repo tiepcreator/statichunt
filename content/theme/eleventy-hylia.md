@@ -3,6 +3,7 @@ title: Eleventy Hylia
 github: https://github.com/andy-piccalilli/hylia
 demo: https://hylia.website/
 author: Andy Bell
+thumbnail: "themes/thumbnails/eleventy-hylia.jpg"
 ssg:
   - Eleventy
 cms:

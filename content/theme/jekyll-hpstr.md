@@ -3,6 +3,7 @@ title: HPSTR
 github: https://github.com/mmistakes/jekyll-theme-hpstr
 demo: https://mmistakes.github.io/jekyll-theme-hpstr/
 author: Michael Rose
+thumbnail: "themes/thumbnails/jekyll-hpstr.jpg"
 ssg:
   - Jekyll
 cms:

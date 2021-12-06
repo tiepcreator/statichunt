@@ -3,6 +3,7 @@ title: Gatsby Starter Tyra
 github: https://github.com/madelyneriksen/gatsby-starter-tyra
 demo: https://tyra-starter.netlify.app/
 author: Madelyn Eriksen
+thumbnail: "themes/thumbnails/madelyneriksen-gatsby-starter-tyra.jpg"
 ssg:
   - Gatsby
 cms:
