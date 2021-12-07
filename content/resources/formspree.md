@@ -5,12 +5,8 @@ interaction: ["Form"]
 licence: "Commercial"
 author: Formspree
 author_link: "https://formspree.io/"
-
-social:
-- name: Twitter
-  link: "https://twitter.com/algolia"
-- name: Github
-  link: "https://www.algolia.com/"
+author_twitter: "formspree"
+author_github: "formspree"
 
 resources:
 - name: DocSearch

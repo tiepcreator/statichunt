@@ -4,11 +4,8 @@ github: https://github.com/username/repo
 demo: https://theme.demo.com/
 author: Author
 author_link: ""
-social:
-- name: Twitter
-  link: "https://twitter.com/algolia"
-- name: Github
-  link: "https://www.algolia.com/"
+author_twitter: ""
+author_github: ""
 date: 2021-04-29T00:00:00.000Z
 ssg:
   - Brunch
