@@ -325,3 +325,38 @@ body::-webkit-scrollbar-thumb {
     }
   }
 }
+
+// CSS tooltip
+.has-tooltip {
+  position: relative;
+  display: inline-block;
+  .tooltip-label {
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    padding: 8px 12px;
+    position: absolute;
+    z-index: 1;
+    top: -100%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    line-height: 1;
+    pointer-events: none;
+    &::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: black transparent transparent transparent;
+    }
+  }
+  &:hover .tooltip-label {
+    visibility: visible;
+  }
+}

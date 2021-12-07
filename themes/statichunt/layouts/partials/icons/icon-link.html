@@ -1,3 +1,4 @@
-<a class="icon" href="{{ .link | relURL }}" title="{{ .name }}">
+<a class="icon has-tooltip" href="{{ .link | relURL }}" aria-label="{{ .name }}">
   <img width="20" height="20" alt="{{ .name }}" src="{{ .icon | relURL }}" />
+  <span class="tooltip-label">{{ .name }}</span>
 </a>

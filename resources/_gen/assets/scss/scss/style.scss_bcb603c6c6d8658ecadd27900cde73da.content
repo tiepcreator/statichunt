@@ -4171,18 +4171,27 @@ html {
 
 .logo {
   margin: 0;
-  font-size: 18px;
-  font-weight: 700;
   font-family: "Inter", Helvetica, Arial, sans-serif;
   margin-right: 20px;
   align-items: center;
   display: flex; }
-  .logo a {
+  .logo a:not(.twitter-follow-button) {
+    font-size: 18px;
+    font-weight: 700;
     color: black;
     text-decoration: none;
     display: block; }
-    .logo a:hover {
+    .logo a:not(.twitter-follow-button):hover {
       color: #006047; }
+  .logo .twitter-follow-button {
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 90%;
+    color: #808080;
+    transition: 0.3s; }
+    .logo .twitter-follow-button:hover {
+      color: black;
+      text-decoration: none; }
 
 .sidebar-toggler {
   border: 1px solid #f6f6f6;
@@ -4551,7 +4560,6 @@ html {
   background-color: #b395a3; }
 
 .theme-card {
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -4862,7 +4870,7 @@ html {
     position: relative; }
   .intro-close {
     position: absolute;
-    top: 0;
+    top: -20px;
     right: 0;
     width: 20px;
     height: 20px;
@@ -5164,7 +5172,7 @@ html {
     width: 20px;
     height: 20px; }
 
-a.icon:hover {
+a.icon:hover i, a.icon:hover span:not(.tooltip-label), a.icon:hover img {
   opacity: 0.7; }
 
 @media (min-width: 576px) {
@@ -5731,6 +5739,36 @@ body::-webkit-scrollbar-thumb {
 
 .sidebar:hover::-webkit-scrollbar-thumb {
   background: #bbb; }
+
+.has-tooltip {
+  position: relative;
+  display: inline-block; }
+  .has-tooltip .tooltip-label {
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    padding: 8px 12px;
+    position: absolute;
+    z-index: 1;
+    top: -100%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    line-height: 1;
+    pointer-events: none; }
+    .has-tooltip .tooltip-label::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: black transparent transparent transparent; }
+  .has-tooltip:hover .tooltip-label {
+    visibility: visible; }
 
 /*! Social sharing buttons from Sharingbuttons.io */
 .resp-sharing-button__link,

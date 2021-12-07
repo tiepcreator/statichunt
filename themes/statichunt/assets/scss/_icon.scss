@@ -12,7 +12,9 @@
 }
 
 a.icon {
-  &:hover {
+  &:hover i,
+  &:hover span:not(.tooltip-label),
+  &:hover img {
     opacity: 0.7;
   }
 }
