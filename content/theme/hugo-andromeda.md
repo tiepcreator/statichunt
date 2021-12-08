@@ -4,11 +4,8 @@ github: https://github.com/gethugothemes/andromeda-light
 demo: https://demo.gethugothemes.com/andromeda-light/
 author: Gethugothemes
 author_link: "https://gethugothemes.com/"
-social:
-- name: Twitter
-  link: "https://twitter.com/algolia"
-- name: Github
-  link: "https://www.algolia.com/"
+author_twitter: "gethugothemes"
+author_github: "gethugothemes"
 ssg:
   - Hugo
 css:

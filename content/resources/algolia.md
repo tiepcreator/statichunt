@@ -5,13 +5,9 @@ interaction: ["Search"]
 licence: "Commercial"
 author: Algolia
 author_link: "https://algolia.com/"
+author_twitter: "algolia"
+author_github: "algolia"
 description: ""
-
-social:
-- name: Twitter
-  link: "https://twitter.com/algolia"
-- name: Github
-  link: "https://www.algolia.com/"
 
 resources:
 - name: DocSearch
