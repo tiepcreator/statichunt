@@ -67,3 +67,15 @@ sidebarOverlay.addEventListener('click', function() {
   sidebar.classList.remove('show');
   body.classList.remove('overflow-hidden');
 });
+
+// tooltip init
+var tooltipEl = document.querySelectorAll('.has-tooltip');
+var length = tooltipEl.length;
+for (var i = 0; i < length; i++) {
+  var attr = tooltipEl[i].getAttribute('title');
+  var x = document.createElement('SPAN');
+  var t = document.createTextNode(attr);
+  x.appendChild(t);
+  x.className = 'tooltip-label';
+  tooltipEl[i].appendChild(x);
+}

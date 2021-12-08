@@ -758,6 +758,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/alperenbozkurt-jblog-2x.jpg"
     }
   },
+  "alshedivat-al-folio": {
+    "theme_key": "alshedivat-al-folio",
+    "file": "jekyll-al-folio.md",
+    "name": "al-folio",
+    "title": "Al-folio",
+    "github_username": "alshedivat",
+    "repo": "alshedivat/al-folio",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/alshedivat/al-folio",
+    "demo_url": "https://alshedivat.github.io/al-folio/",
+    "stars": 2270,
+    "forks": 3146,
+    "open_issues": 30,
+    "last_commit": "2021-11-26T02:48:52Z",
+    "created_at": "2016-05-30T16:32:46Z",
+    "description": "A beautiful, simple, clean, and responsive Jekyll theme for academics",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/alshedivat-al-folio.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/alshedivat-al-folio.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/alshedivat-al-folio-2x.jpg"
+    }
+  },
   "altcointrading-trading": {
     "theme_key": "altcointrading-trading",
     "file": "jekyll-trading.md",
@@ -871,6 +894,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/amandeepmittal-gatsby-bulma-quickstart.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/amandeepmittal-gatsby-bulma-quickstart.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/amandeepmittal-gatsby-bulma-quickstart-2x.jpg"
+    }
+  },
+  "amitmerchant1990-reverie": {
+    "theme_key": "amitmerchant1990-reverie",
+    "file": "jekyll-reverie.md",
+    "name": "reverie",
+    "title": "Reverie",
+    "github_username": "amitmerchant1990",
+    "repo": "amitmerchant1990/reverie",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/amitmerchant1990/reverie",
+    "demo_url": "https://reverie.pages.dev/",
+    "stars": 528,
+    "forks": 401,
+    "open_issues": 10,
+    "last_commit": "2021-11-02T10:51:01Z",
+    "created_at": "2019-02-12T19:00:55Z",
+    "description": ":art: A ridiculously elegant Jekyll theme.",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/amitmerchant1990-reverie.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/amitmerchant1990-reverie.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/amitmerchant1990-reverie-2x.jpg"
     }
   },
   "ammarjabakji-gatsby-markdown-blog-starter": {
@@ -7152,6 +7198,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/huweihuang-hexo-theme-huweihuang-2x.jpg"
     }
   },
+  "huxpro-huxpro.github.io": {
+    "theme_key": "huxpro-huxpro.github.io",
+    "file": "jekyll-hux-blog.md",
+    "name": "huxpro.github.io",
+    "title": "Hux Blog",
+    "github_username": "Huxpro",
+    "repo": "Huxpro/huxpro.github.io",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/Huxpro/huxpro.github.io",
+    "demo_url": "http://huangxuan.me/",
+    "stars": 6013,
+    "forks": 4081,
+    "open_issues": 103,
+    "last_commit": "2021-10-24T23:33:14Z",
+    "created_at": "2015-01-29T15:03:17Z",
+    "description": "My Blog / Jekyll Themes / PWA",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/huxpro-huxpro.github.io.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/huxpro-huxpro.github.io.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/huxpro-huxpro.github.io-2x.jpg"
+    }
+  },
   "hydecorp-hydejack": {
     "theme_key": "hydecorp-hydejack",
     "file": "jekyll-hydejack-theme.md",
@@ -7978,6 +8047,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/jekyller-popuptweets.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/jekyller-popuptweets.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/jekyller-popuptweets-2x.jpg"
+    }
+  },
+  "jekyllt-jasper2": {
+    "theme_key": "jekyllt-jasper2",
+    "file": "jekyll- jasper2.md",
+    "name": "jasper2",
+    "title": "Jasper 2",
+    "github_username": "jekyllt",
+    "repo": "jekyllt/jasper2",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/jekyllt/jasper2",
+    "demo_url": "https://jekyllt.github.io/jasper2/",
+    "stars": 659,
+    "forks": 625,
+    "open_issues": 12,
+    "last_commit": "2021-05-26T22:33:45Z",
+    "created_at": "2017-11-17T15:53:38Z",
+    "description": "Full-featured Jekyll port of Ghost's default theme Casper v2 👻",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/jekyllt-jasper2.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/jekyllt-jasper2.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/jekyllt-jasper2-2x.jpg"
     }
   },
   "jekyllup-jekyll-theme-massively": {
@@ -10832,6 +10924,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/mushishi78-one-page-wonder-jekyll-2x.jpg"
     }
   },
+  "mzlogin-mzlogin.github.io": {
+    "theme_key": "mzlogin-mzlogin.github.io",
+    "file": "jekyll-mzlogin.md",
+    "name": "mzlogin.github.io",
+    "title": "Mzlogin Blog Theme",
+    "github_username": "mzlogin",
+    "repo": "mzlogin/mzlogin.github.io",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/mzlogin/mzlogin.github.io",
+    "demo_url": "https://mazhuang.org/",
+    "stars": 1167,
+    "forks": 1018,
+    "open_issues": 19,
+    "last_commit": "2021-12-04T04:34:01Z",
+    "created_at": "2013-11-11T15:22:57Z",
+    "description": "Jekyll Themes / GitHub Pages 博客模板 / A template repository for Jekyll based blog",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/mzlogin-mzlogin.github.io.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/mzlogin-mzlogin.github.io.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/mzlogin-mzlogin.github.io-2x.jpg"
+    }
+  },
   "nairobilug-pelican-alchemy": {
     "theme_key": "nairobilug-pelican-alchemy",
     "file": "pelican-alchemy.md",
@@ -11706,6 +11821,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/pablovila-gatsby-starter-wordpress-community-2x.jpg"
     }
   },
+  "pages-themes-hacker": {
+    "theme_key": "pages-themes-hacker",
+    "file": "jekyll-hacker.md",
+    "name": "hacker",
+    "title": "Hacker",
+    "github_username": "pages-themes",
+    "repo": "pages-themes/hacker",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/pages-themes/hacker",
+    "demo_url": "https://pages-themes.github.io/hacker/",
+    "stars": 549,
+    "forks": 775,
+    "open_issues": 19,
+    "last_commit": "2021-07-29T17:56:34Z",
+    "created_at": "2016-10-06T23:02:10Z",
+    "description": "Hacker is a Jekyll theme for GitHub Pages",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/pages-themes-hacker.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/pages-themes-hacker.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/pages-themes-hacker-2x.jpg"
+    }
+  },
   "pandasekh-jekyll-podcaster": {
     "theme_key": "pandasekh-jekyll-podcaster",
     "file": "jekyll-podcaster.md",
@@ -12440,6 +12578,52 @@
       "hires": "https://www.jamstackthemes.dev/capture/qingpingmeng-gatsby-starter-traveler-blog.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/qingpingmeng-gatsby-starter-traveler-blog.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/qingpingmeng-gatsby-starter-traveler-blog-2x.jpg"
+    }
+  },
+  "qiubaiying-qiubaiying.github.io": {
+    "theme_key": "qiubaiying-qiubaiying.github.io",
+    "file": "jekyll-by-blog.md",
+    "name": "qiubaiying.github.io",
+    "title": "BY Blog",
+    "github_username": "qiubaiying",
+    "repo": "qiubaiying/qiubaiying.github.io",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/qiubaiying/qiubaiying.github.io",
+    "demo_url": "http://qiubaiying.vip/",
+    "stars": 2674,
+    "forks": 7377,
+    "open_issues": 269,
+    "last_commit": "2021-03-29T10:25:26Z",
+    "created_at": "2017-02-10T08:45:46Z",
+    "description": "BY Blog ->",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/qiubaiying-qiubaiying.github.io.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/qiubaiying-qiubaiying.github.io.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/qiubaiying-qiubaiying.github.io-2x.jpg"
+    }
+  },
+  "rampatra-photography": {
+    "theme_key": "rampatra-photography",
+    "file": "jekyll-photography.md",
+    "name": "photography",
+    "title": "Jekyll Photography",
+    "github_username": "rampatra",
+    "repo": "rampatra/photography",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/rampatra/photography",
+    "demo_url": "https://photography.rampatra.com/",
+    "stars": 497,
+    "forks": 615,
+    "open_issues": 30,
+    "last_commit": "2021-02-21T11:27:07Z",
+    "created_at": "2017-02-18T17:38:02Z",
+    "description": "A free online portfolio website to showcase your photos.",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/rampatra-photography.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/rampatra-photography.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/rampatra-photography-2x.jpg"
     }
   },
   "raniesantos-artisan-static": {
@@ -14280,6 +14464,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/sparanoid-almace-scaffolding.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/sparanoid-almace-scaffolding.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/sparanoid-almace-scaffolding-2x.jpg"
+    }
+  },
+  "sproogen-modern-resume-theme": {
+    "theme_key": "sproogen-modern-resume-theme",
+    "file": "jekyll- modern-resume-theme.md",
+    "name": "modern-resume-theme",
+    "title": "Modern Resume Theme",
+    "github_username": "sproogen",
+    "repo": "sproogen/modern-resume-theme",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/sproogen/modern-resume-theme",
+    "demo_url": "https://sproogen.github.io/modern-resume-theme/",
+    "stars": 1136,
+    "forks": 769,
+    "open_issues": 13,
+    "last_commit": "2020-11-27T13:19:00Z",
+    "created_at": "2018-06-04T23:09:47Z",
+    "description": "A modern static resume template and theme. Powered by Jekyll and GitHub pages.",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/sproogen-modern-resume-theme.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/sproogen-modern-resume-theme.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/sproogen-modern-resume-theme-2x.jpg"
     }
   },
   "squidfunk-mkdocs-material": {

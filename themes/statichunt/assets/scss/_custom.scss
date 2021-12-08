@@ -58,6 +58,27 @@
     }
   }
 
+  .bws-loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 55;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    font-size: 18px;
+    transition: .3s ease-in-out;
+    &.fadeOut {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+
   .bws-actions {
     float: right;
     margin-right: 5px;
