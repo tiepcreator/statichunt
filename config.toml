@@ -10,6 +10,12 @@ pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
 
+############################# Modules ##############################
+[module]
+[module.hugoVersion]
+extended = true
+min = "0.89.4"
+
 [params]
   segment_id = ""
   description = "Over 1000 themes and starters for Jamstack and static site generators."

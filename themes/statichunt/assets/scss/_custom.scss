@@ -139,11 +139,38 @@
       }
 
       @include tablet {
-        transform: scale(1);
         width: 100%;
         height: 100%;
+        transform: scale(1);
       }
     }
+  }
+  
+  &.bws-mobile {
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    @include desktop-xl {
+      width: 340px;
+    }
+
+    iframe {
+      width: 100% !important;
+      height: 100% !important;
+      transform: scale(1) !important;
+    }
+  }
+}
+.bws-device-toggle {
+  margin-bottom: 50px;
+  button {
+    background: transparent;
+    border: 1px solid #ddd;
+    height: 45px;
+    width: 60px;
+    border-radius: 4px;
+    margin: 0 3px;
+    transition: 0.3s;
   }
 }
 

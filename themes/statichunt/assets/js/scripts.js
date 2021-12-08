@@ -79,3 +79,15 @@ for (var i = 0; i < length; i++) {
   x.className = 'tooltip-label';
   tooltipEl[i].appendChild(x);
 }
+
+// browser preview device toggle
+var bwsBlock = document.querySelector('.bws-block');
+var toogleDesktop = document.querySelector('.bws-device-toggle-desktop');
+var toogleMobile = document.querySelector('.bws-device-toggle-mobile');
+
+toogleMobile.addEventListener('click', function() {
+  bwsBlock.classList.add('bws-mobile');
+});
+toogleDesktop.addEventListener('click', function() {
+  bwsBlock.classList.remove('bws-mobile');
+});

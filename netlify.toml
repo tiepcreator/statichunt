@@ -3,7 +3,7 @@
   command = "export GITHUB_TOKEN=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 && npm run deploy"
 
 [build.environment]
-  HUGO_VERSION = "0.88.1"
+  HUGO_VERSION = "0.89.4"
 
 [context.deploy-preview]
   command = "npm run deploy"

@@ -5602,9 +5602,32 @@ ul.pagination {
           transform: scale(0.7); } }
       @media (max-width: 767px) {
         .bws-block .bws-content iframe {
-          transform: scale(1);
           width: 100%;
-          height: 100%; } }
+          height: 100%;
+          transform: scale(1); } }
+  .bws-block.bws-mobile {
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto; }
+    @media (max-width: 1239px) {
+      .bws-block.bws-mobile {
+        width: 340px; } }
+    .bws-block.bws-mobile iframe {
+      width: 100% !important;
+      height: 100% !important;
+      transform: scale(1) !important; }
+
+.bws-device-toggle {
+  margin-bottom: 50px; }
+  .bws-device-toggle button {
+    background: transparent;
+    border: 1px solid #ddd;
+    height: 45px;
+    width: 60px;
+    border-radius: 4px;
+    margin: 0 3px;
+    transition: 0.3s; }
+
 .promotion {
   padding: 20px;
   text-align: center;

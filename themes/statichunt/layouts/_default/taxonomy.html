@@ -1,14 +1,27 @@
-{{ define "title" }}{{ $themes := .RegularPages }}{{ $themes := (where $themes ".Params.draft" "!=" true) }}{{ $themes := (where $themes ".Params.disabled" "!=" true) }}{{ $paginatorTitle := .Paginate $themes }}{{ .Title }}
+{{ define "title" }}
+
+{{ if .Params.meta_title }}
+{{ .Params.meta_title }}
+{{ else }}
+
+{{ $themes := .RegularPages }}{{ $themes := (where $themes ".Params.draft" "!=" true) }}{{ $themes := (where $themes ".Params.disabled" "!=" true) }}{{ $paginatorTitle := .Paginate $themes }}{{ .Title }}
 Themes
 {{ if eq $paginatorTitle.PageNumber 1 }}{{ end }}{{ if gt $paginatorTitle.PageNumber 1 }}
-| Page {{ $paginatorTitle.PageNumber }}{{ end }}{{ end }}
+| Page {{ $paginatorTitle.PageNumber }}{{ end }}
+{{ end }}
+
+{{ end }}
 
 
 {{ define "header_css" }}{{ end }}
 {{ define "body_classes" }}page-taxonomy{{ end }}
 
 {{ define "meta_description" }}
+{{ if .Params.meta_description}}
+<meta name="description" content="{{ .Params.meta_description | markdownify }}" />
+{{ else }}
 <meta name="description" content="Browse {{ .Title }} themes, starters and templates." />
+{{ end }}
 {{ end }}
 
 {{ define "ogmeta" }}

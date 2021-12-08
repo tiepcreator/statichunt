@@ -1,5 +1,7 @@
 ---
 title: "Eleventy"
+meta_title: "Eleventy Themes | A Curated Directory Of Free Eleventy Themes"
+meta_description: "A curated directory of best free Eleventy themes created by independent web designers & developers that are open source, MIT licensed & available for free to download."
 icon: images/icons/eleventy.svg
 official_url: https://11ty.dev/
 github_path: 11ty/eleventy
@@ -12,8 +14,8 @@ url: /eleventy-themes
 short_description: "Eleventy is a simpler static site generator. An alternative to Jekyll. Written in JavaScript. Transforms a directory of templates (of varying types) into HTML."
 promotion:
   enable: true
-  title: "Convert More Traffic, Easier, With Unbounce"
-  content: "Relevant messaging is key to getting more leads, sales, and sign-ups—so give your visitors exactly what they’re looking for with custom-built landing pages."
-  button_label: "Try it out"
+  title: "Build Blazing Fast Websites & Apps"
+  content: "Build your dream user experience, with the blazing fast page speed and SEO-efficiency like never before."
+  button_label: "Get Started For Free"
   button_link: "#"
 ---

@@ -1,5 +1,7 @@
 ---
 title: "Mkdocs"
+meta_title: "Mkdocs Themes | A Curated Directory Of Free Mkdocs Themes"
+meta_description: "A curated directory of best free Mkdocs themes created by independent web designers & developers that are open source, MIT licensed & available for free to download."
 icon: images/icons/mkdocs.svg
 official_url: https://www.mkdocs.org/
 github_path: mkdocs/mkdocs
@@ -12,8 +14,8 @@ url: /mkdocs-themes
 short_description: "MkDocs is a fast, simple and downright gorgeous static site generator that's geared towards building project documentation. Documentation source files are written in Markdown, and configured with a single YAML configuration file."
 promotion:
   enable: true
-  title: "Convert More Traffic, Easier, With Unbounce"
-  content: "Relevant messaging is key to getting more leads, sales, and sign-ups—so give your visitors exactly what they’re looking for with custom-built landing pages."
-  button_label: "Try it out"
+  title: "Build Blazing Fast Websites & Apps"
+  content: "Build your dream user experience, with the blazing fast page speed and SEO-efficiency like never before."
+  button_label: "Get Started For Free"
   button_link: "#"
 ---
