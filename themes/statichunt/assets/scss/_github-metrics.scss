@@ -3,20 +3,24 @@
   align-content: center;
   align-items: flex-start;
   border-radius: 3px;
-  margin: 0px -9px 10px -9px;
+  margin: 0px -9px 0px -9px;
+  font-size: 15px;
   div {
-    border-right: 1px solid $grey;
+    // border-right: 1px solid $grey;
     padding: 7px 9px;
     line-height: 1;
     display: flex;
     align-content: center;
+    margin-right: 10px;
+    font-weight: 500;
     &:last-of-type {
-      border-right: none;
+      // border-right: none;
+      margin-right: 0px;
     }
     img, svg {
       opacity: 0.7;
-      width: 15px;
-      height: 15px;
+      width: 14px;
+      height: 14px;
       margin-right: 4px;
       path {
         fill: $carbon;

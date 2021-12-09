@@ -15,12 +15,12 @@
     display: flex;
     align-items: center;
     .submit-button {
-      padding: 10px;
+      padding: 10px 20px;
       border-radius: 3px;
       text-decoration: none;
-      color: #000;
+      @extend .bg-gradient;
       &:hover {
-        color: $primary;
+        color: $white;
       }
     }
     .submit-button-mobile {

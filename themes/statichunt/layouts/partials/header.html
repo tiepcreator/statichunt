@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container px-0">
   <div class="sidebar-toggler mr-1 mr-lg-0">
     <div class="d-block d-lg-none">
       <svg class="sidebar-toggle-icon" viewBox="0 0 100 100" width="40" onclick="this.classList.toggle('active')">
@@ -8,13 +8,12 @@
     </div>
   </div>
   <div class="logo ml-0 mr-auto">
-    <a href="/" title="Static Hunt">StaticHunt</a>
+    <a href="/" title="{{site.Title}}">{{site.Title}}</a>
     <a class="twitter-follow-button" href="https://twitter.com/statichunt" target="_blank" rel="nofollow">Follow @twitter</a>
   </div>
   {{ partial "main-menu.html" . }}
   <div class="submit">
-    <a class="submit-button submit-button-mobile" href="https://github.com/statichunt/statichunt" rel="nofollow">Submit</a>
-    <a class="submit-button submit-button-desktop" href="https://github.com/statichunt/statichunt" rel="nofollow">Submit Theme</a>
-    <a class="github" href="https://github.com/statichunt/statichunt" rel="nofollow"><img width="26" height="26" alt="Github Repo" src="{{ `images/icons/github.svg` | relURL }}"/></a>
+    <a class="submit-button bg-gradient submit-button-mobile" href="https://github.com/statichunt/statichunt" rel="nofollow">Submit</a>
+    <a class="submit-button bg-gradient submit-button-desktop" href="https://github.com/statichunt/statichunt" rel="nofollow">Submit Theme</a>
   </div>
 </div>

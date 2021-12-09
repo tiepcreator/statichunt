@@ -1,13 +1,22 @@
-{{ define "title" }}{{ $themes := (where .Site.RegularPages "Type" "theme") }}{{ $themes := (where $themes ".Params.draft" "!=" true) }}{{ $themes := (where $themes ".Params.disabled" "!=" true) }}{{ $themeCount := len $themes}}All
-Themes {{ end }}
+{{ define "title" }}
+
+{{ if .Params.meta_title }}
+{{ .Params.meta_title }}
+{{ else }}
+
+{{ $themes := .RegularPages }}{{ $themes := (where $themes ".Params.draft" "!=" true) }}{{ $themes := (where $themes ".Params.disabled" "!=" true) }}{{ $paginatorTitle := .Paginate $themes }}{{ .Title }} Themes
+{{ if eq $paginatorTitle.PageNumber 1 }}{{ end }}{{ if gt $paginatorTitle.PageNumber 1 }}
+| Page {{ $paginatorTitle.PageNumber }}{{ end }}
+{{ end }}
+
+{{ end }}
 
 {{ define "header_classes" }}{{ end }}
 {{ define "body_classes" }}page-all-themes has-sidebar{{ end }}
 {{ define "body_id" }}page-all-themes{{ end }}
 
 {{ define "meta_description" }}
-<meta name="description"
-  content="Search hundreds of open-source Static Hunt and find the perfect starter theme or boilerplate for your next project. Filter themes by static site generator, headless CMS and more. Sort themes by stars, last commit date or submission date.">
+<meta name="description" content="{{.Params.description | markdownify}}">
 {{ end }}
 
 {{ define "main" }}
@@ -24,26 +33,24 @@ Themes {{ end }}
     </div>
   </div>
   <div class="main">
-    <div class="container-fluid">
+    <div class="container-fluid px-sm-0">
+      {{with .Params.intro_banner}}
       <div class="intro-wrapper">
         <!-- <button class="intro-close"></button> -->
 
         <div class="intro intro-banner d-flex flex-column justify-content-center">
           <div class="intro-heading">
-            <h1 class="intro-title"><span class="d-block d-md-inline">Jamstack</span> <span class="txt-rotate gradient-text" data-period="2000"
-                data-rotate='[ "Themes", "Resources", "Tutorials" ]'></span> Library</h1>
+            <h1 class="intro-title"><span class="d-block d-md-inline">{{.title_start | markdownify}}</span> <span class="txt-rotate text-gradient" data-period="2000"
+                data-rotate='{{.title_loop}}'></span> {{.title_end | markdownify}}</h1>
           </div>
           <div class="intro-description d-none d-md-block">
             <p>
               <span class="count-number d-none">({{ $themeCount }})</span>
-              A curated directory of Jamstack themes and resources to build your next project. Let's make it happen, be
-              a
-              Jamstack Warrior.
+              {{.intro_description | markdownify}}
             </p>
           </div>
           <div class="intro-description d-md-none">
-            <p>A list of themes and starters for Jamstack sites.
-            </p>
+            <p>{{.intro_description_mobile | markdownify}}</p>
           </div>
         </div>
 
@@ -58,6 +65,7 @@ Themes {{ end }}
         </script> -->
 
       </div>
+      {{end}}
 
       {{ partial "sort-buttons.html" . }}
       <div id="grids-homepage" class="row mt-3">

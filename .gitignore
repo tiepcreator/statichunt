@@ -6,3 +6,4 @@ public
 .vscode
 static/themes/screenshots/
 .hugo_build.lock
+.forestry

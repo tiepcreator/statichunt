@@ -51,43 +51,49 @@ window.onload = function() {
 };
 
 // sidebar toggler
-var sidebarToggler = document.querySelector('.sidebar-toggler');
-var sidebarOverlay = document.querySelector('.sidebar-overlay');
-var sidebarTogglerIcon = document.querySelector('.sidebar-toggle-icon');
 var sidebar = document.querySelector('.sidebar');
-var body = document.querySelector('body');
-sidebarToggler.addEventListener('click', function() {
-  sidebarOverlay.classList.toggle('show');
-  sidebar.classList.toggle('show');
-  body.classList.toggle('overflow-hidden');
-});
-sidebarOverlay.addEventListener('click', function() {
-  this.classList.remove('show');
-  sidebarTogglerIcon.classList.remove('active');
-  sidebar.classList.remove('show');
-  body.classList.remove('overflow-hidden');
-});
+if (sidebar) {
+  var sidebarToggler = document.querySelector('.sidebar-toggler');
+  var sidebarOverlay = document.querySelector('.sidebar-overlay');
+  var sidebarTogglerIcon = document.querySelector('.sidebar-toggle-icon');
+  var body = document.querySelector('body');
+  sidebarToggler.addEventListener('click', function() {
+    sidebarOverlay.classList.toggle('show');
+    sidebar.classList.toggle('show');
+    body.classList.toggle('overflow-hidden');
+  });
+  sidebarOverlay.addEventListener('click', function() {
+    this.classList.remove('show');
+    sidebarTogglerIcon.classList.remove('active');
+    sidebar.classList.remove('show');
+    body.classList.remove('overflow-hidden');
+  });
+}
 
 // tooltip init
 var tooltipEl = document.querySelectorAll('.has-tooltip');
-var length = tooltipEl.length;
-for (var i = 0; i < length; i++) {
-  var attr = tooltipEl[i].getAttribute('title');
-  var x = document.createElement('SPAN');
-  var t = document.createTextNode(attr);
-  x.appendChild(t);
-  x.className = 'tooltip-label';
-  tooltipEl[i].appendChild(x);
+if (tooltipEl) {
+  var length = tooltipEl.length;
+  for (var i = 0; i < length; i++) {
+    var attr = tooltipEl[i].getAttribute('title');
+    var x = document.createElement('SPAN');
+    var t = document.createTextNode(attr);
+    x.appendChild(t);
+    x.className = 'tooltip-label';
+    tooltipEl[i].appendChild(x);
+  }
 }
 
 // browser preview device toggle
 var bwsBlock = document.querySelector('.bws-block');
-var toogleDesktop = document.querySelector('.bws-device-toggle-desktop');
-var toogleMobile = document.querySelector('.bws-device-toggle-mobile');
+if (bwsBlock) {
+  var toogleDesktop = document.querySelector('.bws-device-toggle-desktop');
+  var toogleMobile = document.querySelector('.bws-device-toggle-mobile');
 
-toogleMobile.addEventListener('click', function() {
-  bwsBlock.classList.add('bws-mobile');
-});
-toogleDesktop.addEventListener('click', function() {
-  bwsBlock.classList.remove('bws-mobile');
-});
+  toogleMobile.addEventListener('click', function() {
+    bwsBlock.classList.add('bws-mobile');
+  });
+  toogleDesktop.addEventListener('click', function() {
+    bwsBlock.classList.remove('bws-mobile');
+  });
+}

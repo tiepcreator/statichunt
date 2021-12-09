@@ -1,6 +1,6 @@
 baseURL = "https://statichunt.com/"
 languageCode = "en-us"
-title = "Static Hunt"
+title = "StaticHunt"
 theme = "statichunt"
 paginate = 20
 summaryLength = 10

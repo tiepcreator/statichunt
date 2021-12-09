@@ -25,6 +25,55 @@
     </a>
 
     <div class="theme-body">
+      <div class="theme-icons mb-1">
+        {{ if .theme.Params.ssg }}
+        {{- range .theme.Params.ssg }}
+        {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "ssg/%s" (urlize .)) }}
+        {{ partial "icons/icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+        {{ end }}
+        {{ end }}
+        {{ end }}
+    
+        {{ if .theme.Params.cms }}
+        {{- range .theme.Params.cms }}
+        {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "cms/%s" (urlize .)) }}
+        {{ if eq .Page.Title "No CMS" }}
+        {{ else }}
+        {{ partial "icons/icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+        {{ end }}
+        {{ end }}
+        {{ end }}
+        {{ end }}
+    
+        {{ if .theme.Params.css }}
+        {{- range .theme.Params.css }}
+        {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "css/%s" (urlize .)) }}
+        {{ partial "icons/icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+        {{ end }}
+        {{ end }}
+        {{ end }}
+    
+        {{ if .Site.Params.theme_card.show_services_icons }}
+        {{ if .theme.Params.services }}
+        {{- range .theme.Params.services }}
+        {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "services/%s" (urlize .)) }}
+        {{ partial "icons/icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+        {{ end }}
+        {{ end }}
+        {{ end }}
+    
+        {{ if .Site.Params.theme_card.show_archetype_icons }}
+        {{ if .theme.Params.archetype }}
+        {{- range .theme.Params.archetype }}
+        {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "archetype/%s" (urlize .)) }}
+        {{ partial "icons/icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+        {{ end }}
+        {{ end }}
+        {{ end }}
+        {{ end }}
+        {{ end }}
+      </div>
+
       <h2><a href="{{ .theme.Permalink }}" class="theme-title">{{ .theme.Params.title }}</a></h2>
       {{ if .repo }}
       {{ partial "github-metrics.html" (dict "forks" .repo.forks "stars" .repo.stars )}}
@@ -38,63 +87,16 @@
         {{ end }}
       </div> -->
 
-      <div class="action-buttons action-buttons-card">
-        <a class="action-button action-button-github" data-action="github" data-context="card"
-          data-name="{{ .theme.Title }}" href="{{ .theme.Params.github }}" target="_blank"
-          rel="noopener nofollow">Github</a>
-        <a class="action-button action-button-demo" data-action="demo" data-context="card" target="_blank" rel="noopener nofollow" 
-          data-name="{{ .theme.Title }}" href="{{ .theme.Params.demo }}?ref=statichunt.com">Live Demo</a>
-      </div>
     </div>
 
     <div class="theme-footer">
-      {{ if .theme.Params.ssg }}
-      {{- range .theme.Params.ssg }}
-      {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "ssg/%s" (urlize .)) }}
-      {{ partial "icons/icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
-      {{ end }}
-      {{ end }}
-      {{ end }}
-
-      {{ if .theme.Params.cms }}
-      {{- range .theme.Params.cms }}
-      {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "cms/%s" (urlize .)) }}
-      {{ if eq .Page.Title "No CMS" }}
-      {{ else }}
-      {{ partial "icons/icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
-      {{ end }}
-      {{ end }}
-      {{ end }}
-      {{ end }}
-
-      {{ if .theme.Params.css }}
-      {{- range .theme.Params.css }}
-      {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "css/%s" (urlize .)) }}
-      {{ partial "icons/icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
-      {{ end }}
-      {{ end }}
-      {{ end }}
-
-      {{ if .Site.Params.theme_card.show_services_icons }}
-      {{ if .theme.Params.services }}
-      {{- range .theme.Params.services }}
-      {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "services/%s" (urlize .)) }}
-      {{ partial "icons/icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
-      {{ end }}
-      {{ end }}
-      {{ end }}
-
-      {{ if .Site.Params.theme_card.show_archetype_icons }}
-      {{ if .theme.Params.archetype }}
-      {{- range .theme.Params.archetype }}
-      {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "archetype/%s" (urlize .)) }}
-      {{ partial "icons/icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
-      {{ end }}
-      {{ end }}
-      {{ end }}
-      {{ end }}
-
-      {{ end }}
+      <div class="action-buttons action-buttons-card">
+        <a class="action-button action-button-demo mb-0" data-action="demo" data-context="card" target="_blank" rel="noopener nofollow" 
+          data-name="{{ .theme.Title }}" href="{{ .theme.Params.demo }}?ref=statichunt.com">Live Demo</a>
+        <a class="action-button button-light action-button-github mb-0" data-action="github" data-context="card"
+          data-name="{{ .theme.Title }}" href="{{ .theme.Params.github }}" target="_blank"
+          rel="noopener nofollow">Download</a>
+      </div>
     </div>
   </div>
 </div>
