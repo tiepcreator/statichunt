@@ -62,7 +62,7 @@ function updateFilterCounts(state, futureState) {
       if (group === triggerGroup) {
         resetCount(groups[group], totalMatching);
       } else if (!triggerGroup) {
-
+        updateCount(groups[group], matching);
       } else {
         updateCount(groups[group], matching);
       }

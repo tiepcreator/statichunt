@@ -4607,6 +4607,14 @@ html {
       margin-bottom: 20px; }
     .theme-card .theme-body .action-buttons {
       margin-top: auto; }
+  .theme-card .made-by-us {
+    font-size: 15px;
+    background-color: rgba(5, 150, 105, 0.15);
+    color: #059669;
+    padding: 3px 8px;
+    border-radius: 3px;
+    margin-left: 5px;
+    font-weight: 400; }
   .theme-card .theme-icons {
     display: flex;
     justify-content: flex-start;
@@ -5172,10 +5180,21 @@ html {
       margin-bottom: 5px;
       cursor: pointer;
       transition: 0.2s; }
+      .sort-buttons .filter-list .filter-item .archtype-count {
+        background-color: #059669;
+        color: #ffffff;
+        font-size: 80%;
+        margin-left: 2px;
+        padding: 2px 4px;
+        border-radius: 3px; }
       .sort-buttons .filter-list .filter-item.mixitup-control-active {
         background-color: #059669;
         color: #ffffff;
         border-color: #059669; }
+        .sort-buttons .filter-list .filter-item.mixitup-control-active .archtype-count {
+          background-color: #ffffff;
+          color: #059669;
+          display: inline !important; }
   .sort-buttons .sort-by {
     display: none;
     margin-right: 5px;
@@ -5767,6 +5786,11 @@ ul.pagination {
   #grids-taxonomy .col-xl-3 {
     flex: 0 0 50%;
     max-width: 50%; } }
+
+.mixitup-container-failed::after {
+  content: "No Items Found!";
+  font-size: 22px;
+  margin: 0 20px; }
 
 .widget {
   padding: 20px;

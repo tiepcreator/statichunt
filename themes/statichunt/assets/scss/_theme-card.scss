@@ -88,6 +88,15 @@
       margin-top: auto;
     }
   }
+  .made-by-us {
+    font-size: 15px;
+    background-color: rgba($primary, .15);
+    color: $primary;
+    padding: 3px 8px;
+    border-radius: 3px;
+    margin-left: 5px;
+    font-weight: 400;
+  }
   .theme-icons {
     display: flex;
     justify-content: flex-start;

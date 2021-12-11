@@ -56,6 +56,8 @@ const groups = {
     "single-page", 
     "ecommerce", 
     "documentation", 
-    "personal"
+    "personal",
+    "multi-purpose",
+    "website"
   ]
 };

@@ -97,3 +97,20 @@ if (bwsBlock) {
     bwsBlock.classList.remove('bws-mobile');
   });
 }
+
+// archtype-count
+// var archetypeFilter = document.querySelectorAll('.filter-item');
+// var archtypeCount = document.querySelectorAll(".archtype-count");
+// archetypeFilter.forEach(function(parent) {
+//   parent.addEventListener('click', (e) => {
+//     setTimeout(() => {
+//       archtypeCount.forEach(function(match) {
+//         if (match.innerHTML === "0") {
+//           match.parentNode.classList.add('d-none');
+//         } else {
+//           match.parentNode.classList.remove('d-none');
+//         }
+//       });
+//     }, 100);
+//   });
+// });
