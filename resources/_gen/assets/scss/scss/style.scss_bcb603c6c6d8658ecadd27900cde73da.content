@@ -4493,6 +4493,12 @@ html {
   100% {
     opacity: 1; } }
 
+@media screen and (max-width: 1400px) {
+  .filter-group-ssg .d-none.d-md-block {
+    display: none !important; }
+  .filter-group-ssg .d-block.d-md-none {
+    display: block !important; } }
+
 .terms {
   display: flex;
   flex-wrap: wrap;
@@ -5704,7 +5710,7 @@ ul.pagination {
     .filter-group-archetype {
       width: 100%; } }
 .sort {
-  width: 145px;
+  width: 150px;
   font-size: 80%;
   position: relative;
   cursor: pointer;

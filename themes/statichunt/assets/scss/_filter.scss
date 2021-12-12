@@ -332,3 +332,15 @@
     opacity: 1;
   }
 }
+
+
+@media screen and (max-width: 1400px) {
+  .filter-group-ssg {
+    .d-none.d-md-block {
+      display: none !important;
+    }
+    .d-block.d-md-none {
+      display: block !important;
+    }
+  }
+}

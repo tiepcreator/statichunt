@@ -38,11 +38,13 @@ const groups = {
     "prismic",
     "sanity",
     "storyblok",
-    "wordpress"
+    "wordpress",
+    "stackbit"
   ],
   css: [
     "bootstrap", 
     "scss", 
+    "postcss", 
     "tailwind", 
     "bulma", 
     "postcss", 
