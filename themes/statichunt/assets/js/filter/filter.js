@@ -52,7 +52,6 @@ function updateFilterCounts(state, futureState) {
   let totalMatching = futureState.targets.map(theme => theme.className.trim().split(" "));
   let matching = futureState.matching.map(theme => theme.className.trim().split(" "));
   let hasMultipleActiveGroups = checkActiveGroups();
-  let ssg = document.querySelector('#filter-group-ssg');
 
   // Update Filter Counts
   Object.keys(groups).forEach((group) => {
@@ -63,7 +62,7 @@ function updateFilterCounts(state, futureState) {
       if (group === triggerGroup) {
         resetCount(groups[group], totalMatching);
       } else if (!triggerGroup) {
-        updateCount(groups[group], matching);
+        resetCount(groups[group], totalMatching);
       } else {
         updateCount(groups[group], matching);
       }

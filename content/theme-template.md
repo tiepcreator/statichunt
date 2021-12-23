@@ -58,8 +58,6 @@ archetype:
   - Blog
   - Portfolio
   - Business
-  - Multi Purpose
-  - Single Page
   - Multi Page
   - Ecommerce
   - Documentation

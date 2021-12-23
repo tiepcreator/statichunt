@@ -1,8 +1,8 @@
-name = "Static Hunt"
+name = "Statichunt"
 license = "MIT"
 description = "A list of Themes and Starters for Jamstack Sites."
 min_version = "0.71.1"
 
 [author]
-  name = "Static Hunt"
+  name = "Statichunt"
   homepage = "https://www.jamstackthemes.dev"

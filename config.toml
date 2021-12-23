@@ -1,6 +1,6 @@
 baseURL = "https://statichunt.com/"
 languageCode = "en-us"
-title = "StaticHunt"
+title = "Statichunt"
 theme = "statichunt"
 paginate = 20
 summaryLength = 10
@@ -32,7 +32,6 @@ min = "0.89.4"
   archetype = "archetype"
   services = "services"
   hosting = "hosting"
-  interaction = "interaction"
 
 [outputFormats]
   [outputFormats.demo]

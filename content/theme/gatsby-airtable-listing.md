@@ -11,7 +11,6 @@ cms:
 css:
   - Tailwind
 archetype:
-  - Multi Purpose
 description: Gatsby starter theme integrated with Airtable
 stale: false
 ---

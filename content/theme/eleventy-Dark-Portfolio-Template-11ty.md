@@ -9,7 +9,6 @@ ssg:
 cms:
   - No Cms
 archetype:
-  - Single Page
   - Blog
   - Portfolio
 description: This is a port of the Dark Portfolio Template by W3C to 11ty!

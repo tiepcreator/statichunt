@@ -1,6 +1,6 @@
 ---
-title: 'Static Hunt'
-description: "Search hundreds of open-source Static Hunt and find the perfect starter theme or boilerplate for your next project. Filter themes by static site generator, headless CMS and more. Sort themes by stars, last commit date or submission date."
+title: 'Statichunt | A Curated Directory Of Jamstack Resources'
+description: "Search hundreds of open-source Statichunt and find the perfect starter theme or boilerplate for your next project. Filter themes by static site generator, headless CMS and more. Sort themes by stars, last commit date or submission date."
 
 # intro-banner
 intro_banner:

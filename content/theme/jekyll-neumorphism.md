@@ -13,7 +13,6 @@ css:
 archetype:
   - Personal
   - Portfolio
-  - Single Page
 description: >-
   Neumorphism designed Jekyll theme for personal websites, portfolios and
   resumes.

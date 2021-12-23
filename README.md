@@ -1,4 +1,4 @@
-# Static Hunt
+# Statichunt
 
 A list of themes and starters for the Jamstack and static site generators. https://jamstackthemes.dev
 

@@ -11,9 +11,7 @@ cms:
 css:
   - Tailwind
 archetype:
-  - Multi Purpose
   - Portfolio
-  - Single Page
 services:
   - Formspree
 description: Personal branding theme for developers

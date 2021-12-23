@@ -54,12 +54,9 @@ const groups = {
     "blog", 
     "portfolio", 
     "business", 
-    "saas", 
-    "single-page", 
+    "saas",
     "ecommerce", 
     "documentation", 
     "personal",
-    "multi-purpose",
-    "website"
   ]
 };

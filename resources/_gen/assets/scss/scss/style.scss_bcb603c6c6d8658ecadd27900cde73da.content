@@ -5842,13 +5842,15 @@ ul.pagination {
 
 /* Scrollbar / ScrollTrack */
 body::-webkit-scrollbar {
-  width: 5px; }
+  width: 8px; }
 
 body::-webkit-scrollbar-track {
   background: #f1f1f1; }
 
 body::-webkit-scrollbar-thumb {
   background: #bbb; }
+  body::-webkit-scrollbar-thumb:hover {
+    background: #888; }
 
 .sidebar::-webkit-scrollbar {
   width: 2px; }
@@ -5900,6 +5902,9 @@ body::-webkit-scrollbar-thumb {
     visibility: visible;
     opacity: 1;
     transition: 0.3s; }
+
+.font-weight-medium {
+  font-weight: 500 !important; }
 
 /*! Social sharing buttons from Sharingbuttons.io */
 .resp-sharing-button__link,

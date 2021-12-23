@@ -11,8 +11,6 @@ cms:
 css:
   - Tailwind
 archetype:
-  - Website
-  - Multi Purpose
 github_branch: master
 description: >-
   Next JS Landing Page Template Free styled with Tailwind CSS and React

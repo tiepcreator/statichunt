@@ -1,4 +1,27 @@
 {
+  "11ta-11ta-template": {
+    "theme_key": "11ta-11ta-template",
+    "file": "eleventy-11ta-template.md",
+    "name": "11ta-template",
+    "title": "11TA Template",
+    "github_username": "11ta",
+    "repo": "11ta/11ta-template",
+    "branch": "main",
+    "default_branch": "main",
+    "github_url": "https://github.com/11ta/11ta-template",
+    "demo_url": "https://11ta.netlify.app/",
+    "stars": 71,
+    "forks": 12,
+    "open_issues": 3,
+    "last_commit": "2021-09-21T18:10:54Z",
+    "created_at": "2020-09-19T16:11:39Z",
+    "description": "Deeply customizable, full-featured, ready to publish blog template built with 11ty, TailwindCSS, & Alpine.js",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/11ta-11ta-template.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/11ta-11ta-template.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/11ta-11ta-template-2x.jpg"
+    }
+  },
   "11ty-eleventy-base-blog": {
     "theme_key": "11ty-eleventy-base-blog",
     "file": "eleventy-base-blog.md",
@@ -43,6 +66,52 @@
       "hires": "https://www.jamstackthemes.dev/capture/416serg-gatsby-starter-lightbox.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/416serg-gatsby-starter-lightbox.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/416serg-gatsby-starter-lightbox-2x.jpg"
+    }
+  },
+  "5t3ph-11ty-netlify-jumpstart": {
+    "theme_key": "5t3ph-11ty-netlify-jumpstart",
+    "file": "eleventy-11ty-netlify-jumpstart.md",
+    "name": "11ty-netlify-jumpstart",
+    "title": "11ty Netlify Jumpstart",
+    "github_username": "5t3ph",
+    "repo": "5t3ph/11ty-netlify-jumpstart",
+    "branch": "main",
+    "default_branch": "main",
+    "github_url": "https://github.com/5t3ph/11ty-netlify-jumpstart",
+    "demo_url": "https://11ty-netlify-jumpstart.netlify.app/",
+    "stars": 174,
+    "forks": 24,
+    "open_issues": 0,
+    "last_commit": "2021-10-06T02:02:58Z",
+    "created_at": "2020-05-23T22:10:23Z",
+    "description": "Quickly launch an 11ty-generated static site. Includes a minimal Sass framework, and generated sitemap, RSS feed, and social share preview images.",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/5t3ph-11ty-netlify-jumpstart.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/5t3ph-11ty-netlify-jumpstart.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/5t3ph-11ty-netlify-jumpstart-2x.jpg"
+    }
+  },
+  "5t3ph-smol-11ty-starter": {
+    "theme_key": "5t3ph-smol-11ty-starter",
+    "file": "eleventy-smol-11ty-starter.md",
+    "name": "smol-11ty-starter",
+    "title": "Smol Eleventy Starter",
+    "github_username": "5t3ph",
+    "repo": "5t3ph/smol-11ty-starter",
+    "branch": "main",
+    "default_branch": "main",
+    "github_url": "https://github.com/5t3ph/smol-11ty-starter",
+    "demo_url": "https://smol-11ty-starter.netlify.app/",
+    "stars": 56,
+    "forks": 9,
+    "open_issues": 0,
+    "last_commit": "2021-06-12T01:52:04Z",
+    "created_at": "2021-03-10T04:44:59Z",
+    "description": "Extremely minimal Eleventy starter to kickstart a simple multi-page site / a nearly opinionless foundation to continue building on.",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/5t3ph-smol-11ty-starter.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/5t3ph-smol-11ty-starter.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/5t3ph-smol-11ty-starter-2x.jpg"
     }
   },
   "a9kitkumar-gatsby-ecommerce": {
@@ -344,6 +413,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/adueck-good-clean-read-2x.jpg"
     }
   },
+  "agcty-nextjs-advanced-starter": {
+    "theme_key": "agcty-nextjs-advanced-starter",
+    "file": "next-nextjs-advanced-starter.md",
+    "name": "nextjs-advanced-starter",
+    "title": "Next.js Advanced Starter",
+    "github_username": "agcty",
+    "repo": "agcty/nextjs-advanced-starter",
+    "branch": "main",
+    "default_branch": "main",
+    "github_url": "https://github.com/agcty/nextjs-advanced-starter",
+    "demo_url": "https://nextjs-advanced-starter.vercel.app/",
+    "stars": 94,
+    "forks": 17,
+    "open_issues": 0,
+    "last_commit": "2021-12-11T21:03:10Z",
+    "created_at": "2020-10-04T20:00:48Z",
+    "description": "Use Tailwind CSS, ESLint, Prettier & absolute imports instantly. Easily extendable zero-config template for pros and beginners.",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/agcty-nextjs-advanced-starter.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/agcty-nextjs-advanced-starter.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/agcty-nextjs-advanced-starter-2x.jpg"
+    }
+  },
   "agility-agility-gatsby-starter": {
     "theme_key": "agility-agility-gatsby-starter",
     "file": "gatsby-agility-starter.md",
@@ -457,6 +549,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/ahmadajmi-type.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/ahmadajmi-type.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/ahmadajmi-type-2x.jpg"
+    }
+  },
+  "ahonn-hexo-theme-even": {
+    "theme_key": "ahonn-hexo-theme-even",
+    "file": "hexo-theme-even.md",
+    "name": "hexo-theme-even",
+    "title": "Even",
+    "github_username": "ahonn",
+    "repo": "ahonn/hexo-theme-even",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/ahonn/hexo-theme-even",
+    "demo_url": "https://ahonn.github.io/hexo-theme-even/",
+    "stars": 1300,
+    "forks": 218,
+    "open_issues": 8,
+    "last_commit": "2021-12-07T08:10:49Z",
+    "created_at": "2016-02-24T07:45:32Z",
+    "description": ":rocket:  A super concise theme for Hexo  ",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/ahonn-hexo-theme-even.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/ahonn-hexo-theme-even.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/ahonn-hexo-theme-even-2x.jpg"
     }
   },
   "aigarsdz-brume": {
@@ -1147,6 +1262,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/anna-morawska-gatsby-material-design-for-bootstrap.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/anna-morawska-gatsby-material-design-for-bootstrap.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/anna-morawska-gatsby-material-design-for-bootstrap-2x.jpg"
+    }
+  },
+  "antvis-gatsby-theme-antv": {
+    "theme_key": "antvis-gatsby-theme-antv",
+    "file": "gatsby-theme-antv.md",
+    "name": "gatsby-theme-antv",
+    "title": "Gatsby Theme for AntV",
+    "github_username": "antvis",
+    "repo": "antvis/gatsby-theme-antv",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/antvis/gatsby-theme-antv",
+    "demo_url": "https://gatsby-starter-theme-antv.antv.vision/zh",
+    "stars": 291,
+    "forks": 51,
+    "open_issues": 24,
+    "last_commit": "2021-12-21T11:20:18Z",
+    "created_at": "2019-10-11T07:23:12Z",
+    "description": "⚛️ Polished Gatsby theme for documentation site",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/antvis-gatsby-theme-antv.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/antvis-gatsby-theme-antv.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/antvis-gatsby-theme-antv-2x.jpg"
     }
   },
   "anubhavsrivastava-gatsby-starter-aerial": {
@@ -2230,6 +2368,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/benjamin-glitsos-gatsby-kea-starter-2x.jpg"
     }
   },
+  "bennyxguo-hexo-theme-obsidian": {
+    "theme_key": "bennyxguo-hexo-theme-obsidian",
+    "file": "hexo-theme-obsidian.md",
+    "name": "hexo-theme-obsidian",
+    "title": "Obsidian",
+    "github_username": "bennyxguo",
+    "repo": "bennyxguo/hexo-theme-obsidian",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/bennyxguo/hexo-theme-obsidian",
+    "demo_url": "https://obsidian.tridiamond.tech/",
+    "stars": 564,
+    "forks": 92,
+    "open_issues": 59,
+    "last_commit": "2021-07-24T09:42:51Z",
+    "created_at": "2019-09-26T02:38:50Z",
+    "description": "🎨 A dark Hexo theme, it's responsive, simple but elegant.",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/bennyxguo-hexo-theme-obsidian.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/bennyxguo-hexo-theme-obsidian.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/bennyxguo-hexo-theme-obsidian-2x.jpg"
+    }
+  },
   "benradford-slate-and-simple-jekyll-theme": {
     "theme_key": "benradford-slate-and-simple-jekyll-theme",
     "file": "jekyll-slate-and-simple-theme.md",
@@ -2437,6 +2598,52 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/blakenoll-gatsby-starter-styled-components-2x.jpg"
     }
   },
+  "blazity-next-saas-starter": {
+    "theme_key": "blazity-next-saas-starter",
+    "file": "next-saas-starter.md",
+    "name": "next-saas-starter",
+    "title": "Next SaaS Starter",
+    "github_username": "Blazity",
+    "repo": "Blazity/next-saas-starter",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/Blazity/next-saas-starter",
+    "demo_url": "https://next-saas-starter-ashy.vercel.app/",
+    "stars": 128,
+    "forks": 20,
+    "open_issues": 2,
+    "last_commit": "2021-12-20T14:12:16Z",
+    "created_at": "2021-09-03T20:00:32Z",
+    "description": "⚡️ Free Next.js responsive landing page template for SaaS products made using JAMStack architecture.",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/blazity-next-saas-starter.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/blazity-next-saas-starter.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/blazity-next-saas-starter-2x.jpg"
+    }
+  },
+  "blinkfox-hexo-theme-matery": {
+    "theme_key": "blinkfox-hexo-theme-matery",
+    "file": "hexo-theme-matery.md",
+    "name": "hexo-theme-matery",
+    "title": "Hexo Theme Matery",
+    "github_username": "blinkfox",
+    "repo": "blinkfox/hexo-theme-matery",
+    "branch": "develop",
+    "default_branch": "develop",
+    "github_url": "https://github.com/blinkfox/hexo-theme-matery",
+    "demo_url": "http://blinkfox.com/",
+    "stars": 3920,
+    "forks": 1056,
+    "open_issues": 168,
+    "last_commit": "2021-12-01T10:39:49Z",
+    "created_at": "2018-08-27T16:38:12Z",
+    "description": "A beautiful hexo blog theme with material design and responsive design.一个基于材料设计和响应式设计而成的全面、美观的Hexo主题。国内访问：http://blinkfox.com",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/blinkfox-hexo-theme-matery.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/blinkfox-hexo-theme-matery.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/blinkfox-hexo-theme-matery-2x.jpg"
+    }
+  },
   "blleng-hexo-theme-lx": {
     "theme_key": "blleng-hexo-theme-lx",
     "file": "hexo-theme-lx.md",
@@ -2481,6 +2688,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/bluepeter-gatsby-material-ui-business-starter.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/bluepeter-gatsby-material-ui-business-starter.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/bluepeter-gatsby-material-ui-business-starter-2x.jpg"
+    }
+  },
+  "bollnh-hexo-theme-material": {
+    "theme_key": "bollnh-hexo-theme-material",
+    "file": "hexo-theme-material.md",
+    "name": "hexo-theme-material",
+    "title": "Material Theme",
+    "github_username": "bollnh",
+    "repo": "bollnh/hexo-theme-material",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/bollnh/hexo-theme-material",
+    "demo_url": "https://bollnh.github.io/material-demo/",
+    "stars": 4027,
+    "forks": 583,
+    "open_issues": 102,
+    "last_commit": "2021-10-15T07:48:30Z",
+    "created_at": "2016-09-01T13:34:02Z",
+    "description": "Material Design theme for hexo.",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/bollnh-hexo-theme-material.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/bollnh-hexo-theme-material.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/bollnh-hexo-theme-material-2x.jpg"
     }
   },
   "borekb-gatsby-starter-mobx": {
@@ -2713,6 +2943,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/brxck-gatsby-starter-stripe-2x.jpg"
     }
   },
+  "btahir-next-shopify-starter": {
+    "theme_key": "btahir-next-shopify-starter",
+    "file": "next-next-shopify-starter.md",
+    "name": "next-shopify-starter",
+    "title": "Next Shopify Starter",
+    "github_username": "btahir",
+    "repo": "btahir/next-shopify-starter",
+    "branch": "main",
+    "default_branch": "main",
+    "github_url": "https://github.com/btahir/next-shopify-starter",
+    "demo_url": "https://www.doggystickers.xyz/",
+    "stars": 175,
+    "forks": 40,
+    "open_issues": 1,
+    "last_commit": "2021-07-19T23:34:05Z",
+    "created_at": "2021-04-02T00:21:21Z",
+    "description": "Nextjs + Tailwind CSS + Shopify Starter",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/btahir-next-shopify-starter.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/btahir-next-shopify-starter.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/btahir-next-shopify-starter-2x.jpg"
+    }
+  },
   "buttercms-gatsby-starter-buttercms": {
     "theme_key": "buttercms-gatsby-starter-buttercms",
     "file": "gatsby-starter-buttercms.md",
@@ -2734,6 +2987,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/buttercms-gatsby-starter-buttercms.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/buttercms-gatsby-starter-buttercms.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/buttercms-gatsby-starter-buttercms-2x.jpg"
+    }
+  },
+  "cadecode-vuepress-theme-2zh": {
+    "theme_key": "cadecode-vuepress-theme-2zh",
+    "file": "vuepress-theme-2zh.md",
+    "name": "vuepress-theme-2zh",
+    "title": "Vuepress Theme 2zh",
+    "github_username": "cadecode",
+    "repo": "cadecode/vuepress-theme-2zh",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/cadecode/vuepress-theme-2zh",
+    "demo_url": "https://blog.cadecode.top/",
+    "stars": 128,
+    "forks": 10,
+    "open_issues": 0,
+    "last_commit": "2021-11-13T07:56:49Z",
+    "created_at": "2020-07-25T13:57:12Z",
+    "description": "VuePress 博客主题插件",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/cadecode-vuepress-theme-2zh.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/cadecode-vuepress-theme-2zh.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/cadecode-vuepress-theme-2zh-2x.jpg"
     }
   },
   "caki0915-gatsby-starter-redux": {
@@ -3746,6 +4022,52 @@
       "hires": "https://www.jamstackthemes.dev/capture/creasoft-dev-fundamenty.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/creasoft-dev-fundamenty.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/creasoft-dev-fundamenty-2x.jpg"
+    }
+  },
+  "creativetimofficial-nextjs-material-kit": {
+    "theme_key": "creativetimofficial-nextjs-material-kit",
+    "file": "next-nextjs-material-kit.md",
+    "name": "nextjs-material-kit",
+    "title": "NextJS Material Kit",
+    "github_username": "creativetimofficial",
+    "repo": "creativetimofficial/nextjs-material-kit",
+    "branch": "main",
+    "default_branch": "main",
+    "github_url": "https://github.com/creativetimofficial/nextjs-material-kit",
+    "demo_url": "https://demos.creative-tim.com/nextjs-material-kit/components",
+    "stars": 192,
+    "forks": 66,
+    "open_issues": 4,
+    "last_commit": "2021-05-14T08:17:27Z",
+    "created_at": "2019-08-29T08:48:02Z",
+    "description": "NextJS version of Material Kit React by Creative Tim",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/creativetimofficial-nextjs-material-kit.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/creativetimofficial-nextjs-material-kit.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/creativetimofficial-nextjs-material-kit-2x.jpg"
+    }
+  },
+  "creativetimofficial-notus-nextjs": {
+    "theme_key": "creativetimofficial-notus-nextjs",
+    "file": "next-notus-nextjs.md",
+    "name": "notus-nextjs",
+    "title": "Notus NextJS",
+    "github_username": "creativetimofficial",
+    "repo": "creativetimofficial/notus-nextjs",
+    "branch": "main",
+    "default_branch": "main",
+    "github_url": "https://github.com/creativetimofficial/notus-nextjs",
+    "demo_url": "https://www.creative-tim.com/product/notus-nextjs",
+    "stars": 471,
+    "forks": 116,
+    "open_issues": 7,
+    "last_commit": "2021-03-19T12:56:55Z",
+    "created_at": "2020-09-01T15:53:58Z",
+    "description": "Notus NextJS: Free Tailwind CSS UI Kit and Admin",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/creativetimofficial-notus-nextjs.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/creativetimofficial-notus-nextjs.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/creativetimofficial-notus-nextjs-2x.jpg"
     }
   },
   "curtistimson-hugo-theme-dopetrope": {
@@ -4829,6 +5151,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/edavidaja-docter-2x.jpg"
     }
   },
+  "ehowey-gatsby-theme-catalyst": {
+    "theme_key": "ehowey-gatsby-theme-catalyst",
+    "file": "gatsby-theme-catalyst.md",
+    "name": "gatsby-theme-catalyst",
+    "title": "Gatsby Theme Catalyst",
+    "github_username": "ehowey",
+    "repo": "ehowey/gatsby-theme-catalyst",
+    "branch": "main",
+    "default_branch": "main",
+    "github_url": "https://github.com/ehowey/gatsby-theme-catalyst",
+    "demo_url": "https://www.gatsbycatalyst.com/",
+    "stars": 165,
+    "forks": 16,
+    "open_issues": 1,
+    "last_commit": "2021-11-07T04:08:46Z",
+    "created_at": "2019-06-13T03:47:28Z",
+    "description": "An opinionated set of integrated themes and starters as a boilerplate to accelerate development with GatsbyJS",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/ehowey-gatsby-theme-catalyst.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/ehowey-gatsby-theme-catalyst.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/ehowey-gatsby-theme-catalyst-2x.jpg"
+    }
+  },
   "ekwuno-jamstack-hackathon-starter": {
     "theme_key": "ekwuno-jamstack-hackathon-starter",
     "file": "gatsby-jamstack-hackathon-starter.md",
@@ -5335,6 +5680,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/ferrolho-jekyll-theme-libretto-2x.jpg"
     }
   },
+  "fluid-dev-hexo-theme-fluid": {
+    "theme_key": "fluid-dev-hexo-theme-fluid",
+    "file": "hexo-theme-fluid.md",
+    "name": "hexo-theme-fluid",
+    "title": "Fluid Hexo Theme",
+    "github_username": "fluid-dev",
+    "repo": "fluid-dev/hexo-theme-fluid",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/fluid-dev/hexo-theme-fluid",
+    "demo_url": "https://hexo.fluid-dev.com/",
+    "stars": 3714,
+    "forks": 747,
+    "open_issues": 32,
+    "last_commit": "2021-12-19T08:16:01Z",
+    "created_at": "2018-10-14T15:26:24Z",
+    "description": ":ocean: 一款 Material Design 风格的 Hexo 主题 / An elegant Material-Design theme for Hexo",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/fluid-dev-hexo-theme-fluid.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/fluid-dev-hexo-theme-fluid.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/fluid-dev-hexo-theme-fluid-2x.jpg"
+    }
+  },
   "fongandrew-hydeout": {
     "theme_key": "fongandrew-hydeout",
     "file": "jekyll-hydeout.md",
@@ -5770,6 +6138,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/gatsbyjs-gatsby-starter-default.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/gatsbyjs-gatsby-starter-default.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/gatsbyjs-gatsby-starter-default-2x.jpg"
+    }
+  },
+  "gatsbystorefront-gatsby-theme-storefront-shopify": {
+    "theme_key": "gatsbystorefront-gatsby-theme-storefront-shopify",
+    "file": "gatsby-theme-storefront-shopify.md",
+    "name": "gatsby-theme-storefront-shopify",
+    "title": "Gatsby Theme Storefront Shopify",
+    "github_username": "GatsbyStorefront",
+    "repo": "GatsbyStorefront/gatsby-theme-storefront-shopify",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/GatsbyStorefront/gatsby-theme-storefront-shopify",
+    "demo_url": "https://gatsbystorefront.com/",
+    "stars": 213,
+    "forks": 45,
+    "open_issues": 1,
+    "last_commit": "2021-04-22T18:53:16Z",
+    "created_at": "2019-12-03T15:34:09Z",
+    "description": "Create a Shopify store with Gatsby JS 🛍️  🛒",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/gatsbystorefront-gatsby-theme-storefront-shopify.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/gatsbystorefront-gatsby-theme-storefront-shopify.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/gatsbystorefront-gatsby-theme-storefront-shopify-2x.jpg"
     }
   },
   "gdgtoulouse-devfest-theme-hugo": {
@@ -6370,6 +6761,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/goodroot-hugo-classic-2x.jpg"
     }
   },
+  "google-eleventy-high-performance-blog": {
+    "theme_key": "google-eleventy-high-performance-blog",
+    "file": "eleventy-high-performance-blogeleventy-high-performance-blog.md",
+    "name": "eleventy-high-performance-blog",
+    "title": "Eleventy High Performance Blog",
+    "github_username": "google",
+    "repo": "google/eleventy-high-performance-blog",
+    "branch": "main",
+    "default_branch": "main",
+    "github_url": "https://github.com/google/eleventy-high-performance-blog",
+    "demo_url": "https://www.industrialempathy.com/posts/eleventy-high-performance-blog/",
+    "stars": 3494,
+    "forks": 225,
+    "open_issues": 11,
+    "last_commit": "2021-11-07T02:19:15Z",
+    "created_at": "2020-09-04T08:16:00Z",
+    "description": "A high performance blog template for the 11ty static site generator.",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/google-eleventy-high-performance-blog.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/google-eleventy-high-performance-blog.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/google-eleventy-high-performance-blog-2x.jpg"
+    }
+  },
   "graphcms-gatsby-graphcms-tailwindcss-example": {
     "theme_key": "graphcms-gatsby-graphcms-tailwindcss-example",
     "file": "gatsby-graphcms-tailwindcss-example.md",
@@ -6460,6 +6874,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/graphcms-reference-marketing-website.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/graphcms-reference-marketing-website.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/graphcms-reference-marketing-website-2x.jpg"
+    }
+  },
+  "gregberge-smooth-doc": {
+    "theme_key": "gregberge-smooth-doc",
+    "file": "gatsby-smooth-doc.md",
+    "name": "smooth-doc",
+    "title": "Smooth Doc",
+    "github_username": "gregberge",
+    "repo": "gregberge/smooth-doc",
+    "branch": "main",
+    "default_branch": "main",
+    "github_url": "https://github.com/gregberge/smooth-doc",
+    "demo_url": "https://smooth-doc.com/",
+    "stars": 202,
+    "forks": 32,
+    "open_issues": 6,
+    "last_commit": "2021-11-02T05:24:52Z",
+    "created_at": "2018-11-30T09:20:27Z",
+    "description": "Ready to use documentation theme for Gatsby.",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/gregberge-smooth-doc.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/gregberge-smooth-doc.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/gregberge-smooth-doc-2x.jpg"
     }
   },
   "greglobinski-gatsby-starter-hero-blog": {
@@ -6644,6 +7081,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/hagnerd-gatsby-starter-blog-mdx.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/hagnerd-gatsby-starter-blog-mdx.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/hagnerd-gatsby-starter-blog-mdx-2x.jpg"
+    }
+  },
+  "haojen-hexo-theme-anisina": {
+    "theme_key": "haojen-hexo-theme-anisina",
+    "file": "hexo-theme-anisina.md",
+    "name": "hexo-theme-Anisina",
+    "title": "Anisina",
+    "github_username": "Haojen",
+    "repo": "Haojen/hexo-theme-Anisina",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/Haojen/hexo-theme-Anisina",
+    "demo_url": "https://haojen.github.io/",
+    "stars": 755,
+    "forks": 161,
+    "open_issues": 13,
+    "last_commit": "2021-03-17T12:22:57Z",
+    "created_at": "2016-05-27T09:57:08Z",
+    "description": ":art: A simple responsive, support qiniu image cdn theme for hexo https://haojen.github.io/ ",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/haojen-hexo-theme-anisina.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/haojen-hexo-theme-anisina.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/haojen-hexo-theme-anisina-2x.jpg"
     }
   },
   "harshil1712-gatsby-starter-googlesheets": {
@@ -7267,6 +7727,52 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/ifedyukin-mekyll-2x.jpg"
     }
   },
+  "ikeq-hexo-theme-inside": {
+    "theme_key": "ikeq-hexo-theme-inside",
+    "file": "hexo-theme-inside.md",
+    "name": "hexo-theme-inside",
+    "title": "INSIDE",
+    "github_username": "ikeq",
+    "repo": "ikeq/hexo-theme-inside",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/ikeq/hexo-theme-inside",
+    "demo_url": "https://blog.oniuo.com/theme-inside",
+    "stars": 536,
+    "forks": 88,
+    "open_issues": 16,
+    "last_commit": "2021-12-05T07:27:16Z",
+    "created_at": "2017-11-09T03:34:33Z",
+    "description": "🌈  SPA, Flat and clean theme for Hexo https://blog.oniuo.com/theme-inside",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/ikeq-hexo-theme-inside.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/ikeq-hexo-theme-inside.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/ikeq-hexo-theme-inside-2x.jpg"
+    }
+  },
+  "imadatyatalah-nextjs-chakra-ui-portfolio-template": {
+    "theme_key": "imadatyatalah-nextjs-chakra-ui-portfolio-template",
+    "file": "next-nextjs-chakra-ui-portfolio-template.md",
+    "name": "nextjs-chakra-ui-portfolio-template",
+    "title": "Next.js & Chakra-UI Portfolio Template",
+    "github_username": "imadatyatalah",
+    "repo": "imadatyatalah/nextjs-chakra-ui-portfolio-template",
+    "branch": "main",
+    "default_branch": "main",
+    "github_url": "https://github.com/imadatyatalah/nextjs-chakra-ui-portfolio-template",
+    "demo_url": "https://portfolio-boilerplate-nextjs.vercel.app/",
+    "stars": 54,
+    "forks": 11,
+    "open_issues": 12,
+    "last_commit": "2021-09-14T07:41:28Z",
+    "created_at": "2021-02-19T14:51:39Z",
+    "description": "Next.js & Chakra-UI portfolio template.",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/imadatyatalah-nextjs-chakra-ui-portfolio-template.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/imadatyatalah-nextjs-chakra-ui-portfolio-template.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/imadatyatalah-nextjs-chakra-ui-portfolio-template-2x.jpg"
+    }
+  },
   "imedadel-gatsby-london": {
     "theme_key": "imedadel-gatsby-london",
     "file": "gatsby-london.md",
@@ -7288,6 +7794,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/imedadel-gatsby-london.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/imedadel-gatsby-london.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/imedadel-gatsby-london-2x.jpg"
+    }
+  },
+  "imranhsayed-gatsby-woocommerce-themes": {
+    "theme_key": "imranhsayed-gatsby-woocommerce-themes",
+    "file": "gatsby-woocommerce-themes.md",
+    "name": "gatsby-woocommerce-themes",
+    "title": "Gatsby WooCommerce themes - Electra",
+    "github_username": "imranhsayed",
+    "repo": "imranhsayed/gatsby-woocommerce-themes",
+    "branch": "main",
+    "default_branch": "main",
+    "github_url": "https://github.com/imranhsayed/gatsby-woocommerce-themes",
+    "demo_url": "https://gatsby-woocommerce-theme.netlify.app/",
+    "stars": 482,
+    "forks": 242,
+    "open_issues": 39,
+    "last_commit": "2021-02-07T03:32:35Z",
+    "created_at": "2020-07-10T12:48:04Z",
+    "description": "⚡ A Gatsby Theme for WooCommerce E-commerce site Gatsby WooCommerce WordPress",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/imranhsayed-gatsby-woocommerce-themes.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/imranhsayed-gatsby-woocommerce-themes.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/imranhsayed-gatsby-woocommerce-themes-2x.jpg"
     }
   },
   "inded-jekyll_modern-blog": {
@@ -8164,6 +8693,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/jeromelachaud-grayscale-theme-2x.jpg"
     }
   },
+  "jerryc127-hexo-theme-butterfly": {
+    "theme_key": "jerryc127-hexo-theme-butterfly",
+    "file": "hexo-theme-butterfly.md",
+    "name": "hexo-theme-butterfly",
+    "title": "Butterfly",
+    "github_username": "jerryc127",
+    "repo": "jerryc127/hexo-theme-butterfly",
+    "branch": "dev",
+    "default_branch": "dev",
+    "github_url": "https://github.com/jerryc127/hexo-theme-butterfly",
+    "demo_url": "https://butterfly.js.org/",
+    "stars": 3159,
+    "forks": 704,
+    "open_issues": 9,
+    "last_commit": "2021-12-22T14:39:27Z",
+    "created_at": "2019-06-04T13:38:41Z",
+    "description": " 🦋 A Hexo Theme: Butterfly",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/jerryc127-hexo-theme-butterfly.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/jerryc127-hexo-theme-butterfly.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/jerryc127-hexo-theme-butterfly-2x.jpg"
+    }
+  },
   "jitinnair1-gradfolio": {
     "theme_key": "jitinnair1-gradfolio",
     "file": "jekyll-gradfolio.md",
@@ -8208,6 +8760,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/jjcav84-mdbreact-gatsby-starter.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/jjcav84-mdbreact-gatsby-starter.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/jjcav84-mdbreact-gatsby-starter-2x.jpg"
+    }
+  },
+  "jlengstorf-lengstorf.com": {
+    "theme_key": "jlengstorf-lengstorf.com",
+    "file": "gatsby-lengstorf.com.md",
+    "name": "lengstorf.com",
+    "title": "lengstorf.com",
+    "github_username": "jlengstorf",
+    "repo": "jlengstorf/lengstorf.com",
+    "branch": "main",
+    "default_branch": "main",
+    "github_url": "https://github.com/jlengstorf/lengstorf.com",
+    "demo_url": "https://www.lengstorf.com/",
+    "stars": 216,
+    "forks": 56,
+    "open_issues": 15,
+    "last_commit": "2021-01-02T01:46:10Z",
+    "created_at": "2012-10-07T02:44:31Z",
+    "description": "Source for lengstorf.com, Jason Lengstorf's personal site.",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/jlengstorf-lengstorf.com.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/jlengstorf-lengstorf.com.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/jlengstorf-lengstorf.com-2x.jpg"
     }
   },
   "jmau111-hugo-theme-ava": {
@@ -8417,6 +8992,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/jpanther-congo-2x.jpg"
     }
   },
+  "jpedroschmitz-gatsby-starter-rocketdocs": {
+    "theme_key": "jpedroschmitz-gatsby-starter-rocketdocs",
+    "file": "gatsby-starter-rocket-docs.md",
+    "name": "gatsby-starter-rocketdocs",
+    "title": "Gatsby Starter : Rocket Docs",
+    "github_username": "jpedroschmitz",
+    "repo": "jpedroschmitz/gatsby-starter-rocketdocs",
+    "branch": "main",
+    "default_branch": "main",
+    "github_url": "https://github.com/jpedroschmitz/gatsby-starter-rocketdocs",
+    "demo_url": "https://rocketdocs.netlify.app/",
+    "stars": 210,
+    "forks": 34,
+    "open_issues": 0,
+    "last_commit": "2021-11-26T21:23:05Z",
+    "created_at": "2020-01-28T17:41:26Z",
+    "description": "The documentation starter you were looking for ⚡️",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/jpedroschmitz-gatsby-starter-rocketdocs.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/jpedroschmitz-gatsby-starter-rocketdocs.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/jpedroschmitz-gatsby-starter-rocketdocs-2x.jpg"
+    }
+  },
   "juhitrivedi-cape": {
     "theme_key": "juhitrivedi-cape",
     "file": "gatsby-cape.md",
@@ -8484,6 +9082,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/justinformentin-gatsby-v2-tutorial-starter.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/justinformentin-gatsby-v2-tutorial-starter.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/justinformentin-gatsby-v2-tutorial-starter-2x.jpg"
+    }
+  },
+  "jvidalv-nextal": {
+    "theme_key": "jvidalv-nextal",
+    "file": "next-nextal.md",
+    "name": "nextal",
+    "title": "Nextal",
+    "github_username": "jvidalv",
+    "repo": "jvidalv/nextal",
+    "branch": "main",
+    "default_branch": "main",
+    "github_url": "https://github.com/jvidalv/nextal",
+    "demo_url": "https://nextal.josepvidal.dev/",
+    "stars": 77,
+    "forks": 5,
+    "open_issues": 0,
+    "last_commit": "2021-11-21T20:47:34Z",
+    "created_at": "2021-11-14T13:11:48Z",
+    "description": "Starter template for NextJs with TypeScript. Supports Tailwind with CSS-Modules. Jest and @react/testing-library configured and ready to go. Also ESLint, Prettier, Husky, Commit-lint and Atomic Design for components. ",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/jvidalv-nextal.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/jvidalv-nextal.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/jvidalv-nextal-2x.jpg"
     }
   },
   "jwillmer-jekylldecent": {
@@ -9084,6 +9705,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/knightjdr-gatsby-starter-scientist-2x.jpg"
     }
   },
+  "kohrongying-11ty-blog-starter": {
+    "theme_key": "kohrongying-11ty-blog-starter",
+    "file": "eleventy-11ty-blog-starter.md",
+    "name": "11ty-blog-starter",
+    "title": "Blog starter",
+    "github_username": "kohrongying",
+    "repo": "kohrongying/11ty-blog-starter",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/kohrongying/11ty-blog-starter",
+    "demo_url": "https://eleventy.rongying.co/",
+    "stars": 28,
+    "forks": 6,
+    "open_issues": 0,
+    "last_commit": "2021-05-26T14:58:40Z",
+    "created_at": "2020-07-18T09:49:11Z",
+    "description": "11ty, Tailwind. Works when JS is disabled",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/kohrongying-11ty-blog-starter.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/kohrongying-11ty-blog-starter.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/kohrongying-11ty-blog-starter-2x.jpg"
+    }
+  },
   "konsumer-gatsby-starter-bootstrap-netlify": {
     "theme_key": "konsumer-gatsby-starter-bootstrap-netlify",
     "file": "gatsby-starter-bootstrap-netlify.md",
@@ -9475,6 +10119,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/lekoarts-gatsby-starter-prismic-i18n-2x.jpg"
     }
   },
+  "lekoarts-gatsby-themes": {
+    "theme_key": "lekoarts-gatsby-themes",
+    "file": "gatsby-themes.md",
+    "name": "gatsby-themes",
+    "title": "Free & Open Source Gatsby Themes",
+    "github_username": "LekoArts",
+    "repo": "LekoArts/gatsby-themes",
+    "branch": "main",
+    "default_branch": "main",
+    "github_url": "https://github.com/LekoArts/gatsby-themes",
+    "demo_url": "https://themes.lekoarts.de/",
+    "stars": 1557,
+    "forks": 503,
+    "open_issues": 1,
+    "last_commit": "2021-12-20T10:12:36Z",
+    "created_at": "2019-07-04T19:09:25Z",
+    "description": "Get high-quality and customizable Gatsby themes to quickly bootstrap your website! Choose from many professionally created and impressive designs with a wide variety of features and customization options.",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/lekoarts-gatsby-themes.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/lekoarts-gatsby-themes.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/lekoarts-gatsby-themes-2x.jpg"
+    }
+  },
   "lekovicmilos-gatsby-starter-portfolio": {
     "theme_key": "lekovicmilos-gatsby-starter-portfolio",
     "file": "gatsby-starter-portfolio.md",
@@ -9772,6 +10439,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/lorepirri-cayman-blog.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/lorepirri-cayman-blog.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/lorepirri-cayman-blog-2x.jpg"
+    }
+  },
+  "louisbarranqueiro-hexo-theme-tranquilpeak": {
+    "theme_key": "louisbarranqueiro-hexo-theme-tranquilpeak",
+    "file": "hexo-theme-tranquilpeak.md",
+    "name": "hexo-theme-tranquilpeak",
+    "title": "Tranquilpeak",
+    "github_username": "LouisBarranqueiro",
+    "repo": "LouisBarranqueiro/hexo-theme-tranquilpeak",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak",
+    "demo_url": "https://louisbarranqueiro.github.io/hexo-theme-tranquilpeak/",
+    "stars": 1743,
+    "forks": 493,
+    "open_issues": 4,
+    "last_commit": "2021-10-19T02:27:33Z",
+    "created_at": "2015-04-22T17:22:28Z",
+    "description": ":lipstick: A gorgeous responsive theme for Hexo blog framework",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/louisbarranqueiro-hexo-theme-tranquilpeak.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/louisbarranqueiro-hexo-theme-tranquilpeak.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/louisbarranqueiro-hexo-theme-tranquilpeak-2x.jpg"
     }
   },
   "lubang-hugo-hello-programmer-theme": {
@@ -10648,6 +11338,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/moltin-gatsby-demo-store-2x.jpg"
     }
   },
+  "molunerfinn-hexo-theme-melody": {
+    "theme_key": "molunerfinn-hexo-theme-melody",
+    "file": "hexo-theme-melody.md",
+    "name": "hexo-theme-melody",
+    "title": "Melody",
+    "github_username": "Molunerfinn",
+    "repo": "Molunerfinn/hexo-theme-melody",
+    "branch": "dev",
+    "default_branch": "dev",
+    "github_url": "https://github.com/Molunerfinn/hexo-theme-melody",
+    "demo_url": "https://molunerfinn.com/",
+    "stars": 1402,
+    "forks": 204,
+    "open_issues": 10,
+    "last_commit": "2021-09-22T14:42:16Z",
+    "created_at": "2017-09-03T13:15:12Z",
+    "description": ":musical_keyboard:A simple & beautiful & fast theme for Hexo.",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/molunerfinn-hexo-theme-melody.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/molunerfinn-hexo-theme-melody.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/molunerfinn-hexo-theme-melody-2x.jpg"
+    }
+  },
   "moonwave99-waffel": {
     "theme_key": "moonwave99-waffel",
     "file": "brunch-waffel.md",
@@ -10669,6 +11382,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/moonwave99-waffel.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/moonwave99-waffel.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/moonwave99-waffel-2x.jpg"
+    }
+  },
+  "mrmartineau-gatsby-theme-code-notes": {
+    "theme_key": "mrmartineau-gatsby-theme-code-notes",
+    "file": "gatsby-theme-code-notes.md",
+    "name": "gatsby-theme-code-notes",
+    "title": "Gatsby Theme Code Notes",
+    "github_username": "mrmartineau",
+    "repo": "mrmartineau/gatsby-theme-code-notes",
+    "branch": "main",
+    "default_branch": "main",
+    "github_url": "https://github.com/mrmartineau/gatsby-theme-code-notes",
+    "demo_url": "https://code-notes-example.netlify.com/",
+    "stars": 410,
+    "forks": 37,
+    "open_issues": 23,
+    "last_commit": "2021-04-23T00:19:41Z",
+    "created_at": "2020-02-09T21:19:14Z",
+    "description": "A Gatsby theme for publishing code-related notes to your website",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/mrmartineau-gatsby-theme-code-notes.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/mrmartineau-gatsby-theme-code-notes.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/mrmartineau-gatsby-theme-code-notes-2x.jpg"
     }
   },
   "muan-scribble": {
@@ -11108,6 +11844,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/nehalist-gatsby-starter-nehalem-2x.jpg"
     }
   },
+  "nehalist-gatsby-theme-nehalem": {
+    "theme_key": "nehalist-gatsby-theme-nehalem",
+    "file": "gatsby-theme-nehalem.md",
+    "name": "gatsby-theme-nehalem",
+    "title": "Nehalem Gatsby Theme",
+    "github_username": "nehalist",
+    "repo": "nehalist/gatsby-theme-nehalem",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/nehalist/gatsby-theme-nehalem",
+    "demo_url": "https://nehalem.netlify.app/",
+    "stars": 168,
+    "forks": 63,
+    "open_issues": 4,
+    "last_commit": "2020-07-04T12:24:59Z",
+    "created_at": "2019-07-03T18:18:51Z",
+    "description": "A Gatsby blog theme.",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/nehalist-gatsby-theme-nehalem.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/nehalist-gatsby-theme-nehalem.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/nehalist-gatsby-theme-nehalem-2x.jpg"
+    }
+  },
   "neizod-lemma-theme": {
     "theme_key": "neizod-lemma-theme",
     "file": "jekyll-lemma-theme.md",
@@ -11175,6 +11934,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/netlify-templates-one-click-hugo-cms.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/netlify-templates-one-click-hugo-cms.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/netlify-templates-one-click-hugo-cms-2x.jpg"
+    }
+  },
+  "next-theme-hexo-theme-next": {
+    "theme_key": "next-theme-hexo-theme-next",
+    "file": "hexo-theme-next.md",
+    "name": "hexo-theme-next",
+    "title": "NexT",
+    "github_username": "next-theme",
+    "repo": "next-theme/hexo-theme-next",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/next-theme/hexo-theme-next",
+    "demo_url": "https://theme-next.js.org/",
+    "stars": 1232,
+    "forks": 248,
+    "open_issues": 22,
+    "last_commit": "2021-12-01T07:12:57Z",
+    "created_at": "2020-04-05T03:43:31Z",
+    "description": "🎉 Elegant and powerful theme for Hexo.",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/next-theme-hexo-theme-next.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/next-theme-hexo-theme-next.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/next-theme-hexo-theme-next-2x.jpg"
     }
   },
   "nickbalestra-kactus": {
@@ -11890,6 +12672,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/pandasekh-jekyll-yamt-2x.jpg"
     }
   },
+  "pankod-next-boilerplate": {
+    "theme_key": "pankod-next-boilerplate",
+    "file": "next-boilerplate.md",
+    "name": "next-boilerplate",
+    "title": "Next Boilerplate",
+    "github_username": "pankod",
+    "repo": "pankod/next-boilerplate",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/pankod/next-boilerplate",
+    "demo_url": "https://pankod.github.io/next-boilerplate/",
+    "stars": 1237,
+    "forks": 229,
+    "open_issues": 15,
+    "last_commit": "2021-03-08T13:42:42Z",
+    "created_at": "2018-12-19T13:36:52Z",
+    "description": "A well-structured production ready Next.js boilerplate with Typescript, Redux, Jest, Enzyme, Express.js, Sass, Css, EnvConfig, Fetch, Reverse Proxy, Bundle Analyzer and Built-in Project CLI. https://pankod.github.io/next-boilerplate/",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/pankod-next-boilerplate.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/pankod-next-boilerplate.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/pankod-next-boilerplate-2x.jpg"
+    }
+  },
   "panr-hugo-theme-hello-friend": {
     "theme_key": "panr-hugo-theme-hello-friend",
     "file": "hugo-hello-friend.md",
@@ -12003,6 +12808,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/patricoferris-gatsby-starter-notes.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/patricoferris-gatsby-starter-notes.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/patricoferris-gatsby-starter-notes-2x.jpg"
+    }
+  },
+  "pauliescanlon-gatsby-theme-terminal": {
+    "theme_key": "pauliescanlon-gatsby-theme-terminal",
+    "file": "gatsby-theme-terminal.md",
+    "name": "gatsby-theme-terminal",
+    "title": "Gatsby Theme Terminal",
+    "github_username": "PaulieScanlon",
+    "repo": "PaulieScanlon/gatsby-theme-terminal",
+    "branch": "main",
+    "default_branch": "main",
+    "github_url": "https://github.com/PaulieScanlon/gatsby-theme-terminal",
+    "demo_url": "https://gatsbythemeterminal.gatsbyjs.io/",
+    "stars": 294,
+    "forks": 32,
+    "open_issues": 2,
+    "last_commit": "2021-11-03T19:08:20Z",
+    "created_at": "2020-02-16T05:43:08Z",
+    "description": "A zero component Gatsby theme for developers 🔋",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/pauliescanlon-gatsby-theme-terminal.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/pauliescanlon-gatsby-theme-terminal.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/pauliescanlon-gatsby-theme-terminal-2x.jpg"
     }
   },
   "peaceiris-hugo-theme-iris": {
@@ -12419,6 +13247,75 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/poole-poole-2x.jpg"
     }
   },
+  "ppoffice-hexo-theme-hueman": {
+    "theme_key": "ppoffice-hexo-theme-hueman",
+    "file": "hexo-theme-hueman.md",
+    "name": "hexo-theme-hueman",
+    "title": "Hueman",
+    "github_username": "ppoffice",
+    "repo": "ppoffice/hexo-theme-hueman",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/ppoffice/hexo-theme-hueman",
+    "demo_url": "http://ppoffice.github.io/hexo-theme-hueman/",
+    "stars": 1144,
+    "forks": 343,
+    "open_issues": 14,
+    "last_commit": "2021-10-27T23:20:50Z",
+    "created_at": "2015-02-01T13:46:06Z",
+    "description": "A redesign of Alx's wordpress theme Hueman, ported to Hexo.",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/ppoffice-hexo-theme-hueman.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/ppoffice-hexo-theme-hueman.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/ppoffice-hexo-theme-hueman-2x.jpg"
+    }
+  },
+  "ppoffice-hexo-theme-icarus": {
+    "theme_key": "ppoffice-hexo-theme-icarus",
+    "file": "hexo-theme-icarus.md",
+    "name": "hexo-theme-icarus",
+    "title": "Hexo Theme Icarus",
+    "github_username": "ppoffice",
+    "repo": "ppoffice/hexo-theme-icarus",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/ppoffice/hexo-theme-icarus",
+    "demo_url": "https://ppoffice.github.io/hexo-theme-icarus/",
+    "stars": 5059,
+    "forks": 1371,
+    "open_issues": 26,
+    "last_commit": "2021-12-17T04:26:03Z",
+    "created_at": "2015-03-19T14:24:24Z",
+    "description": "A simple, delicate, and modern theme for the static site generator Hexo.",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/ppoffice-hexo-theme-icarus.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/ppoffice-hexo-theme-icarus.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/ppoffice-hexo-theme-icarus-2x.jpg"
+    }
+  },
+  "ppoffice-hexo-theme-minos": {
+    "theme_key": "ppoffice-hexo-theme-minos",
+    "file": "hexo-theme-minos.md",
+    "name": "hexo-theme-minos",
+    "title": "Minos",
+    "github_username": "ppoffice",
+    "repo": "ppoffice/hexo-theme-minos",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/ppoffice/hexo-theme-minos",
+    "demo_url": "http://ppoffice.github.io/hexo-theme-minos/",
+    "stars": 684,
+    "forks": 199,
+    "open_issues": 17,
+    "last_commit": "2021-08-05T00:06:39Z",
+    "created_at": "2015-05-17T07:46:09Z",
+    "description": "A simple and retro styled Hexo theme, concentrated more on your ideas.",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/ppoffice-hexo-theme-minos.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/ppoffice-hexo-theme-minos.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/ppoffice-hexo-theme-minos-2x.jpg"
+    }
+  },
   "pranavrajs-limpid": {
     "theme_key": "pranavrajs-limpid",
     "file": "jekyll-limpid-minimal-theme.md",
@@ -12601,6 +13498,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/qiubaiying-qiubaiying.github.io.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/qiubaiying-qiubaiying.github.io.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/qiubaiying-qiubaiying.github.io-2x.jpg"
+    }
+  },
+  "r1-nine4": {
+    "theme_key": "r1-nine4",
+    "file": "next-nine4.md",
+    "name": "nine4",
+    "title": "Nine4",
+    "github_username": "r1",
+    "repo": "r1/nine4",
+    "branch": "main",
+    "default_branch": "main",
+    "github_url": "https://github.com/r1/nine4",
+    "demo_url": "https://nine4.app/",
+    "stars": 60,
+    "forks": 7,
+    "open_issues": 1,
+    "last_commit": "2021-12-14T21:51:13Z",
+    "created_at": "2021-01-26T18:45:36Z",
+    "description": "Tailwind CSS Website Templates",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/r1-nine4.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/r1-nine4.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/r1-nine4-2x.jpg"
     }
   },
   "rampatra-photography": {
@@ -13291,6 +14211,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/ryanwiemer-gatsby-starter-gcn.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/ryanwiemer-gatsby-starter-gcn.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/ryanwiemer-gatsby-starter-gcn-2x.jpg"
+    }
+  },
+  "ryanwiemer-gatsby-theme-amsterdam": {
+    "theme_key": "ryanwiemer-gatsby-theme-amsterdam",
+    "file": "gatsby-theme-amsterdam.md",
+    "name": "gatsby-theme-amsterdam",
+    "title": "Gatsby Theme Amsterdam",
+    "github_username": "ryanwiemer",
+    "repo": "ryanwiemer/gatsby-theme-amsterdam",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/ryanwiemer/gatsby-theme-amsterdam",
+    "demo_url": "https://amsterdam.netlify.app/",
+    "stars": 131,
+    "forks": 32,
+    "open_issues": 1,
+    "last_commit": "2021-12-03T06:00:11Z",
+    "created_at": "2019-07-24T06:20:23Z",
+    "description": "A Gatsby theme for artists, photographers and other creative folks 👨‍🎨",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/ryanwiemer-gatsby-theme-amsterdam.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/ryanwiemer-gatsby-theme-amsterdam.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/ryanwiemer-gatsby-theme-amsterdam-2x.jpg"
     }
   },
   "s-kris-gatsby-minimal-portfolio-blog": {
@@ -14190,6 +15133,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/simply007-kontent-template-gatsby-landing-page-photon-2x.jpg"
     }
   },
+  "siricee-hexo-theme-chic": {
+    "theme_key": "siricee-hexo-theme-chic",
+    "file": "hexo-theme-chic.md",
+    "name": "hexo-theme-Chic",
+    "title": "Chic Theme",
+    "github_username": "Siricee",
+    "repo": "Siricee/hexo-theme-Chic",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/Siricee/hexo-theme-Chic",
+    "demo_url": "https://siricee.github.io/hexo-theme-Chic/",
+    "stars": 616,
+    "forks": 139,
+    "open_issues": 12,
+    "last_commit": "2021-07-14T07:55:59Z",
+    "created_at": "2019-06-12T06:13:00Z",
+    "description": "An elegant, powerful, easy-to-read Hexo theme.",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/siricee-hexo-theme-chic.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/siricee-hexo-theme-chic.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/siricee-hexo-theme-chic-2x.jpg"
+    }
+  },
   "slashformotion-hugo-tufte": {
     "theme_key": "slashformotion-hugo-tufte",
     "file": "hugo-tufte.md",
@@ -14443,6 +15409,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/south-paw-awesome-gatsby-starter-2x.jpg"
     }
   },
+  "sozonome-nextarter-chakra": {
+    "theme_key": "sozonome-nextarter-chakra",
+    "file": "next-nextarter-chakra.md",
+    "name": "nextarter-chakra",
+    "title": "Nextarter Chakra",
+    "github_username": "sozonome",
+    "repo": "sozonome/nextarter-chakra",
+    "branch": "main",
+    "default_branch": "main",
+    "github_url": "https://github.com/sozonome/nextarter-chakra",
+    "demo_url": "https://nextarter-chakra.sznm.dev/",
+    "stars": 292,
+    "forks": 28,
+    "open_issues": 0,
+    "last_commit": "2021-12-20T14:01:59Z",
+    "created_at": "2020-08-13T04:09:44Z",
+    "description": "battery packed template / boilerplate to initialize PWA ready Next.js app with Chakra UI & Typescript setup :sparkles:",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/sozonome-nextarter-chakra.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/sozonome-nextarter-chakra.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/sozonome-nextarter-chakra-2x.jpg"
+    }
+  },
   "sparanoid-almace-scaffolding": {
     "theme_key": "sparanoid-almace-scaffolding",
     "file": "jekyll-almace-scaffolding.md",
@@ -14487,6 +15476,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/sproogen-modern-resume-theme.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/sproogen-modern-resume-theme.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/sproogen-modern-resume-theme-2x.jpg"
+    }
+  },
+  "sqrthree-vuepress-theme-api": {
+    "theme_key": "sqrthree-vuepress-theme-api",
+    "file": "vuepress-theme-api.md",
+    "name": "vuepress-theme-api",
+    "title": "Theme Api",
+    "github_username": "sqrthree",
+    "repo": "sqrthree/vuepress-theme-api",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/sqrthree/vuepress-theme-api",
+    "demo_url": "https://blog.sqrtthree.com/vuepress-theme-api/",
+    "stars": 309,
+    "forks": 57,
+    "open_issues": 7,
+    "last_commit": "2021-08-03T16:29:33Z",
+    "created_at": "2018-05-17T15:06:25Z",
+    "description": "📦📝🎨 A api-friendly theme for VuePress.",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/sqrthree-vuepress-theme-api.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/sqrthree-vuepress-theme-api.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/sqrthree-vuepress-theme-api-2x.jpg"
     }
   },
   "squidfunk-mkdocs-material": {
@@ -15064,6 +16076,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/styxlab-gatsby-starter-try-ghost-2x.jpg"
     }
   },
+  "styxlab-gatsby-theme-try-ghost": {
+    "theme_key": "styxlab-gatsby-theme-try-ghost",
+    "file": "gatsby-theme-try-ghost.md",
+    "name": "gatsby-theme-try-ghost",
+    "title": "Gatsby Theme Try Ghost",
+    "github_username": "styxlab",
+    "repo": "styxlab/gatsby-theme-try-ghost",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/styxlab/gatsby-theme-try-ghost",
+    "demo_url": "https://demo.jamify.org/",
+    "stars": 126,
+    "forks": 54,
+    "open_issues": 2,
+    "last_commit": "2021-12-22T18:46:48Z",
+    "created_at": "2020-02-24T00:09:10Z",
+    "description": "A Gatsby theme to build flaring fast blogs from headless Ghost CMS",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/styxlab-gatsby-theme-try-ghost.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/styxlab-gatsby-theme-try-ghost.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/styxlab-gatsby-theme-try-ghost-2x.jpg"
+    }
+  },
   "styxlab-next-cms-ghost": {
     "theme_key": "styxlab-next-cms-ghost",
     "file": "next-jamify-next-cms-ghost.md",
@@ -15545,6 +16580,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/thedevslot-whatatheme.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/thedevslot-whatatheme.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/thedevslot-whatatheme-2x.jpg"
+    }
+  },
+  "theme-nexmoe-hexo-theme-nexmoe": {
+    "theme_key": "theme-nexmoe-hexo-theme-nexmoe",
+    "file": "hexo-theme-nexmoe.md",
+    "name": "hexo-theme-nexmoe",
+    "title": "Nexmoe",
+    "github_username": "theme-nexmoe",
+    "repo": "theme-nexmoe/hexo-theme-nexmoe",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/theme-nexmoe/hexo-theme-nexmoe",
+    "demo_url": "https://nexmoe.com/",
+    "stars": 1104,
+    "forks": 166,
+    "open_issues": 2,
+    "last_commit": "2021-12-23T07:47:09Z",
+    "created_at": "2019-07-21T05:43:13Z",
+    "description": "🔥 一个比较特别的 Hexo 主题",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/theme-nexmoe-hexo-theme-nexmoe.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/theme-nexmoe-hexo-theme-nexmoe.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/theme-nexmoe-hexo-theme-nexmoe-2x.jpg"
     }
   },
   "themefisher-academia-hugo": {
@@ -16421,6 +17479,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/ttskch-jekyll-ttskch-theme-2x.jpg"
     }
   },
+  "tufu9441-maupassant-hexo": {
+    "theme_key": "tufu9441-maupassant-hexo",
+    "file": "hexo-maupassant.md",
+    "name": "maupassant-hexo",
+    "title": "Maupassant",
+    "github_username": "tufu9441",
+    "repo": "tufu9441/maupassant-hexo",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/tufu9441/maupassant-hexo",
+    "demo_url": "https://www.haomwei.com/",
+    "stars": 2384,
+    "forks": 645,
+    "open_issues": 15,
+    "last_commit": "2021-02-19T05:13:55Z",
+    "created_at": "2015-05-25T12:14:11Z",
+    "description": "A simple Hexo theme forked from icylogic.",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/tufu9441-maupassant-hexo.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/tufu9441-maupassant-hexo.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/tufu9441-maupassant-hexo-2x.jpg"
+    }
+  },
   "tummychow-lanyon-hugo": {
     "theme_key": "tummychow-lanyon-hugo",
     "file": "hugo-lanyon-theme.md",
@@ -16927,6 +18008,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/vividvilla-ezhil-2x.jpg"
     }
   },
+  "volantis-x-hexo-theme-volantis": {
+    "theme_key": "volantis-x-hexo-theme-volantis",
+    "file": "hexo-theme-volantis.md",
+    "name": "hexo-theme-volantis",
+    "title": "Volantis",
+    "github_username": "volantis-x",
+    "repo": "volantis-x/hexo-theme-volantis",
+    "branch": "dev",
+    "default_branch": "dev",
+    "github_url": "https://github.com/volantis-x/hexo-theme-volantis",
+    "demo_url": "https://vlts.cc/",
+    "stars": 1299,
+    "forks": 426,
+    "open_issues": 7,
+    "last_commit": "2021-12-18T13:16:46Z",
+    "created_at": "2017-10-24T03:46:42Z",
+    "description": "A Wonderful Theme for Hexo https://vlts.cc  https://volantis.js.org",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/volantis-x-hexo-theme-volantis.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/volantis-x-hexo-theme-volantis.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/volantis-x-hexo-theme-volantis-2x.jpg"
+    }
+  },
   "volny-creative-theme-jekyll": {
     "theme_key": "volny-creative-theme-jekyll",
     "file": "jekyll-creative-theme.md",
@@ -17017,6 +18121,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/vszhub-not-pure-poole.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/vszhub-not-pure-poole.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/vszhub-not-pure-poole-2x.jpg"
+    }
+  },
+  "vuepress-reco-vuepress-theme-reco": {
+    "theme_key": "vuepress-reco-vuepress-theme-reco",
+    "file": "vuepress-theme-reco.md",
+    "name": "vuepress-theme-reco",
+    "title": "Reco",
+    "github_username": "vuepress-reco",
+    "repo": "vuepress-reco/vuepress-theme-reco",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/vuepress-reco/vuepress-theme-reco",
+    "demo_url": "https://vuepress-theme-reco.recoluan.com/",
+    "stars": 1460,
+    "forks": 312,
+    "open_issues": 44,
+    "last_commit": "2021-12-06T16:40:48Z",
+    "created_at": "2018-09-10T06:31:43Z",
+    "description": "💥 A simple and beautiful vuepress Blog & Doc theme.",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/vuepress-reco-vuepress-theme-reco.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/vuepress-reco-vuepress-theme-reco.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/vuepress-reco-vuepress-theme-reco-2x.jpg"
     }
   },
   "vvalchev-creative-theme-jekyll-new": {
@@ -17709,6 +18836,52 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/xianmin-hugo-theme-jane-2x.jpg"
     }
   },
+  "xpoet-hexo-theme-keep": {
+    "theme_key": "xpoet-hexo-theme-keep",
+    "file": "hexo-theme-keep.md",
+    "name": "hexo-theme-keep",
+    "title": "Keep",
+    "github_username": "XPoet",
+    "repo": "XPoet/hexo-theme-keep",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/XPoet/hexo-theme-keep",
+    "demo_url": "https://xpoet.cn/",
+    "stars": 764,
+    "forks": 117,
+    "open_issues": 16,
+    "last_commit": "2021-12-04T13:39:54Z",
+    "created_at": "2020-03-12T07:34:20Z",
+    "description": ":rainbow: A simple and elegant theme for Hexo. It makes you more focused on writing.",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/xpoet-hexo-theme-keep.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/xpoet-hexo-theme-keep.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/xpoet-hexo-theme-keep-2x.jpg"
+    }
+  },
+  "xugaoyi-vuepress-theme-vdoing": {
+    "theme_key": "xugaoyi-vuepress-theme-vdoing",
+    "file": "vuepress-theme-vdoing.md",
+    "name": "vuepress-theme-vdoing",
+    "title": "Vdoing",
+    "github_username": "xugaoyi",
+    "repo": "xugaoyi/vuepress-theme-vdoing",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/xugaoyi/vuepress-theme-vdoing",
+    "demo_url": "https://doc.xugaoyi.com/",
+    "stars": 1611,
+    "forks": 461,
+    "open_issues": 6,
+    "last_commit": "2021-12-19T07:51:10Z",
+    "created_at": "2019-11-30T07:17:46Z",
+    "description": "🚀一款简洁高效的VuePress知识管理&博客(blog)主题",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/xugaoyi-vuepress-theme-vdoing.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/xugaoyi-vuepress-theme-vdoing.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/xugaoyi-vuepress-theme-vdoing-2x.jpg"
+    }
+  },
   "xukimseven-hardcandy-jekyll": {
     "theme_key": "xukimseven-hardcandy-jekyll",
     "file": "jekyll-theme-HardCandy.md",
@@ -18054,6 +19227,52 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/yulijia-freshman21-2x.jpg"
     }
   },
+  "yvescoding-rcpress": {
+    "theme_key": "yvescoding-rcpress",
+    "file": "gatsby-rcpress.md",
+    "name": "rcpress",
+    "title": "RcPress",
+    "github_username": "YvesCoding",
+    "repo": "YvesCoding/rcpress",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/YvesCoding/rcpress",
+    "demo_url": "https://www.yvescoding.com/rcpress/",
+    "stars": 191,
+    "forks": 29,
+    "open_issues": 15,
+    "last_commit": "2021-05-22T15:07:00Z",
+    "created_at": "2019-06-28T10:40:30Z",
+    "description": "基于react和Ant Design的文档生成器 🎨",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/yvescoding-rcpress.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/yvescoding-rcpress.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/yvescoding-rcpress-2x.jpg"
+    }
+  },
+  "z3by-vuepress-theme-modern-blog": {
+    "theme_key": "z3by-vuepress-theme-modern-blog",
+    "file": "vuepress-theme-modern-blog.md",
+    "name": "vuepress-theme-modern-blog",
+    "title": "Modern Blog",
+    "github_username": "z3by",
+    "repo": "z3by/vuepress-theme-modern-blog",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/z3by/vuepress-theme-modern-blog",
+    "demo_url": "https://vp-modern.z3by.com/",
+    "stars": 95,
+    "forks": 30,
+    "open_issues": 37,
+    "last_commit": "2021-06-30T14:59:55Z",
+    "created_at": "2019-12-01T18:01:28Z",
+    "description": "🤩Modern blog theme for VuePress.",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/z3by-vuepress-theme-modern-blog.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/z3by-vuepress-theme-modern-blog.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/z3by-vuepress-theme-modern-blog-2x.jpg"
+    }
+  },
   "zerostaticthemes-gatsby-serif-theme": {
     "theme_key": "zerostaticthemes-gatsby-serif-theme",
     "file": "gatsby-serif-theme.md",
@@ -18213,6 +19432,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/zivong-jekyll-theme-hydure.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/zivong-jekyll-theme-hydure.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/zivong-jekyll-theme-hydure-2x.jpg"
+    }
+  },
+  "zpfz-vuepress-theme-antdocs": {
+    "theme_key": "zpfz-vuepress-theme-antdocs",
+    "file": "vuepress-theme-antdocs.md",
+    "name": "vuepress-theme-antdocs",
+    "title": "AntDocs",
+    "github_username": "zpfz",
+    "repo": "zpfz/vuepress-theme-antdocs",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/zpfz/vuepress-theme-antdocs",
+    "demo_url": "https://antdocs.pages.dev/",
+    "stars": 182,
+    "forks": 33,
+    "open_issues": 4,
+    "last_commit": "2021-06-02T15:13:45Z",
+    "created_at": "2020-02-25T07:44:39Z",
+    "description": "🔥🎨 An Ant Design style theme for VuePress. (QQ Group: 867711329) [NOTE: The AntDocs-Next is WIP.]",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/zpfz-vuepress-theme-antdocs.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/zpfz-vuepress-theme-antdocs.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/zpfz-vuepress-theme-antdocs-2x.jpg"
     }
   },
   "zwbetz-gh-cayman-hugo-theme": {

@@ -52,13 +52,13 @@
               </div>
               {{ end }}
 
-              <div class="label">
+              <!-- <div class="label">
                 <span class="label-key">Interaction:</span>
                 {{ range .Params.interaction }}
                 <a class="label-value-link"
                   href="{{`interaction/` | relURL}}{{ . | urlize | lower }}">{{. | humanize}}</a>
                 {{ end }}
-              </div>
+              </div> -->
 
               {{ with .Params.licence }}
               <div class="label">
@@ -67,38 +67,44 @@
               </div>
               {{ end }}
 
+              {{ with .Params.social }}
               <div class="label">
                 <span class="label-key">Social:</span>
-                {{ range .Params.social }}
+                {{ range . }}
                 <a class="label-value-link" href="{{ .link | safeURL }}">{{.name | humanize}}</a>
                 {{ end }}
               </div>
+              {{ end }}
 
+              {{ with .Params.resources }}
               <div class="label">
                 <span class="label-key">Resources:</span>
                 {{ range .Params.resources }}
                 <a class="label-value-link" href="{{ .link | safeURL }}">{{.name | humanize}}</a>
                 {{ end }}
               </div>
+              {{ end }}
 
+              {{ if .Params.author_link }}
               <div class="action-buttons action-buttons-detail mb-0">
-                {{ if .Params.author}}
                 <a class="action-button action-button-github" data-action="github" data-context="detail" data-name="{{ .Title }}" href="{{ .Params.author_link | safeURL }}?ref=statichunt.com" target="_blank" rel="nofollow noopener">Website</a>
-                {{ end }}
               </div>
+              {{ end }}
 
             </div>
 
 
           </div>
         </div>
+        {{ with .Content }}
         <div class="row mt-3 mt-md-3 mt-lg-6">
           <div class="col-12 col-lg-8">
             <div class="content">
-              {{ .Content }}
+              {{ . }}
             </div>
           </div>
         </div>
+        {{ end }}
       </div>
     </div>
   </div>

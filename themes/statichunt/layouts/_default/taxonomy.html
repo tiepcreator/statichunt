@@ -4,7 +4,8 @@
 {{ .Params.meta_title }}
 {{ else }}
 
-{{ $themes := .RegularPages }}{{ $themes := (where $themes ".Params.draft" "!=" true) }}{{ $themes := (where $themes ".Params.disabled" "!=" true) }}{{ $paginatorTitle := .Paginate $themes }}{{ .Title }} Themes
+{{ $themes := .RegularPages }}{{ $themes := (where $themes ".Params.draft" "!=" true) }}{{ $themes := (where $themes ".Params.disabled" "!=" true) }}{{ $paginatorTitle := .Paginate $themes }}{{ .Title }}
+Themes
 {{ if eq $paginatorTitle.PageNumber 1 }}{{ end }}{{ if gt $paginatorTitle.PageNumber 1 }}
 | Page {{ $paginatorTitle.PageNumber }}{{ end }}
 {{ end }}
@@ -46,7 +47,7 @@
   <div class="main">
     <div class="container">
       <div class="row mb-5">
-        <div class="col-lg-8">
+        <div class="{{if .Params.promotion}}col-lg-8{{else}}col-12{{end}}">
           <div class="intro intro-taxonomy">
             <div class="intro-breadcrumbs">{{ partial "breadcrumbs.html" . }}</div>
             <div class="intro-icon"><img src="{{ .Params.icon | relURL }}" alt="{{.Title}} Logo" /></div>
@@ -81,7 +82,8 @@
               <li class="list-inline-item mt-1" title="License">
                 <span class="svg-icon svg-icon-license"></span>
                 {{ if .Params.license_url }}
-                <a target="_blank" rel="noopener noreferrer" href="{{ .Params.license_url | safeURL }}">{{ .Params.license }}</a>
+                <a target="_blank" rel="noopener noreferrer"
+                  href="{{ .Params.license_url | safeURL }}">{{ .Params.license }}</a>
                 {{ else }}
                 {{ .Params.license }}
                 {{ end }}
@@ -96,17 +98,18 @@
             </ul>
           </div>
         </div>
+        {{ with .Params.promotion }}
+        {{ if .enable }}
         <div class="col-lg-4 mt-4 mt-lg-0">
-          {{ with .Params.promotion }}
-          {{ if .enable }}
           <div class="promotion">
             <h2 class="mb-2">{{.title | markdownify}}</h2>
             <p class="d-block mb-4">{{.content | markdownify}}</p>
-            <a href="{{.button_link | absURL }}" class="action-button action-button-fill action-button-full action-button-large">{{.button_label}}</a>
+            <a href="{{.button_link | absURL }}"
+              class="action-button action-button-fill action-button-full action-button-large">{{.button_label}}</a>
           </div>
-          {{ end }}
-          {{ end }}
         </div>
+        {{ end }}
+        {{ end }}
       </div>
 
       <div id="grids-taxonomy" class="row mt-2">

@@ -3,53 +3,32 @@ title: About
 layout: simple
 ---
 
-### Staff Design is a collection of interviews exploring how product designers navigate the individual contributor path to its highest levels.
-
-### What is the motivation?
-
-I’ve observed two general patterns*:
-
-1. Career ladders nudge designers into management roles as the most realistic way to level up, have more impact, and make more money. Many companies tout a “two-track system” that in reality rewards managers with de facto influence on product development and outsized compensation.
-
-2. Most designers transition into management or leadership roles right around the Staff or Principal level. It’s a natural inflection point for many people, but it means that it is increasingly rare to see individual contributors with 10+ years of experience.
-
-With these observations in mind, I won't talk about what life is like for people who stay on the IC (individual contributor) path for the long term. I want to know how people level up, what it means to “practice design” at the highest levels, how to track career growth, and what new skills are required.
+Statichunt is a free open source directory that lists hundreds of JAMstack themes, starters, and resources for JAMstack sites.
 
 
+## What is the motivation?
 
-### Why is it called Staff Design?
+The popularity of Jamstack is consistently growing not only among business owners or marketers but also among developers.
+Today Jamstack allows developers to rely on a static website’s advantages including better web performance and security benefits.
 
-There seems to be an invisible line between the senior and staff levels (in a traditional design ladder) where people can choose between the IC and management track. That invisible line is where I want to add definition and context.
+We discovered that developers are regularly looking for high-quality themes, starters, and resources for their Jamstack project. There are hundreds of free themes and resources out there for Jamstack sites but we were surprised there was no high-quality resource that collected all of them in one place! So we decided to create one so that the developers can find any kind of resources they need for their Jamstack project & make their life easy.
+
+## Acknowledgments
+
+This project is inspired by the stunning work of [Robert Austin](https://github.com/JugglerX) and more than 150 contributors on Github.
+
+Built with [Hugo](https://gohugo.io/), hosted by [Netlify](https://www.netlify.com/).
+
+## Feedback
+What would make this project better? Let us know what you think of this project.
+
+hey@statichunt.com
+
+If you love this project please star the project on [Github](https://github.com/statichunt/statichunt).
 
 
-#### Gratitude
-My deepest thanks to the following people for graciously giving me feedback and support while working on this project.
-
-
-{{< gratitude "https://twitter.com/somratpro/" >}}
+<!-- {{< gratitude "https://twitter.com/somratpro/" >}}
 ![somrat](../images/gratitude/somrat.jpg)
 #### Somrat Sorkar
 @somratpro
-{{</ gratitude >}}
-
-
-{{< gratitude "https://twitter.com/somratpro/" >}}
-![somrat](../images/gratitude/somrat.jpg)
-#### Somrat Sorkar
-@somratpro
-{{</ gratitude >}}
-
-
-{{< gratitude "https://twitter.com/somratpro/" >}}
-![somrat](../images/gratitude/somrat.jpg)
-#### Somrat Sorkar
-@somratpro
-{{</ gratitude >}}
-
-<br>
-<br>
-
-#### About me
-Hey, I’m Brian Lovin. I’m a Staff Product Designer at GitHub.
-
-I’ve spent a lot of time over the years thinking about what it takes to level up as a product designer. I started this project to answer questions I wish I had the answers to five years ago. Something like this would have saved me a lot of time and stress.
+{{</ gratitude >}} -->
