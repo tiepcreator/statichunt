@@ -25,6 +25,6 @@ description: >-
   from a Typecho theme by Cho, forked and modified from icylogic.
 stale: false
 disabled: false
-disabled_reason:
+disabled_reason: null
 draft: false
 ---

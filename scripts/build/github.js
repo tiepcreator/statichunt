@@ -65,11 +65,7 @@ const fetchRepoData = async (frontmatter) => {
       last_commit: lastCommit,
       created_at: res.data.created_at,
       description: res.data.description,
-      images: {
-        hires: `https://www.jamstackthemes.dev/capture/${themeKey}.png`,
-        thumbnail: `https://www.jamstackthemes.dev/images/theme/thumbnail/${themeKey}.jpg`,
-        screenshot: `https://www.jamstackthemes.dev/images/theme/thumbnail/2x/${themeKey}-2x.jpg`
-      }
+      images: `https://www.statichunt.com/themes/thumbnails/${themeKey}.jpg`
     }
   } catch (err) {
     let error = "Github repo not found";
