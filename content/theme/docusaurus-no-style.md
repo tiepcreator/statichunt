@@ -1,5 +1,8 @@
 ---
 title: Docusaurus Theme No Style
+meta_title: "" # this is for SEO title
+meta_description:  "" # this is for SEO description
+page_heading: "" # this is for h1 tag
 github: https://github.com/wgao19/docusaurus-theme-no-style
 demo: https://docusaurus-theme-no-style.netlify.app/
 author: Wei Gao

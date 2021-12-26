@@ -6,14 +6,14 @@
       {{ end }}
     </a>
 
-    <div class="theme-body">
+    <div class="theme-body bg-transparent">
       <h2><a href="{{ .Permalink }}" class="theme-title">{{ .Params.title }}</a></h2>
       <!-- <p class="theme-description">{{with .Params.Description }}{{ . | markdownify}}{{else}}{{.Summary}}{{end}}</p> -->
-      <div class="action-buttons action-buttons-card">
+      <div class="action-buttons action-buttons-card pb-1">
         {{ if .Params.author_link }}
-        <a class="action-button action-button-demo" data-action="demo" data-context="card"  target="_blank" data-name="{{.Params.author}}" href="{{.Params.author_link | safeURL}}?ref=statichunt.com">Website</a>{{ end }}
-        <a class="action-button action-button-github" data-action="github" data-context="card"
-          data-name="{{ .Title }}" href="{{ .Permalink }}" rel="noopener nofollow">Details</a>
+        <a class="action-button action-button-demo mb-0" data-action="demo" data-context="card"  target="_blank" data-name="{{.Params.author}}" href="{{.Params.author_link | safeURL}}?ref=statichunt.com">Website</a>{{ end }}
+        <a class="action-button button-light action-button-github mb-0" data-action="github" data-context="card"
+        data-name="{{ .Title }}" href="{{ .Permalink }}" rel="noopener nofollow">Details</a>
       </div>
     </div>
     <!-- <div class="theme-footer">

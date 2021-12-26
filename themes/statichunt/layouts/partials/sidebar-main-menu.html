@@ -1,0 +1,7 @@
+<div class="sidebar d-block d-lg-none">
+  <div class="container px-sm-0">
+    <div class="sidebar-main-menu border-0">
+      {{ range .Site.Menus.main }}<a href="{{.URL}}">{{ .Name }}</a>{{end}}
+    </div>
+  </div>
+</div>

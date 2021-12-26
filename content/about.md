@@ -1,5 +1,7 @@
 ---
 title: About
+meta_title: "About Statichunt"
+meta_description: ""
 layout: simple
 ---
 

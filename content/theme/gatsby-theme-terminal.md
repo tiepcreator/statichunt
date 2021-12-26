@@ -11,9 +11,7 @@ date: 2021-04-29T00:00:00.000Z
 ssg:
   - Gatsby
 cms:
-  - null
 css:
-  - null
 archetype:
   - Other
 services: null

@@ -7,7 +7,7 @@
       {{ if gt (len $e) 1}}
       <li id="filter-{{ .Page.Title | urlize }}" class="filter-item" data-toggle=".{{ .Page.Title | urlize }}">
         <span class="filter-name">{{ .Page.Title }}</span>
-        <span class="archtype-count filter-count d-none" id="filter-count-{{ .Page.Title | urlize}}">{{ len $e }}</span>
+        <!-- <span class="archtype-count filter-count" id="filter-count-{{ .Page.Title | urlize}}">{{ len $e }}</span> -->
       </li>
       {{ end }}
       {{ end }}

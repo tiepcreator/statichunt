@@ -5,7 +5,6 @@
   .action-buttons-group {
     &:last-of-type {
       margin-bottom: 0;
-
     }
   }
 }
@@ -35,16 +34,11 @@
   .action-button {
     display: inline-block;
     padding: 7px 15px;
-    border: 1px solid $primary;
     border-radius: 4px;
     font-size: 16px;
     margin-right: 10px;
     color: $primary;
     text-decoration: none;
-    &:hover {
-      color: $primary;
-      opacity: 0.8;
-    }
     &:last-of-type {
       margin-right: 0;
     }

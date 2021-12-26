@@ -1,23 +1,6 @@
-{{ define "title" }}
-
-{{ if .Params.meta_title }}
-{{ .Params.meta_title }}
-{{ else }}
-
-{{ $themes := .RegularPages }}{{ $themes := (where $themes ".Params.draft" "!=" true) }}{{ $themes := (where $themes ".Params.disabled" "!=" true) }}{{ $paginatorTitle := .Paginate $themes }}{{ .Title }} Themes
-{{ if eq $paginatorTitle.PageNumber 1 }}{{ end }}{{ if gt $paginatorTitle.PageNumber 1 }}
-| Page {{ $paginatorTitle.PageNumber }}{{ end }}
-{{ end }}
-
-{{ end }}
-
 {{ define "header_classes" }}{{ end }}
 {{ define "body_classes" }}page-all-themes has-sidebar{{ end }}
 {{ define "body_id" }}page-all-themes{{ end }}
-
-{{ define "meta_description" }}
-<meta name="description" content="{{.Params.description | markdownify}}">
-{{ end }}
 
 {{ define "main" }}
 {{ $themes := (where .Site.RegularPages "Type" "theme") }}
@@ -30,6 +13,10 @@
     <div class="container px-sm-0">
       {{ partial "filters.html" (dict "context" . "countAll" true) }}
       {{ partial "statichunt.html" . }}
+
+      <div class="sidebar-main-menu d-block d-lg-none">
+        {{ range .Site.Menus.main }}<a href="{{.URL}}">{{ .Name }}</a>{{end}}
+      </div>
     </div>
   </div>
   <div class="main">

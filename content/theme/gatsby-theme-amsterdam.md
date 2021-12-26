@@ -11,11 +11,9 @@ date: 2021-04-29T00:00:00.000Z
 ssg:
   - Gatsby
 cms:
-  - Netlify CMS
+  - Netlifycms
 css:
-  - null
 archetype:
-  - null
 services: null
 hosting:
   - Netlify

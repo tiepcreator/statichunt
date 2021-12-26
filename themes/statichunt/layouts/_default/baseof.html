@@ -9,31 +9,28 @@
 
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>{{.Title}}</title>
+  <title>{{ if .Params.meta_title }}{{ .Params.meta_title }}{{ else if .Title }}{{ .Title }}{{ end }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="canonical" href="{{ .Permalink }}" />
 
   {{ block "ogmeta" . }}
-    <meta property="og:title" content="{{ .Title }}" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="{{ .Permalink }}" />
-    <meta property="og:description" content="{{ if .Params.description }}{{ .Params.description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-    <meta property="og:image" content="{{ .Site.BaseURL }}images/jamstackthemes-screenshot.png">
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@statichunt" />
-    <meta name="twitter:creator" content="@statichunt" />
+  <meta property="og:title" content="{{ .Title }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ .Permalink }}" />
+  <meta property="og:description" content="{{ if .Params.meta_description }}{{ .Params.meta_description }}{{ else if .Params.description }}{{ .Params.description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <meta property="og:image" content="{{ .Site.BaseURL }}images/jamstackthemes-screenshot.png">
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@statichunt" />
+  <meta name="twitter:creator" content="@statichunt" />
   {{end}}
 
-  {{ block "meta_description" . }}
-  {{ end }}
+  <meta name="description" content="{{ if .Params.meta_description }}{{ .Params.meta_description }}{{ else if .Params.description }}{{ .Params.description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;600;800&display=swap" rel="stylesheet">
   
-
-
   {{ if .Site.IsServer }}
   {{ $style := resources.Get "scss/style.scss" | resources.ExecuteAsTemplate "style.scss" . | toCSS (dict "targetPath" "css/style.css" "enableSourceMap" true) }}
   <link rel="stylesheet" href="{{ ($style).RelPermalink }}">
@@ -51,6 +48,7 @@
   {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{ end }}
 
+  <!-- Google Tag Manager -->
   <script>
     (function (w, d, s, l, i) {
       w[l] = w[l] || [];
@@ -64,8 +62,9 @@
       j.async = true;
       j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
       f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'G-S451Q34DZH');
+    })(window, document, 'script', 'dataLayer', 'GTM-PWJBVR2');
   </script>
+  <!-- End Google Tag Manager -->
 
   {{ partial "segment.html" . }}
 
