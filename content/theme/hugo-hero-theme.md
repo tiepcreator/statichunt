@@ -3,7 +3,7 @@ title: Hero
 github: https://github.com/zerostaticthemes/hugo-hero-theme
 demo: https://hugo-hero.netlify.com/
 author: Robert Austin
-thumbnail: "themes/thumbnails/hugo-hero-theme.jpg"
+thumbnail: "themes/hugo-hero-theme.jpg"
 ssg:
   - Hugo
 cms:

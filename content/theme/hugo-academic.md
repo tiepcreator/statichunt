@@ -3,7 +3,7 @@ title: Academic
 github: https://github.com/wowchemy/wowchemy-hugo-themes
 demo: https://academic-demo.netlify.app/
 author: gcushen
-thumbnail: "themes/thumbnails/hugo-academic.jpg"
+thumbnail: "themes/hugo-academic.jpg"
 ssg:
   - Hugo
 cms:

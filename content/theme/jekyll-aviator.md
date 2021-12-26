@@ -3,7 +3,7 @@ title: Aviator
 github: https://github.com/CloudCannon/aviator-jekyll-template
 demo: https://tangerine-lemon.cloudvent.net/
 author: CloudCannon
-thumbnail: "themes/thumbnails/jekyll-aviator.jpg"
+thumbnail: "themes/jekyll-aviator.jpg"
 ssg:
   - Jekyll
 cms:

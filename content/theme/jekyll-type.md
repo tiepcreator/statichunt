@@ -3,7 +3,7 @@ title: Jekyll Type
 github: https://github.com/ahmadajmi/type
 demo: https://type-jekyll.aspirethemes.com/
 author: Aspire Themes
-thumbnail: "themes/thumbnails/jekyll-type.jpg"
+thumbnail: "themes/jekyll-type.jpg"
 ssg:
   - Jekyll
 cms:

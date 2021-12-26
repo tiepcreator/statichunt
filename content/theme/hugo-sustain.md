@@ -3,7 +3,7 @@ title: Sustain
 github: https://github.com/suyundukov/hugo-sustain
 demo: https://demo.nurlan.co/hugo-sustain/
 author: Nurlan Su
-thumbnail: "themes/thumbnails/hugo-sustain.jpg"
+thumbnail: "themes/hugo-sustain.jpg"
 ssg:
   - Hugo
 cms:

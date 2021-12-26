@@ -3,7 +3,7 @@ title: Gatsby Serif Theme
 github: https://github.com/zerostaticthemes/gatsby-serif-theme
 demo: https://gatsby-serif.netlify.app/
 author: Robert Austin
-thumbnail: "themes/thumbnails/gatsby-serif-theme.jpg"
+thumbnail: "themes/gatsby-serif-theme.jpg"
 ssg:
   - Gatsby
 cms:

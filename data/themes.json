@@ -16,7 +16,7 @@
     "last_commit": "2021-09-21T18:10:54Z",
     "created_at": "2020-09-19T16:11:39Z",
     "description": "Deeply customizable, full-featured, ready to publish blog template built with 11ty, TailwindCSS, & Alpine.js",
-    "images": "https://www.statichunt.com/themes/thumbnails/11ta-11ta-template.jpg"
+    "images": "https://www.statichunt.com/themes/11ta-11ta-template.jpg"
   },
   "11ty-eleventy-base-blog": {
     "theme_key": "11ty-eleventy-base-blog",
@@ -81,7 +81,7 @@
     "last_commit": "2021-10-06T02:02:58Z",
     "created_at": "2020-05-23T22:10:23Z",
     "description": "Quickly launch an 11ty-generated static site. Includes a minimal Sass framework, and generated sitemap, RSS feed, and social share preview images.",
-    "images": "https://www.statichunt.com/themes/thumbnails/5t3ph-11ty-netlify-jumpstart.jpg"
+    "images": "https://www.statichunt.com/themes/5t3ph-11ty-netlify-jumpstart.jpg"
   },
   "5t3ph-smol-11ty-starter": {
     "theme_key": "5t3ph-smol-11ty-starter",
@@ -100,7 +100,7 @@
     "last_commit": "2021-06-12T01:52:04Z",
     "created_at": "2021-03-10T04:44:59Z",
     "description": "Extremely minimal Eleventy starter to kickstart a simple multi-page site / a nearly opinionless foundation to continue building on.",
-    "images": "https://www.statichunt.com/themes/thumbnails/5t3ph-smol-11ty-starter.jpg"
+    "images": "https://www.statichunt.com/themes/5t3ph-smol-11ty-starter.jpg"
   },
   "a9kitkumar-gatsby-ecommerce": {
     "theme_key": "a9kitkumar-gatsby-ecommerce",
@@ -418,7 +418,7 @@
     "last_commit": "2021-12-11T21:03:10Z",
     "created_at": "2020-10-04T20:00:48Z",
     "description": "Use Tailwind CSS, ESLint, Prettier & absolute imports instantly. Easily extendable zero-config template for pros and beginners.",
-    "images": "https://www.statichunt.com/themes/thumbnails/agcty-nextjs-advanced-starter.jpg"
+    "images": "https://www.statichunt.com/themes/agcty-nextjs-advanced-starter.jpg"
   },
   "agility-agility-gatsby-starter": {
     "theme_key": "agility-agility-gatsby-starter",
@@ -552,7 +552,7 @@
     "last_commit": "2021-12-07T08:10:49Z",
     "created_at": "2016-02-24T07:45:32Z",
     "description": ":rocket:  A super concise theme for Hexo  ",
-    "images": "https://www.statichunt.com/themes/thumbnails/ahonn-hexo-theme-even.jpg"
+    "images": "https://www.statichunt.com/themes/ahonn-hexo-theme-even.jpg"
   },
   "aigarsdz-brume": {
     "theme_key": "aigarsdz-brume",
@@ -2342,7 +2342,7 @@
     "last_commit": "2021-07-24T09:42:51Z",
     "created_at": "2019-09-26T02:38:50Z",
     "description": "🎨 A dark Hexo theme, it's responsive, simple but elegant.",
-    "images": "https://www.statichunt.com/themes/thumbnails/bennyxguo-hexo-theme-obsidian.jpg"
+    "images": "https://www.statichunt.com/themes/bennyxguo-hexo-theme-obsidian.jpg"
   },
   "benradford-slate-and-simple-jekyll-theme": {
     "theme_key": "benradford-slate-and-simple-jekyll-theme",
@@ -2568,7 +2568,7 @@
     "last_commit": "2021-12-20T14:12:16Z",
     "created_at": "2021-09-03T20:00:32Z",
     "description": "⚡️ Free Next.js responsive landing page template for SaaS products made using JAMStack architecture.",
-    "images": "https://www.statichunt.com/themes/thumbnails/blazity-next-saas-starter.jpg"
+    "images": "https://www.statichunt.com/themes/blazity-next-saas-starter.jpg"
   },
   "blinkfox-hexo-theme-matery": {
     "theme_key": "blinkfox-hexo-theme-matery",
@@ -2587,7 +2587,7 @@
     "last_commit": "2021-12-01T10:39:49Z",
     "created_at": "2018-08-27T16:38:12Z",
     "description": "A beautiful hexo blog theme with material design and responsive design.一个基于材料设计和响应式设计而成的全面、美观的Hexo主题。国内访问：http://blinkfox.com",
-    "images": "https://www.statichunt.com/themes/thumbnails/blinkfox-hexo-theme-matery.jpg"
+    "images": "https://www.statichunt.com/themes/blinkfox-hexo-theme-matery.jpg"
   },
   "blleng-hexo-theme-lx": {
     "theme_key": "blleng-hexo-theme-lx",
@@ -2652,7 +2652,7 @@
     "last_commit": "2021-10-15T07:48:30Z",
     "created_at": "2016-09-01T13:34:02Z",
     "description": "Material Design theme for hexo.",
-    "images": "https://www.statichunt.com/themes/thumbnails/bollnh-hexo-theme-material.jpg"
+    "images": "https://www.statichunt.com/themes/bollnh-hexo-theme-material.jpg"
   },
   "borekb-gatsby-starter-mobx": {
     "theme_key": "borekb-gatsby-starter-mobx",
@@ -2901,7 +2901,7 @@
     "last_commit": "2021-07-19T23:34:05Z",
     "created_at": "2021-04-02T00:21:21Z",
     "description": "Nextjs + Tailwind CSS + Shopify Starter",
-    "images": "https://www.statichunt.com/themes/thumbnails/btahir-next-shopify-starter.jpg"
+    "images": "https://www.statichunt.com/themes/btahir-next-shopify-starter.jpg"
   },
   "buttercms-gatsby-starter-buttercms": {
     "theme_key": "buttercms-gatsby-starter-buttercms",
@@ -2943,7 +2943,7 @@
     "last_commit": "2021-11-13T07:56:49Z",
     "created_at": "2020-07-25T13:57:12Z",
     "description": "VuePress 博客主题插件",
-    "images": "https://www.statichunt.com/themes/thumbnails/cadecode-vuepress-theme-2zh.jpg"
+    "images": "https://www.statichunt.com/themes/cadecode-vuepress-theme-2zh.jpg"
   },
   "caki0915-gatsby-starter-redux": {
     "theme_key": "caki0915-gatsby-starter-redux",
@@ -3974,7 +3974,7 @@
     "last_commit": "2021-05-14T08:17:27Z",
     "created_at": "2019-08-29T08:48:02Z",
     "description": "NextJS version of Material Kit React by Creative Tim",
-    "images": "https://www.statichunt.com/themes/thumbnails/creativetimofficial-nextjs-material-kit.jpg"
+    "images": "https://www.statichunt.com/themes/creativetimofficial-nextjs-material-kit.jpg"
   },
   "creativetimofficial-notus-nextjs": {
     "theme_key": "creativetimofficial-notus-nextjs",
@@ -3993,7 +3993,7 @@
     "last_commit": "2021-03-19T12:56:55Z",
     "created_at": "2020-09-01T15:53:58Z",
     "description": "Notus NextJS: Free Tailwind CSS UI Kit and Admin",
-    "images": "https://www.statichunt.com/themes/thumbnails/creativetimofficial-notus-nextjs.jpg"
+    "images": "https://www.statichunt.com/themes/creativetimofficial-notus-nextjs.jpg"
   },
   "curtistimson-hugo-theme-dopetrope": {
     "theme_key": "curtistimson-hugo-theme-dopetrope",
@@ -5093,7 +5093,7 @@
     "last_commit": "2021-11-07T04:08:46Z",
     "created_at": "2019-06-13T03:47:28Z",
     "description": "An opinionated set of integrated themes and starters as a boilerplate to accelerate development with GatsbyJS",
-    "images": "https://www.statichunt.com/themes/thumbnails/ehowey-gatsby-theme-catalyst.jpg"
+    "images": "https://www.statichunt.com/themes/ehowey-gatsby-theme-catalyst.jpg"
   },
   "ekwuno-jamstack-hackathon-starter": {
     "theme_key": "ekwuno-jamstack-hackathon-starter",
@@ -5618,7 +5618,7 @@
     "last_commit": "2021-12-19T08:16:01Z",
     "created_at": "2018-10-14T15:26:24Z",
     "description": ":ocean: 一款 Material Design 风格的 Hexo 主题 / An elegant Material-Design theme for Hexo",
-    "images": "https://www.statichunt.com/themes/thumbnails/fluid-dev-hexo-theme-fluid.jpg"
+    "images": "https://www.statichunt.com/themes/fluid-dev-hexo-theme-fluid.jpg"
   },
   "fongandrew-hydeout": {
     "theme_key": "fongandrew-hydeout",
@@ -6074,7 +6074,7 @@
     "last_commit": "2021-04-22T18:53:16Z",
     "created_at": "2019-12-03T15:34:09Z",
     "description": "Create a Shopify store with Gatsby JS 🛍️  🛒",
-    "images": "https://www.statichunt.com/themes/thumbnails/gatsbystorefront-gatsby-theme-storefront-shopify.jpg"
+    "images": "https://www.statichunt.com/themes/gatsbystorefront-gatsby-theme-storefront-shopify.jpg"
   },
   "gdgtoulouse-devfest-theme-hugo": {
     "theme_key": "gdgtoulouse-devfest-theme-hugo",
@@ -6691,7 +6691,7 @@
     "last_commit": "2021-11-07T02:19:15Z",
     "created_at": "2020-09-04T08:16:00Z",
     "description": "A high performance blog template for the 11ty static site generator.",
-    "images": "https://www.statichunt.com/themes/thumbnails/google-eleventy-high-performance-blog.jpg"
+    "images": "https://www.statichunt.com/themes/google-eleventy-high-performance-blog.jpg"
   },
   "graphcms-gatsby-graphcms-tailwindcss-example": {
     "theme_key": "graphcms-gatsby-graphcms-tailwindcss-example",
@@ -6802,7 +6802,7 @@
     "last_commit": "2021-11-02T05:24:52Z",
     "created_at": "2018-11-30T09:20:27Z",
     "description": "Ready to use documentation theme for Gatsby.",
-    "images": "https://www.statichunt.com/themes/thumbnails/gregberge-smooth-doc.jpg"
+    "images": "https://www.statichunt.com/themes/gregberge-smooth-doc.jpg"
   },
   "greglobinski-gatsby-starter-hero-blog": {
     "theme_key": "greglobinski-gatsby-starter-hero-blog",
@@ -7005,7 +7005,7 @@
     "last_commit": "2021-03-17T12:22:57Z",
     "created_at": "2016-05-27T09:57:08Z",
     "description": ":art: A simple responsive, support qiniu image cdn theme for hexo https://haojen.github.io/ ",
-    "images": "https://www.statichunt.com/themes/thumbnails/haojen-hexo-theme-anisina.jpg"
+    "images": "https://www.statichunt.com/themes/haojen-hexo-theme-anisina.jpg"
   },
   "harshil1712-gatsby-starter-googlesheets": {
     "theme_key": "harshil1712-gatsby-starter-googlesheets",
@@ -7645,7 +7645,7 @@
     "last_commit": "2021-12-05T07:27:16Z",
     "created_at": "2017-11-09T03:34:33Z",
     "description": "🌈  SPA, Flat and clean theme for Hexo https://blog.oniuo.com/theme-inside",
-    "images": "https://www.statichunt.com/themes/thumbnails/ikeq-hexo-theme-inside.jpg"
+    "images": "https://www.statichunt.com/themes/ikeq-hexo-theme-inside.jpg"
   },
   "imadatyatalah-nextjs-chakra-ui-portfolio-template": {
     "theme_key": "imadatyatalah-nextjs-chakra-ui-portfolio-template",
@@ -7664,7 +7664,7 @@
     "last_commit": "2021-09-14T07:41:28Z",
     "created_at": "2021-02-19T14:51:39Z",
     "description": "Next.js & Chakra-UI portfolio template.",
-    "images": "https://www.statichunt.com/themes/thumbnails/imadatyatalah-nextjs-chakra-ui-portfolio-template.jpg"
+    "images": "https://www.statichunt.com/themes/imadatyatalah-nextjs-chakra-ui-portfolio-template.jpg"
   },
   "imedadel-gatsby-london": {
     "theme_key": "imedadel-gatsby-london",
@@ -7706,7 +7706,7 @@
     "last_commit": "2021-02-07T03:32:35Z",
     "created_at": "2020-07-10T12:48:04Z",
     "description": "⚡ A Gatsby Theme for WooCommerce E-commerce site Gatsby WooCommerce WordPress",
-    "images": "https://www.statichunt.com/themes/thumbnails/imranhsayed-gatsby-woocommerce-themes.jpg"
+    "images": "https://www.statichunt.com/themes/imranhsayed-gatsby-woocommerce-themes.jpg"
   },
   "inded-jekyll_modern-blog": {
     "theme_key": "inded-jekyll_modern-blog",
@@ -8599,7 +8599,7 @@
     "last_commit": "2021-12-22T14:39:27Z",
     "created_at": "2019-06-04T13:38:41Z",
     "description": " 🦋 A Hexo Theme: Butterfly",
-    "images": "https://www.statichunt.com/themes/thumbnails/jerryc127-hexo-theme-butterfly.jpg"
+    "images": "https://www.statichunt.com/themes/jerryc127-hexo-theme-butterfly.jpg"
   },
   "jitinnair1-gradfolio": {
     "theme_key": "jitinnair1-gradfolio",
@@ -8664,7 +8664,7 @@
     "last_commit": "2021-01-02T01:46:10Z",
     "created_at": "2012-10-07T02:44:31Z",
     "description": "Source for lengstorf.com, Jason Lengstorf's personal site.",
-    "images": "https://www.statichunt.com/themes/thumbnails/jlengstorf-lengstorf.com.jpg"
+    "images": "https://www.statichunt.com/themes/jlengstorf-lengstorf.com.jpg"
   },
   "jmau111-hugo-theme-ava": {
     "theme_key": "jmau111-hugo-theme-ava",
@@ -8890,7 +8890,7 @@
     "last_commit": "2021-11-26T21:23:05Z",
     "created_at": "2020-01-28T17:41:26Z",
     "description": "The documentation starter you were looking for ⚡️",
-    "images": "https://www.statichunt.com/themes/thumbnails/jpedroschmitz-gatsby-starter-rocketdocs.jpg"
+    "images": "https://www.statichunt.com/themes/jpedroschmitz-gatsby-starter-rocketdocs.jpg"
   },
   "juhitrivedi-cape": {
     "theme_key": "juhitrivedi-cape",
@@ -8978,7 +8978,7 @@
     "last_commit": "2021-11-21T20:47:34Z",
     "created_at": "2021-11-14T13:11:48Z",
     "description": "Starter template for NextJs with TypeScript. Supports Tailwind with CSS-Modules. Jest and @react/testing-library configured and ready to go. Also ESLint, Prettier, Husky, Commit-lint and Atomic Design for components. ",
-    "images": "https://www.statichunt.com/themes/thumbnails/jvidalv-nextal.jpg"
+    "images": "https://www.statichunt.com/themes/jvidalv-nextal.jpg"
   },
   "jwillmer-jekylldecent": {
     "theme_key": "jwillmer-jekylldecent",
@@ -9595,7 +9595,7 @@
     "last_commit": "2021-05-26T14:58:40Z",
     "created_at": "2020-07-18T09:49:11Z",
     "description": "11ty, Tailwind. Works when JS is disabled",
-    "images": "https://www.statichunt.com/themes/thumbnails/kohrongying-11ty-blog-starter.jpg"
+    "images": "https://www.statichunt.com/themes/kohrongying-11ty-blog-starter.jpg"
   },
   "konsumer-gatsby-starter-bootstrap-netlify": {
     "theme_key": "konsumer-gatsby-starter-bootstrap-netlify",
@@ -10005,7 +10005,7 @@
     "last_commit": "2021-12-20T10:12:36Z",
     "created_at": "2019-07-04T19:09:25Z",
     "description": "Get high-quality and customizable Gatsby themes to quickly bootstrap your website! Choose from many professionally created and impressive designs with a wide variety of features and customization options.",
-    "images": "https://www.statichunt.com/themes/thumbnails/lekoarts-gatsby-themes.jpg"
+    "images": "https://www.statichunt.com/themes/lekoarts-gatsby-themes.jpg"
   },
   "lekovicmilos-gatsby-starter-portfolio": {
     "theme_key": "lekovicmilos-gatsby-starter-portfolio",
@@ -10323,7 +10323,7 @@
     "last_commit": "2021-10-19T02:27:33Z",
     "created_at": "2015-04-22T17:22:28Z",
     "description": ":lipstick: A gorgeous responsive theme for Hexo blog framework",
-    "images": "https://www.statichunt.com/themes/thumbnails/louisbarranqueiro-hexo-theme-tranquilpeak.jpg"
+    "images": "https://www.statichunt.com/themes/louisbarranqueiro-hexo-theme-tranquilpeak.jpg"
   },
   "lubang-hugo-hello-programmer-theme": {
     "theme_key": "lubang-hugo-hello-programmer-theme",
@@ -11216,7 +11216,7 @@
     "last_commit": "2021-09-22T14:42:16Z",
     "created_at": "2017-09-03T13:15:12Z",
     "description": ":musical_keyboard:A simple & beautiful & fast theme for Hexo.",
-    "images": "https://www.statichunt.com/themes/thumbnails/molunerfinn-hexo-theme-melody.jpg"
+    "images": "https://www.statichunt.com/themes/molunerfinn-hexo-theme-melody.jpg"
   },
   "moonwave99-waffel": {
     "theme_key": "moonwave99-waffel",
@@ -11258,7 +11258,7 @@
     "last_commit": "2021-04-23T00:19:41Z",
     "created_at": "2020-02-09T21:19:14Z",
     "description": "A Gatsby theme for publishing code-related notes to your website",
-    "images": "https://www.statichunt.com/themes/thumbnails/mrmartineau-gatsby-theme-code-notes.jpg"
+    "images": "https://www.statichunt.com/themes/mrmartineau-gatsby-theme-code-notes.jpg"
   },
   "muan-scribble": {
     "theme_key": "muan-scribble",
@@ -11714,7 +11714,7 @@
     "last_commit": "2020-07-04T12:24:59Z",
     "created_at": "2019-07-03T18:18:51Z",
     "description": "A Gatsby blog theme.",
-    "images": "https://www.statichunt.com/themes/thumbnails/nehalist-gatsby-theme-nehalem.jpg"
+    "images": "https://www.statichunt.com/themes/nehalist-gatsby-theme-nehalem.jpg"
   },
   "neizod-lemma-theme": {
     "theme_key": "neizod-lemma-theme",
@@ -11802,7 +11802,7 @@
     "last_commit": "2021-12-23T17:40:40Z",
     "created_at": "2020-04-05T03:43:31Z",
     "description": "🎉 Elegant and powerful theme for Hexo.",
-    "images": "https://www.statichunt.com/themes/thumbnails/next-theme-hexo-theme-next.jpg"
+    "images": "https://www.statichunt.com/themes/next-theme-hexo-theme-next.jpg"
   },
   "nickbalestra-kactus": {
     "theme_key": "nickbalestra-kactus",
@@ -12534,7 +12534,7 @@
     "last_commit": "2021-03-08T13:42:42Z",
     "created_at": "2018-12-19T13:36:52Z",
     "description": "A well-structured production ready Next.js boilerplate with Typescript, Redux, Jest, Enzyme, Express.js, Sass, Css, EnvConfig, Fetch, Reverse Proxy, Bundle Analyzer and Built-in Project CLI. https://pankod.github.io/next-boilerplate/",
-    "images": "https://www.statichunt.com/themes/thumbnails/pankod-next-boilerplate.jpg"
+    "images": "https://www.statichunt.com/themes/pankod-next-boilerplate.jpg"
   },
   "panr-hugo-theme-hello-friend": {
     "theme_key": "panr-hugo-theme-hello-friend",
@@ -12668,7 +12668,7 @@
     "last_commit": "2021-11-03T19:08:20Z",
     "created_at": "2020-02-16T05:43:08Z",
     "description": "A zero component Gatsby theme for developers 🔋",
-    "images": "https://www.statichunt.com/themes/thumbnails/pauliescanlon-gatsby-theme-terminal.jpg"
+    "images": "https://www.statichunt.com/themes/pauliescanlon-gatsby-theme-terminal.jpg"
   },
   "peaceiris-hugo-theme-iris": {
     "theme_key": "peaceiris-hugo-theme-iris",
@@ -13101,7 +13101,7 @@
     "last_commit": "2021-10-27T23:20:50Z",
     "created_at": "2015-02-01T13:46:06Z",
     "description": "A redesign of Alx's wordpress theme Hueman, ported to Hexo.",
-    "images": "https://www.statichunt.com/themes/thumbnails/ppoffice-hexo-theme-hueman.jpg"
+    "images": "https://www.statichunt.com/themes/ppoffice-hexo-theme-hueman.jpg"
   },
   "ppoffice-hexo-theme-icarus": {
     "theme_key": "ppoffice-hexo-theme-icarus",
@@ -13120,7 +13120,7 @@
     "last_commit": "2021-12-17T04:26:03Z",
     "created_at": "2015-03-19T14:24:24Z",
     "description": "A simple, delicate, and modern theme for the static site generator Hexo.",
-    "images": "https://www.statichunt.com/themes/thumbnails/ppoffice-hexo-theme-icarus.jpg"
+    "images": "https://www.statichunt.com/themes/ppoffice-hexo-theme-icarus.jpg"
   },
   "ppoffice-hexo-theme-minos": {
     "theme_key": "ppoffice-hexo-theme-minos",
@@ -13139,7 +13139,7 @@
     "last_commit": "2021-08-05T00:06:39Z",
     "created_at": "2015-05-17T07:46:09Z",
     "description": "A simple and retro styled Hexo theme, concentrated more on your ideas.",
-    "images": "https://www.statichunt.com/themes/thumbnails/ppoffice-hexo-theme-minos.jpg"
+    "images": "https://www.statichunt.com/themes/ppoffice-hexo-theme-minos.jpg"
   },
   "pranavrajs-limpid": {
     "theme_key": "pranavrajs-limpid",
@@ -13342,7 +13342,7 @@
     "last_commit": "2021-12-14T21:51:13Z",
     "created_at": "2021-01-26T18:45:36Z",
     "description": "Tailwind CSS Website Templates",
-    "images": "https://www.statichunt.com/themes/thumbnails/r1-nine4.jpg"
+    "images": "https://www.statichunt.com/themes/r1-nine4.jpg"
   },
   "rampatra-photography": {
     "theme_key": "rampatra-photography",
@@ -14051,7 +14051,7 @@
     "last_commit": "2021-12-03T06:00:11Z",
     "created_at": "2019-07-24T06:20:23Z",
     "description": "A Gatsby theme for artists, photographers and other creative folks 👨‍🎨",
-    "images": "https://www.statichunt.com/themes/thumbnails/ryanwiemer-gatsby-theme-amsterdam.jpg"
+    "images": "https://www.statichunt.com/themes/ryanwiemer-gatsby-theme-amsterdam.jpg"
   },
   "s-kris-gatsby-minimal-portfolio-blog": {
     "theme_key": "s-kris-gatsby-minimal-portfolio-blog",
@@ -14967,7 +14967,7 @@
     "last_commit": "2021-07-14T07:55:59Z",
     "created_at": "2019-06-12T06:13:00Z",
     "description": "An elegant, powerful, easy-to-read Hexo theme.",
-    "images": "https://www.statichunt.com/themes/thumbnails/siricee-hexo-theme-chic.jpg"
+    "images": "https://www.statichunt.com/themes/siricee-hexo-theme-chic.jpg"
   },
   "slashformotion-hugo-tufte": {
     "theme_key": "slashformotion-hugo-tufte",
@@ -15239,7 +15239,7 @@
     "last_commit": "2021-12-24T10:34:44Z",
     "created_at": "2020-08-13T04:09:44Z",
     "description": "battery packed template / boilerplate to initialize PWA ready Next.js app with Chakra UI & Typescript setup :sparkles:",
-    "images": "https://www.statichunt.com/themes/thumbnails/sozonome-nextarter-chakra.jpg"
+    "images": "https://www.statichunt.com/themes/sozonome-nextarter-chakra.jpg"
   },
   "sparanoid-almace-scaffolding": {
     "theme_key": "sparanoid-almace-scaffolding",
@@ -15304,7 +15304,7 @@
     "last_commit": "2021-08-03T16:29:33Z",
     "created_at": "2018-05-17T15:06:25Z",
     "description": "📦📝🎨 A api-friendly theme for VuePress.",
-    "images": "https://www.statichunt.com/themes/thumbnails/sqrthree-vuepress-theme-api.jpg"
+    "images": "https://www.statichunt.com/themes/sqrthree-vuepress-theme-api.jpg"
   },
   "squidfunk-mkdocs-material": {
     "theme_key": "squidfunk-mkdocs-material",
@@ -15898,7 +15898,7 @@
     "last_commit": "2021-12-22T18:46:48Z",
     "created_at": "2020-02-24T00:09:10Z",
     "description": "A Gatsby theme to build flaring fast blogs from headless Ghost CMS",
-    "images": "https://www.statichunt.com/themes/thumbnails/styxlab-gatsby-theme-try-ghost.jpg"
+    "images": "https://www.statichunt.com/themes/styxlab-gatsby-theme-try-ghost.jpg"
   },
   "styxlab-next-cms-ghost": {
     "theme_key": "styxlab-next-cms-ghost",
@@ -16400,7 +16400,7 @@
     "last_commit": "2021-12-23T07:47:09Z",
     "created_at": "2019-07-21T05:43:13Z",
     "description": "🔥 一个比较特别的 Hexo 主题",
-    "images": "https://www.statichunt.com/themes/thumbnails/theme-nexmoe-hexo-theme-nexmoe.jpg"
+    "images": "https://www.statichunt.com/themes/theme-nexmoe-hexo-theme-nexmoe.jpg"
   },
   "themefisher-academia-hugo": {
     "theme_key": "themefisher-academia-hugo",
@@ -17293,7 +17293,7 @@
     "last_commit": "2021-02-19T05:13:55Z",
     "created_at": "2015-05-25T12:14:11Z",
     "description": "A simple Hexo theme forked from icylogic.",
-    "images": "https://www.statichunt.com/themes/thumbnails/tufu9441-maupassant-hexo.jpg"
+    "images": "https://www.statichunt.com/themes/tufu9441-maupassant-hexo.jpg"
   },
   "tummychow-lanyon-hugo": {
     "theme_key": "tummychow-lanyon-hugo",
@@ -17818,7 +17818,7 @@
     "last_commit": "2021-12-18T13:16:46Z",
     "created_at": "2017-10-24T03:46:42Z",
     "description": "A Wonderful Theme for Hexo https://vlts.cc  https://volantis.js.org",
-    "images": "https://www.statichunt.com/themes/thumbnails/volantis-x-hexo-theme-volantis.jpg"
+    "images": "https://www.statichunt.com/themes/volantis-x-hexo-theme-volantis.jpg"
   },
   "volny-creative-theme-jekyll": {
     "theme_key": "volny-creative-theme-jekyll",
@@ -17929,7 +17929,7 @@
     "last_commit": "2021-12-06T16:40:48Z",
     "created_at": "2018-09-10T06:31:43Z",
     "description": "💥 A simple and beautiful vuepress Blog & Doc theme.",
-    "images": "https://www.statichunt.com/themes/thumbnails/vuepress-reco-vuepress-theme-reco.jpg"
+    "images": "https://www.statichunt.com/themes/vuepress-reco-vuepress-theme-reco.jpg"
   },
   "vvalchev-creative-theme-jekyll-new": {
     "theme_key": "vvalchev-creative-theme-jekyll-new",
@@ -18638,7 +18638,7 @@
     "last_commit": "2021-12-04T13:39:54Z",
     "created_at": "2020-03-12T07:34:20Z",
     "description": ":rainbow: A simple and elegant theme for Hexo. It makes you more focused on writing.",
-    "images": "https://www.statichunt.com/themes/thumbnails/xpoet-hexo-theme-keep.jpg"
+    "images": "https://www.statichunt.com/themes/xpoet-hexo-theme-keep.jpg"
   },
   "xugaoyi-vuepress-theme-vdoing": {
     "theme_key": "xugaoyi-vuepress-theme-vdoing",
@@ -18657,7 +18657,7 @@
     "last_commit": "2021-12-19T07:51:10Z",
     "created_at": "2019-11-30T07:17:46Z",
     "description": "🚀一款简洁高效的VuePress知识管理&博客(blog)主题",
-    "images": "https://www.statichunt.com/themes/thumbnails/xugaoyi-vuepress-theme-vdoing.jpg"
+    "images": "https://www.statichunt.com/themes/xugaoyi-vuepress-theme-vdoing.jpg"
   },
   "xukimseven-hardcandy-jekyll": {
     "theme_key": "xukimseven-hardcandy-jekyll",
@@ -19021,7 +19021,7 @@
     "last_commit": "2021-06-30T14:59:55Z",
     "created_at": "2019-12-01T18:01:28Z",
     "description": "🤩Modern blog theme for VuePress.",
-    "images": "https://www.statichunt.com/themes/thumbnails/z3by-vuepress-theme-modern-blog.jpg"
+    "images": "https://www.statichunt.com/themes/z3by-vuepress-theme-modern-blog.jpg"
   },
   "zerostaticthemes-gatsby-serif-theme": {
     "theme_key": "zerostaticthemes-gatsby-serif-theme",
@@ -19201,7 +19201,7 @@
     "last_commit": "2021-06-02T15:13:45Z",
     "created_at": "2020-02-25T07:44:39Z",
     "description": "🔥🎨 An Ant Design style theme for VuePress. (QQ Group: 867711329) [NOTE: The AntDocs-Next is WIP.]",
-    "images": "https://www.statichunt.com/themes/thumbnails/zpfz-vuepress-theme-antdocs.jpg"
+    "images": "https://www.statichunt.com/themes/zpfz-vuepress-theme-antdocs.jpg"
   },
   "zwbetz-gh-cayman-hugo-theme": {
     "theme_key": "zwbetz-gh-cayman-hugo-theme",

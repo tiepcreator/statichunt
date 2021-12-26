@@ -3,7 +3,7 @@ title: Hydejack
 github: https://github.com/hydecorp/hydejack
 demo: https://qwtel.com/hydejack/
 author: Florian Klampfer (@qwtel)
-thumbnail: "themes/thumbnails/jekyll-hydejack-theme.jpg"
+thumbnail: "themes/jekyll-hydejack-theme.jpg"
 ssg:
   - Jekyll
 cms:

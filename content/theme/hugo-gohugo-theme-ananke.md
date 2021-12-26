@@ -3,7 +3,7 @@ title: Ananke
 github: https://github.com/theNewDynamic/gohugo-theme-ananke
 demo: https://gohugo-ananke-theme-demo.netlify.com/
 author: Bud Parr
-thumbnail: "themes/thumbnails/hugo-gohugo-theme-ananke.jpg"
+thumbnail: "themes/hugo-gohugo-theme-ananke.jpg"
 ssg:
   - Hugo
 cms:

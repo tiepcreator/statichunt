@@ -3,7 +3,7 @@ title: Spectral
 github: https://github.com/arkadianriver/spectral
 demo: https://arkadianriver.github.io/spectral/
 author: Gary Faircloth
-thumbnail: "themes/thumbnails/arkadianriver-spectral.jpg"
+thumbnail: "themes/arkadianriver-spectral.jpg"
 ssg:
   - Jekyll
 cms:

@@ -3,7 +3,7 @@ title: Hargo Hugo
 github: https://github.com/themefisher/hargo-hugo
 demo: https://demo.gethugothemes.com/hargo/
 author: Themefisher
-thumbnail: "themes/thumbnails/themefisher-hargo-hugo.jpg"
+thumbnail: "themes/themefisher-hargo-hugo.jpg"
 ssg:
   - Hugo
 cms:

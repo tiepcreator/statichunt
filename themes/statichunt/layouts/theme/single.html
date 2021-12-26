@@ -10,8 +10,8 @@
 {{ $repoName := printf "%s" (substr (replace .Params.github "/" "-") 19 | urlize) }}
 {{ $repo := index .Site.Data.themes $repoName }}
 {{ if $repo }}
-{{ $staticPath := (printf "%s/%s%s" "static/themes/thumbnails" $repo.theme_key ".png") }}
-{{ $filePath := (printf "%s/%s%s" "themes/thumbnails" $repo.theme_key ".png") }}
+{{ $staticPath := (printf "%s/%s%s" "static/themes" $repo.theme_key ".png") }}
+{{ $filePath := (printf "%s/%s%s" "themes" $repo.theme_key ".png") }}
 {{ if (fileExists $staticPath) }}
 <meta property="og:image" content="{{ $filePath | absURL }}">
 {{ end }}
@@ -88,8 +88,8 @@
             <!-- image -->
             <div class="theme-detail-image d-block d-md-none mb-4">
               {{ if $repo }}
-              {{ $staticPath := (printf "%s/%s%s" "static/themes/thumbnails" $repo.theme_key ".jpg") }}
-              {{ $filePath := (printf "%s/%s%s" "themes/thumbnails" $repo.theme_key ".jpg") }}
+              {{ $staticPath := (printf "%s/%s%s" "static/themes" $repo.theme_key ".jpg") }}
+              {{ $filePath := (printf "%s/%s%s" "themes" $repo.theme_key ".jpg") }}
               {{ if (fileExists $staticPath) }}
               <img src="{{ $filePath | relURL }}" alt="{{ .Title }} screenshot" />
               {{ end }}
