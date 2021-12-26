@@ -3,7 +3,7 @@ title: Infinity
 github: https://github.com/gethugothemes/infinity-hugo
 demo: https://demo.gethugothemes.com/infinity/
 author: Themefisher
-thumbnail: "themes/thumbnails/hugo-infinity.jpg"
+thumbnail: themes/hugo-infinity.jpg
 ssg:
   - Hugo
 cms:

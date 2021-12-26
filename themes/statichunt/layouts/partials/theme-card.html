@@ -14,8 +14,8 @@
       {{ if .theme.Params.thumbnail }}
       <img loading="lazy" src="{{ .theme.Params.thumbnail | relURL }}" alt="{{ .theme.Params.title }} screenshot" class="theme-screenshot" />
       {{ else if .repo }}
-      {{ $staticPath := (printf "%s/%s%s" "static/themes/thumbnails" .repo.theme_key ".jpg") }}
-      {{ $filePath := (printf "%s/%s%s" "themes/thumbnails" .repo.theme_key ".jpg") }}
+      {{ $staticPath := (printf "%s/%s%s" "static/themes" .repo.theme_key ".jpg") }}
+      {{ $filePath := (printf "%s/%s%s" "themes" .repo.theme_key ".jpg") }}
       {{ if (fileExists $staticPath) }}
       <img width="300" height="225" loading="lazy" src="{{ $filePath | relURL }}" class="theme-screenshot" alt="{{ .repo.theme_key }}" />
       {{ else }}

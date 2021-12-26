@@ -3,7 +3,7 @@ title: Whisper
 github: https://github.com/zerostaticthemes/hugo-whisper-theme
 demo: https://hugo-whisper.netlify.com/
 author: Robert Austin
-thumbnail: "themes/thumbnails/hugo-whisper-theme.jpg"
+thumbnail: themes/hugo-whisper-theme.jpg
 ssg:
   - Hugo
 cms:

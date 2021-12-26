@@ -11,7 +11,7 @@ const themesMarkdownFiles = fs.readdirSync(themesMarkdownFolder).map(relFilename
 const themesJsonFile = path.join(process.cwd(), '/data/themes.json');
 const themesJsonData = fs.existsSync(themesJsonFile) ? JSON.parse(fs.readFileSync(themesJsonFile)) : {};
 const hiresImagesFolder = path.join(process.cwd(), '/static/themes/screenshots');
-const thumbnailImagesFolder = path.join(process.cwd(), '/static/themes/thumbnails')
+const thumbnailImagesFolder = path.join(process.cwd(), '/static/themes')
 const staleBeforeDate = subYears(new Date(), 1);
 
 module.exports = {

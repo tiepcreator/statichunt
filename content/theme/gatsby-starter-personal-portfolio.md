@@ -15,7 +15,7 @@ archetype:
   - Portfolio
   - Personal
 description: This theme is a minimalistic resume style Gatsby portfolio
-stale: false
+stale: true
 ---
 
 # A minimalistic resume style Gatsby portfolio

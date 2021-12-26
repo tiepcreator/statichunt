@@ -29,7 +29,7 @@ const loadThemeFrontMatter = absFilename => {
 
     if (!frontmatter.github && !frontmatter.product ) {
       const file = path.parse(absFilename).base;
-      // throw new Error(`${absFilename} invalid github frontmatter`)
+      throw new Error(`${absFilename} invalid github frontmatter`)
     }
 
     let title = frontmatter.title;

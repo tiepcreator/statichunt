@@ -3,7 +3,7 @@ title: Gatsby Material Business Markdown
 github: https://github.com/jaydanurwin/gatsby-starter-material-business-markdown
 demo: https://gatsby-starter-material-business-markdown.netlify.app/
 author: ANOUN
-thumbnail: "themes/thumbnails/gatsby-starter-material-business-markdown.jpg"
+thumbnail: themes/gatsby-starter-material-business-markdown.jpg
 ssg:
   - Gatsby
 cms:

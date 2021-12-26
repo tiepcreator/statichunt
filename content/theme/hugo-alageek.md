@@ -3,7 +3,7 @@ title: AlaGeek
 github: https://github.com/gkmngrgn/hugo-alageek-theme
 demo: https://gokmengorgen.net/
 author: Gökmen Görgen
-thumbnail: "themes/thumbnails/gkmngrgn-hugo-alageek-theme.jpg"
+thumbnail: themes/gkmngrgn-hugo-alageek-theme.jpg
 ssg:
   - Hugo
 cms:

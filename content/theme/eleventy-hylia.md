@@ -3,7 +3,7 @@ title: Eleventy Hylia
 github: https://github.com/andy-piccalilli/hylia
 demo: https://hylia.website/
 author: Andy Bell
-thumbnail: "themes/thumbnails/eleventy-hylia.jpg"
+thumbnail: themes/eleventy-hylia.jpg
 ssg:
   - Eleventy
 cms:
@@ -14,7 +14,7 @@ featured: true
 description: >-
   Hylia is a lightweight Eleventy starter kit to help you to create your own
   blog or personal website.
-stale: true
+stale: false
 disabled: false
 disabled_reason: null
 ---

@@ -10,9 +10,9 @@ cms:
   - Airtable
 css:
   - Tailwind
-archetype:
+archetype: null
 description: Gatsby starter theme integrated with Airtable
-stale: false
+stale: true
 ---
 
 # Airtable listing theme for Gatsby

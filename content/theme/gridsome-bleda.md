@@ -3,7 +3,7 @@ title: Gridsome Bleda
 github: https://github.com/cossssmin/gridsome-starter-bleda
 demo: https://gridsome-starter-bleda.netlify.app/
 author: Cosmin Popovici
-thumbnail: "themes/thumbnails/gridsome-bleda.jpg"
+thumbnail: themes/gridsome-bleda.jpg
 ssg:
   - Gridsome
 cms:
