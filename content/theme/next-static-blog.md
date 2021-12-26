@@ -3,7 +3,7 @@ title: Next.js Static Blog
 github: https://github.com/vercel/next.js/tree/canary/examples/cms-cosmic
 demo: https://cosmic-next-blog.vercel.app
 author: Cosmic
-thumbnail: "themes/next-static-blog.jpg"
+thumbnail: themes/next-static-blog.jpg
 ssg:
   - Next
 cms:

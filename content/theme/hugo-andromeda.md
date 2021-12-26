@@ -3,9 +3,9 @@ title: Andromeda Light
 github: https://github.com/gethugothemes/andromeda-light
 demo: https://demo.gethugothemes.com/andromeda-light/
 author: Gethugothemes
-author_link: "https://gethugothemes.com/"
-author_twitter: "gethugothemes"
-author_github: "gethugothemes"
+author_link: https://gethugothemes.com/
+author_twitter: gethugothemes
+author_github: gethugothemes
 ssg:
   - Hugo
 css:

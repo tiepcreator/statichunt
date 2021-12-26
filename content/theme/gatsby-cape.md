@@ -3,7 +3,7 @@ title: Cape
 github: https://github.com/juhitrivedi/cape
 demo: https://cape.netlify.app/
 author: Juhi
-thumbnail: "themes/gatsby-cape.jpg"
+thumbnail: themes/gatsby-cape.jpg
 ssg:
   - Gatsby
 cms:

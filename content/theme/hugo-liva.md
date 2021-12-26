@@ -3,7 +3,7 @@ title: Liva Hugo
 github: https://github.com/gethugothemes/liva-hugo
 demo: https://demo.gethugothemes.com/liva/
 author: Gethugothemes
-thumbnail: "themes/gethugothemes-liva-hugo.jpg"
+thumbnail: themes/gethugothemes-liva-hugo.jpg
 ssg:
   - Hugo
 css:

@@ -3,7 +3,7 @@ title: Gastby Starter Zenii
 github: https://github.com/thebakerdev/gatsby-starter-zenii
 demo: https://gatsby-starter-zenii.netlify.app/
 author: The Bakerdev
-thumbnail: "themes/thebakerdev-gatsby-starter-zenii.jpg"
+thumbnail: themes/thebakerdev-gatsby-starter-zenii.jpg
 date: 2019-08-20T00:00:00.000Z
 ssg:
   - Gatsby
