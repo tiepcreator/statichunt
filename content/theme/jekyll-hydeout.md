@@ -10,4 +10,5 @@ cms:
 date: 2017-06-01T00:22:41.000Z
 description: A refreshed version of Hyde for Jekyll 3.x
 stale: false
+disabled_reason: Github repo not found
 ---

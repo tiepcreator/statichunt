@@ -12,7 +12,7 @@ ssg:
   - Vuepress
 cms:
   - No Cms
-css:
+css: null
 archetype:
   - Blog
   - Documentation

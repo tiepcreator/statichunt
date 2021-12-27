@@ -10,4 +10,5 @@ cms:
 date: 2017-07-13T02:02:26.000Z
 description: A simple and text-centric theme for Hugo.io
 stale: false
+disabled_reason: Github repo not found
 ---

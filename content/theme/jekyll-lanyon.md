@@ -10,4 +10,5 @@ cms:
 date: 2013-12-28T07:53:04.000Z
 description: A content-first, sliding sidebar theme for Jekyll.
 stale: true
+disabled_reason: Github repo not found
 ---

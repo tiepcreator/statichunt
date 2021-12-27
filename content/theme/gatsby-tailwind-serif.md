@@ -10,4 +10,5 @@ cms:
 date: 2019-07-08T15:05:18.000Z
 description: A Gatsby theme based on gatsby-serif-theme, rewrite with Tailwind CSS.
 stale: false
+disabled_reason: Github repo not found
 ---

@@ -10,4 +10,5 @@ cms:
 date: 2017-10-15T13:40:48.000Z
 description: Calpa's Blog (GatsbyJS Starter X Netlify CMS)
 stale: false
+disabled_reason: Github repo not found
 ---

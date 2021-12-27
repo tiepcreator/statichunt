@@ -12,8 +12,8 @@ ssg:
   - Gatsby
 cms:
   - Netlifycms
-css:
-archetype:
+css: null
+archetype: null
 services: null
 hosting:
   - Netlify

@@ -10,4 +10,6 @@ cms:
 date: 2016-06-21T01:22:11.000Z
 description: 🌠 Original Futuristic Hexo Theme
 stale: true
+disabled: true
+disabled_reason: Github repo not found
 ---

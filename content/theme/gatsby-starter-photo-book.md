@@ -10,4 +10,5 @@ cms:
 date: 2019-07-05T01:16:03.000Z
 description: A Gatsby starter for sharing photosets.
 stale: true
+disabled_reason: Github repo not found
 ---

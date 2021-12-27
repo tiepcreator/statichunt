@@ -10,4 +10,5 @@ cms:
 date: 2018-10-07T08:26:20.000Z
 description: A mediumish gohugo theme, ported from jekyll
 stale: false
+disabled_reason: Github repo not found
 ---

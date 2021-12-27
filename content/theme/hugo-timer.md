@@ -14,8 +14,7 @@ archetype:
 date: 2018-07-15T10:07:51.000Z
 description: Timer Template Hugo Version by themefisher
 stale: false
-disabled: false
-disabled_reason: null
+disabled_reason: Github repo not found
 weight: 13
 ---
 

@@ -13,8 +13,8 @@ description: >-
   📝 The website builder for Hugo. Build and deploy a beautiful website in
   minutes!
 stale: false
-disabled: false
-disabled_reason: null
+disabled: true
+disabled_reason: Github repo not found
 ---
 
 The website builder for Hugo. Build and deploy a beautiful website in minutes!

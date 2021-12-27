@@ -10,8 +10,8 @@ author_github: cadecode
 date: 2021-04-29T00:00:00.000Z
 ssg:
   - Vuepress
-cms:
-css:
+cms: null
+css: null
 archetype:
   - Blog
 services: null

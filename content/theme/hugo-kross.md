@@ -14,8 +14,7 @@ archetype:
 date: 2019-05-13T08:18:18.000Z
 description: Kross Creative Portfolio Template
 stale: false
-disabled: false
-disabled_reason: null
+disabled_reason: Github repo not found
 ---
 
 ## Features

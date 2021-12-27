@@ -10,7 +10,7 @@ author_github: jvidalv
 date: 2021-04-29T00:00:00.000Z
 ssg:
   - Next
-cms:
+cms: null
 css:
   - Tailwind
 archetype:

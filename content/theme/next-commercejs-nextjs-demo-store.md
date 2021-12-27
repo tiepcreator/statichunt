@@ -16,6 +16,8 @@ description: >-
   A commerce storefront example built using Next.js and Commerce.js with
   production-ready deployment to Netlify.
 stale: false
+disabled: true
+disabled_reason: Github repo not found
 ---
 
 An commerce storefront example built using Next.js and Commerce.js with production-ready deployment to Netlify.

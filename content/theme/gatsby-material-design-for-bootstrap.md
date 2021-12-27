@@ -12,4 +12,5 @@ description: >-
   A simple starter which lets you quickly start developing with Gastby and
   Material Design For Bootstrap
 stale: true
+disabled_reason: Github repo not found
 ---

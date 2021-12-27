@@ -10,4 +10,5 @@ cms:
 date: 2017-05-15T05:32:08.000Z
 description: Simple, clean, and fast one-page Hugo portfolio theme accompanied by a blog
 stale: true
+disabled_reason: Github repo not found
 ---

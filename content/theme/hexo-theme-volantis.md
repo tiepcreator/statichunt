@@ -10,16 +10,15 @@ author_github: volantis-x
 date: 2021-04-29T00:00:00.000Z
 ssg:
   - Hexo
-cms:
-css:
-archetype:
+cms: null
+css: null
+archetype: null
 services: null
 hosting:
   - Netlify
   - Vercel
 description: A Wonderful Theme for Hexo.
 stale: false
-disabled: false
-disabled_reason: null
+disabled_reason: Github repo not found
 draft: false
 ---

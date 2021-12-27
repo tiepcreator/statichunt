@@ -10,4 +10,6 @@ cms:
 date: 2014-11-28T18:43:16.000Z
 description: 'A clean Minimal Blog theme for Jekyll , built with Bootswatch '
 stale: true
+disabled: true
+disabled_reason: Github repo not found
 ---

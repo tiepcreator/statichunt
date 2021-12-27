@@ -10,4 +10,5 @@ cms:
 date: 2016-07-14T03:38:28.000Z
 description: ':books: Product documentation template for Jekyll'
 stale: false
+disabled_reason: Github repo not found
 ---

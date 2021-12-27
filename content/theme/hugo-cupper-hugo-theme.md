@@ -10,4 +10,6 @@ cms:
 date: 2019-01-29T19:16:57.000Z
 description: An accessibility-friendly Hugo theme, ported from the original Cupper project.
 stale: false
+disabled: true
+disabled_reason: Github repo not found
 ---

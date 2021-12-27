@@ -13,6 +13,7 @@ archetype:
 date: 2020-06-11T00:00:00.000Z
 description: Publish flaring fast blogs with Gatsby and Ghost
 stale: false
+disabled_reason: Github repo not found
 ---
 
 # A rich starter kit for Ghost blogs

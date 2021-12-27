@@ -10,4 +10,5 @@ cms:
 date: 2017-10-27T02:20:38.000Z
 description: 'Premium theme for the hugo site builder. DEMO:'
 stale: false
+disabled_reason: Github repo not found
 ---

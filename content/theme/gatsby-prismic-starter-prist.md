@@ -10,4 +10,5 @@ cms:
 date: 2020-03-18T00:00:00.000Z
 description: Gatsby starter for portfolios and blogs using Prismic CMS
 stale: true
+disabled_reason: Github repo not found
 ---

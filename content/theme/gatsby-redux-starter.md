@@ -15,4 +15,6 @@ description: >-
   A simple GatsbyJS starter that provides multiple technologies out of the box,
   like Redux, Sass and Bootstrap.
 stale: true
+disabled: true
+disabled_reason: Github repo not found
 ---

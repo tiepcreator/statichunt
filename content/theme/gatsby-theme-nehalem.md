@@ -10,8 +10,8 @@ author_github: nehalist
 date: 2021-04-29T00:00:00.000Z
 ssg:
   - Gatsby
-cms:
-css:
+cms: null
+css: null
 archetype:
   - Blog
 services: null
@@ -20,7 +20,7 @@ hosting:
   - Vercel
 description: Nehalem is a Gatsby theme for blogging.
 stale: true
-disabled: false
-disabled_reason: null
+disabled: true
+disabled_reason: Github repo not found
 draft: false
 ---

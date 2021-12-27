@@ -10,4 +10,5 @@ cms:
 date: 2015-07-11T17:47:40.000Z
 description: A Modern, Clean, Jekyll Blog Layout based from codedrops
 stale: true
+disabled_reason: Github repo not found
 ---

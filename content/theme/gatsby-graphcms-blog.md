@@ -14,6 +14,8 @@ description: Gatsby starter for creating a basic blog with GraphCMS
 stale: false
 archetype:
   - Blog
+disabled: true
+disabled_reason: Github repo not found
 ---
 
 # gatsby-starter-graphcms-blog

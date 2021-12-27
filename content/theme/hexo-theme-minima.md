@@ -12,4 +12,6 @@ archetype:
   - Blog
 description: An undoubtedly simple and lightweight dark/light mode theme for Hexo
 stale: false
+disabled: true
+disabled_reason: Github repo not found
 ---

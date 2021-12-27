@@ -10,9 +10,9 @@ author_github: tufu9441
 date: 2021-04-29T00:00:00.000Z
 ssg:
   - Hexo
-cms:
-css:
-archetype:
+cms: null
+css: null
+archetype: null
 services: null
 hosting:
   - Netlify
@@ -21,7 +21,7 @@ description: >-
   A simple Hexo template with great performance on different devices, ported
   from a Typecho theme by Cho, forked and modified from icylogic.
 stale: false
-disabled: false
-disabled_reason: null
+disabled: true
+disabled_reason: error checking demo url
 draft: false
 ---

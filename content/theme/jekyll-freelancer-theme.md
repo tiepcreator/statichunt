@@ -12,6 +12,8 @@ css:
 date: 2014-07-19T15:13:08.000Z
 description: Jekyll theme based on Freelancer Start Bootstrap theme
 stale: false
+disabled: true
+disabled_reason: Github repo not found
 ---
 
 Jekyll theme based on Freelancer Start Bootstrap theme

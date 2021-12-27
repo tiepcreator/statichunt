@@ -4066,7 +4066,7 @@ html {
       height: calc(100vh - 60px);
       display: flex;
       flex-direction: column;
-      background-color: #eef3f2;
+      background-color: #f4f7f7;
       padding-top: 15px;
       padding-bottom: 15px; }
       @media (min-width: 992px) {
@@ -4142,7 +4142,8 @@ html {
     justify-content: space-between; }
   .header .submit {
     display: flex;
-    align-items: center; }
+    align-items: center;
+    font-size: 15px; }
     .header .submit .submit-button {
       padding: 10px 20px;
       border-radius: 3px;
@@ -4194,13 +4195,12 @@ html {
 
 .logo {
   margin: 0;
-  font-family: "plus_jakarta_sansbold";
   margin-right: 20px;
   align-items: center;
   display: flex; }
   .logo a:not(.twitter-follow-button) {
-    font-size: 18px;
-    font-weight: 700;
+    font-family: "plus_jakarta_sansbold";
+    font-size: 20px;
     color: black;
     text-decoration: none;
     display: block; }
@@ -4208,7 +4208,6 @@ html {
       color: #059669; }
   .logo .twitter-follow-button {
     margin-left: 20px;
-    font-weight: 500;
     font-size: 90%;
     color: #808080;
     transition: 0.3s; }
@@ -4425,7 +4424,7 @@ html {
     align-items: center;
     justify-content: flex-start;
     margin-bottom: 6px;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 18px;
     padding: 10px 20px;
     border-radius: 5px;

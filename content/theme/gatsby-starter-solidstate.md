@@ -10,4 +10,6 @@ cms:
 date: 2019-06-08T18:34:29.000Z
 description: Gatsby.js V2 starter template based on Solid State by HTML5 UP
 stale: true
+disabled_reason: Github repo not found
+disabled: true
 ---

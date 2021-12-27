@@ -20,7 +20,6 @@ hosting:
   - Vercel
 description: A minimal, type-focused Jekyll theme.
 stale: false
-disabled: false
-disabled_reason: null
+disabled_reason: Github repo not found
 draft: false
 ---

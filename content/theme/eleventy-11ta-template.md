@@ -24,7 +24,6 @@ description: >-
   Deeply customizable, full-featured, ready to publish blog template built with
   11ty, TailwindCSS, & Alpine.js
 stale: false
-disabled: false
-disabled_reason: null
+disabled_reason: Github repo not found
 draft: false
 ---

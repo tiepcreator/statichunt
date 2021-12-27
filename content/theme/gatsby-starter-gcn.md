@@ -12,4 +12,5 @@ description: >-
   A starter template to build amazing static websites with Gatsby, Contentful
   and Netlify
 stale: false
+disabled_reason: Github repo not found
 ---

@@ -10,4 +10,5 @@ cms:
 date: 2019-05-18T14:17:26.000Z
 description: A free, open source, image-concentric starter for GatsbyJS
 stale: true
+disabled_reason: Github repo not found
 ---

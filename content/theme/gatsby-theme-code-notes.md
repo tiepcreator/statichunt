@@ -10,8 +10,8 @@ author_github: mrmartineau
 date: 2021-04-29T00:00:00.000Z
 ssg:
   - Gatsby
-cms:
-css:
+cms: null
+css: null
 archetype:
   - Boilerplate
 services: null

@@ -13,6 +13,7 @@ date: 2017-08-15T23:15:14.000Z
 featured: true
 description: Example gatsby + netlify cms project
 stale: false
+disabled_reason: Github repo not found
 ---
 
 # Gatsby + Netlify CMS Starter

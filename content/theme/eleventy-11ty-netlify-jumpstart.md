@@ -12,7 +12,7 @@ ssg:
   - Eleventy
 cms:
   - Netlifycms
-css:
+css: null
 archetype:
   - Other
 services: null

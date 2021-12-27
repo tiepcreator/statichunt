@@ -12,4 +12,6 @@ description: >-
   Kick off your next, great Gatsby project with this Github source starter based
   on gatsby-source-github-api
 stale: false
+disabled: true
+disabled_reason: Github repo not found
 ---

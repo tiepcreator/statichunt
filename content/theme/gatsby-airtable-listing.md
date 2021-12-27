@@ -13,6 +13,8 @@ css:
 archetype: null
 description: Gatsby starter theme integrated with Airtable
 stale: true
+disabled: true
+disabled_reason: Github repo not found
 ---
 
 # Airtable listing theme for Gatsby

@@ -10,16 +10,16 @@ author_github: blinkfox
 date: 2021-04-29T00:00:00.000Z
 ssg:
   - Hexo
-cms:
-css:
-archetype:
+cms: null
+css: null
+archetype: null
 services: null
 hosting:
   - Netlify
   - Vercel
 description: A beautiful hexo blog theme with material design and responsive design.
 stale: false
-disabled: false
-disabled_reason: null
+disabled: true
+disabled_reason: Github repo not found
 draft: false
 ---

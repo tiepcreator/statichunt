@@ -10,4 +10,5 @@ cms:
 date: 2017-03-10T04:32:23.000Z
 description: Minimal Jekyll theme for storytellers
 stale: false
+disabled_reason: Github repo not found
 ---

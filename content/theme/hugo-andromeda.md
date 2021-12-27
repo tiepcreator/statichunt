@@ -1,8 +1,8 @@
 ---
 title: Andromeda Light
-meta_title: "" # this is for SEO title
-meta_description:  "" # this is for SEO description
-page_heading: "" # this is for h1 tag
+meta_title: ''
+meta_description: ''
+page_heading: ''
 github: https://github.com/gethugothemes/andromeda-light
 demo: https://demo.gethugothemes.com/andromeda-light/
 author: Gethugothemes

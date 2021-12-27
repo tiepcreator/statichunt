@@ -12,4 +12,6 @@ css:
 date: 2021-02-22T00:00:00.000Z
 description: Vanilla is a minimal skeleton theme for Nextjs.
 stale: false
+disabled: true
+disabled_reason: Github repo not found
 ---

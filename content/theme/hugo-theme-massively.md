@@ -11,4 +11,5 @@ cms:
 date: 2018-02-24T14:39:43.000Z
 description: Massively theme for Hugo static site generator
 stale: false
+disabled_reason: Github repo not found
 ---

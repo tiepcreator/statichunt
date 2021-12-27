@@ -12,7 +12,7 @@ ssg:
   - Eleventy
 cms:
   - Netlifycms
-css:
+css: null
 archetype:
   - Blog
 services: null
@@ -24,7 +24,6 @@ description: >-
   repository for building a blog with the Eleventy static site generator
   implementing a wide range of performance best practices.
 stale: false
-disabled: false
-disabled_reason: null
+disabled_reason: Github repo not found
 draft: false
 ---

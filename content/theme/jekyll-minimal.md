@@ -10,6 +10,5 @@ cms:
 date: 2012-04-05T13:10:55.000Z
 description: A Theme for GitHub Pages
 stale: true
-disabled: false
-disabled_reason: ''
+disabled_reason: Github repo not found
 ---

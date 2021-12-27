@@ -15,6 +15,5 @@ description: >-
   ⚗️ A Jekyll boilerplate theme designed to be a starting point for any Jekyll
   website
 stale: false
-disabled: false
-disabled_reason: ''
+disabled_reason: Github repo not found
 ---

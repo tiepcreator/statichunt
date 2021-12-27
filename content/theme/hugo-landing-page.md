@@ -15,6 +15,8 @@ archetype:
   - Business
 description: A simple landing page built with Hugo and Tailwind CSS.
 stale: false
+disabled: true
+disabled_reason: Github repo not found
 ---
 
 # Hugo Landing Page

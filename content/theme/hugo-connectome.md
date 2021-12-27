@@ -14,6 +14,7 @@ description: >-
   A Hugo theme for online community notes with backlinks and graph of connected
   notes.
 stale: false
+disabled_reason: Github repo not found
 ---
 
 # A Theme for Connected Notes

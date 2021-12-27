@@ -12,4 +12,5 @@ description: >-
   🐝Full Package | Simple | Fresh UI | Blog Template :: Let's start to blogging
   with gatsby-starter-bee!
 stale: false
+disabled_reason: Github repo not found
 ---

@@ -10,8 +10,8 @@ author_github: LouisBarranqueiro
 date: 2021-04-29T00:00:00.000Z
 ssg:
   - Hexo
-cms:
-css:
+cms: null
+css: null
 archetype:
   - Blog
 services: null
@@ -20,7 +20,6 @@ hosting:
   - Vercel
 description: A gorgeous responsive theme for Hexo blog framework.
 stale: false
-disabled: false
-disabled_reason: null
+disabled_reason: Github repo not found
 draft: false
 ---

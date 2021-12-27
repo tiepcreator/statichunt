@@ -12,7 +12,7 @@ ssg:
   - Gatsby
 cms:
   - Ghost
-css:
+css: null
 archetype:
   - Blog
 services: null

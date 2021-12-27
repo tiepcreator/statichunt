@@ -12,7 +12,7 @@ ssg:
   - Vuepress
 cms:
   - No cms
-css:
+css: null
 archetype:
   - Blog
 services: null
@@ -21,7 +21,7 @@ hosting:
   - Vercel
 description: A simple and efficient VuePress knowledge management & blog theme.
 stale: false
-disabled: false
-disabled_reason: null
+disabled: true
+disabled_reason: Github repo not found
 draft: false
 ---

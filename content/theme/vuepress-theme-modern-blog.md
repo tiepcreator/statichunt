@@ -12,7 +12,7 @@ ssg:
   - Vuepress
 cms:
   - Netlifycms
-css:
+css: null
 archetype:
   - Blog
 services: null

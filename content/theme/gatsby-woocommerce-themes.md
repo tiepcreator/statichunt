@@ -12,7 +12,7 @@ ssg:
   - Gatsby
 cms:
   - Netlifycms
-css:
+css: null
 archetype:
   - Ecommerce
 services: null

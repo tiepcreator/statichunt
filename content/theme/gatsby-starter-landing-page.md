@@ -10,4 +10,5 @@ cms:
 date: 2019-03-19T18:05:37.000Z
 description: 🖱 A simple, minimal Gatsby starter for quick and easy landing pages
 stale: true
+disabled_reason: Github repo not found
 ---
