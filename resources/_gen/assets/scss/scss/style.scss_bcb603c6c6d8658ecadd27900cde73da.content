@@ -22,7 +22,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Inter", Helvetica, Arial, sans-serif;
+  font-family: "plus_jakarta_sansmedium";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -3971,6 +3971,24 @@ html {
   .mx-xl-auto {
     margin-left: auto !important; } }
 
+@font-face {
+  font-family: 'plus_jakarta_sansbold';
+  src: url("../fonts/plusjakartasans-bold-webfont.woff2") format("woff2"), url("../fonts/plusjakartasans-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'plus_jakarta_sansmedium';
+  src: url("../fonts/plusjakartasans-medium-webfont.woff2") format("woff2"), url("../fonts/plusjakartasans-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'plus_jakarta_sanssemibold';
+  src: url("../fonts/plusjakartasans-semibold-webfont.woff2") format("woff2"), url("../fonts/plusjakartasans-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
 .page {
   display: flex;
   justify-content: space-between;
@@ -4176,7 +4194,7 @@ html {
 
 .logo {
   margin: 0;
-  font-family: "Inter", Helvetica, Arial, sans-serif;
+  font-family: "plus_jakarta_sansbold";
   margin-right: 20px;
   align-items: center;
   display: flex; }
@@ -5038,10 +5056,9 @@ html {
     justify-content: space-between; }
   .demo h1.demo-title {
     font-size: 20px;
-    font-family: "Inter", Helvetica, Arial, sans-serif;
+    font-family: "plus_jakarta_sansbold";
     margin: 0;
     margin-left: 10px;
-    font-weight: 600;
     margin-right: 10px; }
     .demo h1.demo-title a {
       color: #059669; }
@@ -5117,7 +5134,6 @@ html {
           .demo .main-menu > ul > li > a:hover {
             text-decoration: underline; }
         .demo .main-menu > ul > li.active > a {
-          font-weight: bold;
           text-decoration: none; }
 
 .breadcrumb {
@@ -5577,7 +5593,6 @@ ul.pagination {
 .header .main-menu > ul > li > a {
   color: black;
   font-size: 14px;
-  font-weight: 600;
   padding: 10px 20px; }
 
 .theme-card .theme-body h2 {
@@ -5747,7 +5762,6 @@ ul.pagination {
     position: relative;
     margin-bottom: 0;
     flex-basis: 55%;
-    font-weight: 600;
     max-width: 90px;
     color: #585858; }
     .sort-button::after {
@@ -5785,8 +5799,7 @@ ul.pagination {
       padding: 5px 10px;
       margin: 0;
       color: #2a2a2a;
-      font-size: 14px;
-      font-weight: 500; }
+      font-size: 14px; }
       .sort-menu li.mixitup-control-active {
         background-color: rgba(5, 150, 105, 0.1);
         color: #059669; }
@@ -9687,12 +9700,21 @@ body {
   padding: 0;
   font-size: 16px;
   line-height: 1.4;
-  font-family: "Inter", Helvetica, Arial, sans-serif, Helvetica, sans-serif;
+  font-family: "plus_jakarta_sansmedium", Helvetica, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: normal !important;
   color: #2a2a2a; }
 
 p {
   color: #585858; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal !important; }
+
+h1 {
+  font-family: "plus_jakarta_sansbold", Helvetica, sans-serif; }
+
+h2, h3 {
+  font-family: "plus_jakarta_sanssemibold", Helvetica, sans-serif; }
 
 /*# sourceMappingURL=style.css.map */

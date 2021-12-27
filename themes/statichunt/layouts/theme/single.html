@@ -183,7 +183,7 @@
             <div class="widget theme-detail-tags">
               <h3 class="h4">Host This Theme With:</h3>
               {{- range .Params.hosting }}
-              {{- with $.Site.GetPage "taxonomyTerm" (printf "hosting/%s" (urlize .)) }}
+              {{- with $.Site.GetPage "taxonomyTerm" (printf "resources/hosting/%s" (urlize .)) }}
               {{ partial "icons/icon-link-widget.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
               {{ end }}
               {{ end }}

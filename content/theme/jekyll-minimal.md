@@ -12,5 +12,4 @@ description: A Theme for GitHub Pages
 stale: true
 disabled: false
 disabled_reason: ''
-draft: true
 ---

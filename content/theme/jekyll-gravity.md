@@ -10,5 +10,4 @@ cms:
 date: 2016-03-30T20:26:09.000Z
 description: 'Minimal is the new cool. '
 stale: true
-draft: true
 ---

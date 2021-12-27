@@ -10,5 +10,4 @@ archetype:
   - Blog
 description: Simple and minimalistic jekyll blogging theme
 stale: false
-draft: true
 ---

@@ -1,4 +1,6 @@
 <a class="widget-icon icon-{{ .name | urlize }}" href="{{ .link | relURL }}">
+  {{ if .icon }}
   <img height="20" width="20" title="{{ .name }}" alt="{{ .name }}" src="{{ .icon | relURL }}" />
+  {{ end }}
   <span>{{.name | title}}</span>
 </a>

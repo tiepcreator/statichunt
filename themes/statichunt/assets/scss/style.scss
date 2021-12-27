@@ -8,14 +8,9 @@ $lime-green: #10b981;
 $soft-pink: #ec4899;
 $border-color: #dedede;
 
-$font-family-base: 'Inter',
-Helvetica,
-Arial,
-sans-serif;
-$font-family-heading: 'Inter',
-Helvetica,
-Arial,
-sans-serif;
+$font-family-base: 'plus_jakarta_sansmedium';
+$font-family-semibold: 'plus_jakarta_sanssemibold';
+$font-family-heading: 'plus_jakarta_sansbold';
 $font-family-mono: monospace;
 $font-family-serif: serif;
 
@@ -49,6 +44,7 @@ $spacers: map-merge((0: 0,
 
 @import 'bootstrap/bootstrap-reboot';
 @import 'bootstrap/bootstrap-grid';
+@import 'fonts';
 @import 'mixins';
 @import 'layout';
 @import 'header';
@@ -83,12 +79,22 @@ body {
   padding: 0;
   font-size: 16px;
   line-height: 1.4;
-  font-family: $font-family-heading, Helvetica, sans-serif;
+  font-family: $font-family-base, Helvetica, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: normal !important;
   color: $carbon;
 }
 
 p {
   color: $steel;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal !important;
+}
+h1 {
+  font-family: $font-family-heading, Helvetica, sans-serif;
+}
+h2, h3 {
+  font-family: $font-family-semibold, Helvetica, sans-serif;
 }

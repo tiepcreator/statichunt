@@ -15,7 +15,6 @@
 .header .main-menu>ul>li>a {
   color: black;
   font-size: 14px;
-  font-weight: 600;
   padding: 10px 20px;
 }
 
@@ -229,7 +228,6 @@
     position: relative;
     margin-bottom: 0;
     flex-basis: 55%;
-    font-weight: 600;
     max-width: 90px;
     color: $steel;
     &::after {
@@ -272,7 +270,6 @@
       margin: 0;
       color: $carbon;
       font-size: 14px;
-      font-weight: 500;
 
       &.mixitup-control-active {
         background-color: rgba($primary, .1);
