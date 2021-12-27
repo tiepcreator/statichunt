@@ -22,7 +22,5 @@ description: >-
   An opinionated set of integrated themes and starters as a boilerplate to
   accelerate development with GatsbyJS.
 stale: false
-disabled: true
-disabled_reason: Github repo not found
 draft: false
 ---

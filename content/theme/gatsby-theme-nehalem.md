@@ -20,7 +20,7 @@ hosting:
   - Vercel
 description: Nehalem is a Gatsby theme for blogging.
 stale: true
-disabled: true
-disabled_reason: Github repo not found
+disabled: false
+disabled_reason: ''
 draft: false
 ---

@@ -17,6 +17,6 @@ services:
 date: 2020-07-03T18:24:48.000Z
 description: This Gridsome Shopify starter app is built with Tailwind CSS.
 stale: true
-disabled: true
-disabled_reason: Github repo not found
+disabled: false
+disabled_reason: ''
 ---

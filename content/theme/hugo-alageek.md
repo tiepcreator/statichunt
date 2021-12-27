@@ -14,6 +14,4 @@ description: >-
   homepage with different sections including the latest posts, syntax
   highlighting and MathJax support and much more.
 stale: false
-disabled: true
-disabled_reason: Github repo not found
 ---

@@ -10,6 +10,4 @@ cms:
 date: 2019-06-27T11:35:02.000Z
 description: Gatsby.js V2 starter template based on Casual by startbootstrap
 stale: true
-disabled: true
-disabled_reason: Github repo not found
 ---

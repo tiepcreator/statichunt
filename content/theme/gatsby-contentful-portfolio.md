@@ -14,8 +14,6 @@ archetype:
   - Portfolio
 description: Gatsby portfolio theme integrated with Contentful
 stale: false
-disabled: true
-disabled_reason: Github repo not found
 ---
 
 # A simple portfolio starter kit for Gatsby, integrated with Contentful
