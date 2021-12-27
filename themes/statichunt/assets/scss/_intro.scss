@@ -64,7 +64,6 @@
   
   .intro-title {
     display: inline-block;
-    font-weight: 800;
     font-size: 40px;
     margin-bottom: 0;
     @include media-breakpoint-up(xs) {
@@ -86,7 +85,6 @@
     }
     p {
       font-size: 16px;
-      font-weight: 400;
     }
   }
   .intro-bar {
@@ -111,10 +109,6 @@
   }
   .count {
     color: $carbon;
-    font-weight: 400;
-  }
-  .page-number {
-    font-weight: 400;
   }
 }
 

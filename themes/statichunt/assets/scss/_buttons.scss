@@ -9,12 +9,9 @@
   background: none;
   border: 1px solid rgba($primary, .2);
   margin-bottom: 5px;
-  transition: 0.25s;
   &:hover {
     text-decoration: none;
-    border-color: rgba($primary, .15);
-    background-color: rgba($primary, .15);
-    color: $primary;
+    @extend .bg-gradient;
   }
   &-solid {
     border-color: $primary;

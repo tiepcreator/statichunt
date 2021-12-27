@@ -64,7 +64,6 @@
     flex-direction: column;
     h2 {
       font-size: 20px;
-      font-weight: 500;
       margin-bottom: 10px;
       @include media-breakpoint-up(xl) {
         font-size: 26px;
@@ -94,7 +93,6 @@
     color: $primary;
     padding: 3px 8px;
     border-radius: 3px;
-    font-weight: 400;
   }
   .theme-icons {
     display: flex;
@@ -156,13 +154,11 @@
     background-size: 13px;
     background-color: $bone;
     font-size: 14px;
-    font-weight: 600;
     @include media-breakpoint-up(xl) {
       background-size: 15px;
       background-position: 8px;
       padding: 4px 6px 4px 28px;
       font-size: 16px;
-      font-weight: normal;
     }
     .star-count {
       display: inline-block;

@@ -102,8 +102,10 @@
               </div>
               <div class="intro-description">
                 <p>{{ .Params.description | markdownify }}</p>
-                {{ if $repo }}{{ partial "labels/label-stars.html" (dict "stars" $repo.stars) }}{{ end }}
-                {{ if $repo }}{{ partial "labels/label-forks.html" (dict "forks" $repo.forks) }}{{ end }}
+                <div class="github-metrics mb-1">
+                  {{ if $repo }}{{ partial "labels/label-stars.html" (dict "stars" $repo.stars) }}{{ end }}
+                  {{ if $repo }}{{ partial "labels/label-forks.html" (dict "forks" $repo.forks) }}{{ end }}
+                </div>
                 {{ if $repo }}{{ partial "labels/label-last-commit.html" (dict "last_commit" $repo.last_commit) }}{{ end }}
 
                 <div class="action-buttons action-buttons-detail mb-0">
@@ -118,13 +120,13 @@
 
             <!-- author info -->
             <div class="widget">
-              <h3 class="h4">Author Details:</h3>
+              <h3 class="h4 mb-1">Author Details:</h3>
               {{ partial "author-details.html" . }}
             </div>
 
             <!-- categories -->
             <div class="theme-detail-tags widget">
-              <h3 class="h4">Product Categories:</h3>
+              <h3 class="h4 mb-1">Product Categories:</h3>
               {{ if .Params.ssg }}
               {{- range .Params.ssg }}
               {{- with $.Site.GetPage "taxonomyTerm" (printf "ssg/%s" (urlize .)) }}
@@ -181,7 +183,7 @@
             {{ if .Params.hosting }}
             <!-- hosting -->
             <div class="widget theme-detail-tags">
-              <h3 class="h4">Host This Theme With:</h3>
+              <h3 class="h4 mb-1">Host This Theme With:</h3>
               {{- range .Params.hosting }}
               {{- with $.Site.GetPage "taxonomyTerm" (printf "resources/hosting/%s" (urlize .)) }}
               {{ partial "icons/icon-link-widget.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
@@ -192,7 +194,7 @@
 
             <!-- share -->
             <div class="widget">
-              <h3 class="h4">Share This Theme:</h3>
+              <h3 class="h4 mb-1">Share This Theme:</h3>
               {{ partial "social-share.html" . }}
             </div>
 

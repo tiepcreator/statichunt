@@ -229,6 +229,7 @@
     margin-bottom: 0;
     flex-basis: 55%;
     max-width: 90px;
+    line-height: 1.1;
     color: $steel;
     &::after {
       position: absolute;
@@ -316,20 +317,29 @@
 
 // widget
 .widget{
-  padding: 20px;
-  border-radius: .5rem;
+  padding: 24px 28px;
+  border-radius: 4px;
   margin-bottom: 30px;
   background-color: $white;
-  box-shadow: 0 0.2rem 0.6rem rgba($color: $black, $alpha: .1) !important;
+  box-shadow: 0 0.2rem 0.6rem rgba($color: $black, $alpha: .07) !important;
   &-icon{
-    display: inline-block;
     border: 1px solid $border-color;
     padding: 5px 15px;
     margin-right: 5px;
     margin-bottom: 10px;
-    border-radius: 30px;
+    border-radius: 4px;
     color: $steel;
     line-height: 1;
+    height: 35px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    img {
+      margin-right: 7px;
+      height: 16px;
+      width: 16px;
+    }
     &:hover{
       text-decoration: none;
       border-color: $primary;
