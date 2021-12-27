@@ -16,8 +16,6 @@ description: >-
   Educenter is an educational website template powered by Hugo. It can be used
   as an online teaching platform, school and university website.
 stale: false
-disabled: false
-disabled_reason: null
 weight: 6
 ---
 

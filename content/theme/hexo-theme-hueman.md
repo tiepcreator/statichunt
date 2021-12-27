@@ -19,7 +19,4 @@ hosting:
   - Vercel
 description: A redesign of Alx's wordpress theme Hueman, ported to Hexo.
 stale: false
-disabled: false
-disabled_reason: null
-draft: false
 ---
