@@ -1,7 +1,7 @@
 ---
 title: Adam Blog
 github: https://github.com/artemsheludko/adam-blog
-demo: https://artemsheludko.github.io/adam-blog/
+demo: http://artemsheludko.com/adam-blog/
 author: Artem Sheludko
 ssg:
   - Jekyll
