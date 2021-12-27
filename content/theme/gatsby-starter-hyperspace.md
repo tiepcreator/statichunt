@@ -10,6 +10,4 @@ cms:
 date: 2019-05-11T10:32:19.000Z
 description: Gatsby.js V2 starter template based on Hyperspace  by HTML5 UP
 stale: true
-disabled: true
-disabled_reason: Github repo not found
 ---

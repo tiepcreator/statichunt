@@ -12,6 +12,4 @@ description: >-
   Official Gatsby.js Clean portfolio starter! Get a clean looking portfolio up
   and running in no time using gatsby.js starters.  
 stale: false
-disabled_reason: Github repo not found
-disabled: true
 ---

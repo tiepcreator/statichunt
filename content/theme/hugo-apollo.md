@@ -16,8 +16,8 @@ description: >-
   Apollo is a minimal personal blog template powered by Hugo. This theme is 100%
   mobile responsive.
 stale: false
-disabled: true
-disabled_reason: Github repo not found
+disabled: false
+disabled_reason: ''
 ---
 
 ## Features

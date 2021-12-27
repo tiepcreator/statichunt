@@ -20,7 +20,7 @@ hosting:
   - Vercel
 description: Create a Shopify store with Gatsby JS
 stale: false
-disabled: true
-disabled_reason: Github repo not found
+disabled: false
+disabled_reason: ''
 draft: false
 ---

@@ -19,7 +19,5 @@ hosting:
   - Vercel
 description: null
 stale: false
-disabled: false
-disabled_reason: null
 draft: false
 ---

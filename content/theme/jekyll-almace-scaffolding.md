@@ -13,6 +13,4 @@ description: >-
   against the website obesity. It supports LiveReload, Sass, HTML minification,
   inlined stylesheets and more.
 stale: false
-disabled: true
-disabled_reason: Github repo not found
 ---

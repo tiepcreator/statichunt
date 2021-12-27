@@ -10,6 +10,4 @@ cms:
 date: 2019-03-01T16:48:18.000Z
 description: A Gatsby starter with infinite scroll and pagination.
 stale: true
-disabled: true
-disabled_reason: Github repo not found
 ---

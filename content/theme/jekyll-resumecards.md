@@ -12,6 +12,4 @@ description: >-
   [Unmaintained] A Markdown based resume generator. It looks great on
   mobile/desktop and can be saved as PDF.
 stale: true
-disabled: true
-disabled_reason: Github repo not found
 ---

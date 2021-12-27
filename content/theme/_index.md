@@ -1,14 +1,4 @@
 ---
-title: null
-github: null
-demo: null
-author: null
-ssg: null
-cms: null
-date: null
-description: null
-stale: null
-draft: null
 _build:
   render: false
   list: never

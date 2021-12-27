@@ -12,6 +12,6 @@ archetype:
 date: 2019-11-02T09:48:38.000Z
 description: A simple & clear & elegant hexo theme
 stale: false
-disabled: true
-disabled_reason: Github repo not found
+disabled: false
+disabled_reason: ''
 ---

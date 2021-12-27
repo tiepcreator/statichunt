@@ -19,7 +19,7 @@ hosting:
   - Vercel
 description: A dark Hexo theme, it's responsive, simple but elegant.
 stale: false
-disabled: true
-disabled_reason: Github repo not found
+disabled: false
+disabled_reason: ''
 draft: false
 ---

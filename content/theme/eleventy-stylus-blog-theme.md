@@ -16,8 +16,8 @@ description: >-
   A nice-looking, mobile-first and dark theme friendly blog theme built with
   Eleventy SSG and Stylus Preprocessor
 stale: false
-disabled: true
-disabled_reason: Github repo not found
+disabled: false
+disabled_reason: ''
 ---
 
 # Eleventy + Stylus Blog theme

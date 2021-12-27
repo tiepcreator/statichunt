@@ -10,6 +10,6 @@ cms:
 date: 2017-05-18T22:32:21.000Z
 description: Minimo - Minimalist theme for Hugo
 stale: false
-disabled: true
-disabled_reason: Github repo not found
+disabled: false
+disabled_reason: ''
 ---

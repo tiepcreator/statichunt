@@ -17,8 +17,6 @@ description: >-
   11ty Starter with Multi-language support, SEO-friendly, GitHub/GitLab
   Pages-ready
 stale: false
-disabled: true
-disabled_reason: Github repo not found
 ---
 
 # Eleventy Starter Kit.

@@ -19,7 +19,5 @@ hosting:
   - Vercel
 description: A beautiful hexo blog theme with material design and responsive design.
 stale: false
-disabled: true
-disabled_reason: Github repo not found
 draft: false
 ---

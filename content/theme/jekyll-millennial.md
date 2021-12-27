@@ -10,6 +10,6 @@ cms:
 date: 2016-08-21T21:53:24.000Z
 description: A minimalist Jekyll theme for running an online publication
 stale: false
-disabled: true
-disabled_reason: Github repo not found
+disabled: false
+disabled_reason: ''
 ---
