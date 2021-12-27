@@ -1,9 +1,5 @@
 {{ define "body_classes" }} has-sidebar{{ end }}
 
-{{ define "meta_description" }}
-<meta name="description" content="All jamstack resources">
-{{ end }}
-
 {{ define "main" }}
 {{ $resources := (where .Site.RegularPages "Section" "resources") }}
 {{ $resources := (where $resources ".Params.draft" "!=" true) }}
@@ -11,17 +7,19 @@
 
 <div class="wrapper">
   <div class="sidebar">
-    <div class="container">
-      {{ partial "filters-resources.html" . }}
-      {{ partial "statichunt.html" . }}
+    {{ partial "filters-resources.html" . }}
+    {{ partial "statichunt.html" . }}
+
+    <div class="sidebar-main-menu d-block d-lg-none">
+      {{ range .Site.Menus.main }}<a href="{{.URL}}">{{ .Name }}</a>{{end}}
     </div>
   </div>
   <div class="main">
     <div class="container-fluid">
       <div class="intro-wrapper">
         <div class="intro">
-          <h1>{{.Title}}</h1>
-          <p>{{.Content}}</p>
+          <h1>{{if .Params.page_heading}}{{.Params.page_heading}}{{else}}{{.Title}}{{end}}</h1>
+          <!-- <p>{{.Content}}</p> -->
         </div>
       </div>
 

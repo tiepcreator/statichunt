@@ -1,6 +1,6 @@
 {{ define "title" }}{{ .Title }} - Theme Info{{ end }}
 {{ define "header_css" }}{{ end }}
-{{ define "body_classes" }}page-default-single{{ end }}
+{{ define "body_classes" }}page-default-single has-sidebar{{ end }}
 
 {{ define "ogmeta" }}
 <meta property="og:title" content="{{ .Title }}" />
@@ -17,10 +17,6 @@
 <meta name="twitter:creator" content="@statichunt" />
 {{end}}
 
-{{ define "meta_description" }}
-<meta name="description" content="{{ .Params.description }}">
-{{ end }}
-
 {{ define "main" }}
 {{ $repoName := printf "%s" (substr (replace .Params.github "/" "-") 19 | urlize) }}
 
@@ -28,6 +24,7 @@
 {{ $statichunt := index .Site.Data.themes $repoName }}
 
 <div class="wrapper">
+  {{ partial "sidebar-main-menu.html" . }}
   <div class="main">
     <div class="container">
       <div class="theme theme-detail" data-name="{{ .Title }}">
@@ -44,7 +41,7 @@
 
             <div class="intro widget">
               <div class="intro-heading">
-                <h1 class="intro-title">{{ .Title }} </h1>
+                <h1 class="intro-title">{{if .Params.page_heading}}{{.Params.page_heading}}{{else}}{{ .Title }}{{end}}</h1>
               </div>
               {{ with .Params.description}}
               <div class="intro-description">

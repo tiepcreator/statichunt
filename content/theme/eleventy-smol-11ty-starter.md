@@ -13,7 +13,6 @@ ssg:
 cms:
   - Netlifycms
 css:
-  - null
 archetype:
   - Boilerplate
 services: null

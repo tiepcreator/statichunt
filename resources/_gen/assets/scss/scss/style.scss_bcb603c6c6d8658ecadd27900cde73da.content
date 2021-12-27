@@ -4009,12 +4009,19 @@ html {
   .page .header {
     position: fixed;
     width: 100%;
-    z-index: 10; }
+    z-index: 10;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 768px) {
+      .page .header {
+        padding-left: 30px;
+        padding-right: 30px; } }
     .page .header .container {
       height: 60px;
       display: flex;
       align-items: center;
-      justify-content: space-between; }
+      justify-content: space-between;
+      max-width: none !important; }
   .page .wrapper {
     padding-top: 60px; }
     .page .wrapper .main {
@@ -4041,7 +4048,7 @@ html {
       height: calc(100vh - 60px);
       display: flex;
       flex-direction: column;
-      background-color: #f5f5f5;
+      background-color: #eef3f2;
       padding-top: 15px;
       padding-bottom: 15px; }
       @media (min-width: 992px) {
@@ -4237,6 +4244,16 @@ html {
 .has-sidebar .sidebar-toggler {
   display: block; }
 
+.sidebar-main-menu {
+  border-top: 1px solid #ddd;
+  padding: 25px 15px; }
+  .sidebar-main-menu a {
+    color: black;
+    display: block;
+    padding: 8px 0; }
+    .sidebar-main-menu a:hover {
+      color: #059669; }
+
 .footer {
   background: #1a202c; }
   .footer h3 {
@@ -4418,6 +4435,8 @@ html {
     .filters .filter-list .filter-item.mixitup-control-active {
       background-color: white;
       box-shadow: 1px 1px 6px 0px #a9a9a93d; }
+      .filters .filter-list .filter-item.mixitup-control-active span {
+        font-weight: 600; }
     .filters .filter-list .filter-item .filter-icon {
       width: 18px;
       height: 18px;
@@ -4567,8 +4586,8 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 1px solid #e9e9e9;
-  border-radius: 8px;
+  border: 1px solid rgba(233, 233, 233, 0.6);
+  border-radius: 4px;
   background-color: white;
   position: relative;
   z-index: 1;
@@ -4577,15 +4596,15 @@ html {
   .theme-card .theme-header {
     max-height: 260px;
     overflow: hidden;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px; }
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px; }
     .theme-card .theme-header img {
       max-width: 100%;
       width: 100%;
       height: auto;
       vertical-align: bottom;
-      border-top-left-radius: 8px;
-      border-top-right-radius: 8px; }
+      border-top-left-radius: 4px;
+      border-top-right-radius: 4px; }
   .theme-card .theme-body {
     background: white;
     padding: 20px;
@@ -4619,7 +4638,6 @@ html {
     color: #059669;
     padding: 3px 8px;
     border-radius: 3px;
-    margin-left: 5px;
     font-weight: 400; }
   .theme-card .theme-icons {
     display: flex;
@@ -4635,7 +4653,7 @@ html {
         height: 18px;
         width: 18px; }
   .theme-card .theme-footer {
-    border-top: 1px solid #e9e9e9;
+    border-top: 1px solid rgba(233, 233, 233, 0.6);
     background: #ffffff;
     padding: 11px 13px 11px 13px;
     border-bottom-left-radius: 8px;
@@ -4854,15 +4872,11 @@ html {
   .action-buttons-detail .action-button {
     display: inline-block;
     padding: 7px 15px;
-    border: 1px solid #059669;
     border-radius: 4px;
     font-size: 16px;
     margin-right: 10px;
     color: #059669;
     text-decoration: none; }
-    .action-buttons-detail .action-button:hover {
-      color: #059669;
-      opacity: 0.8; }
     .action-buttons-detail .action-button:last-of-type {
       margin-right: 0; }
     .action-buttons-detail .action-button.action-button-fill {
@@ -5157,7 +5171,8 @@ html {
   .button-light {
     color: #059669;
     border-color: rgba(5, 150, 105, 0.15);
-    background-color: rgba(5, 150, 105, 0.15); }
+    background-color: rgba(5, 150, 105, 0.15);
+    transition: 0s; }
   .button:focus, .theme-card .theme-buttons .theme-button:focus, .action-button:focus, .demo .demo-buttons .theme-button:focus {
     outline: none; }
   .button.selected, .theme-card .theme-buttons .selected.theme-button, .selected.action-button, .demo .demo-buttons .selected.theme-button, .button.mixitup-control-active, .theme-card .theme-buttons .mixitup-control-active.theme-button, .mixitup-control-active.action-button, .demo .demo-buttons .mixitup-control-active.theme-button {
@@ -5905,6 +5920,28 @@ body::-webkit-scrollbar-thumb {
 
 .font-weight-medium {
   font-weight: 500 !important; }
+
+.scroll-to-position {
+  position: fixed;
+  bottom: -40px;
+  right: 30px;
+  z-index: 9999;
+  transition: 0.2s; }
+  .scroll-to-position.visible {
+    bottom: 40px; }
+  .scroll-to-position button {
+    border: 0;
+    outline: none;
+    height: 40px;
+    width: 40px;
+    background: #059669;
+    background: linear-gradient(-45deg, #059669 0%, #25b1c8 100%);
+    color: #ffffff;
+    border-radius: 4px;
+    display: none;
+    box-shadow: 2px 8px 25px -4px #2a2e2e; }
+    .scroll-to-position button.show {
+      display: block; }
 
 /*! Social sharing buttons from Sharingbuttons.io */
 .resp-sharing-button__link,

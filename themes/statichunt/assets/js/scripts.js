@@ -98,6 +98,45 @@ if (bwsBlock) {
   });
 }
 
+// scroll to top and bottom of the page
+scrollingElement = (document.scrollingElement || document.body)
+function scrollToBottom() {
+  scrollingElement.scrollTop = scrollingElement.scrollHeight;
+  document.querySelector('.scroll-to-top').classList.add('show');
+  document.querySelector('.scroll-to-bottom').classList.remove('show');
+}
+function scrollToTop() {
+  scrollingElement.scrollTop = 0;
+}
+
+// show hide scroll direction button
+window.addEventListener('scroll', function(){
+  var target = document.querySelector('.scroll-to-position');
+  if(window.pageYOffset > 150) {
+   target.classList.add('visible'); 
+  }
+  else if(window.pageYOffset < 150){
+    target.classList.remove('visible');
+  }
+},false);
+
+// scroll direction
+var scrollableElement = document.body; //document.getElementById('scrollableElement');
+scrollableElement.addEventListener('wheel', checkScrollDirection);
+function checkScrollDirection(e) {
+  if (checkScrollDirectionIsUp(e)) {
+    document.querySelector('.scroll-to-top').classList.add('show');
+    document.querySelector('.scroll-to-bottom').classList.remove('show');
+  } else {
+    document.querySelector('.scroll-to-top').classList.remove('show');
+    document.querySelector('.scroll-to-bottom').classList.add('show');
+  }
+}
+function checkScrollDirectionIsUp(e) {
+  if (e.wheelDelta) {return e.wheelDelta > 0;}
+  return e.deltaY < 0;
+}
+
 // archtype-count
 // var archetypeFilter = document.querySelectorAll('.filter-item');
 // var archtypeCount = document.querySelectorAll(".archtype-count");

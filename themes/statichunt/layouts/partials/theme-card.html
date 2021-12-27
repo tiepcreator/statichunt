@@ -26,7 +26,7 @@
 
     <div class="theme-body">
 
-      <h2><a href="{{ .theme.Permalink }}" class="theme-title">{{ .theme.Params.title }}</a> {{if or (eq .theme.Params.author "statichunt") (eq .theme.Params.author "Statichunt") (eq .theme.Params.author "StaticHunt")}} <span class="made-by-us">Made by us</span>{{end}}</h2>
+      <h2><a href="{{ .theme.Permalink }}" class="theme-title">{{ .theme.Params.title }}</a> {{if or (eq .theme.Params.author "statichunt") (eq .theme.Params.author "Statichunt") (eq .theme.Params.author "StaticHunt")}} <span class="made-by-us d-inline-block">Made by us</span>{{end}}</h2>
       
       {{ if .repo }}
       {{ partial "github-metrics.html" (dict "forks" .repo.forks "stars" .repo.stars )}}

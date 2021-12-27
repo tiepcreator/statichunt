@@ -11,9 +11,7 @@ date: 2021-04-29T00:00:00.000Z
 ssg:
   - Vuepress
 cms:
-  - null
 css:
-  - null
 archetype:
   - Blog
 services: null

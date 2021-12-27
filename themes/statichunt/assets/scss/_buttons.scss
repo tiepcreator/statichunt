@@ -30,6 +30,7 @@
     color: $primary;
     border-color: rgba($primary, .15);
     background-color: rgba($primary, .15);
+    transition: 0s;
     &:hover {
       @extend .bg-gradient;
     }

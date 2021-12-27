@@ -447,3 +447,30 @@ body::-webkit-scrollbar-thumb {
 .font-weight-medium {
   font-weight: 500 !important;
 }
+
+// scroll-to-position
+.scroll-to-position {
+  position: fixed;
+  bottom: -40px;
+  right: 30px;
+  z-index: 9999;
+  transition: 0.2s;
+  &.visible {
+    bottom: 40px;
+  }
+  button {
+    border: 0;
+    outline: none;
+    height: 40px;
+    width: 40px;
+    background: $primary;
+    background: linear-gradient(-45deg, $primary 0%, #25b1c8 100%);
+    color: $white;
+    border-radius: 4px;
+    display: none;
+    box-shadow: 2px 8px 25px -4px #2a2e2e;
+    &.show {
+      display: block;
+    }
+  }
+}

@@ -13,7 +13,6 @@ ssg:
 cms:
   - No Cms
 css:
-  - null
 archetype:
   - Blog
   - Documentation

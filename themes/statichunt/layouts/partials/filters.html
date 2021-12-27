@@ -5,7 +5,7 @@
     {{ partial "toggle-icon.html" (dict "Name" "Static Site Generator" "NameSM" "SSG" ) }}
     
     <ul class="filter-list">
-      {{ range .context.Site.Taxonomies.ssg }}
+      {{ range .context.Site.Taxonomies.ssg.ByCount }}
       {{ $count := 0 }}
       {{ if $countAll }}
       {{ $count = .Count }}
@@ -38,7 +38,7 @@
 
     <ul class="filter-list closed">
       {{ partial "toggle-more.html" . }}
-      {{ range .context.Site.Taxonomies.ssg }}
+      {{ range .context.Site.Taxonomies.ssg.ByCount }}
       {{ $count := 0 }}
       {{ if $countAll }}
       {{ $count = .Count }}
@@ -67,7 +67,7 @@
   <div id="filter-group-cms" class="filter filter-group-cms" data-filter-group="cms">
     {{ partial "toggle-icon.html" (dict "Name" "Jamstack CMS" "NameSM" "CMS") }}
     <ul class="filter-list">
-      {{ range .context.Site.Taxonomies.cms }}
+      {{ range .context.Site.Taxonomies.cms.ByCount }}
       {{ $count := 0 }}
       {{ if $countAll }}
       {{ $count = .Count }}
@@ -93,7 +93,7 @@
 
     <ul class="filter-list closed">
       {{ partial "toggle-more.html" . }}
-      {{ range .context.Site.Taxonomies.cms }}
+      {{ range .context.Site.Taxonomies.cms.ByCount }}
       {{ $count := 0 }}
       {{ if $countAll }}
       {{ $count = .Count }}
@@ -122,7 +122,7 @@
     {{ partial "toggle-icon.html" (dict "Name" "CSS Framework" "NameSM" "CSS") }}
 
     <ul class="filter-list">
-      {{ range .context.Site.Taxonomies.css }}
+      {{ range .context.Site.Taxonomies.css.ByCount }}
       {{ $count := 0 }}
       {{ if $countAll }}
       {{ $count = .Count }}
@@ -148,7 +148,7 @@
 
     <ul class="filter-list closed">
       {{ partial "toggle-more.html" . }}
-      {{ range .context.Site.Taxonomies.css }}
+      {{ range .context.Site.Taxonomies.css.ByCount }}
       {{ $count := 0 }}
       {{ if $countAll }}
       {{ $count = .Count }}

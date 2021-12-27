@@ -1,7 +1,11 @@
 {{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}has-sidebar{{ end }}
 {{ define "main" }}
 
 <section class="py-5 my-5">
+  <div class="wrapper">
+    {{ partial "sidebar-main-menu.html" . }}
+  </div>
   <div class="container">
     <div class="row">
       <div class="col-lg-8 mx-auto">

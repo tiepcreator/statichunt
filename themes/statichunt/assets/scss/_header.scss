@@ -170,3 +170,17 @@
     display: block;
   }
 }
+
+.sidebar-main-menu {
+  border-top: 1px solid #ddd;
+  padding: 25px 15px;
+  a {
+    color: black;
+    display: block;
+    padding: 8px 0;
+    &:hover {
+      color: $primary;
+      
+    }
+  }
+}

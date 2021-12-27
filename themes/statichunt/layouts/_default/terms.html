@@ -1,10 +1,9 @@
-{{ define "meta_description" }}
-<meta name="description" content="{{ .Title }} for Jamstack Sites." />
-{{ end }}
+{{ define "body_classes" }}has-sidebar{{ end }}
 
 {{ define "main" }}
 {{ $themeCount := len .Pages }}
 <div class="wrapper">
+  {{ partial "sidebar-main-menu.html" . }}
   <div class="main">
     <div class="container">
       <div class="intro">
