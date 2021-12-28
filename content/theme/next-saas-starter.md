@@ -12,8 +12,7 @@ ssg:
   - Next
 cms: null
 css: null
-archetype:
-  - Landing Page
+archetype: null
 services: null
 hosting:
   - Netlify

@@ -13,8 +13,7 @@ ssg:
 cms:
   - Netlifycms
 css: null
-archetype:
-  - Other
+archetype: null
 services: null
 hosting:
   - Netlify

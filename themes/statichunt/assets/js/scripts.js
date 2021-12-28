@@ -101,12 +101,14 @@ if (bwsBlock) {
 // scroll to top and bottom of the page
 scrollingElement = (document.scrollingElement || document.body)
 function scrollToBottom() {
-  scrollingElement.scrollTop = scrollingElement.scrollHeight;
+  // scrollingElement.scrollTop = scrollingElement.scrollHeight;
+  window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'});
   document.querySelector('.scroll-to-top').classList.add('show');
   document.querySelector('.scroll-to-bottom').classList.remove('show');
 }
 function scrollToTop() {
-  scrollingElement.scrollTop = 0;
+  // scrollingElement.scrollTop = 0;
+  window.scrollTo({top: 0, behavior: 'smooth'});
 }
 
 // show hide scroll direction button

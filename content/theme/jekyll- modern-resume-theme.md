@@ -13,7 +13,8 @@ ssg:
 cms: null
 css: null
 archetype:
-  - Personal - Portfolio
+  - Personal 
+  - Portfolio
 services: null
 hosting:
   - Netlify

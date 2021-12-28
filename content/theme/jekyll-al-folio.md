@@ -15,7 +15,6 @@ css: null
 archetype:
   - Portfolio
   - Personal
-  - Academic
 services: null
 hosting:
   - Netlify

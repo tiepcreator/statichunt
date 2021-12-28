@@ -13,8 +13,7 @@ ssg:
 cms: null
 css:
   - Tailwind
-archetype:
-  - Multi Purpose
+archetype: null
 services: null
 hosting:
   - Netlify

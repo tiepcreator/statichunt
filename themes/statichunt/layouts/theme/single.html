@@ -109,7 +109,7 @@
                 {{ if $repo }}{{ partial "labels/label-last-commit.html" (dict "last_commit" $repo.last_commit) }}{{ end }}
 
                 <div class="action-buttons action-buttons-detail mb-0">
-                  <a class="action-button action-button-demo" data-action="demo" data-context="detail" target="_blank"
+                  <a class="action-button action-button-demo" data-action="demo" data-context="detail" target="_blank" rel="noopener nofollow"
                     data-name="{{ .Title }}" href="{{ .Params.demo }}?ref=statichunt.com">Live Demo</a>
                     
                   <a class="action-button button-light action-button-github" data-action="github" data-context="detail"

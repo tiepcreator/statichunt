@@ -18,6 +18,8 @@ promotion:
   content: "Build your dream user experience, with the blazing fast page speed and SEO-efficiency like never before."
   button_label: "Get Started For Free"
   button_link: "#"
+
+draft: true
 ---
 
 
