@@ -3,7 +3,6 @@ title: Headless Neve
 github: https://github.com/lwz7512/next-static-neve
 demo: https://next-static-neve.vercel.app/
 author: Wenzhi Li
-thumbnail: themes/next-static-blog.jpg
 date: 2021-04-02T16:55:17.362Z
 ssg:
   - Next

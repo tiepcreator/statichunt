@@ -3,7 +3,6 @@ title: Documentation Theme for Jekyll
 github: https://github.com/tomjoht/documentation-theme-jekyll
 demo: https://idratherbewriting.com/documentation-theme-jekyll/
 author: tomjohnson1492
-thumbnail: themes/jekyll-documentation-theme-.jpg
 ssg:
   - Jekyll
 cms:

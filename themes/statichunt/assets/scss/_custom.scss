@@ -271,9 +271,14 @@
       margin: 0;
       color: $carbon;
       font-size: 14px;
+      border-radius: .25rem;
 
       &.mixitup-control-active {
         background-color: rgba($primary, .1);
+        color: $primary;
+      }
+      &:hover {
+        background-color: rgba($grey, .5);
         color: $primary;
       }
     }

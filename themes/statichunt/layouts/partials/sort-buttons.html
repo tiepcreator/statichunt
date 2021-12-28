@@ -19,13 +19,13 @@
     <p class="sort-description">Sort by: </p>
     <p class="sort-button">Recent</p>
     <ul class="sort-menu sort-select">
-      <li class="button mixitup-control-active" data-sort="default"
+      <li class="mixitup-control-active" data-sort="default"
         onclick="document.querySelector('.sort-button').innerHTML = 'Default'">Recent</li>
-      <li class="button" data-sort="stars:desc" onclick="document.querySelector('.sort-button').innerHTML = 'Stars'">
+      <li data-sort="stars:desc" onclick="document.querySelector('.sort-button').innerHTML = 'Stars'">
         Stars</li>
-      <li class="button" data-sort="forks:desc" onclick="document.querySelector('.sort-button').innerHTML = 'Forks'">
+      <li data-sort="forks:desc" onclick="document.querySelector('.sort-button').innerHTML = 'Forks'">
         Forks</li>
-      <li class="button" data-sort="last-commit:desc"
+      <li data-sort="last-commit:desc"
         onclick="document.querySelector('.sort-button').innerHTML = 'Commit'">Commit</li>
     </ul>
   </div>
