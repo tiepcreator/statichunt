@@ -18,7 +18,7 @@ function deserializeHash() {
   obj = {};
   groups = hash.split("&");
 
-  groups.forEach(function(group) {
+  groups.forEach(function (group) {
     var pair = group.split("=");
     var groupName = pair[0];
 
@@ -62,14 +62,16 @@ function serializeUiState(uiState) {
 
 function getUiState() {
   // NB: You will need to rename the object keys to match the names of
-  // your project's filter groups – these should match those defined
+  // your project's filter groups – these should match those defined
   // in your HTML.
 
   var uiState = {
     ssg: mixer.getFilterGroupSelectors("ssg").map(getValueFromSelector),
     cms: mixer.getFilterGroupSelectors("cms").map(getValueFromSelector),
     css: mixer.getFilterGroupSelectors("css").map(getValueFromSelector),
-    archetype: mixer.getFilterGroupSelectors("archetype").map(getValueFromSelector)
+    archetype: mixer
+      .getFilterGroupSelectors("archetype")
+      .map(getValueFromSelector),
   };
 
   return uiState;
@@ -130,7 +132,10 @@ function syncMixerWithPreviousUiState(uiState, animate) {
   mixer.setFilterGroupSelectors("ssg", ssg.map(getSelectorFromValue));
   mixer.setFilterGroupSelectors("cms", cms.map(getSelectorFromValue));
   mixer.setFilterGroupSelectors("css", css.map(getSelectorFromValue));
-  mixer.setFilterGroupSelectors("archetype", archetype.map(getSelectorFromValue));
+  mixer.setFilterGroupSelectors(
+    "archetype",
+    archetype.map(getSelectorFromValue)
+  );
 
   // Parse the filter groups (passing `false` will perform no animation)
 
@@ -158,16 +163,15 @@ function getValueFromSelector(selector) {
 
 function handleParseFilterGroups(command) {
   if (activePage > 1) {
-      // If an activePage greater than 1 has been parsed
-      // from the URL, update the command with a pagination
-      // instruction
+    // If an activePage greater than 1 has been parsed
+    // from the URL, update the command with a pagination
+    // instruction
 
-      command.paginate = activePage;
+    command.paginate = activePage;
   }
 
   return command;
 }
-
 
 /**
  * Converts a simple value (e.g. 'green') into a selector (e.g. '.green').
@@ -179,4 +183,3 @@ function handleParseFilterGroups(command) {
 function getSelectorFromValue(value) {
   return "." + value;
 }
-

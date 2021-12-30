@@ -1,17 +1,37 @@
 <!-- archtype -->
 <div class="sort-buttons">
   <span class="sort-by">Filter By:</span>
+
   <div id="filter-group-archetype" class="filter filter-group-archetype" data-filter-group="archetype">
+    <div class="filter-title">
+      <h3>Archetype</h3>
+    </div>
     <ul class="filter-list">
-      {{ range $i, $e:= site.Taxonomies.archetype }}
-      {{ if gt (len $e) 1}}
-      <li id="filter-{{ .Page.Title | urlize }}" class="filter-item" data-toggle=".{{ .Page.Title | urlize }}">
+      {{ $countAll := .countAll }}
+      {{ range .context.Site.Taxonomies.archetype }}
+      {{ $count := 0 }}
+      {{ if $countAll }}
+      {{ $count = .Count }}
+      {{ else }}
+      {{ range .Pages }}
+      {{ if not .Params.stale }}
+      {{ if not .Params.disabled }}
+      {{ $count = add $count 1 }}
+      {{ end }}
+      {{ end }}
+      {{ end }}
+      {{ end }}
+      <li id="filter-{{ .Page.Title | urlize }}" class="filter-item">
+        <img width="18" height="18" class="filter-icon" alt="{{ .Page.Title }}"
+          src="{{ .Page.Params.icon | relURL }}" />
+        <button aria-label="filter-button-{{ .Page.Title | urlize }}" id="filter-button-{{ .Page.Title | urlize }}"
+          class="filter-button" data-toggle=".{{ .Page.Title | urlize }}"></button>
         <span class="filter-name">{{ .Page.Title }}</span>
-        <!-- <span class="archtype-count filter-count" id="filter-count-{{ .Page.Title | urlize}}">{{ len $e }}</span> -->
+        <span class="filter-count" id="filter-count-{{ .Page.Title | urlize}}">{{ $count }}</span>
       </li>
       {{ end }}
-      {{ end }}
     </ul>
+
   </div>
 
   <!-- sort -->
@@ -25,8 +45,7 @@
         Stars</li>
       <li data-sort="forks:desc" onclick="document.querySelector('.sort-button').innerHTML = 'Forks'">
         Forks</li>
-      <li data-sort="last-commit:desc"
-        onclick="document.querySelector('.sort-button').innerHTML = 'Commit'">Commit</li>
+      <li data-sort="last-commit:desc" onclick="document.querySelector('.sort-button').innerHTML = 'Commit'">Commit</li>
     </ul>
   </div>
 </div>

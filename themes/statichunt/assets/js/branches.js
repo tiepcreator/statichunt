@@ -1,16 +1,16 @@
 document.querySelectorAll(".action-button").forEach((button) => {
-  const themeName = button.getAttribute('data-name');
-  const context = button.getAttribute('data-context');
-  const action = button.getAttribute('data-action');
+  const themeName = button.getAttribute("data-name");
+  const context = button.getAttribute("data-context");
+  const action = button.getAttribute("data-action");
   let branch = null;
 
-  button.addEventListener('click', (e) => {
+  button.addEventListener("click", (e) => {
     if (action) {
       const event = {
         theme: themeName,
         action: action,
-        category: 'Themes',
-        label: themeName
+        category: "Themes",
+        label: themeName,
       };
 
       if (context) {

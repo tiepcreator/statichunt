@@ -54,7 +54,7 @@
       </div>
       {{end}}
 
-      {{ partial "sort-buttons.html" . }}
+      {{ partial "sort-buttons.html" (dict "context" . "countAll" true) }}
       <div id="grids-homepage" class="row mt-3">
         {{ range (($themes.ByParam "date").Reverse).ByParam "weight" }}
         {{ $repoName := printf "%s" (substr (replace .Params.github "/" "-") 19 | urlize) }}
