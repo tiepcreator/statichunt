@@ -85,7 +85,6 @@
 
   .bws-actions {
     float: right;
-    margin-right: 5px;
 
     a {
       border: 1px solid #dcdcdc;
@@ -97,12 +96,14 @@
       padding: 0 8px;
       display: inline-block;
       height: 22px;
-      line-height: 22px;
+      line-height: 18px;
       font-size: 80%;
+      background: #fff;
+      transform: translateY(-2px);
 
       &:hover {
         color: $primary;
-        background-color: #dcdcdc;
+        background-color: #fff;
       }
     }
   }
@@ -217,7 +218,7 @@
 
   &-description {
     margin-bottom: 0;
-    padding: 5px;
+    padding: 2px 5px;
     color: $steel;
   }
 
@@ -322,11 +323,14 @@
 
 // widget
 .widget{
-  padding: 24px 28px;
+  padding-left: 28px;
   border-radius: 4px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   background-color: $white;
-  box-shadow: 0 0.2rem 0.6rem rgba($color: $black, $alpha: .07) !important;
+  // box-shadow: 0 0.2rem 0.6rem rgba($color: $black, $alpha: .07) !important;
+  @include desktop {
+    padding: 0;
+  }
   &-icon{
     border: 1px solid $border-color;
     padding: 5px 15px;
