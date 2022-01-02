@@ -120,15 +120,9 @@
 
             <!-- content -->
             <div class="content">
-
               {{ if .Content }}
-              {{ .Content }}
-              {{ else if .Params.github }}
-              {{ $repoPath:= replaceRE "^https?://github.com" "$1" (string .Params.github) }}
-              {{ $resp := getJSON (printf "https://api.github.com/repos%s/readme" $repoPath)  }}
-              {{ $resp.content | base64Decode | markdownify }}
+                {{ .Content }}
               {{ end }}
-
             </div>
 
           </div>
