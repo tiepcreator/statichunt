@@ -34,19 +34,40 @@
   color: $carbon;
 }
 
+body {
+  &::before {
+    position: fixed;
+    top: 0;
+    left: 0;
+    content: "";
+    height: 100vh;
+    width: 100vw;
+    background: rgba($black, .4);
+    z-index: 2222;
+    opacity: 0;
+    visibility: hidden;
+    transition: .2s;
+    pointer-events: none;
+  }
+  &.show::before {
+    opacity: 1;
+    visibility: visible;
+  }
+}
 
 // preview iframe
 .bws-block {
-  border-radius: 8px;
+  border-radius: 4px;
   overflow: hidden !important;
   @extend .shadow;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
+  z-index: 9999;
 
   .bws-header {
     background: #ececec;
     padding: .25rem .5rem;
     position: relative;
-    border-radius: 8px 8px 0 0;
+    border-radius: 4px 4px 0 0;
 
     &::before {
       background: #FFBD2D;
@@ -88,18 +109,16 @@
 
     a {
       border: 1px solid #dcdcdc;
-      margin-left: 10px;
       text-decoration: none;
-      color: $carbon;
+      color: #2a2a2a;
       font-size: 80%;
-      border-radius: 5px;
-      padding: 0 8px;
+      border-radius: 3px;
+      padding: 2px 5px;
       display: inline-block;
       height: 22px;
-      line-height: 18px;
-      font-size: 80%;
+      line-height: 10px;
       background: #fff;
-      transform: translateY(-2px);
+      transform: translateY(-4px) translateX(3px);
 
       &:hover {
         color: $primary;

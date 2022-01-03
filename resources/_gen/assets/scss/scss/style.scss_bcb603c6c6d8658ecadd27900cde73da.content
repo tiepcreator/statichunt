@@ -5220,6 +5220,24 @@ html {
     background: #059669;
     color: white; }
 
+.icon-link {
+  height: 40px;
+  width: 40px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #dedede;
+  border-radius: 4px;
+  margin-left: 10px;
+  transition: .2s;
+  flex-shrink: 0; }
+  .icon-link svg {
+    transition: .2s; }
+  .icon-link:hover {
+    background-color: #059669;
+    border: 1px solid #059669; }
+    .icon-link:hover svg {
+      color: #ffffff; }
+
 .sort-buttons {
   margin-bottom: 10px;
   display: flex;
@@ -5249,9 +5267,9 @@ html {
       background-color: transparent;
       font-family: "plus_jakarta_sanssemibold", Helvetica, sans-serif; }
       .sort-buttons .filter-list .filter-item .archtype-count {
-        background-color: #059669;
-        color: #ffffff;
-        font-size: 80%;
+        background-color: #dce9e9;
+        color: #262626;
+        font-size: 85%;
         margin-left: 2px;
         padding: 0 4px;
         padding-bottom: 2px;
@@ -5633,15 +5651,34 @@ ul.pagination {
 .title-link {
   color: #2a2a2a; }
 
+body::before {
+  position: fixed;
+  top: 0;
+  left: 0;
+  content: "";
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 2222;
+  opacity: 0;
+  visibility: hidden;
+  transition: .2s;
+  pointer-events: none; }
+
+body.show::before {
+  opacity: 1;
+  visibility: visible; }
+
 .bws-block {
-  border-radius: 8px;
+  border-radius: 4px;
   overflow: hidden !important;
-  margin-bottom: 30px; }
+  margin-bottom: 50px;
+  z-index: 9999; }
   .bws-block .bws-header {
     background: #ececec;
     padding: .25rem .5rem;
     position: relative;
-    border-radius: 8px 8px 0 0; }
+    border-radius: 4px 4px 0 0; }
     .bws-block .bws-header::before {
       background: #FFBD2D;
       border-radius: 50%;
@@ -5675,18 +5712,16 @@ ul.pagination {
     float: right; }
     .bws-block .bws-actions a {
       border: 1px solid #dcdcdc;
-      margin-left: 10px;
       text-decoration: none;
       color: #2a2a2a;
       font-size: 80%;
-      border-radius: 5px;
-      padding: 0 8px;
+      border-radius: 3px;
+      padding: 2px 5px;
       display: inline-block;
       height: 22px;
-      line-height: 18px;
-      font-size: 80%;
+      line-height: 10px;
       background: #fff;
-      transform: translateY(-2px); }
+      transform: translateY(-4px) translateX(3px); }
       .bws-block .bws-actions a:hover {
         color: #059669;
         background-color: #fff; }
@@ -6011,8 +6046,14 @@ body::-webkit-scrollbar-thumb {
 .resp-sharing-button {
   border-radius: .25rem;
   transition: 25ms ease-out;
-  padding: 0.5em 0.75em;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif; }
+  padding: 0.35em 0.75em 0.55em 0.75em;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  background-color: #f7f7f7;
+  transition: .1s; }
+  .resp-sharing-button:hover {
+    background-color: rgba(5, 150, 105, 0.1); }
+    .resp-sharing-button:hover svg {
+      color: #059669 !important; }
 
 .resp-sharing-button__icon svg {
   width: 1em;
@@ -6026,13 +6067,13 @@ body::-webkit-scrollbar-thumb {
 
 /* Non solid icons get a stroke */
 .resp-sharing-button__icon {
-  stroke: #fff;
+  stroke: black;
   fill: none; }
 
 /* Solid icons get a fill */
 .resp-sharing-button__icon--solid,
 .resp-sharing-button__icon--solidcircle {
-  fill: #fff;
+  fill: #333;
   stroke: none; }
 
 .resp-sharing-button--twitter {
