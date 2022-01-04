@@ -18,8 +18,16 @@ sections:
   create: documents
   match: "**/*"
   exclude: _index.md
-  templates:
-  - post
+- type: directory
+  path: content/resources
+  label: All Resources
+  create: documents
+  match: "**/*"
+- type: directory
+  path: content/ssg
+  label: All SSG
+  create: documents
+  match: "**/*"
 - type: heading
   label: All Pages
 - type: directory
