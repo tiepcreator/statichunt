@@ -14,8 +14,7 @@ url: /next-themes
 short_description: "Next. js has introduced us to a better way of building static-generated websites with more dynamic performance. SSG describes the process of building websites that render at build time."
 promotion:
   enable: true
-  title: "Build Blazing Fast Websites & Apps"
-  content: "Build your dream user experience, with the blazing fast page speed and SEO-efficiency like never before."
-  button_label: "Get Started For Free"
-  button_link: "#"
+  title: "Stay up to date with Jamstack resources & news"
+  mailchimp_form_action: "#"
+  button_label: "Subscribe"
 ---

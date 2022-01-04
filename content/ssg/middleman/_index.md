@@ -14,10 +14,9 @@ url: /middleman-themes
 short_description: "Middleman is a static site generator using all the shortcuts and tools in modern web development."
 promotion:
   enable: true
-  title: "Build Blazing Fast Websites & Apps"
-  content: "Build your dream user experience, with the blazing fast page speed and SEO-efficiency like never before."
-  button_label: "Get Started For Free"
-  button_link: "#"
+  title: "Stay up to date with Jamstack resources & news"
+  mailchimp_form_action: "#"
+  button_label: "Subscribe"
 
 draft: true
 ---

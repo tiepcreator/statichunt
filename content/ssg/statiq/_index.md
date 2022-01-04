@@ -14,10 +14,9 @@ url: /statiq-themes
 short_description: "Statiq is the world's most powerful static generation platform, allowing you to use or create a static generator that's exactly what you need."
 promotion:
   enable: true
-  title: "Build Blazing Fast Websites & Apps"
-  content: "Build your dream user experience, with the blazing fast page speed and SEO-efficiency like never before."
-  button_label: "Get Started For Free"
-  button_link: "#"
+  title: "Stay up to date with Jamstack resources & news"
+  mailchimp_form_action: "#"
+  button_label: "Subscribe"
 
 draft: true
 ---

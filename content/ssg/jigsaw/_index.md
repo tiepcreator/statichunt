@@ -14,10 +14,9 @@ url: /jigsaw-themes
 short_description: "Jigsaw is a framework for rapidly building static sites using the same modern tooling that powers your web applications."
 promotion:
   enable: true
-  title: "Build Blazing Fast Websites & Apps"
-  content: "Build your dream user experience, with the blazing fast page speed and SEO-efficiency like never before."
-  button_label: "Get Started For Free"
-  button_link: "#"
+  title: "Stay up to date with Jamstack resources & news"
+  mailchimp_form_action: "#"
+  button_label: "Subscribe"
 
 draft: true
 ---

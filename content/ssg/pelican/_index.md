@@ -14,10 +14,9 @@ url: /pelican-themes
 short_description: "Static site generator that supports Markdown and reST syntax. Simple command-line tool (re)generates HTML, CSS, and JS from your source content."
 promotion:
   enable: true
-  title: "Build Blazing Fast Websites & Apps"
-  content: "Build your dream user experience, with the blazing fast page speed and SEO-efficiency like never before."
-  button_label: "Get Started For Free"
-  button_link: "#"
+  title: "Stay up to date with Jamstack resources & news"
+  mailchimp_form_action: "#"
+  button_label: "Subscribe"
 
 draft: true
 ---

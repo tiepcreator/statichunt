@@ -14,8 +14,7 @@ url: /gatsby-themes
 short_description: "Gatsby is a free and open source framework based on React that helps developers build blazing fast websites and apps.It combines the control and scalability of dynamically rendered sites with the speed of static-site generation, creating a whole new web of possibilities."
 promotion:
   enable: true
-  title: "Build Blazing Fast Websites & Apps"
-  content: "Build your dream user experience, with the blazing fast page speed and SEO-efficiency like never before."
-  button_label: "Get Started For Free"
-  button_link: "#"
+  title: "Stay up to date with Jamstack resources & news"
+  mailchimp_form_action: "#"
+  button_label: "Subscribe"
 ---

@@ -14,10 +14,9 @@ url: /metalsmith-themes
 short_description: "Metalsmith is an extremely simple, pluggable static site generator"
 promotion:
   enable: true
-  title: "Build Blazing Fast Websites & Apps"
-  content: "Build your dream user experience, with the blazing fast page speed and SEO-efficiency like never before."
-  button_label: "Get Started For Free"
-  button_link: "#"
+  title: "Stay up to date with Jamstack resources & news"
+  mailchimp_form_action: "#"
+  button_label: "Subscribe"
 
 draft: true
 ---

@@ -80,10 +80,25 @@
         {{ if .enable }}
         <div class="col-lg-4 mt-4 mt-lg-0">
           <div class="promotion">
-            <h2 class="mb-2">{{.title | markdownify}}</h2>
-            <p class="d-block mb-4">{{.content | markdownify}}</p>
-            <a href="{{.button_link | absURL }}"
-              class="action-button action-button-fill action-button-full action-button-large">{{.button_label}}</a>
+            <div>
+              <h3 class="mb-2">{{.title | markdownify}}</h3>
+
+              <!-- subscription form -->
+              <form action="{{ .mailchimp_form_action | safeURL }}" method="post" id="mc-embedded-subscribe-form" novalidate="novalidate">
+                <div class="input-group">
+                  <input type="email" name="EMAIL" placeholder="Email address" class="w-100 border rounded required email mce_inline_error mb-1" style="padding: 13px 20px;" id="mce-EMAIL" aria-required="true" autocomplete="off" required>
+                  <button class="action-button action-button-fill action-button-full" style="padding: 15px 0;" name="subscribe" id="mc-embedded-subscribe">{{ .button_label }}</button>
+                </div>
+                <input type="hidden" name="EMAILTYPE" id="mce-EMAILTYPE-0" value="html">
+                <div style="position:absolute;left:-5000px" aria-hidden="true"><input type="text" name="{{ .name }}" tabindex="-1"></div>
+              </form>
+              <div id="mce-responses" class="clear">
+                <div class="response text-white" id="mce-error-response" style="display:none"></div>
+                <div class="response text-white" id="mce-success-response" style="display:none"></div>
+              </div>
+              <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+              <!-- /subscription form -->
+            </div>
           </div>
         </div>
         {{ end }}

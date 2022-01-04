@@ -5788,7 +5788,13 @@ body.show::before {
   padding: 20px;
   text-align: center;
   border: 5px solid #059669;
-  border-radius: .25rem; }
+  border-radius: .25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%; }
+  .promotion h3 {
+    font-size: 22px; }
 
 .taxonomy-content {
   background-color: #e9e9e9;
