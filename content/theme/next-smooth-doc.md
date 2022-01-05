@@ -3,18 +3,18 @@ title: Next Smooth Doc
 github: https://github.com/lwz7512/next-smooth-doc
 demo: https://next-smooth-doc.vercel.app/
 author: lwz7512
-date: 2021-06-07T00:00:00.000Z
+date: 2021-06-07T00:00:00.000+00:00
 ssg:
-  - Next
+- Next
 cms:
-  - No CMS
+- No CMS
 archetype:
-  - Documentation
+- Documentation
 description: smooth-doc in Nextjs implementation
 stale: false
----
 
-# NEXTJS SMOOTH DOC
+---
+## NEXTJS SMOOTH DOC
 
 > A minimal doc generator based on Next.js & mdx.
 
@@ -22,11 +22,10 @@ Migrated from [smooth DOC](https://smooth-doc.com/) in 4 days, in order to compa
 
 Apparently, using Nextjs are more enjoyable and easy to implement.
 
-
 ## Dependency Comparision
 
-- Next.js : 455 packages
-- Gatsby.js: 1413 packages
+* Next.js : 455 packages
+* Gatsby.js: 1413 packages
 
 ## Features
 
