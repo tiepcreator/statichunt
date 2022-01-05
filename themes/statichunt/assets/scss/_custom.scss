@@ -532,13 +532,32 @@ body::-webkit-scrollbar-thumb {
   border-top: 1px solid rgba(255,255,255,.06);
   .footer-label {
     position: absolute;
-    top: -12px;
+    top: -34px;
     font-size: 14px;
     line-height: 1;
     display: inline-block;
     background: #1a1d2d;
     padding: 5px 10px;
-    margin-left: -10px;
+    margin-left: -20px;
     color: #fff;
+  }
+  .social-media-icons {
+    li {
+      &:not(:last-child) {
+        margin-right: 15px;
+      }
+      display: inline-block;
+      a {
+        transition: .3s;
+        &:hover {
+          opacity: .6;
+        }
+      }
+    }
+  }
+}
+.footer-partner-brands {
+  .footer-partner-brand {
+    display: inline-block;
   }
 }

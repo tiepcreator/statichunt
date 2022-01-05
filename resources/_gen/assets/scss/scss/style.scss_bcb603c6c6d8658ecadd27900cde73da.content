@@ -6052,14 +6052,25 @@ body::-webkit-scrollbar-thumb {
   border-top: 1px solid rgba(255, 255, 255, 0.06); }
   .footer-partners .footer-label {
     position: absolute;
-    top: -12px;
+    top: -34px;
     font-size: 14px;
     line-height: 1;
     display: inline-block;
     background: #1a1d2d;
     padding: 5px 10px;
-    margin-left: -10px;
+    margin-left: -20px;
     color: #fff; }
+  .footer-partners .social-media-icons li {
+    display: inline-block; }
+    .footer-partners .social-media-icons li:not(:last-child) {
+      margin-right: 15px; }
+    .footer-partners .social-media-icons li a {
+      transition: .3s; }
+      .footer-partners .social-media-icons li a:hover {
+        opacity: .6; }
+
+.footer-partner-brands .footer-partner-brand {
+  display: inline-block; }
 
 /*! Social sharing buttons from Sharingbuttons.io */
 .resp-sharing-button__link,

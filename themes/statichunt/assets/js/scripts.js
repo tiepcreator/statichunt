@@ -136,8 +136,13 @@ function checkScrollDirection(e) {
     document.querySelector(".scroll-to-top").classList.add("show");
     document.querySelector(".scroll-to-bottom").classList.remove("show");
   } else {
-    document.querySelector(".scroll-to-top").classList.remove("show");
-    document.querySelector(".scroll-to-bottom").classList.add("show");
+    if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 200) {
+      document.querySelector(".scroll-to-top").classList.add("show");
+      document.querySelector(".scroll-to-bottom").classList.remove("show");
+    } else {
+      document.querySelector(".scroll-to-top").classList.remove("show");
+      document.querySelector(".scroll-to-bottom").classList.add("show");
+    }
   }
 }
 function checkScrollDirectionIsUp(e) {
