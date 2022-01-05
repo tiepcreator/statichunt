@@ -5,28 +5,28 @@ demo: https://cosmic-next-blog.vercel.app
 author: Cosmic
 thumbnail: themes/next-static-blog.jpg
 ssg:
-  - Next
+- Next
 cms:
-  - Cosmic
+- Cosmic
 css:
-  - Tailwind
+- Tailwind
 archetype:
-  - Blog
-  - Portfolio
-  - Business
-date: 2020-10-28T17:02:32.000Z
-description: >-
-  A statically generated blog built on the React framework Next.js. Uses
+- Blog
+- Portfolio
+- Business
+date: 2020-10-28T17:02:32.000+00:00
+description: A statically generated blog built on the React framework Next.js. Uses
   Tailwind CSS on the frontend, powered by the Cosmic headless CMS.
 stale: false
 disabled: false
 disabled_reason: ''
----
 
-# A simple static starter blog with Next.js, Tailwindcss, and Cosmic Headless CMS
+---
+## A simple static starter blog with Next.js, Tailwindcss, and Cosmic Headless CMS
 
 A statically generated blog built on the React framework Next.js. Uses Tailwind CSS on the frontend, powered by the Cosmic headless CMS.
 
-# Includes: 
+## Includes:
+
 Content preview functionality
 Automatic image optimizations
