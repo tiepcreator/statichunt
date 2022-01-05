@@ -3,20 +3,20 @@ title: Neat Starter
 github: https://github.com/surjithctly/neat-starter
 demo: https://neat-starter.netlify.app/
 author: Surjith S M
-date: 2020-10-05T00:00:00.000Z
+date: 2020-10-05T00:00:00.000+00:00
 ssg:
-  - Eleventy
+- Eleventy
 cms:
-  - NetlifyCMS
+- NetlifyCMS
 css:
-  - Tailwind
+- Tailwind
 archetype:
-  - Blog
+- Blog
 description: Starter Template for Netlify CMS, Eleventy, Alpine JS & Tailwind CSS
 stale: false
----
 
-# Neat Starter
+---
+## Neat Starter
 
 Starter Template for **N**etlify CMS, **E**leventy, **A**lpine JS & **T**ailwind CSS
 
@@ -26,46 +26,36 @@ Starter Template for **N**etlify CMS, **E**leventy, **A**lpine JS & **T**ailwind
 
 ### Technologies used:
 
-- [Netlify CMS](https://www.netlifycms.org/)
-- [Eleventy](https://www.11ty.dev/)
-- [Alpine.js](https://github.com/alpinejs/alpine)
-- [Tailwind CSS](https://tailwindcss.com/)
+* [Netlify CMS](https://www.netlifycms.org/)
+* [Eleventy](https://www.11ty.dev/)
+* [Alpine.js](https://github.com/alpinejs/alpine)
+* [Tailwind CSS](https://tailwindcss.com/)
 
-<a href="https://app.netlify.app/start/deploy?repository=https://github.com/surjithctly/neat-starter&amp;stack=cms"><img src="https://www.netlify.app/img/deploy/button.svg" alt="Deploy to Netlify" /></a>
+<a href="https://app.netlify.app/start/deploy?repository=https://github.com/surjithctly/neat-starter&stack=cms"><img src="https://www.netlify.app/img/deploy/button.svg" alt="Deploy to Netlify" /></a>
 
 ## Getting Started
 
-### 1\. Clone this Repository
+### 1. Clone this Repository
 
-```
-git clone https://github.com/surjithctly/neat-starter.git
-```
+    git clone https://github.com/surjithctly/neat-starter.git
 
-### 2\. Navigate to the directory
+### 2. Navigate to the directory
 
-```
-cd neat-starter
-```
+    cd neat-starter
 
-### 3\. Install dependencies
+### 3. Install dependencies
 
-```
-npm install
-```
+    npm install
 
-### 4\. Build the project to generate the first CSS
+### 4. Build the project to generate the first CSS
 
 This step is only required the very first time.
 
-```
-npm run build
-```
+    npm run build
 
-### 5\. Run Eleventy
+### 5. Run Eleventy
 
-```
-npm run start
-```
+    npm run start
 
 ## Author
 
