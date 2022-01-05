@@ -219,6 +219,7 @@
       .filter-select {
         display: inline-block;
         position: relative;
+        // transition: 0.2s ease-in-out;
         &::after,
         &::before {
           position: absolute;
@@ -226,12 +227,15 @@
           height: 15px;
           width: 15px;
           border: 2px solid $carbon;
-          top: 3px;
-          left: 0;
+          top: 4px;
+          left: 0px;
           border-radius: 2px;
           z-index: 1;
           opacity: 0;
         }
+        // &::before {
+        //   display: none;
+        // }
         &::after {
           background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath fill='%231c9669' d='M400 480H48c-26.51 0-48-21.49-48-48V80c0-26.51 21.49-48 48-48h352c26.51 0 48 21.49 48 48v352c0 26.51-21.49 48-48 48zm-204.686-98.059l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.248-16.379-6.249-22.628 0L184 302.745l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.25 16.379 6.25 22.628.001z' class=''%3E%3C/path%3E%3C/svg%3E");
           background-repeat: no-repeat;
@@ -240,7 +244,7 @@
           height: 17px;
           width: 17px;
           border: 0;
-          top: 2px;
+          top: 3px;
           left: -1px;
         }
         img {
@@ -253,11 +257,11 @@
         &::after {
           background-color: $white;
         }
+        .filter-select {
+          padding-left: 24px;
+        }
         .filter-select::before {
           opacity: 1;
-        }
-        img {
-          opacity: 0;
         }
       }
 
@@ -266,8 +270,8 @@
           background-color: $white;
         }
         .filter-select {
-          &::before,
-          img {
+          padding-left: 24px;
+          &::before {
             opacity: 0;
           }
           &::after {

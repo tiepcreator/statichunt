@@ -12,10 +12,11 @@ language: JavaScript
 taxonomy: ssg
 url: /docusaurus-themes
 short_description: "Build optimized websites quickly, focus on your content. Simply write docs and blog posts with Markdown/MDX and Docusaurus will publish a set of static HTML files ready to serve."
-promotion:
+subscription_form:
   enable: true
   title: "Stay up to date with Jamstack resources & news"
-  mailchimp_form_action: "#"
+  form_action: "https://statichunt.us20.list-manage.com/subscribe/post?u=dee5423f5cc21fc892eced0e9&amp;id=af2dc095be"
+  form_name: "b_dee5423f5cc21fc892eced0e9_af2dc095be"
   button_label: "Subscribe"
 
 draft: true

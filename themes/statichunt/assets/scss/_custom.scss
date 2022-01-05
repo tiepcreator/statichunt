@@ -200,7 +200,7 @@ body {
   }
 }
 
-.promotion {
+.subscription_form {
   padding: 25px;
   text-align: center;
   border: 5px solid $primary;
@@ -211,6 +211,14 @@ body {
   height: 100%;
   h3 {
     font-size: 22px;
+  }
+}
+
+.form-control {
+  transition: 0.3s;
+  &:focus {
+    outline: 0;
+    border-color: $primary !important;
   }
 }
 
@@ -514,5 +522,23 @@ body::-webkit-scrollbar-thumb {
     &.show {
       display: block;
     }
+  }
+}
+
+// footer-partners
+.footer-partners {
+  position: relative;
+  padding: 20px 0;
+  border-top: 1px solid rgba(255,255,255,.06);
+  .footer-label {
+    position: absolute;
+    top: -12px;
+    font-size: 14px;
+    line-height: 1;
+    display: inline-block;
+    background: #1a1d2d;
+    padding: 5px 10px;
+    margin-left: -10px;
+    color: #fff;
   }
 }

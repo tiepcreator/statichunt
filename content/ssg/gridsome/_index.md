@@ -12,9 +12,10 @@ language: JavaScript
 taxonomy: ssg
 url: /gridsome-themes
 short_description: "Gridsome is a Vue-powered static site generator for building CDN-ready websites for any headless CMS, local files or APIs"
-promotion:
+subscription_form:
   enable: true
   title: "Stay up to date with Jamstack resources & news"
-  mailchimp_form_action: "#"
+  form_action: "https://statichunt.us20.list-manage.com/subscribe/post?u=dee5423f5cc21fc892eced0e9&amp;id=af2dc095be"
+  form_name: "b_dee5423f5cc21fc892eced0e9_af2dc095be"
   button_label: "Subscribe"
 ---

@@ -12,9 +12,10 @@ language: Ruby
 taxonomy: ssg
 url: /jekyll-themes
 short_description: "Jekyll is a simple, blog-aware, static site generator perfect for personal, project, or organization sites.  Jekyll takes your content, renders Markdown and Liquid templates, and spits out a complete, static website ready to be served by Apache, Nginx or another web server."
-promotion:
+subscription_form:
   enable: true
   title: "Stay up to date with Jamstack resources & news"
-  mailchimp_form_action: "#"
+  form_action: "https://statichunt.us20.list-manage.com/subscribe/post?u=dee5423f5cc21fc892eced0e9&amp;id=af2dc095be"
+  form_name: "b_dee5423f5cc21fc892eced0e9_af2dc095be"
   button_label: "Subscribe"
 ---
