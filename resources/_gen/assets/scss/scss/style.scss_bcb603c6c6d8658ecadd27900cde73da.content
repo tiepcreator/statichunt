@@ -6067,7 +6067,7 @@ body::-webkit-scrollbar-thumb {
     .footer-partners .social-media-icons li:not(:last-child) {
       margin-right: 10px; }
     .footer-partners .social-media-icons li a {
-      padding: 3px;
+      padding: 5px 3px;
       transition: .3s; }
       .footer-partners .social-media-icons li a:hover svg {
         stroke: #bbb; }
