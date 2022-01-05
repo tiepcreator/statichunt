@@ -3,23 +3,22 @@ title: Gatsby Netlify CMS Modern blog web-app
 github: https://github.com/simarmannsingh/gatsby-netlifycms-starter-template
 demo: https://gatsby-netlifycms-modern-template.netlify.app/
 author: Simar Mann Singh
-date: 2021-07-03T00:00:00.000Z
+date: 2021-07-03T00:00:00.000+00:00
 ssg:
-  - Gatsby
+- Gatsby
 cms:
-  - NetlifyCMS
+- NetlifyCMS
 css:
-  - Bulma
+- Bulma
 archetype:
-  - Blog
-description: >-
-  This public repo is an example blog web-app that is built with Gatsby using
-  Netlify CMS. It follows the JAMstack architecture by using Git as a single
+- Blog
+description: This public repo is an example blog web-app that is built with Gatsby
+  using Netlify CMS. It follows the JAMstack architecture by using Git as a single
   source of truth, and Netlify for continuous deployment, and CDN distribution.
 stale: false
----
 
-# Gatsby Netlify-CMS Modern blog
+---
+## Gatsby Netlify-CMS Modern blog
 
 A fully-responsive [Gatsby](https://www.gatsbyjs.org/) based template web-app which can be easily hosted on any platform. This web-app uses the [Netlify CMS](https://www.netlifycms.org) as its content management system.
 
@@ -27,19 +26,19 @@ A fully-responsive [Gatsby](https://www.gatsbyjs.org/) based template web-app wh
 
 ## Features
 
-- A simple landing page with a customized blog functionality built with Netlify CMS
-- Editable Pages: About, Blog-Collection and Contact page with Netlify Form support
-- Create Blog posts from Netlify CMS
-- Tags support: Separate page for posts under each tag
-- Basic directory organization
-- Uses Bulma for styling, but size is reduced by `purge-css-plugin`
-- Blazing fast loading times thanks to pre-rendered HTML and automatic chunk loading of JS files
-- Uses `gatsby-image` with Netlify-CMS preview support
-- Separate components for everything
-- Netlify deploy configuration
-- Netlify function support, see `lambda` folder
-- Perfect score on Lighthouse for SEO, Accessibility and Performance (wip:PWA)
-- ..and more
+* A simple landing page with a customized blog functionality built with Netlify CMS
+* Editable Pages: About, Blog-Collection and Contact page with Netlify Form support
+* Create Blog posts from Netlify CMS
+* Tags support: Separate page for posts under each tag
+* Basic directory organization
+* Uses Bulma for styling, but size is reduced by `purge-css-plugin`
+* Blazing fast loading times thanks to pre-rendered HTML and automatic chunk loading of JS files
+* Uses `gatsby-image` with Netlify-CMS preview support
+* Separate components for everything
+* Netlify deploy configuration
+* Netlify function support, see `lambda` folder
+* Perfect score on Lighthouse for SEO, Accessibility and Performance (wip:PWA)
+* ..and more
 
 ## License
 
