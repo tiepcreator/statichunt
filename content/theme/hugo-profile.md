@@ -3,24 +3,23 @@ title: Hugo-profile
 github: https://github.com/gurusabarish/hugo-profile
 demo: https://hugo-profile.netlify.app
 author: GuruSabarish
-date: 2020-10-22T00:00:00.000Z
+date: 2020-10-22T00:00:00.000+00:00
 ssg:
-  - Hugo
+- Hugo
 cms:
-  - NetlifyCMS
+- NetlifyCMS
 css:
-  - Bootstrap
+- Bootstrap
 archetype:
-  - Blog
-  - Portfolio
+- Blog
+- Portfolio
 description: The fastest Hugo theme for personal portfolio and blog.
 stale: false
+
 ---
-
-
 <div align="center">
-  
-# hugo-profile (100% performance)
+
+## hugo-profile (100% performance)
 
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=https://github.com/gurusabarish/hugo-profile)
 
@@ -32,51 +31,43 @@ A simple hugo theme for personal portfolio
 </div>
 
 ## Queries
-- If you have any queries or bugs, feel free to open an issue in [github](https://github.com/gurusabarish/hugo-profile/issues)
-- Join our community for further updates: [hugo-profile](https://discord.gg/zgTajK4)
 
+* If you have any queries or bugs, feel free to open an issue in [github](https://github.com/gurusabarish/hugo-profile/issues)
+* Join our community for further updates: [hugo-profile](https://discord.gg/zgTajK4)
 
 ## Features
-- High(100) performance
-- Minimalist Design
-- Fully Responsive
-- Google Analytics Support
-- Disqus Comment Support
 
+* High(100) performance
+* Minimalist Design
+* Fully Responsive
+* Google Analytics Support
+* Disqus Comment Support
 
 ## Requirements
 
-- Hugo Version 0.68.0 or higher
-
+* Hugo Version 0.68.0 or higher
 
 ## Installation
 
-- [Install Hugo](https://gohugo.io/overview/installing)
+* [Install Hugo](https://gohugo.io/overview/installing)
+* Create your site if you haven't already
 
-- Create your site if you haven't already
+    hugo new site my-site -f=yaml
+    cd my-site
 
-```
-hugo new site my-site -f=yaml
-cd my-site
-```
+* Add the theme as git clone
 
-- Add the theme as git clone
+    cd themes
+    git clone https://github.com/gurusabarish/hugo-profile.git
 
-```
-cd themes
-git clone https://github.com/gurusabarish/hugo-profile.git
-```
-
-<b>Go to the config file and add the line after titile ```theme: "hugo-profile"``` </b>
-
+<b>Go to the config file and add the line after titile `theme: "hugo-profile"` </b>
 
 ## Version 1
-- [demo](https://hugo-profile-v1.netlify.app)
-- [view](https://github.com/gurusabarish/hugo-profile/tree/V1.20)
-- [download V1](https://github.com/gurusabarish/hugo-profile/archive/V1.20.zip)
 
+* [demo](https://hugo-profile-v1.netlify.app)
+* [view](https://github.com/gurusabarish/hugo-profile/tree/V1.20)
+* [download V1](https://github.com/gurusabarish/hugo-profile/archive/V1.20.zip)
 
 ## Contributing
 
 > Contributers are always welcome :heart:
-
