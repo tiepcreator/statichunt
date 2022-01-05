@@ -4,25 +4,26 @@ github: https://github.com/abhinavs/moonwalk
 demo: https://abhinavs.github.io/moonwalk/
 author: Abhinav Saxena
 ssg:
-  - Jekyll
+- Jekyll
 cms:
-  - No Cms
+- No Cms
 archetype:
-  - Blog
-  - Portfolio
+- Blog
+- Portfolio
 css:
-  - SCSS
-date: 2020-12-04T00:00:00.000Z
-description: >-
-  Moonwalk is a lightweight, fast and elegant Jekyll theme with a clean dark
-  mode; perfect for a portfolio and blog
+- SCSS
+date: 2020-12-04T00:00:00.000+00:00
+description: Moonwalk is a lightweight, fast and elegant Jekyll theme with a clean
+  dark mode; perfect for a portfolio and blog
 stale: false
+
 ---
-# Moonwalk - a fast and elegant theme with clean dark mode
+## Moonwalk - a fast and elegant theme with clean dark mode
 
 Moonwalk can be used to create a portfolio or a blog site. Easy to customize and extend in case you prefer that.
 
 ## Features
+
 * Light & dark mode with theme switcher
 * Landing page with navbar, footer, portfolio
 * Vertical list, horizontal list, card list
