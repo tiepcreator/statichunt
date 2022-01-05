@@ -545,13 +545,16 @@ body::-webkit-scrollbar-thumb {
   .social-media-icons {
     li {
       &:not(:last-child) {
-        margin-right: 15px;
+        margin-right: 10px;
       }
       display: inline-block;
       a {
+        padding: 3px;
         transition: .3s;
         &:hover {
-          opacity: .6;
+          svg {
+            stroke: #bbb;
+          }
         }
       }
     }

@@ -4312,6 +4312,7 @@ html {
     .footer .footer-social .social-icon {
       margin-right: 5px; }
       .footer .footer-social .social-icon a {
+        padding: 5px;
         text-decoration: none; }
         .footer .footer-social .social-icon a img {
           width: 18px; }
@@ -6064,11 +6065,12 @@ body::-webkit-scrollbar-thumb {
   .footer-partners .social-media-icons li {
     display: inline-block; }
     .footer-partners .social-media-icons li:not(:last-child) {
-      margin-right: 15px; }
+      margin-right: 10px; }
     .footer-partners .social-media-icons li a {
+      padding: 3px;
       transition: .3s; }
-      .footer-partners .social-media-icons li a:hover {
-        opacity: .6; }
+      .footer-partners .social-media-icons li a:hover svg {
+        stroke: #bbb; }
 
 .footer-partner-brands .footer-partner-brand {
   display: inline-block; }
