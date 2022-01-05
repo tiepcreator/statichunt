@@ -4,17 +4,15 @@ github: https://github.com/storyblok/storyblok-gridsome-boilerplate-moon/
 demo: https://demo.storyblok.com/
 author: Storyblok
 ssg:
-  - Gridsome
+- Gridsome
 cms:
-  - Storyblok
-date: 2020-05-20T00:00:00.000Z
+- Storyblok
+date: 2020-05-20T00:00:00.000+00:00
 description: Gridsome Website by Storyblok
 stale: false
----
 
-<p align="center">
-  <h1 align="center">Gridsome Website by Storyblok</h1>
-</p>
+---
+## Gridsome Website by Storyblok
 
 Check the website [here](https://demo.storyblok.com/).
 
@@ -85,5 +83,5 @@ To duplicate this project in your Storyblok account, follow this instructions:
 4. Configure the token that you want to use
 
 <p align="center">
-  <h5 align="center">Powered by <a href="https://www.storyblok.com/" title="link to the Storyblok website">Storyblok</a></h5>
+<h5 align="center">Powered by <a href="https://www.storyblok.com/" title="link to the Storyblok website">Storyblok</a></h5>
 </p>

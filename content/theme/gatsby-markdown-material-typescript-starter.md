@@ -4,20 +4,20 @@ github: https://github.com/stephen-cloud/gatsby-markdown-material-typescript-sta
 demo: https://gatsby-markdown-material-typescript-starter.stephen.cloud/
 author: Stephen Harrison and Alejandro Roman
 archetype:
-  - Blog
-  - Portfolio
+- Blog
+- Portfolio
 ssg:
-  - Gatsby
+- Gatsby
 cms:
-  - No Cms
-date: 2020-06-30T00:00:00.000Z
+- No Cms
+date: 2020-06-30T00:00:00.000+00:00
 description: Markdown Material UI TypeScript/TSX
 stale: true
+
 ---
+## A blog starter for a Material UI and TypeScript/TSX
 
-# A blog starter for a Material UI and TypeScript/TSX
-
-Based on the simple blog starters out there but ported to Material UI and TypeScript/TSX. 
+Based on the simple blog starters out there but ported to Material UI and TypeScript/TSX.
 
 ## Features
 

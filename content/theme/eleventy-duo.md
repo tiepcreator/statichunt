@@ -3,18 +3,18 @@ title: Eleventy Duo
 github: https://github.com/yinkakun/eleventy-duo
 demo: https://eleventyduo.netlify.app
 author: yinkakun
-date: 2020-12-27T00:00:00.000Z
+date: 2020-12-27T00:00:00.000+00:00
 ssg:
-  - Eleventy
+- Eleventy
 cms:
-  - Forestry
+- Forestry
 archetype:
-  - Blog
+- Blog
 description: Eleventy Duo is a minimal and beautiful Eleventy theme for personal blogs.
 stale: false
----
 
-# A minimal and beautiful Eleventy theme for personal blogs
+---
+## A minimal and beautiful Eleventy theme for personal blogs
 
 Eleventy Duo is a minimal and beautiful Eleventy theme for personal blogs.
 
