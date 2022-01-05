@@ -3,33 +3,35 @@
     <div class="row justify-content-lg-center">
 
       <div class="col-lg-2 col-md-4 col-sm-3 mb-5 mb-lg-0">
-        <h3>Statichunt</h3>
-        {{ range .Site.Menus.main }}
-        <a href="{{.URL}}">{{ .Name }}</a>
-        {{ end }}
-        <a href="https://github.com/statichunt/statichunt" rel="nofollow">Submit a theme</a>
-        <a href="{{ `/index.json` | relURL }}">Themes JSON</a>
-        <a href="{{ `/index.xml` | relURL }}">Themes RSS</a>
-      </div>
-
-      <div class="col-lg-4 col-md-8 col-sm-9 mb-5 mb-lg-0">
-        <h3>Themes</h3>
-        <div style="columns: 2;">
-          {{ range site.Taxonomies.ssg }}
-          <a href="{{.Page.Title | relURL | urlize | lower }}-themes">{{.Page.Title}} Themes</a>
+        <h3 class="mb-2">Statichunt</h3>
+        <ul>
+          {{ range .Site.Menus.main }}
+          <li><a class="footer-link" href="{{.URL}}">{{ .Name }}</a></li>
           {{ end }}
-        </div>
+          <li><a class="footer-link" href="https://github.com/statichunt/statichunt" rel="nofollow">Submit a theme</a></li>
+          <li><a class="footer-link" href="{{ `/index.json` | relURL }}">Themes JSON</a></li>
+          <li><a class="footer-link" href="{{ `/index.xml` | relURL }}">Themes RSS</a></li>
+        </ul>
       </div>
 
       <div class="col-lg-4 col-md-8 col-sm-9 mb-5 mb-lg-0">
-        <h3>Resources</h3>
-        <div style="columns: 2;">
+        <h3 class="mb-2">Themes</h3>
+        <ul style="columns: 2;">
+          {{ range site.Taxonomies.ssg }}
+          <li><a class="footer-link" href="{{.Page.Title | relURL | urlize | lower }}-themes">{{.Page.Title}} Themes</a></li>
+          {{ end }}
+        </ul>
+      </div>
+
+      <div class="col-lg-4 col-md-8 col-sm-9 mb-5 mb-lg-0">
+        <h3 class="mb-2">Resources</h3>
+        <ul style="columns: 2;">
           {{ with site.GetPage "/resources" }}
           {{ range .Data.Pages }}
-          <a href="{{.Permalink }}">{{.Title}}</a>
+          <li><a class="footer-link" href="{{.Permalink }}">{{.Title}}</a></li>
           {{ end }}
           {{ end }}
-        </div>
+        </ul>
       </div>
     </div>
 

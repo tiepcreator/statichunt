@@ -47,7 +47,6 @@ $layout-padding: 15px;
   .header {
     position: fixed;
     width: 100%;
-    z-index: 10;
     padding-left: $layout-padding;
     padding-right: $layout-padding;
     @include media-breakpoint-up(md) {

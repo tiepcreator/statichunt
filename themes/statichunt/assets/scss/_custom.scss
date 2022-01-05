@@ -47,7 +47,7 @@ body {
     z-index: 2222;
     opacity: 0;
     visibility: hidden;
-    transition: .2s;
+    transition: .4s;
     pointer-events: none;
   }
   &.show::before {
@@ -62,7 +62,7 @@ body {
   overflow: hidden !important;
   @extend .shadow;
   margin-bottom: 50px;
-  z-index: 9999;
+  z-index: 9990;
 
   .bws-header {
     background: #ececec;

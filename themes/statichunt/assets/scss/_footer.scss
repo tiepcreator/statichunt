@@ -24,13 +24,14 @@
     margin: 0;
     margin-bottom: 20px;
   }
-  a {
-    display: block;
-    margin-bottom: 8px;
-    color: $grey;
+  .footer-link {
+    display: inline-block;
+    color: rgba($grey, .85);
     text-decoration: none;
+    font-size: 90%;
+    transition: .3s;
     &:hover {
-      text-decoration: underline;
+      text-decoration: none;
       color: $white;
     }
   }
@@ -43,10 +44,10 @@
     list-style: none;
     margin-right: 20px;
     li {
-
-      line-height: 18px;
+      &:not(:last-of-type) {
+        margin-bottom: 10px;
+      }
       a {
-        // color: darken($steel, 10%);
         color: $primary;
         text-decoration: none;
         &:hover {
