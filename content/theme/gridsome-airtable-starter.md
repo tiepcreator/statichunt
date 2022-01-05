@@ -4,23 +4,23 @@ github: https://github.com/TerabyteTiger/gridsome-airtable-starter
 demo: https://gridsomeairtable.netlify.app/
 author: Tyler VanBlargan
 thumbnail: themes/gridsome-airtable-starter.jpg
-date: 2019-12-18T00:00:00.000Z
+date: 2019-12-18T00:00:00.000+00:00
 ssg:
-  - Gridsome
+- Gridsome
 cms:
-  - Airtable
+- Airtable
 description: 'A Gridsome starter leveraging Airtable with a minimalist design. '
 stale: false
 disabled_reason: Github repo not found
----
 
+---
 [![Netlify Status](https://api.netlify.app/api/v1/badges/66526f3f-455e-4ee4-b05e-3cf37c607921/deploy-status)](https://app.netlify.app/sites/gridsomeairtable/deploys)
 
-# Airtable starter for Gridsome
+## Airtable starter for Gridsome
 
 This starter is meant to act as a starting point/example for connecting [Gridsome](https://gridsome.org/) with [Airtable](https://airtable.com/).
 
-*Note: This Starter utilizes [Moment.js](https://momentjs.com/) for date/times and can be removed from the Event files if not needed (and removed with `yarn remove moment`)*
+_Note: This Starter utilizes_ [_Moment.js_](https://momentjs.com/) _for date/times and can be removed from the Event files if not needed (and removed with `yarn remove moment`)_
 
 ## Install Gridsome CLI tool (if you dont' have it already)
 
@@ -58,14 +58,13 @@ module.exports = {
     }
   ]
 }
-
 ```
 
-- `apiKey` is the API secret provided by Airtable
-- `baseId` is the identifier for the base you would like to connect to
-- `tableName` is the table you would like to pull data from
-- `typeName` is what you would like to call your data in GraphQL
-- `route` is the optional path you would like to use for accessing your records. This can use GraphQL keys to identify records.
+* `apiKey` is the API secret provided by Airtable
+* `baseId` is the identifier for the base you would like to connect to
+* `tableName` is the table you would like to pull data from
+* `typeName` is what you would like to call your data in GraphQL
+* `route` is the optional path you would like to use for accessing your records. This can use GraphQL keys to identify records.
 
 **Note:** In order for your templates to generate properly at the specified route a `typeName.vue` file must exist in `\templates`. In this starter, this is `\templates\Event.vue` for the `Event` type.
 
@@ -88,15 +87,16 @@ You can learn more about getting these values from the [plugin page](https://gri
 
 A list of files where the starter uses queries to make updating easier (all from the `src` folder):
 
-- `pages/Events.vue` - Grabs all Events sorted by `startDate`
-- `components/EventCard.vue` - Brings Props in from `pages/Events.vue`
-- `templates/Event.vue` - Uses `id` to pull in data from Airtable.
+* `pages/Events.vue` - Grabs all Events sorted by `startDate`
+* `components/EventCard.vue` - Brings Props in from `pages/Events.vue`
+* `templates/Event.vue` - Uses `id` to pull in data from Airtable.
 
 ## My Airtable
+
 This is what my Airtable Base looks like:
 
 !["Airtable with columns for Name, Header Image, Start Date, End Date, Excerpt, Notes, and Attachments."](./airtableSetup.png)
 
+## Deploy with Netlify
 
-# Deploy with Netlify
 [![Deploy to Netlify](https://www.netlify.app/img/deploy/button.svg)](https://app.netlify.app/start/deploy?repository=https://github.com/12vanblart/gridsome-airtable-starter)
