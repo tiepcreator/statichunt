@@ -4,21 +4,19 @@ github: https://github.com/GraphCMS/reference-marketing-website
 demo: https://marketing-websites.withheadlesscms.com/
 author: GraphCMS
 ssg:
-  - Next
+- Next
 cms:
-  - GraphCMS
+- GraphCMS
 css:
-  - Tailwind
-date: 2021-07-18T19:00:00.000Z
+- Tailwind
+date: 2021-07-18T19:00:00.000+00:00
 description: Next.js starter for creating a SaaS Marketing Website with GraphCMS
 stale: false
 archetype:
-  - Business
+- Business
+
 ---
-
-# reference-marketing-website
-
-> A [Next.js](https://nextjs.org/) starter for creating a SaaS Marketing Website with [GraphCMS](https://graphcms.com)
+A [Next.js](https://nextjs.org/) starter for creating a SaaS Marketing Website with [GraphCMS](https://graphcms.com)
 
 • [Demo](https://marketing-websites.withheadlesscms.com/)
 
@@ -32,7 +30,7 @@ cd reference-marketing-website
 yarn
 ```
 
-2. **Provide your GraphCMS project keys**
+1. **Provide your GraphCMS project keys**
 
 > In order to use this starter, you'll need to have created a new GraphCMS project using our `Marketing Website Template`.
 
@@ -48,7 +46,7 @@ Inside of your newly created `.env.local` file, provide values for the variable.
 NEXT_PUBLIC_GRAPHCMS_URL=
 ```
 
-3. **Start building!**
+1. **Start building!**
 
 ```shell
 yarn dev
@@ -78,13 +76,13 @@ You'll need to make sure when configuring the Preview URL inside GraphCMS that i
 
 You'll need to update both the Page & Blog Post model to add a Preview URL. The URLs should look like this:
 
-- **Page**: `https://]your-domain.com]/api/preview?secret=[GRAPHCMS_PREVIEW_SECRET_VALUE_HERE]&slug={slug}`
-- **Blog Post**: `https://]your-domain.com]/api/preview?secret=[GRAPHCMS_PREVIEW_SECRET_VALUE_HERE]&slug=blog/{slug}`
+* **Page**: `https://]your-domain.com]/api/preview?secret=[GRAPHCMS_PREVIEW_SECRET_VALUE_HERE]&slug={slug}`
+* **Blog Post**: `https://]your-domain.com]/api/preview?secret=[GRAPHCMS_PREVIEW_SECRET_VALUE_HERE]&slug=blog/{slug}`
 
 ## Features
 
-- [Next.js Preview Mode](https://nextjs.org/docs/advanced-features/preview-mode)
-- [next/image](https://nextjs.org/docs/api-reference/next/image)
-- [Internationalized Routing](https://nextjs.org/docs/advanced-features/i18n-routing)
-- [GraphQL Union Types (Polymorphic Relations)](https://graphcms.com/docs/schema/field-types)
-- [next-seo](https://www.npmjs.com/package/next-seo)
+* [Next.js Preview Mode](https://nextjs.org/docs/advanced-features/preview-mode)
+* [next/image](https://nextjs.org/docs/api-reference/next/image)
+* [Internationalized Routing](https://nextjs.org/docs/advanced-features/i18n-routing)
+* [GraphQL Union Types (Polymorphic Relations)](https://graphcms.com/docs/schema/field-types)
+* [next-seo](https://www.npmjs.com/package/next-seo)
