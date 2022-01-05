@@ -1,30 +1,29 @@
 ---
-title: devlopr-jekyll
+title: Devlopr jekyll
 github: https://github.com/sujaykundu777/devlopr-jekyll
 demo: https://devlopr.netlify.app
 author: Sujay Kundu
-date: 2020-09-23T00:00:00.000Z
+date: 2020-09-23T00:00:00.000+00:00
 ssg:
-  - Jekyll
+- Jekyll
 cms:
-  - Forestry
-  - NetlifyCMS
+- Forestry
+- NetlifyCMS
 css:
-  - Bootstrap
+- Bootstrap
 archetype:
-  - Blog
-  - Portfolio
-  - Ecommerce
+- Blog
+- Portfolio
+- Ecommerce
 services:
-  - Snipcart
-  - Formspree
-description: >-
-  A Jekyll Theme built for Developers and Software Engineers, Dark Mode
+- Snipcart
+- Formspree
+description: A Jekyll Theme built for Developers and Software Engineers, Dark Mode
   Supported
 stale: false
----
 
-# A Jekyll Theme built for Developers
+---
+## A Jekyll Theme built for Developers
 
 Devlopr is a modern Jekyll Theme built for Developers focused on speed performance & SEO best practices.
 
@@ -39,7 +38,7 @@ Devlopr is a modern Jekyll Theme built for Developers focused on speed performan
 * SEO friendly
 * Code Syntax Highlighter
 * [Wakatime](https://wakatime.com) Integrated
-* Form submissions with **[Formspree.io](https://formspree.io/) contact form integration**
+* Form submissions with [**Formspree.io**](https://formspree.io/) **contact form integration**
 * Comments using Disqus and [Hyvor](https://hyvor.com)
 
 ### Latest Updates - [Logs](https://opencollective.com/devlopr-jekyll#section-updates)
