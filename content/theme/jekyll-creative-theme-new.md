@@ -3,22 +3,22 @@ title: Creative Theme - New
 github: https://github.com/vvalchev/creative-theme-jekyll-new
 demo: https://vvalchev.github.io/creative-theme-jekyll-new/
 author: Start Bootstrap, Valentin Valchev
-date: 2020-03-03T00:00:00.000Z
+date: 2020-03-03T00:00:00.000+00:00
 ssg:
-  - Jekyll
+- Jekyll
 cms:
-  - No Cms
+- No Cms
 css:
-  - Bootstrap
+- Bootstrap
 archetype:
-  - Blog
-  - Portfolio
+- Blog
+- Portfolio
 description: A Jekyll theme based on Creative Theme v5.1.8 and Bootstrap v4.3.1
 stale: true
 disabled_reason: Github repo not found
----
 
-# Description
+---
+## Description
 
 Creative is a one page Bootstrap theme for creatives, small businesses, and
 other multipurpose use. A modern, flat design style works in unison with rich
