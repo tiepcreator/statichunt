@@ -6,19 +6,23 @@
 
 .text-gradient {
   background: #059669;
-  background: -webkit-linear-gradient(to right, #059669 0%, #64B3F4 100%);
-  background: -moz-linear-gradient(to right, #059669 0%, #64B3F4 100%);
-  background: linear-gradient(to right, #059669 0%, #64B3F4 100%);
+  background: -webkit-linear-gradient(to right, #059669 0%, #64b3f4 100%);
+  background: -moz-linear-gradient(to right, #059669 0%, #64b3f4 100%);
+  background: linear-gradient(to right, #059669 0%, #64b3f4 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .bg-gradient {
   color: $white;
-  background: rgb(5,150,105);
-  background: linear-gradient(90deg, rgba(5,150,105,1) 0%, rgba(37,177,200,1) 100%);
+  background: rgb(5, 150, 105);
+  background: linear-gradient(
+    90deg,
+    rgba(5, 150, 105, 1) 0%,
+    rgba(37, 177, 200, 1) 100%
+  );
 }
 
-.header .main-menu>ul>li>a {
+.header .main-menu > ul > li > a {
   color: black;
   font-size: 14px;
   padding: 10px 20px;
@@ -36,7 +40,7 @@
   justify-content: center;
 }
 
-.title-link{
+.title-link {
   color: $carbon;
 }
 
@@ -48,12 +52,12 @@ body {
     content: "";
     height: 100vh;
     width: 100vw;
-    background: rgba($white, .4);
+    background: rgba($white, 0.4);
     backdrop-filter: blur(2px);
     z-index: 2222;
     opacity: 0;
     visibility: hidden;
-    transition: .4s;
+    transition: 0.4s;
     pointer-events: none;
   }
   &.show::before {
@@ -72,12 +76,12 @@ body {
 
   .bws-header {
     background: #ececec;
-    padding: .25rem .5rem;
+    padding: 0.25rem 0.5rem;
     position: relative;
     border-radius: 4px 4px 0 0;
 
     &::before {
-      background: #FFBD2D;
+      background: #ffbd2d;
       border-radius: 50%;
       content: "";
       display: inline-block;
@@ -104,7 +108,7 @@ body {
     text-align: center;
     background-color: white;
     font-size: 18px;
-    transition: .3s ease-in-out;
+    transition: 0.3s ease-in-out;
     &.fadeOut {
       opacity: 0;
       visibility: hidden;
@@ -154,19 +158,19 @@ body {
 
       @include desktop-xl {
         width: 992px;
-        transform: scale(.615);
+        transform: scale(0.615);
       }
 
       @include desktop-lg {
         width: 768px;
         height: 670px;
-        transform: scale(.8);
+        transform: scale(0.8);
       }
 
       @include desktop {
         width: 992px;
         height: 765px;
-        transform: scale(.7);
+        transform: scale(0.7);
       }
 
       @include tablet {
@@ -176,7 +180,7 @@ body {
       }
     }
   }
-  
+
   &.bws-mobile {
     width: 360px;
     margin-left: auto;
@@ -211,7 +215,7 @@ body {
   padding: 25px;
   text-align: center;
   border: 5px solid $primary;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -233,7 +237,7 @@ body {
   background-color: $grey;
   padding: 20px;
   margin-top: 50px;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
 }
 
 .filter-group-archetype {
@@ -265,7 +269,7 @@ body {
 
   &-button {
     border: 1px solid $grey;
-    border-radius: .25rem;
+    border-radius: 0.25rem;
     padding: 6px 27px 5px 10px;
     position: relative;
     margin-bottom: 0;
@@ -278,7 +282,7 @@ body {
       right: 12px;
       top: calc(50% - 6px);
       display: inline-block;
-      vertical-align: .255em;
+      vertical-align: 0.255em;
       content: "";
       height: 8px;
       width: 8px;
@@ -303,7 +307,7 @@ body {
     background-color: $white;
     z-index: 99999;
     padding: 10px;
-    border-radius: .25rem;
+    border-radius: 0.25rem;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 
     li {
@@ -313,14 +317,14 @@ body {
       margin: 0;
       color: $carbon;
       font-size: 14px;
-      border-radius: .25rem;
+      border-radius: 0.25rem;
 
       &.mixitup-control-active {
-        background-color: rgba($primary, .1);
+        background-color: rgba($primary, 0.1);
         color: $primary;
       }
       &:hover {
-        background-color: rgba($grey, .5);
+        background-color: rgba($grey, 0.5);
         color: $primary;
       }
     }
@@ -331,17 +335,15 @@ body {
   }
 }
 
-
-
 // column
 #grids-homepage {
-  @media screen and (min-width:1240px) and (max-width:1520px) {
+  @media screen and (min-width: 1240px) and (max-width: 1520px) {
     .col-xl-3 {
       flex: 0 0 33.33%;
       max-width: 33.33%;
     }
   }
-  @media screen and (min-width:992px) and (max-width:1140px) {
+  @media screen and (min-width: 992px) and (max-width: 1140px) {
     .col-xl-3 {
       flex: 0 0 50%;
       max-width: 50%;
@@ -349,7 +351,7 @@ body {
   }
 }
 #grids-taxonomy {
-  @media screen and (min-width:767px) and (max-width:991px) {
+  @media screen and (min-width: 767px) and (max-width: 991px) {
     .col-xl-3 {
       flex: 0 0 50%;
       max-width: 50%;
@@ -363,7 +365,7 @@ body {
 }
 
 // widget
-.widget{
+.widget {
   padding-left: 28px;
   border-radius: 4px;
   margin-bottom: 40px;
@@ -372,7 +374,7 @@ body {
   @include desktop {
     padding: 0;
   }
-  &-icon{
+  &-icon {
     border: 1px solid $border-color;
     padding: 5px 15px;
     margin-right: 5px;
@@ -390,34 +392,36 @@ body {
       height: 16px;
       width: 16px;
     }
-    &:hover{
+    &:hover {
       text-decoration: none;
       border-color: $primary;
     }
   }
 }
 
-.title{
+.title {
   font-size: 2.5rem;
 }
 
-.gratitude{
+.gratitude {
   display: flex;
   align-items: center;
   text-decoration: none !important;
   padding: 10px;
-  border-radius: .25rem;
-  &:hover{
+  border-radius: 0.25rem;
+  &:hover {
     background-color: $light;
   }
-  *{
+  * {
     margin: 0 !important;
   }
-  h3, h4, h5{
+  h3,
+  h4,
+  h5 {
     margin-right: 15px !important;
     color: $carbon;
   }
-  img{
+  img {
     border-radius: 50%;
     height: 30px;
     width: 30px;
@@ -536,7 +540,7 @@ body::-webkit-scrollbar-thumb {
 .footer-partners {
   position: relative;
   padding: 20px 0;
-  border-top: 1px solid rgba(255,255,255,.06);
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
   .footer-label {
     position: absolute;
     top: -34px;
@@ -556,7 +560,7 @@ body::-webkit-scrollbar-thumb {
       display: inline-block;
       a {
         padding: 5px 3px;
-        transition: .3s;
+        transition: 0.3s;
         &:hover {
           svg {
             stroke: #bbb;
