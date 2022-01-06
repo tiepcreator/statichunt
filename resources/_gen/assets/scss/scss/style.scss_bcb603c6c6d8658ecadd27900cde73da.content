@@ -4191,6 +4191,9 @@ html {
   margin-right: 20px;
   align-items: center;
   display: flex; }
+  .logo img {
+    max-width: 100%;
+    height: auto; }
   .logo a:not(.twitter-follow-button) {
     font-family: "plus_jakarta_sansbold";
     font-size: 20px;
@@ -4199,13 +4202,36 @@ html {
     display: block; }
     .logo a:not(.twitter-follow-button):hover {
       color: #059669; }
+  .logo .logo-mobile {
+    display: none !important; }
+    @media (max-width: 575px) {
+      .logo .logo-mobile {
+        display: block !important; } }
+    .logo .logo-mobile img {
+      border-radius: 50%; }
+  @media (max-width: 575px) {
+    .logo .logo-desktop {
+      display: none !important; } }
   .logo .twitter-follow-button {
     margin-left: 20px;
-    font-size: 90%;
-    color: #808080;
-    transition: 0.3s; }
+    font-size: 13px;
+    color: white;
+    transition: 0.3s;
+    background-color: #29a1f2;
+    padding: 3px 12px 5px 12px;
+    border-radius: 40px;
+    text-align: center;
+    margin-right: 10px;
+    transform: translateY(2px); }
+    @media (max-width: 575px) {
+      .logo .twitter-follow-button {
+        margin-left: 10px; } }
+    .logo .twitter-follow-button span {
+      display: inline-block;
+      transform: translateY(-2px); }
     .logo .twitter-follow-button:hover {
-      color: black;
+      color: white;
+      background-color: #1d8fdb;
       text-decoration: none; }
 
 .sidebar-toggler {
@@ -5622,6 +5648,10 @@ ul.pagination {
   .pricing .pricing-card-full-experience .button, .pricing .pricing-card-full-experience .theme-card .theme-buttons .theme-button, .theme-card .theme-buttons .pricing .pricing-card-full-experience .theme-button, .pricing .pricing-card-full-experience .action-button, .pricing .pricing-card-full-experience .demo .demo-buttons .theme-button, .demo .demo-buttons .pricing .pricing-card-full-experience .theme-button {
     background-color: #ec4899;
     border-color: #ec4899; }
+
+@media (min-width: 1240px) {
+  .container-lg {
+    max-width: 1400px; } }
 
 .text-gradient {
   background: #059669;
