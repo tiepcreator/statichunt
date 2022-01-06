@@ -3,16 +3,16 @@ title: Chunky Poster
 github: https://github.com/puresyntax71/hugo-theme-chunky-poster
 demo: https://hugo-theme-chunky-poster.netlify.com
 author: virtualcursor
-date: 2019-12-17T00:00:00.000Z
+date: 2019-12-17T00:00:00.000+00:00
 ssg:
-  - Hugo
+- Hugo
 css:
-  - Bootstrap
+- Bootstrap
 description: A simple, bootstrap 4 based hugo blog theme.
 stale: true
----
 
-# Features
+---
+## Features
 
 * Multi-author
 * Image processing
@@ -21,7 +21,7 @@ stale: true
 * LazyLoad
 * Commento
 
-# Usage
+## Usage
 
 ```shell
 git clone https://gitlab.com/virtualcursor/chunky-poster.git
@@ -39,11 +39,11 @@ The authors structure is based on this [blog post](https://www.netlify.com/blog/
 4. Configure the author metadata `images`. First image on the list will be used as the avatar and on the profile page. Images are page resources under the author e.g. `content/authors/john-doe/image.png`.
 5. Assign the author to a content:
 
-    ```yaml
-    ---
-    authors: ["John Doe"]
-    ---
-    ```
+   ```yaml
+   ---
+   authors: ["John Doe"]
+   ---
+   ```
 
 ## Content images
 
@@ -108,7 +108,7 @@ share: false
 ---
 ```
 
-# Customization
+## Customization
 
 Fork the project and run `yarn watch` during development.
 
@@ -116,7 +116,7 @@ The application javascript file is located at `src/js/app.js`.
 
 For customizing SCSS, the main entrypoint is at `src/scss/style.scss`. Bootstrap variables can be overridden in the `_variables.scss` file. The theme's styles are located at `src/scss/chunky-poster.scss`.
 
-# Credits
+## Credits
 
 * [Victor Hugo](https://github.com/netlify-templates/victor-hugo)
 * [hugo-theme-even](https://github.com/olOwOlo/hugo-theme-even)
@@ -125,6 +125,6 @@ For customizing SCSS, the main entrypoint is at `src/scss/style.scss`. Bootstrap
 
 Images from [Unsplash](https://unsplash.com/) and [Freepik](https://www.freepik.com/).
 
-# License
+## License
 
 This theme is released under the [MIT license](LICENSE).
