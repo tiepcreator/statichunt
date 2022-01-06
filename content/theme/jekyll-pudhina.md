@@ -3,15 +3,15 @@ title: Pudhina
 github: https://github.com/knhash/Pudhina
 demo: https://knhash.github.io/Pudhina/
 author: Knhash
-date: 2020-09-12T00:00:00.000Z
+date: 2020-09-12T00:00:00.000+00:00
 ssg:
-  - Jekyll
+- Jekyll
 cms:
-  - No CMS
+- No CMS
 stale: true
----
 
-# Pudhina
+---
+## Pudhina
 
 A simple, minimal Jekyll theme for a personal web page and blog, focusing on white space and readability
 

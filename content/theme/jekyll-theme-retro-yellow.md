@@ -4,17 +4,18 @@ github: https://github.com/sharadcodes/jekyll-theme-retro-yellow
 demo: https://sharadcodes.github.io/jekyll-theme-retro-yellow/
 author: Sharad Raj Singh Maurya
 ssg:
-  - Jekyll
+- Jekyll
 cms:
-  - No Cms
+- No Cms
 category:
-  - Blog
-date: 2020-01-04T00:00:00.000Z
-description: A Minimal Light theme for Jekyll with minimal CSS by Sharad Raj Singh Maurya
+- Blog
+date: 2020-01-04T00:00:00.000+00:00
+description: A Minimal Light theme for Jekyll with minimal CSS by Sharad Raj Singh
+  Maurya
 stale: false
----
 
-# A minimal theme for Jekyll
+---
+## A minimal theme for Jekyll
 
 A super simple theme with minimal CSS and HTML. You can also change the Hero color from `_config.yml` file.
 
