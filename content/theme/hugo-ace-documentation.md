@@ -3,24 +3,23 @@ title: Ace documentation
 github: https://github.com/vantagedesign/ace-documentation
 demo: https://docs.vantage-design.com/ace/
 author: Vantage Design
-date: 2020-03-15T00:00:00.000Z
+date: 2020-03-15T00:00:00.000+00:00
 ssg:
-  - Hugo
+- Hugo
 cms:
-  - No CMS
+- No CMS
 css:
-  - Bootstrap
+- Bootstrap
 archetype:
-  - Documentation
-description: >-
-  Create amazing projec documentation with Ace, featuring code highlighting,
+- Documentation
+description: Create amazing projec documentation with Ace, featuring code highlighting,
   full search, Bootstrap components, and more.
 stale: false
+
 ---
+## Ace documentation theme for Hugo
 
-# Ace documentation theme for Hugo
-
-Ace documentation offers a feature-complete documentation theme for Hugo, powered by Bootstrap 4. 
+Ace documentation offers a feature-complete documentation theme for Hugo, powered by Bootstrap 4.
 
 ## Features
 
