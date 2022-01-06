@@ -3,19 +3,19 @@ title: no style, please!
 github: https://github.com/riggraz/no-style-please
 demo: https://riggraz.dev/no-style-please/
 author: riggraz
-date: 2020-07-24T00:00:00.000Z
+date: 2020-07-24T00:00:00.000+00:00
 ssg:
-  - Jekyll
+- Jekyll
 cms:
-  - No Cms
+- No Cms
 archetype:
-  - Blog
-  - Portfolio
+- Blog
+- Portfolio
 description: A (nearly) no-CSS, fast, minimalist Jekyll theme.
 stale: false
----
 
-# A (nearly) no-CSS, fast, minimalist Jekyll theme
+---
+## A (nearly) no-CSS, fast, minimalist Jekyll theme
 
 ## Features
 
