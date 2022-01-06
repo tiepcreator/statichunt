@@ -22,6 +22,7 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@heyStatichunt" />
   <meta name="twitter:creator" content="@heyStatichunt" />
+  <meta name="twitter:image" content="{{ .Site.BaseURL }}images/og-image.png" />
   {{end}}
 
   <meta name="description" content="{{ if .Params.meta_description }}{{ .Params.meta_description }}{{ else if .Params.description }}{{ .Params.description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
