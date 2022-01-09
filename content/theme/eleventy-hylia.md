@@ -1,22 +1,21 @@
 ---
 title: Eleventy Hylia
-github: https://github.com/andy-piccalilli/hylia
+github: https://github.com/hankchizljaw/hylia
 demo: https://hylia.website/
+date: 2019-06-11T20:15:02.000Z
 author: Andy Bell
 thumbnail: themes/andy-piccalilli-hylia.jpg
 ssg:
-- Eleventy
+  - Eleventy
 cms:
-- NetlifyCMS
-date: 2019-06-11T20:15:02.000+00:00
-github_branch: master
-featured: true
-description: Hylia is a lightweight Eleventy starter kit to help you to create your
-  own blog or personal website.
+  - NetlifyCMS
+description: >-
+  Hylia is a lightweight Eleventy starter kit to help you to create your own
+  blog or personal website.
 stale: false
-disabled_reason: Github repo not found
-
+disabled_reason:
 ---
+
 ## A simple starter kit for Eleventy
 
 Hylia is a lightweight [Eleventy](https://11ty.io) starter kit with [Netlify CMS](https://www.netlifycms.org/) pre-configured, so that you can one-click install a progressive, accessible blog in minutes. It also gives you a well organised starting point to extend it for yourself.

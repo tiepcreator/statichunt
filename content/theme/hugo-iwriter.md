@@ -1,7 +1,7 @@
 ---
-title: Geeky Hugo
-github: https://github.com/statichunt/geeky-hugo
-demo: https://demo.gethugothemes.com/geeky/
+title: iWriter Hugo
+github: https://github.com/statichunt/iwriter-hugo
+demo: https://demo.gethugothemes.com/iwriter/
 author: Statichunt
 author_link: https://statichunt.com/
 author_twitter: heyStatichunt
@@ -17,9 +17,7 @@ archetype:
   - Personal
   - Portfolio
 date: 2021-08-29T16:16:35.000Z
-description: >-
-  Geeky is a Personal Hugo blog theme focused on high speed. Geeky is fully
-  responsive, Superfast, and powered by Bootstrap v5.
+description: iWriter is a Personal Hugo blog theme.
 stale: false
 disabled: false
 disabled_reason: null
@@ -37,9 +35,9 @@ weight: 1
 - Caching enables
 - Color and fonts variable in the config file
 - Contact form Support
-- Search by fuse.js and mark.js
-- Mailchimp integrate
+- Search by fuse.js
 - GDPR consent enables
 - Google page speed optimized
 - Open Graph meta tag
 - Twitter card meta tag
+- Dark/Light/Automatic mode
