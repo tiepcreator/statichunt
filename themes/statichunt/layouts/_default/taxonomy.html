@@ -1,73 +1,96 @@
-{{ define "header_css" }}{{ end }}
-{{ define "body_classes" }}page-taxonomy has-sidebar{{ end }}
-
-{{ define "ogmeta" }}
+{{ define "header_css" }}{{ end }} {{ define "body_classes" }}page-taxonomy
+has-sidebar{{ end }} {{ define "ogmeta" }}
 <meta property="og:title" content="{{ .Title }} Themes" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{ .Permalink }}" />
-<meta property="og:description" content="Browse {{ .Title }} themes, starters and templates.">
-<meta property="og:image" content="{{ .Site.BaseURL }}images/statichunt-screenshot.png">
+<meta
+  property="og:description"
+  content="Browse {{ .Title }} themes, starters and templates."
+/>
+<meta
+  property="og:image"
+  content="{{ .Site.BaseURL }}images/statichunt-screenshot.png"
+/>
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@heyStatichunt" />
 <meta name="twitter:creator" content="@heyStatichunt" />
-{{end}}
-
-{{ define "main" }}
-{{ $themes := .RegularPages }}
-{{ $themes := (where $themes ".Params.draft" "!=" true) }}
-{{ $themes := (where $themes ".Params.disabled" "!=" true) }}
-{{ $themeCount := len $themes}}
-
-{{ $paginator := .Paginate $themes }}
+{{end}} {{ define "main" }} {{ $themes := .RegularPages }} {{ $themes := (where
+$themes ".Params.draft" "!=" true) }} {{ $themes := (where $themes
+".Params.disabled" "!=" true) }} {{ $themeCount := len $themes}} {{ $paginator
+:= .Paginate $themes }}
 
 <div class="wrapper">
   {{ partial "sidebar-main-menu.html" . }}
   <div class="main">
     <div class="container-lg">
       <div class="row mb-5">
-        <div class="{{if .Params.subscription_form}}col-lg-8{{else}}col-12{{end}}">
+        <div
+          class="{{if .Params.subscription_form}}col-lg-8{{else}}col-12{{end}}"
+        >
           <div class="intro intro-taxonomy">
-            <div class="intro-breadcrumbs mb-2">{{ partial "breadcrumbs.html" . }}</div>
-            <div class="intro-icon"><img src="{{ .Params.icon | relURL }}" alt="{{.Title}} Logo" /></div>
-            <h1 class="intro-title mb-3">{{if .Params.page_heading}}{{.Params.page_heading}}{{else}}{{ .Title }} Themes{{end}}</h1>
+            <!-- <div class="intro-breadcrumbs mb-2">
+              {{ partial "breadcrumbs.html" . }}
+            </div> -->
+            <div class="intro-icon">
+              <img src="{{ .Params.icon | relURL }}" alt="{{.Title}} Logo" />
+            </div>
+            <h1 class="intro-title mb-3">
+              {{if .Params.page_heading}}{{.Params.page_heading}}{{else}}{{
+              .Title }} Themes{{end}}
+            </h1>
             <div class="intro-description mb-3">
               {{ if .Params.short_description }}
               <p>{{ .Params.short_description | markdownify }}</p>
               {{ else }}
-              <p>Browse our list of {{ .Title }} themes, starters and templates.</p>
+              <p>
+                Browse our list of {{ .Title }} themes, starters and templates.
+              </p>
               {{ end }}
             </div>
             <ul class="list-inline meta-list">
               {{ with .Params.official_url }}
               <li class="list-inline-item mt-1" title="Official Website">
                 <span class="svg-icon svg-icon-home"></span>
-                <a target="_blank" rel="noopener noreferrer" href="{{ . | safeURL }}">{{ . }}</a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="{{ . | safeURL }}"
+                  >{{ . }}</a
+                >
               </li>
-              {{ end }}
-              {{ with .Params.github_path }}
+              {{ end }} {{ with .Params.github_path }}
               <li class="list-inline-item mt-1" title="GitHub Repository">
                 <span class="svg-icon svg-icon-github"></span>
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/{{ . | safeURL }}">{{ . }}</a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/{{ . | safeURL }}"
+                  >{{ . }}</a
+                >
               </li>
-              {{ end }}
-              {{ with .Params.twitter_username }}
+              {{ end }} {{ with .Params.twitter_username }}
               <li class="list-inline-item mt-1" title="Twitter Profile">
                 <span class="svg-icon svg-icon-twitter"></span>
-                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/{{ . | safeURL }}">@{{ . }}</a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://twitter.com/{{ . | safeURL }}"
+                  >@{{ . }}</a
+                >
               </li>
-              {{ end }}
-              {{ if .Params.license }}
+              {{ end }} {{ if .Params.license }}
               <li class="list-inline-item mt-1" title="License">
                 <span class="svg-icon svg-icon-license"></span>
                 {{ if .Params.license_url }}
-                <a target="_blank" rel="noopener noreferrer"
-                  href="{{ .Params.license_url | safeURL }}">{{ .Params.license }}</a>
-                {{ else }}
-                {{ .Params.license }}
-                {{ end }}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="{{ .Params.license_url | safeURL }}"
+                  >{{ .Params.license }}</a
+                >
+                {{ else }} {{ .Params.license }} {{ end }}
               </li>
-              {{ end }}
-              {{ with .Params.language }}
+              {{ end }} {{ with .Params.language }}
               <li class="list-inline-item mt-1" title="Language">
                 <span class="svg-icon svg-icon-code"></span>
                 {{ . }}
@@ -76,29 +99,67 @@
             </ul>
           </div>
         </div>
-        {{ with .Params.subscription_form }}
-        {{ if .enable }}
+        {{ with .Params.subscription_form }} {{ if .enable }}
         <div class="col-lg-4 mt-4 mt-lg-0">
           <div class="subscription_form">
             <!-- /subscription form -->
             <div id="mc_embed_signup">
               <h3 class="mb-2">{{.title | markdownify}}</h3>
 
-              <form action="{{ .form_action | safeURL }}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate>
+              <form
+                action="{{ .form_action | safeURL }}"
+                method="post"
+                id="mc-embedded-subscribe-form"
+                name="mc-embedded-subscribe-form"
+                class="validate"
+                novalidate
+              >
                 <div id="mc_embed_signup_scroll">
                   <div class="mc-field-group">
-                    <input type="email" value="" name="EMAIL" placeholder="Email address" class="form-control w-100 border rounded required email mce_inline_error mb-1 required email" style="padding: 13px 20px;" id="mce-EMAIL">
+                    <input
+                      type="email"
+                      value=""
+                      name="EMAIL"
+                      placeholder="Email address"
+                      class="form-control w-100 border rounded required email mce_inline_error mb-1 required email"
+                      style="padding: 13px 20px"
+                      id="mce-EMAIL"
+                    />
                   </div>
                   <div id="mce-responses" class="clear foot">
-                    <div class="response" id="mce-error-response" style="display:none"></div>
-                    <div class="response" id="mce-success-response" style="display:none"></div>
-                  </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                  <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                    <input type="text" name="{{ .form_name }}" tabindex="-1" value="">
+                    <div
+                      class="response"
+                      id="mce-error-response"
+                      style="display: none"
+                    ></div>
+                    <div
+                      class="response"
+                      id="mce-success-response"
+                      style="display: none"
+                    ></div>
+                  </div>
+                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div
+                    style="position: absolute; left: -5000px"
+                    aria-hidden="true"
+                  >
+                    <input
+                      type="text"
+                      name="{{ .form_name }}"
+                      tabindex="-1"
+                      value=""
+                    />
                   </div>
                   <div class="optionalParent">
                     <div class="clear foot">
-                      <input type="submit" value="{{ .button_label }}" name="subscribe" id="mc-embedded-subscribe" class="action-button action-button-fill action-button-full" style="padding: 15px 0;">
+                      <input
+                        type="submit"
+                        value="{{ .button_label }}"
+                        name="subscribe"
+                        id="mc-embedded-subscribe"
+                        class="action-button action-button-fill action-button-full"
+                        style="padding: 15px 0"
+                      />
                     </div>
                   </div>
                 </div>
@@ -107,27 +168,21 @@
             <!-- /subscription form -->
           </div>
         </div>
-        {{ end }}
-        {{ end }}
+        {{ end }} {{ end }}
       </div>
 
       <div id="grids-taxonomy" class="row mt-2">
-        {{ range $paginator.Pages.ByDate.Reverse }}
-        {{ $repoName := printf "%s" (substr (replace .Params.github "/" "-") 19 | urlize) }}
-        {{ $repo := index .Site.Data.themes $repoName }}
-        {{ $statichunt := index .Site.Data.themes $repoName }}
-        {{ partial "theme-card.html" (dict "theme" . "repo" $repo "statichunt" $statichunt "site" $.Site)}}
-        {{ end }}
+        {{ range $paginator.Pages.ByDate.Reverse }} {{ $repoName := printf "%s"
+        (substr (replace .Params.github "/" "-") 19 | urlize) }} {{ $repo :=
+        index .Site.Data.themes $repoName }} {{ $statichunt := index
+        .Site.Data.themes $repoName }} {{ partial "theme-card.html" (dict
+        "theme" . "repo" $repo "statichunt" $statichunt "site" $.Site)}} {{ end
+        }}
       </div>
 
-      {{ partial "pagination.html" . }}
-
-      {{ if .Content }}
-      <div class="taxonomy-content bg-light">
-        {{.Content}}
-      </div>
+      {{ partial "pagination.html" . }} {{ if .Content }}
+      <div class="taxonomy-content bg-light">{{.Content}}</div>
       {{ end }}
-
     </div>
   </div>
 </div>

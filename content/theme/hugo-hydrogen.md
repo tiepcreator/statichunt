@@ -1,8 +1,8 @@
 ---
 title: Hydrogen Hugo
-meta_title: ''
-meta_description: ''
-page_heading: ''
+meta_title: ""
+meta_description: ""
+page_heading: ""
 github: https://github.com/statichunt/hydrogen-hugo
 demo: https://demo.gethugothemes.com/hydrogen/
 author: Statichunt
@@ -21,7 +21,7 @@ services:
 hosting:
   - Netlify
   - Vercel
-date: 2022-01-10T16:13:50.000Z
+date: 2022-01-09T16:13:50.000Z
 description: >-
   Hydrogen is a personal blog theme specially for developers. It has many custom
   build shortcode support. It's unique design always grab users attention.

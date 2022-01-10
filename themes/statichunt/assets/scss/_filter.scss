@@ -18,7 +18,7 @@
       }
 
       .toggle-icon {
-        img{
+        img {
           transform: rotate(270deg);
         }
       }
@@ -201,12 +201,12 @@
       }
       &::after {
         position: absolute;
-        content: '';
+        content: "";
         z-index: -1;
         height: 100%;
         width: calc(100% + 28px);
         top: 0;
-        left: calc(-12px);
+        left: -12px;
         border-radius: 3px;
       }
 
@@ -219,6 +219,7 @@
       .filter-select {
         display: inline-block;
         position: relative;
+        padding-left: 5px;
         // transition: 0.2s ease-in-out;
         &::after,
         &::before {
@@ -228,7 +229,7 @@
           width: 15px;
           border: 2px solid $carbon;
           top: 4px;
-          left: 0px;
+          left: -20px;
           border-radius: 2px;
           z-index: 1;
           opacity: 0;
@@ -245,7 +246,7 @@
           width: 17px;
           border: 0;
           top: 3px;
-          left: -1px;
+          left: -21px;
         }
         img {
           transition: 0s;
@@ -257,9 +258,6 @@
         &::after {
           background-color: $white;
         }
-        .filter-select {
-          padding-left: 24px;
-        }
         .filter-select::before {
           opacity: 1;
         }
@@ -270,7 +268,6 @@
           background-color: $white;
         }
         .filter-select {
-          padding-left: 24px;
           &::before {
             opacity: 0;
           }
@@ -319,15 +316,15 @@
   position: absolute; // take it out of document flow
   opacity: 0; // hide it
 
-  &+label {
+  & + label {
     position: relative;
     cursor: pointer;
     padding: 0;
   }
 
   // Box.
-  &+label:before {
-    content: '';
+  & + label:before {
+    content: "";
     margin-right: 10px;
     display: inline-block;
     vertical-align: text-top;
@@ -340,7 +337,7 @@
   }
 
   // Box hover
-  &:hover+label:before {
+  &:hover + label:before {
     // background: #f35429;
     // box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
     border: 2px solid $primary;
@@ -352,26 +349,26 @@
   // }
 
   // Box checked
-  &:checked+label:before {
+  &:checked + label:before {
     background: $primary;
     border: 2px solid $primary;
   }
 
   // Disabled state label.
-  &:disabled+label {
+  &:disabled + label {
     color: #b8b8b8;
     cursor: auto;
   }
 
   // Disabled box.
-  &:disabled+label:before {
+  &:disabled + label:before {
     box-shadow: none;
     background: #ddd;
   }
 
   // Checkmark. Could be replaced with an image
-  &:checked+label:after {
-    content: '';
+  &:checked + label:after {
+    content: "";
     position: absolute;
     left: 5px;
     top: 9px;
@@ -401,7 +398,6 @@
     opacity: 1;
   }
 }
-
 
 @media screen and (max-width: 1400px) {
   .filter-group-ssg {

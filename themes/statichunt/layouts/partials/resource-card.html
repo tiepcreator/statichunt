@@ -1,35 +1,53 @@
-<div id="{{ .Params.Title | urlize }}" class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 mb-3 grid">
+<div
+  id="{{ .Params.Title | urlize }}"
+  class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 mb-3 grid"
+>
   <div class="theme theme-card" data-name="{{ .Title }}">
     <a href="{{ .Permalink }}" title="{{ .Title }}" class="theme-header">
       {{ if .Params.thumbnail }}
-      <img loading="lazy" src="{{ .Params.thumbnail | relURL }}" alt="{{ .Params.title }} screenshot" class="resources-screenshot" />
+      <img
+        loading="lazy"
+        src="{{ .Params.thumbnail | relURL }}"
+        alt="{{ .Params.title }} screenshot"
+        class="resources-screenshot"
+      />
       {{ end }}
     </a>
 
     <div class="theme-body bg-transparent">
-      <h2 class="d-flex justify-content-between mb-1">
-        <a href="{{ .Permalink }}" class="theme-title">{{ .Params.title }}</a>
+      <div class="d-flex justify-content-between">
+        <h3 class="mb-0">
+          <a href="{{ .Permalink }}" class="theme-title">{{ .Params.title }}</a>
+          {{ $category:= replaceRE "resources/" "" .File.Dir }}
+          <p>{{replaceRE "/" "" $category | title }}</p>
+        </h3>
         {{ if .Params.author_link }}
-        <a class="icon-link" data-action="demo" data-context="card"  target="_blank" rel="noopener nofollow" data-name="{{.Params.author}}" href="{{.Params.author_link | safeURL}}?ref=statichunt.com">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
-            <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
-            <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+        <a
+          class="icon-link"
+          data-action="demo"
+          data-context="card"
+          target="_blank"
+          rel="noopener nofollow"
+          data-name="{{.Params.author}}"
+          href="{{.Params.author_link | safeURL}}?ref=statichunt.com"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            fill="currentColor"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"
+            />
+            <path
+              d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"
+            />
           </svg>
         </a>
         {{ end }}
-      </h2>
-      <!-- <p class="theme-description">{{with .Params.Description }}{{ . | truncate 40 | markdownify}}{{else}}{{.Summary}}{{end}}</p>
-      <div class="action-buttons action-buttons-card pb-1">
-        {{ if .Params.author_link }}
-        <a class="action-button action-button-demo mb-0" data-action="demo" data-context="card"  target="_blank" rel="noopener nofollow" data-name="{{.Params.author}}" href="{{.Params.author_link | safeURL}}?ref=statichunt.com">Website</a>{{ end }}
-        <a class="action-button button-light action-button-github mb-0" data-action="github" data-context="card"
-        data-name="{{ .Title }}" href="{{ .Permalink }}" rel="noopener nofollow">Details</a>
-      </div> -->
+      </div>
     </div>
-    <!-- <div class="theme-footer">
-      {{ range .Params.interaction }}
-      <a href="{{`interaction/` | relURL}}{{ . | urlize | lower }}">{{. | humanize}}</a>
-      {{ end }}
-    </div> -->
   </div>
 </div>

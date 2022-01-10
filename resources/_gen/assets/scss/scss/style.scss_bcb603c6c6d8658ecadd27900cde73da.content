@@ -4476,12 +4476,12 @@ html {
       margin-bottom: 0; }
     .filters .filter-list .filter-item::after {
       position: absolute;
-      content: '';
+      content: "";
       z-index: -1;
       height: 100%;
       width: calc(100% + 28px);
       top: 0;
-      left: calc(-12px);
+      left: -12px;
       border-radius: 3px; }
     .filters .filter-list .filter-item .filter-icon {
       width: 18px;
@@ -4489,7 +4489,8 @@ html {
       margin-right: 8px; }
     .filters .filter-list .filter-item .filter-select {
       display: inline-block;
-      position: relative; }
+      position: relative;
+      padding-left: 5px; }
       .filters .filter-list .filter-item .filter-select::after, .filters .filter-list .filter-item .filter-select::before {
         position: absolute;
         content: "";
@@ -4497,7 +4498,7 @@ html {
         width: 15px;
         border: 2px solid #2a2a2a;
         top: 4px;
-        left: 0px;
+        left: -20px;
         border-radius: 2px;
         z-index: 1;
         opacity: 0; }
@@ -4510,25 +4511,21 @@ html {
         width: 17px;
         border: 0;
         top: 3px;
-        left: -1px; }
+        left: -21px; }
       .filters .filter-list .filter-item .filter-select img {
         transition: 0s; }
     .filters .filter-list .filter-item:hover {
       background-color: transparent; }
       .filters .filter-list .filter-item:hover::after {
         background-color: #ffffff; }
-      .filters .filter-list .filter-item:hover .filter-select {
-        padding-left: 24px; }
       .filters .filter-list .filter-item:hover .filter-select::before {
         opacity: 1; }
     .filters .filter-list .filter-item.mixitup-control-active::after {
       background-color: #ffffff; }
-    .filters .filter-list .filter-item.mixitup-control-active .filter-select {
-      padding-left: 24px; }
-      .filters .filter-list .filter-item.mixitup-control-active .filter-select::before {
-        opacity: 0; }
-      .filters .filter-list .filter-item.mixitup-control-active .filter-select::after {
-        opacity: 1; }
+    .filters .filter-list .filter-item.mixitup-control-active .filter-select::before {
+      opacity: 0; }
+    .filters .filter-list .filter-item.mixitup-control-active .filter-select::after {
+      opacity: 1; }
     .filters .filter-list .filter-item .filter-name {
       color: #2a2a2a; }
       .filters .filter-list .filter-item .filter-name a {
@@ -4556,7 +4553,7 @@ html {
     cursor: pointer;
     padding: 0; }
   .styled-checkbox + label:before {
-    content: '';
+    content: "";
     margin-right: 10px;
     display: inline-block;
     vertical-align: text-top;
@@ -4577,7 +4574,7 @@ html {
     box-shadow: none;
     background: #ddd; }
   .styled-checkbox:checked + label:after {
-    content: '';
+    content: "";
     position: absolute;
     left: 5px;
     top: 9px;
@@ -4719,11 +4716,13 @@ html {
     .theme-card .theme-body .action-buttons {
       margin-top: auto; }
   .theme-card .made-by-us {
-    font-size: 15px;
-    background-color: rgba(5, 150, 105, 0.15);
-    color: #059669;
-    padding: 3px 8px;
-    border-radius: 3px; }
+    font-size: 0.7rem;
+    background-color: #2a2a2a;
+    color: #ffffff;
+    padding: 3px 8px 5px;
+    border-radius: 3px;
+    margin-left: 0.2em;
+    vertical-align: middle; }
   .theme-card .theme-icons {
     display: flex;
     justify-content: flex-start;
@@ -5675,6 +5674,12 @@ ul.pagination {
   font-size: 20px; }
 
 .theme-card .theme-body h2 a {
+  color: #000; }
+
+.theme-card .theme-body h3 {
+  font-size: 18px; }
+
+.theme-card .theme-body h3 a {
   color: #000; }
 
 .terms {
