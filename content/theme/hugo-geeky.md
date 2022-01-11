@@ -18,8 +18,8 @@ archetype:
   - Portfolio
 date: 2021-08-29T16:16:35.000Z
 description: >-
-  Geeky is a Personal Hugo blog theme focused on high speed. Geeky is fully
-  responsive, Superfast, and powered by Bootstrap v5.
+  Get Geeked out by Geeky, a personal Hugo blog theme that is fully responsive and super-fast. This theme is ideal for representing any technology-related articles, blog posts, and portfolio. The sleek color combination, fonts, and orientation of this theme will give you a techy feel. You will enjoy making posts in categories such as AI, Drone, Github, Programming, and many others.
+
 stale: false
 disabled: false
 disabled_reason: null

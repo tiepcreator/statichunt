@@ -23,8 +23,7 @@ hosting:
   - Vercel
 date: 2022-01-09T16:13:50.000Z
 description: >-
-  Hydrogen is a personal blog theme specially for developers. It has many custom
-  build shortcode support. It's unique design always grab users attention.
+  Hydrogen Hugo is an excellent theme for creating a personal blog, particularly for developers. It inherited the latest structure and excluded all jquery dependencies. A vast amount of shortcodes are available on the element page.
 stale: false
 disabled: false
 disabled_reason: null
@@ -55,3 +54,4 @@ weight: 1
 - Open Graph meta tag
 - Twitter card meta tag
 - Web App Manifest support
+- Search functionality available

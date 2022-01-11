@@ -17,7 +17,10 @@ archetype:
   - Personal
   - Portfolio
 date: 2021-08-29T16:16:35.000Z
-description: iWriter is a Personal Hugo blog theme.
+description: "iWriter Hugo is a theme mainly designed to build personal blogs. You can create a fantastic blog related to travel, lifestyle, education, hobbies, and more. 
+
+This personal blog template features a clean design pattern that beautifully presents your posts. Moreover, the neatly designed spacing,  carefully selected font, and quick loading speed make it a perfectly expandable theme. 
+"
 stale: false
 disabled: false
 disabled_reason: null

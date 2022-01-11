@@ -19,7 +19,10 @@ services: null
 hosting:
   - Netlify
   - Vercel
-description: ""
+description: "Techfeed Nextjs theme comes with a clean design that draws viewers’ attention to the content.  The theme doesn’t distract you with overwhelming effects or any unwanted distractions. 
+
+You will get all the features in one place that is super easy to understand. This lightweight and ultra-fast theme features impressive typography and spacing to make it reader-friendly. Therefore, users can happily start their blogging journey with the best writing and reading experience. 
+"
 stale: false
 disabled: false
 disabled_reason: null
