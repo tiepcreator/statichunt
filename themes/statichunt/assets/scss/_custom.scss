@@ -67,6 +67,8 @@ body {
     visibility: hidden;
     transition: 0.4s;
     pointer-events: none;
+
+    display: none;
   }
   &.show::before {
     opacity: 1;
@@ -81,6 +83,10 @@ body {
   @extend .shadow;
   margin-bottom: 50px;
   z-index: 9990;
+  transition: 0.5s ease;
+  &:hover {
+    box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, .25) !important;
+  }
 
   .bws-header {
     background: #ececec;
@@ -95,7 +101,7 @@ body {
       display: inline-block;
       height: 12px;
       left: 1.5rem;
-      top: 1px;
+      top: -1px;
       position: relative;
       width: 12px;
       box-shadow: -20px 0 0 #ff5f57, 20px 0 0 #29c940;

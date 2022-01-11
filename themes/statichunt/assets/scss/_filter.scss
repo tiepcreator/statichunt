@@ -10,7 +10,7 @@
 
     &.closed {
       .filter-list {
-        display: none;
+        display: none !important;
       }
 
       .filter-title {
@@ -219,7 +219,7 @@
       .filter-select {
         display: inline-block;
         position: relative;
-        padding-left: 5px;
+        padding-left: 3px;
         // transition: 0.2s ease-in-out;
         &::after,
         &::before {
@@ -228,7 +228,7 @@
           height: 15px;
           width: 15px;
           border: 2px solid $carbon;
-          top: 4px;
+          top: 3px;
           left: -20px;
           border-radius: 2px;
           z-index: 1;
@@ -245,7 +245,7 @@
           height: 17px;
           width: 17px;
           border: 0;
-          top: 3px;
+          top: 2px;
           left: -21px;
         }
         img {

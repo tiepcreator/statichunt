@@ -127,7 +127,7 @@ window.addEventListener(
 );
 
 // scroll direction
-var scrollableElement = document.body; //document.getElementById('scrollableElement');
+var scrollableElement = document.body;
 scrollableElement.addEventListener("wheel", checkScrollDirection);
 function checkScrollDirection(e) {
   document.querySelector(".scroll-to-top").classList.add("show");

@@ -39,14 +39,14 @@
             <div class="bws-block position-relative d-none d-md-block">
               <div class="bws-loader">
                 <img class="mb-1" src="{{`images/loader.gif` | absURL}}" alt="*">
-                <span>Wait a moment <br> Live Preview is loading</span>
+                <span>Wait a moment <br> Generating Live Preview</span>
               </div>
               <script>
                 setTimeout(function () {
                   document.querySelector('.bws-loader').classList.add('fadeOut');
                 }, 4000);
-                document.querySelector('.bws-block').onmouseenter = function(){document.querySelector('body').classList.add('show')};
-                document.querySelector('.bws-block').onmouseleave = function(){document.querySelector('body').classList.remove('show')};
+                // document.querySelector('.bws-block').onmouseenter = function(){document.querySelector('body').classList.add('show')};
+                // document.querySelector('.bws-block').onmouseleave = function(){document.querySelector('body').classList.remove('show')};
               </script>
 
               <div class="bws-header">
