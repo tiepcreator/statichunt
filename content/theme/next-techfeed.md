@@ -1,7 +1,7 @@
 ---
 title: Techfeed Nextjs
 github: https://github.com/statichunt/techfeed-nextjs
-demo: https://lifestyle-blogs.netlify.app/
+demo: https://techfeed-nextjs.netlify.app/
 date: 2022-01-09T00:00:00.000Z
 author: Statichunt
 author_link: https://statichunt.com/
