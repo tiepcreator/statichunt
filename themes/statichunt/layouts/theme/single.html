@@ -62,12 +62,10 @@
                 </div>
               </div>
               <div class="bws-content">
-
-                {{ $demo := add (.Params.demo) "/" }} 
-                {{ if strings.HasSuffix $demo "//" }} 
-                {{ $demo = strings.TrimSuffix $demo "/" }} 
+                {{ $demo := add (.Params.demo) "/" }}
+                {{ if strings.HasSuffix $demo "//" }}
+                {{ $demo =  $demo | strings.TrimSuffix "/" }}
                 {{ end }}
-                
                 <iframe sandbox="allow-same-origin allow-scripts allow-popups allow-forms" loading="lazy"
                   src="{{ $demo }}" title="Andromeda"></iframe>
               </div>
