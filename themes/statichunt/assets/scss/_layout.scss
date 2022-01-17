@@ -39,7 +39,7 @@ $layout-padding: 15px;
         @include media-breakpoint-up(xl) {
         }
         @include desktop-xxl {
-        flex-basis: 360px;
+          flex-basis: 360px;
         }
       }
     }
@@ -79,7 +79,6 @@ $layout-padding: 15px;
         padding-top: $layout-padding * 4;
         padding-bottom: $layout-padding * 4;
       }
-
     }
     .sidebar {
       position: sticky;
@@ -147,7 +146,6 @@ $layout-padding: 15px;
 
 .not-found {
   height: 100vh;
-  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
