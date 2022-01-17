@@ -17,53 +17,52 @@ extended = true
 min = "0.89.4"
 
 [params]
-  segment_id = ""
-  description = "Over 1000 themes and starters for Jamstack and static site generators."
-  statichunt_button = true
-  iframe_demo = true
-  [theme_card]
-    show_archetype_icons = false
-    show_services_icons = false
+segment_id = ""
+description = "Over 1000 themes and starters for Jamstack and static site generators."
+statichunt_button = true
+iframe_demo = true
+[theme_card]
+show_archetype_icons = false
+show_services_icons = false
 
 [taxonomies]
-  ssg = "ssg"
-  cms = "cms"
-  css = "css"
-  archetype = "archetype"
-  services = "services"
-  hosting = "hosting"
+ssg = "ssg"
+cms = "cms"
+css = "css"
+archetype = "archetype"
+services = "services"
 
 [outputFormats]
-  [outputFormats.demo]
-    name = "demo"
-    mediaType = "text/html"
-    isHTML = "true"
-    path = "demo"
-    permalinkable = "true"
+[outputFormats.demo]
+name = "demo"
+mediaType = "text/html"
+isHTML = "true"
+path = "demo"
+permalinkable = "true"
 
 [outputs]
-  home = ["HTML","RSS","JSON"]
-  section = ["HTML","RSS"]
-  page = ["HTML", "demo"]
+home = ["HTML", "RSS", "JSON"]
+section = ["HTML", "RSS"]
+page = ["HTML", "demo"]
 
 [markup.goldmark.renderer]
-unsafe= true
+unsafe = true
 
 [frontmatter]
-  lastmod = [":git", "lastmod", ":fileModTime", ":default"]
+lastmod = [":git", "lastmod", ":fileModTime", ":default"]
 
 # Main Menu
 [[menu.main]]
-	name = "Themes"
-	url = "/"
-    weight = 1
+name = "Themes"
+url = "/"
+weight = 1
 
 [[menu.main]]
-	name = "Resources"
-	url = "/resources/"
-    weight = 2
+name = "Resources"
+url = "/resources/"
+weight = 2
 
-  [[menu.main]]
-	name = "About"
-	url = "/about/"
-    weight = 3
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 3
