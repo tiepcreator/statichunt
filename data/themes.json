@@ -7371,6 +7371,25 @@
     "description": "A starter to launch your blazing fast personal website and a blog, Built with Gatsby and Netlify CMS. Made with ❤ by Stackrole",
     "images": "https://www.statichunt.com/themes/stackrole-gatsby-starter-foundation.jpg"
   },
+  "statichunt-fornax-nextjs": {
+    "theme_key": "statichunt-fornax-nextjs",
+    "file": "next-fornax.md",
+    "name": "fornax-nextjs",
+    "title": "Fornax Nextjs",
+    "github_username": "statichunt",
+    "repo": "statichunt/fornax-nextjs",
+    "branch": "main",
+    "default_branch": "main",
+    "github_url": "https://github.com/statichunt/fornax-nextjs",
+    "demo_url": "https://fornax-nextjs.netlify.app/",
+    "stars": 1,
+    "forks": 0,
+    "open_issues": 0,
+    "last_commit": "2022-01-27T07:32:18Z",
+    "created_at": "2021-10-28T12:08:18Z",
+    "description": "Multi author blog theme for nextjs",
+    "images": "https://www.statichunt.com/themes/statichunt-fornax-nextjs.jpg"
+  },
   "statichunt-geeky-hugo": {
     "theme_key": "statichunt-geeky-hugo",
     "file": "hugo-geeky.md",
