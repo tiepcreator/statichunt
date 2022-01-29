@@ -24,8 +24,11 @@ $layout-padding: 15px;
         @include media-breakpoint-up(sm) {
           padding: $layout-padding;
         }
-        @include media-breakpoint-up(md) {
-          padding: $layout-padding * 2;
+        @include media-breakpoint-up(lg) {
+          padding: $layout-padding * 2 $layout-padding * 4;
+        }
+        @include media-breakpoint-up(xl) {
+          padding: $layout-padding * 2 $layout-padding * 8;
         }
       }
       .sidebar {
