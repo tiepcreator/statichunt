@@ -28,57 +28,59 @@
 
       <h2><a href="{{ .theme.Permalink }}" class="theme-title">{{ .theme.Params.title }}</a> {{if or (eq .theme.Params.author "statichunt") (eq .theme.Params.author "Statichunt") (eq .theme.Params.author "StaticHunt")}} <span class="made-by-us d-inline-block">Made by us</span>{{end}}</h2>
       
-      {{ if .repo }}
-      {{ partial "github-metrics.html" (dict "forks" .repo.forks "stars" .repo.stars )}}
-      {{ end }}
+      <div class="d-flex justify-content-between mt-1">
+        {{ if .repo }}
+        {{ partial "github-metrics.html" (dict "forks" .repo.forks "stars" .repo.stars )}}
+        {{ end }}
+        
+        <div class="theme-icons mb-1">
+          {{ if .theme.Params.ssg }}
+          {{- range .theme.Params.ssg }}
+          {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "ssg/%s" (urlize .)) }}
+          {{ partial "icons/icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+          {{ end }}
+          {{ end }}
+          {{ end }}
       
-      <div class="theme-icons my-1">
-        {{ if .theme.Params.ssg }}
-        {{- range .theme.Params.ssg }}
-        {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "ssg/%s" (urlize .)) }}
-        {{ partial "icons/icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
-        {{ end }}
-        {{ end }}
-        {{ end }}
-    
-        {{ if .theme.Params.cms }}
-        {{- range .theme.Params.cms }}
-        {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "cms/%s" (urlize .)) }}
-        {{ if eq .Page.Title "No CMS" }}
-        {{ else }}
-        {{ partial "icons/icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
-        {{ end }}
-        {{ end }}
-        {{ end }}
-        {{ end }}
-    
-        {{ if .theme.Params.css }}
-        {{- range .theme.Params.css }}
-        {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "css/%s" (urlize .)) }}
-        {{ partial "icons/icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
-        {{ end }}
-        {{ end }}
-        {{ end }}
-    
-        {{ if .Site.Params.theme_card.show_services_icons }}
-        {{ if .theme.Params.services }}
-        {{- range .theme.Params.services }}
-        {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "services/%s" (urlize .)) }}
-        {{ partial "icons/icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
-        {{ end }}
-        {{ end }}
-        {{ end }}
-    
-        {{ if .Site.Params.theme_card.show_archetype_icons }}
-        {{ if .theme.Params.archetype }}
-        {{- range .theme.Params.archetype }}
-        {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "archetype/%s" (urlize .)) }}
-        {{ partial "icons/icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
-        {{ end }}
-        {{ end }}
-        {{ end }}
-        {{ end }}
-        {{ end }}
+          {{ if .theme.Params.cms }}
+          {{- range .theme.Params.cms }}
+          {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "cms/%s" (urlize .)) }}
+          {{ if eq .Page.Title "No CMS" }}
+          {{ else }}
+          {{ partial "icons/icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+          {{ end }}
+          {{ end }}
+          {{ end }}
+          {{ end }}
+      
+          {{ if .theme.Params.css }}
+          {{- range .theme.Params.css }}
+          {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "css/%s" (urlize .)) }}
+          {{ partial "icons/icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+          {{ end }}
+          {{ end }}
+          {{ end }}
+      
+          {{ if .Site.Params.theme_card.show_services_icons }}
+          {{ if .theme.Params.services }}
+          {{- range .theme.Params.services }}
+          {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "services/%s" (urlize .)) }}
+          {{ partial "icons/icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+          {{ end }}
+          {{ end }}
+          {{ end }}
+      
+          {{ if .Site.Params.theme_card.show_archetype_icons }}
+          {{ if .theme.Params.archetype }}
+          {{- range .theme.Params.archetype }}
+          {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "archetype/%s" (urlize .)) }}
+          {{ partial "icons/icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+          {{ end }}
+          {{ end }}
+          {{ end }}
+          {{ end }}
+          {{ end }}
+        </div>
       </div>
 
       <!-- <div class="theme-description">

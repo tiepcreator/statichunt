@@ -1,10 +1,10 @@
 <div class="github-metrics">
-	<div>
+	<div class="has-tooltip" title="Github Stars">
 		<img width="15" height="15" alt="Github Stars" src="{{ `images/ui/star.svg` | relURL }}" />
-		<span>{{ .stars }} Stars</span>
+		<span>{{ .stars }}</span>
 	</div>
-	<div>
-		<img width="15" height="15" alt="Last Commit" src="{{ `images/ui/forks.svg` | relURL }}" />
-		<span>{{ .forks }} Forks</span>
+	<div class="has-tooltip" title="Github Forks">
+		<img width="15" height="15" alt="Forks" src="{{ `images/ui/forks.svg` | relURL }}" />
+		<span>{{ .forks }}</span>
 	</div>
 </div>
