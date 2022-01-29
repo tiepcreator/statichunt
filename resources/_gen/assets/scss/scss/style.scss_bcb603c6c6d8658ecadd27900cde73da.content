@@ -4695,7 +4695,7 @@ html {
   .theme-card .theme-body {
     background: white;
     padding: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 0;
     flex: 1;
     display: flex;
     flex-direction: column; }

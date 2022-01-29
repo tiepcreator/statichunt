@@ -28,7 +28,7 @@
 
       <h2><a href="{{ .theme.Permalink }}" class="theme-title">{{ .theme.Params.title }}</a> {{if or (eq .theme.Params.author "statichunt") (eq .theme.Params.author "Statichunt") (eq .theme.Params.author "StaticHunt")}} <span class="made-by-us d-inline-block">Made by us</span>{{end}}</h2>
       
-      <div class="d-flex justify-content-between mt-1">
+      <div class="d-flex flex-wrap justify-content-between mt-1">
         {{ if .repo }}
         {{ partial "github-metrics.html" (dict "forks" .repo.forks "stars" .repo.stars )}}
         {{ end }}
@@ -94,10 +94,10 @@
     </div>
 
     <div class="theme-footer border-top-0">
-      <div class="action-buttons action-buttons-card">
-        <a class="action-button action-button-demo mb-0" data-action="demo" data-context="card" target="_blank" rel="noopener nofollow" 
+      <div class="action-buttons action-buttons-card flex-wrap flex-md-nowrap">
+        <a class="action-button action-button-demo mb-0 mt-1" data-action="demo" data-context="card" target="_blank" rel="noopener nofollow" 
           data-name="{{ .theme.Title }}" href="{{ .theme.Params.demo }}?ref=statichunt.com">Live Demo</a>
-        <a class="action-button button-light action-button-github mb-0" data-action="github" data-context="card"
+        <a class="action-button button-light action-button-github mb-0 mt-1" data-action="github" data-context="card"
           data-name="{{ .theme.Title }}" href="{{ .theme.Params.github }}" target="_blank"
           rel="noopener nofollow">Download</a>
       </div>
