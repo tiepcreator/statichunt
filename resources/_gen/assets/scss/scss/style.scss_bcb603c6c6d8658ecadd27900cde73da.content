@@ -4671,7 +4671,6 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 1px solid rgba(233, 233, 233, 0.6);
   border-radius: 4px;
   background-color: white;
   position: relative;
