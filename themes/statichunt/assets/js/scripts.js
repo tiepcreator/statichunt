@@ -131,7 +131,7 @@ var scrollableElement = document.body;
 scrollableElement.addEventListener("wheel", checkScrollDirection);
 function checkScrollDirection(e) {
   document.querySelector(".scroll-to-top").classList.add("show");
-  document.querySelector(".scroll-to-bottom").classList.remove("show");
+  // document.querySelector(".scroll-to-bottom").classList.remove("show");
 }
 function checkScrollDirectionIsUp(e) {
   if (e.wheelDelta) {

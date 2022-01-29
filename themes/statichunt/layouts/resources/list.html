@@ -16,21 +16,19 @@
   </div>
   <div class="main">
     <div class="container-fluid">
-      <div class="intro-wrapper">
-        <div class="intro">
+
+      <div id="grids-resources" class="row justify-content-center mt-3">
+        <div class="col-xl-10 mb-3">
           <h1>{{if .Params.page_heading}}{{.Params.page_heading}}{{else}}{{.Title}}{{end}}</h1>
           <!-- <p>{{.Content}}</p> -->
         </div>
-      </div>
-
-      <div id="grids-resources" class="row mt-3">
         {{ if eq .RelPermalink "/resources/" }}
         {{ range where site.RegularPages "Section" "resources" }}
         {{ partial "resource-card.html" . }}
         {{ end }}
         {{ else }}
         {{ range .RegularPages }}
-        {{ partial "resource-card.html" . }}
+        {{ partial "resource-card-two.html" . }}
         {{ end }}
         {{ end }}
       </div>

@@ -9,9 +9,9 @@
     </div> -->
     
     <ul class="filter-list">
-      <li id="filter-all" class="filter-item filter-item-link mb-1 {{if eq .RelPermalink `/resources/`}}mixitup-control-active{{end}}">
+      <li id="filter-all" class="filter-item filter-item-link {{if eq .RelPermalink `/resources/`}}mixitup-control-active{{end}}">
         <a class="px-0" href="{{`resources/` | relURL}}">
-          <span class="filter-select" style="display:inline-flex"><img width="18" height="18" class="filter-icon" alt="{{ .Page.Title }}" src="{{`images/icons/all.svg` | absURL}}" /></span>
+          <span class="filter-select d-none" style="display:inline-flex"><img width="18" height="18" class="filter-icon" alt="{{ .Page.Title }}" src="{{`images/icons/all.svg` | absURL}}" /></span>
           <span class="filter-name">All Resources</span>
           <span class="filter-count" id="filter-count-all">{{ $resourcesCount }}</span>
         </a>
@@ -23,9 +23,9 @@
 
       {{ range $key, $value := .Data.Pages }}
       {{ $active := eq $pageURL .RelPermalink }}
-      <li class="filter-item filter-item-link {{if $active}}mixitup-control-active{{end}} mb-1">
+      <li class="filter-item filter-item-link {{if $active}}mixitup-control-active{{end}}">
         <a class="px-0" href="{{if $active}}{{`resources/` | relURL}}{{else}}{{`resources/` | relURL}}{{ .Title | urlize | lower }}{{end}}">
-          <span class="filter-select"><img width="18" height="18" class="filter-icon" alt="{{ .Page.Title }}" src="{{ .Page.Params.icon | relURL }}" /></span>
+          <span class="filter-select d-none"><img width="18" height="18" class="filter-icon" alt="{{ .Page.Title }}" src="{{ .Page.Params.icon | relURL }}" /></span>
           <span class="filter-name">{{ .Title }}</span>
           <span class="filter-count">{{ len .RegularPages }}</span>
         </a>

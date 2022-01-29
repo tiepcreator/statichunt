@@ -209,7 +209,7 @@
 
             {{ if .Params.hosting }}
             <!-- hosting -->
-            <div class="widget theme-detail-tags">
+            <div class="widget theme-detail-tags d-none">
               <h3 class="h4 mb-1">Host This Theme With:</h3>
               {{- range .Params.hosting }}
               {{- with $.Site.GetPage "taxonomyTerm" (printf "resources/hosting/%s" (urlize .)) }}

@@ -39,7 +39,7 @@ $layout-padding: 15px;
         @include media-breakpoint-up(xl) {
         }
         @include desktop-xxl {
-          flex-basis: 360px;
+          flex-basis: 330px;
         }
       }
     }
@@ -92,7 +92,7 @@ $layout-padding: 15px;
       background-color: lighten(desaturate(adjust-hue($primary, 7), 76.31), 66);
       padding: $layout-padding * 2;
       @include media-breakpoint-up(lg) {
-        width: 360px;
+        width: 330px;
       }
       @include media-breakpoint-down(md) {
         position: fixed;

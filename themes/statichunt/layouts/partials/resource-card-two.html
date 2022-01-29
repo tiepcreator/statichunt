@@ -35,10 +35,6 @@
             {{ end }}
           </h3>
           <p class="font-weight-normal">{{ .Params.description | truncate 100 }}</p>
-          {{ $category:= replaceRE "resources/" "" .File.Dir }}
-          <ul class="meta">
-            <li><a class="text-muted" href="{{ .File.Dir | relURL}}">{{replaceRE "/" "" $category | title }}</a></li>
-          </ul>
         </div>
       </div>
     </div>
