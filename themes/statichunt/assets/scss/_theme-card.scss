@@ -88,10 +88,10 @@
     }
   }
   .made-by-us {
-    font-size: 0.7rem;
+    font-size: 0.65rem;
     background-color: $carbon;
     color: $white;
-    padding: 3px 8px 5px;
+    padding: 1px 6px 4px;
     border-radius: 3px;
     margin-left: 0.2em;
     vertical-align: middle;
@@ -116,7 +116,8 @@
   .theme-footer {
     border-top: 1px solid rgba($grey, 0.6);
     background: $white;
-    padding: 11px 13px 11px 13px;
+    padding: 20px;
+    padding-top: 0;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
   }

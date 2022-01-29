@@ -4717,10 +4717,10 @@ html {
     .theme-card .theme-body .action-buttons {
       margin-top: auto; }
   .theme-card .made-by-us {
-    font-size: 0.7rem;
+    font-size: 0.65rem;
     background-color: #2a2a2a;
     color: #ffffff;
-    padding: 3px 8px 5px;
+    padding: 1px 6px 4px;
     border-radius: 3px;
     margin-left: 0.2em;
     vertical-align: middle; }
@@ -4740,7 +4740,8 @@ html {
   .theme-card .theme-footer {
     border-top: 1px solid rgba(233, 233, 233, 0.6);
     background: #ffffff;
-    padding: 11px 13px 11px 13px;
+    padding: 20px;
+    padding-top: 0;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px; }
   .theme-card .theme-buttons {
