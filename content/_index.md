@@ -9,7 +9,7 @@ intro_banner:
   intro_description: Statichunt is an open-source directory that enlists hundreds
     of themes, starters, and resources <br>for static site generators submitted by
     the community. 
-  intro_description_mobile: A list of themes, starters, and resources for Jamstack
-    sites.
+  intro_description_mobile: A list of themes, starters, and resources for Static Site
+    Generators..
 
 ---
