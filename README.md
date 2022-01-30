@@ -1,6 +1,6 @@
 # Statichunt
 
-[Statichunt](https://statichunt.com/) is a free open source Jamstack directory that lists hundreds of themes, starters, and resources for Jamstack sites. <br> Visit Website: https://statichunt.com/
+[Statichunt](https://statichunt.com/) is an open-source directory that enlists hundreds of themes, starters, and resources for static site generators submitted by the community. 
 
 ## Submit A Theme
 
@@ -79,13 +79,14 @@ npm run deploy
 > Generating github data requires a Github Token. You can generate this token in your Github account at settings > developer settings > personal access tokens https://github.com/settings/tokens
 
 ## Feedback
-What would make this project better? Let us know what you think of this project.
+What would make this project better? We are open to getting your valuable feedback. Also, share your thoughts on this project and help us upgrade.
+<br> hey@statichunt.com
 
-hey@statichunt.com
-
-If you love this project please give a star to the project.
-
+If you love this project don’t forget to click the “Star” button.
 ## Acknowledgments
-This project is inspired by the amazing work of [Robert Austin](https://github.com/JugglerX) and more than 150 contributors on Github.
+This project is inspired by [jamstackthemes.dev](https://jamstackthemes.dev/)
 
-Built with [Hugo](https://gohugo.io/), hosted by [Netlify](https://www.netlify.com/)
+Powered by [Hugo](https://gohugo.io/), Deployed by [Netlify](https://www.netlify.com/), and Managed by [Forestry](https://forestry.io/).
+## Connect With Us
+Stay up to date with all static site generators resources and engage with the community. <br>
+Follow us on Twitter: [Statichunt](https://twitter.com/heyStatichunt)<br> Join Discord Community: [Statichunt Discord Server](https://discord.gg/ph9z267TBZ)
