@@ -21,30 +21,24 @@ $layout-padding: 15px;
       display: flex;
       .main {
         flex: 1;
-        padding: $layout-padding;
-        // @include media-breakpoint-up(sm) {
-        //   padding: $layout-padding;
-        // }
-        // @include media-breakpoint-up(lg) {
-        //   padding: $layout-padding * 2 $layout-padding * 4;
-        // }
-        // @include media-breakpoint-up(xl) {
-        //   padding: $layout-padding * 2 $layout-padding * 8;
-        // }
-        @include desktop-exl {
-          padding: $layout-padding * 2 $layout-padding * 8;
-        }
-        @include desktop-xxl {
+        padding: $layout-padding * 2 $layout-padding * 8;
+        @media only screen and (max-width: 1660px) {
           padding: $layout-padding * 2 $layout-padding * 6;
         }
-        @include desktop-xl {
+        @media only screen and (max-width: 1440px) {
+          padding: $layout-padding * 2 $layout-padding * 6;
+        }
+        @media only screen and (max-width: 1260px) {
           padding: $layout-padding * 2 $layout-padding * 4;
         }
-        @media only screen and (max-width: 1399px) {
-          padding: $layout-padding * 2 $layout-padding * 4;
+        @media only screen and (max-width: 1140px) {
+          padding: $layout-padding * 2 $layout-padding * 6;
         }
-        @include desktop-lg {
-          padding: $layout-padding * 2 $layout-padding * 2;
+        @media only screen and (max-width: 991px) {
+          padding: $layout-padding * 2 $layout-padding * 3;
+        }
+        @media only screen and (max-width: 767px) {
+          padding: $layout-padding * 2 $layout-padding;
         }
       }
       .sidebar {

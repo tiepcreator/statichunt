@@ -15,7 +15,7 @@ url: /hugo-themes
 short_description: "Hugo is a static site generator written in Go. It is optimized for speed, easy use and configurability. Hugo takes a directory with content and templates and renders them into a full html website."
 subscription_form:
   enable: true
-  title: "Stay up to date with Jamstack resources & news"
+  title: "Stay up to date with Static Site Generators resources & news"
   form_action: "https://statichunt.us20.list-manage.com/subscribe/post?u=dee5423f5cc21fc892eced0e9&amp;id=af2dc095be"
   form_name: "b_dee5423f5cc21fc892eced0e9_af2dc095be"
   button_label: "Subscribe"

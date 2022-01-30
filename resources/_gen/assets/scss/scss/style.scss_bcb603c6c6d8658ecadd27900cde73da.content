@@ -4007,22 +4007,25 @@ html {
     display: flex; }
     .page.has-sidebar .wrapper .main {
       flex: 1;
-      padding: 15px; }
-      @media (min-width: 1600px) {
-        .page.has-sidebar .wrapper .main {
-          padding: 30px 120px; } }
-      @media (min-width: 1400px) {
+      padding: 30px 120px; }
+      @media only screen and (max-width: 1660px) {
         .page.has-sidebar .wrapper .main {
           padding: 30px 90px; } }
-      @media (max-width: 1239px) {
+      @media only screen and (max-width: 1440px) {
+        .page.has-sidebar .wrapper .main {
+          padding: 30px 90px; } }
+      @media only screen and (max-width: 1260px) {
         .page.has-sidebar .wrapper .main {
           padding: 30px 60px; } }
-      @media only screen and (max-width: 1399px) {
+      @media only screen and (max-width: 1140px) {
         .page.has-sidebar .wrapper .main {
-          padding: 30px 60px; } }
-      @media (max-width: 1199px) {
+          padding: 30px 90px; } }
+      @media only screen and (max-width: 991px) {
         .page.has-sidebar .wrapper .main {
-          padding: 30px 30px; } }
+          padding: 30px 45px; } }
+      @media only screen and (max-width: 767px) {
+        .page.has-sidebar .wrapper .main {
+          padding: 30px 15px; } }
     .page.has-sidebar .wrapper .sidebar {
       flex-basis: 110px; }
       @media (min-width: 576px) {
@@ -5841,7 +5844,7 @@ body.show::before {
   justify-content: center;
   height: 100%; }
   .subscription_form h3 {
-    font-size: 22px; }
+    font-size: 20px; }
 
 .form-control {
   transition: 0.3s; }
