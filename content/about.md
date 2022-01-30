@@ -27,6 +27,12 @@ Why create a similar solution when a pioneer is available in the market? Our obs
 
 The constant effort of my team was eventually blooming. In Statichunt, all the themes & resources were gathered by ensuring the quality. Developers are now creating their SSG projects with ease. Consequently, community members and users are eagerly contributing to this platform. Currently, my vision is to broaden the contribution to such an extent that people can learn and generate ideas via Statichunt.
 
+## Let's Collaborate
+
+### Opportunity for Authors!
+
+You can submit your themes and resources to Statichunt as an author. As it’s a community-driven platform, you can use it to present your themes & useful resources that will add value to the community.
+
 ## Acknowledgments
 
 This site is powered by [Hugo](https://gohugo.io/), Deployed by [Netlify](https://www.netlify.com/), and Managed by [Forestry](https://forestry.io/)
