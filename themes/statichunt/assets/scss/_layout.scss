@@ -21,14 +21,30 @@ $layout-padding: 15px;
       display: flex;
       .main {
         flex: 1;
-        @include media-breakpoint-up(sm) {
-          padding: $layout-padding;
+        padding: $layout-padding;
+        // @include media-breakpoint-up(sm) {
+        //   padding: $layout-padding;
+        // }
+        // @include media-breakpoint-up(lg) {
+        //   padding: $layout-padding * 2 $layout-padding * 4;
+        // }
+        // @include media-breakpoint-up(xl) {
+        //   padding: $layout-padding * 2 $layout-padding * 8;
+        // }
+        @include desktop-exl {
+          padding: $layout-padding * 2 $layout-padding * 8;
         }
-        @include media-breakpoint-up(lg) {
+        @include desktop-xxl {
+          padding: $layout-padding * 2 $layout-padding * 6;
+        }
+        @include desktop-xl {
           padding: $layout-padding * 2 $layout-padding * 4;
         }
-        @include media-breakpoint-up(xl) {
-          padding: $layout-padding * 2 $layout-padding * 8;
+        @media only screen and (max-width: 1399px) {
+          padding: $layout-padding * 2 $layout-padding * 4;
+        }
+        @include desktop-lg {
+          padding: $layout-padding * 2 $layout-padding * 2;
         }
       }
       .sidebar {

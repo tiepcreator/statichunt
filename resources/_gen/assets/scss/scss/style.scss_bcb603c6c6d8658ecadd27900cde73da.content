@@ -4006,16 +4006,23 @@ html {
   .page.has-sidebar .wrapper {
     display: flex; }
     .page.has-sidebar .wrapper .main {
-      flex: 1; }
-      @media (min-width: 576px) {
-        .page.has-sidebar .wrapper .main {
-          padding: 15px; } }
-      @media (min-width: 992px) {
-        .page.has-sidebar .wrapper .main {
-          padding: 30px 60px; } }
-      @media (min-width: 1240px) {
+      flex: 1;
+      padding: 15px; }
+      @media (min-width: 1600px) {
         .page.has-sidebar .wrapper .main {
           padding: 30px 120px; } }
+      @media (min-width: 1400px) {
+        .page.has-sidebar .wrapper .main {
+          padding: 30px 90px; } }
+      @media (max-width: 1239px) {
+        .page.has-sidebar .wrapper .main {
+          padding: 30px 60px; } }
+      @media only screen and (max-width: 1399px) {
+        .page.has-sidebar .wrapper .main {
+          padding: 30px 60px; } }
+      @media (max-width: 1199px) {
+        .page.has-sidebar .wrapper .main {
+          padding: 30px 30px; } }
     .page.has-sidebar .wrapper .sidebar {
       flex-basis: 110px; }
       @media (min-width: 576px) {
