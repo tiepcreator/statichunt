@@ -1,7 +1,7 @@
-baseURL = "https://statichunt.com/"
+baseURL = "https://cankmac.com/"
 languageCode = "en-us"
-title = "Statichunt"
-theme = "statichunt"
+title = "CankMac"
+theme = "CankMac"
 paginate = 20
 summaryLength = 10
 # enableGitInfo = false
@@ -18,7 +18,7 @@ min = "0.89.4"
 
 [params]
 segment_id = ""
-description = "Over 1000 themes and starters for Jamstack and static site generators."
+description = "The Cank Mac, Over 1000 themes and starters for Jamstack and static site generators showcase."
 statichunt_button = true
 iframe_demo = true
 [theme_card]
