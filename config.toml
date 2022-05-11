@@ -1,7 +1,7 @@
 baseURL = "https://cankmac.com/"
 languageCode = "en-us"
 title = "CankMac"
-theme = "Statichunt"
+theme = "statichunt"
 paginate = 20
 summaryLength = 10
 # enableGitInfo = false
